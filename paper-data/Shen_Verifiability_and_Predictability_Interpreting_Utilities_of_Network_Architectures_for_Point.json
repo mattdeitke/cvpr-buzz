@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/1911.09053",
+  "title": "Verifiability and Predictability: Interpreting Utilities of Network Architectures for Point Cloud Processing",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Shen_Verifiability_and_Predictability_Interpreting_Utilities_of_Network_Architectures_for_Point_CVPR_2021_paper.pdf",
+  "authors": [
+    "Wen Shen",
+    "Zhihua Wei",
+    "Shikun Huang",
+    "Binbin Zhang",
+    "Panyue Chen",
+    "Ping Zhao",
+    "Quanshi Zhang"
+  ],
+  "abstract": "In this paper, we diagnose deep neural networks for 3D point cloud processing to explore utilities of different network architectures. We propose a number of hypotheses on the effects of specific network architectures on the representation capacity of DNNs. In order to prove the hypotheses, we design five metrics to diagnose various types of DNNs from the following perspectives, information discarding, information concentration, rotation robustness, adversarial robustness, and neighborhood inconsistency. We conduct comparative studies based on such metrics to verify the hypotheses. We further use the verified hypotheses to revise architectures of existing DNNs and improve their utilities. Experiments demonstrate the effectiveness of our method. The code will be released when this paper is accepted.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 2,
+    "likes": 7,
+    "replies": 2
+  }
+}

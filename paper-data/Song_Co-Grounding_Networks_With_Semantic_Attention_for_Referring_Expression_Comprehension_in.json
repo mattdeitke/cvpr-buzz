@@ -1,0 +1,15 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.12346",
+  "title": "Co-Grounding Networks With Semantic Attention for Referring Expression Comprehension in Videos",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Song_Co-Grounding_Networks_With_Semantic_Attention_for_Referring_Expression_Comprehension_in_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sijie Song",
+    "Xudong Lin",
+    "Jiaying Liu",
+    "Zongming Guo",
+    "Shih-Fu Chang"
+  ],
+  "abstract": "In this paper, we address the problem of referring expression comprehension in videos, which is challenging due to complex expression and scene dynamics. Unlike previous methods which solve the problem in multiple stages (i.e., tracking, proposal-based matching), we tackle the problem from a novel perspective, co-grounding, with an elegant one-stage framework. We enhance the single-frame grounding accuracy by semantic attention learning and improve the cross-frame grounding consistency with co-grounding feature learning. Semantic attention learning explicitly parses referring cues in different attributes to reduce the ambiguity in the complex expression. Co-grounding feature learning boosts visual feature representations by integrating temporal correlation to reduce the ambiguity caused by scene dynamics. Experiment results demonstrate the superiority of our framework on the video grounding datasets VID and OTB in generating accurate and stable results across frames. Our model is also applicable to referring expression comprehension in images, illustrated by the improved performance on the RefCOCO dataset. Our project is available at https://sijiesong.github.io/co-grounding.",
+  "s2id": "54324947ec5fc5bcc5454cbfa1bac26019eb2c7e",
+  "citations": 0
+}

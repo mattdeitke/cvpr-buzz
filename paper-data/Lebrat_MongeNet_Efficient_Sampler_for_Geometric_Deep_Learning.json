@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.14554",
+  "title": "MongeNet: Efficient Sampler for Geometric Deep Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lebrat_MongeNet_Efficient_Sampler_for_Geometric_Deep_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Leo Lebrat",
+    "Rodrigo Santa Cruz",
+    "Clinton Fookes",
+    "Olivier Salvado"
+  ],
+  "abstract": "Recent advances in geometric deep-learning introduce complex computational challenges for evaluating the distance between meshes. From a mesh model, point clouds are necessary along with a robust distance metric to assess surface quality or as part of the loss function for training models. Current methods often rely on a uniform random mesh discretization, which yields irregular sampling and noisy distance estimation. In this paper we introduce MongeNet, a fast and optimal transport based sampler that allows for an accurate discretization of a mesh with better approximation properties. We compare our method to the ubiquitous random uniform sampling and show that the approximation error is almost half with a very small computational overhead.",
+  "s2id": "24b456e2bdad13c7e5e75ab205df31c21235a870",
+  "twitter": {
+    "retweets": 2,
+    "likes": 4,
+    "replies": 2
+  },
+  "citations": 0
+}

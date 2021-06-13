@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.13084",
+  "title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Neural_Scene_Flow_Fields_for_Space-Time_View_Synthesis_of_Dynamic_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhengqi Li",
+    "Simon Niklaus",
+    "Noah Snavely",
+    "Oliver Wang"
+  ],
+  "abstract": "We present a method to perform novel view and time synthesis of dynamic scenes, requiring only a monocular video with known camera poses as input. To do this, we introduce Neural Scene Flow Fields, a new representation that models the dynamic scene as a time-variant continuous function of appearance, geometry, and 3D scene motion. Our representation is optimized through a neural network to fit the observed input views. We show that our representation can be used for complex dynamic scenes, including thin structures, view-dependent effects, and natural degrees of motion. We conduct a number of experiments that demonstrate our approach significantly outperforms recent monocular view synthesis methods, and show qualitative results of space-time view synthesis on a variety of real-world videos.",
+  "s2id": "13034a395d5c6728c9b11e777828d9998018cbf6",
+  "twitter": {
+    "retweets": 70,
+    "likes": 332,
+    "replies": 12
+  },
+  "citations": 30
+}

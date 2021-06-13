@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00854",
+  "title": "The Spatially-Correlative Loss for Various Image Translation Tasks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_The_Spatially-Correlative_Loss_for_Various_Image_Translation_Tasks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chuanxia Zheng",
+    "Tat-Jen Cham",
+    "Jianfei Cai"
+  ],
+  "abstract": "We propose a novel spatially-correlative loss that is simple, efficient, and yet effective for preserving scene structure consistency while supporting large appearance changes during unpaired image-to-image (I2I) translation. Previous methods attempt this by using pixel-level cycle-consistency or feature-level matching losses, but the domain-specific nature of these losses hinder translation across large domain gaps. To address this, we exploit the spatial patterns of self-similarity as a means of defining scene structure. Our spatially-correlative loss is geared towards only capturing spatial relationships within an image rather than domain appearance. We also introduce a new self-supervised learning method to explicitly learn spatially-correlative maps for each specific translation task. We show distinct improvement over baseline models in all three modes of unpaired I2I translation: single-modal, multi-modal, and even single-image translation. This new loss can easily be integrated into existing network architectures and thus allows wide applicability.",
+  "s2id": "463b78ebe227dbb901645e45ad00ec7264652168",
+  "twitter": {
+    "retweets": 17,
+    "likes": 74,
+    "replies": 1
+  },
+  "citations": 0
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.02221",
+  "title": "Energy-Based Learning for Scene Graph Generation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Suhail_Energy-Based_Learning_for_Scene_Graph_Generation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mohammed Suhail",
+    "Abhay Mittal",
+    "Behjat Siddiquie",
+    "Chris Broaddus",
+    "Jayan Eledath",
+    "Gerard Medioni",
+    "Leonid Sigal"
+  ],
+  "abstract": "Traditional scene graph generation methods are trained using cross-entropy losses that treat objects and relationships as independent entities. Such a formulation, however, ignores structure in the output space, in an inherently structured prediction problem. In this work, we introduce a novel energy-based learning framework for generating scene graphs. The proposed formulation allows for efficiently incorporating the structure of scene graphs in the output space. This additional constraint in the learning framework acts as an inductive bias and allows models to learn efficiently from a small number of labels. We use the proposed energy-based framework to train existing state-of-the-art models and show a significant performance improvement, of up to 21% and 27%, on the Visual Genome and GQA benchmark datasets, respectively. Further, we showcase the learning efficiency of the proposed framework by demonstrating superior performance in the zero- and few-shot settings where data is scarce.",
+  "s2id": "f6b20a2e83d1959ae30fed9adf143f99efcda970",
+  "twitter": {
+    "retweets": 14,
+    "likes": 57,
+    "replies": 1
+  },
+  "citations": 1
+}

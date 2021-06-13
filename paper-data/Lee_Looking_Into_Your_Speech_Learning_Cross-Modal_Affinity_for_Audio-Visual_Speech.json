@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.02775",
+  "title": "Looking Into Your Speech: Learning Cross-Modal Affinity for Audio-Visual Speech Separation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Looking_Into_Your_Speech_Learning_Cross-Modal_Affinity_for_Audio-Visual_Speech_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jiyoung Lee",
+    "Soo-Whan Chung",
+    "Sunok Kim",
+    "Hong-Goo Kang",
+    "Kwanghoon Sohn"
+  ],
+  "abstract": "In this paper, we address the problem of separating individual speech signals from videos using audio-visual neural processing. Most conventional approaches utilize frame-wise matching criteria to extract shared information between co-occurring audio and video. Thus, their performance heavily depends on the accuracy of audio-visual synchronization and the effectiveness of their representations. To overcome the frame discontinuity problem between two modalities due to transmission delay mismatch or jitter, we propose a cross-modal affinity network (CaffNet) that learns global correspondence as well as locally-varying affinities between audio and visual streams. Given that the global term provides stability over a temporal sequence at the utterance-level, this resolves the label permutation problem characterized by inconsistent assignments. By extending the proposed cross-modal affinity on the complex network, we further improve the separation performance in the complex spectral domain. Experimental results verify that the proposed methods outperform conventional ones on various datasets, demonstrating their advantages in real-world scenarios.",
+  "s2id": "db6052c2f4de55b927a31ffd4babf60151d5f247",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

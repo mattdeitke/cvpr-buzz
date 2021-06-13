@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.04160",
+  "title": "Spatially-Varying Outdoor Lighting Estimation From Intrinsics",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Spatially-Varying_Outdoor_Lighting_Estimation_From_Intrinsics_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yongjie Zhu",
+    "Yinda Zhang",
+    "Si Li",
+    "Boxin Shi"
+  ],
+  "abstract": "We present SOLID-Net, a neural network for spatially-varying outdoor lighting estimation from a single outdoor image for any 2D pixel location. Previous work has used a unified sky environment map to represent outdoor lighting. Instead, we generate spatially-varying local lighting environment maps by combining global sky environment map with warped image information according to geometric information estimated from intrinsics. As no outdoor dataset with image and local lighting ground truth is readily available, we introduce SOLID-Img dataset with physically-based rendered images and their corresponding intrinsic and lighting information. We train a deep neural network to regress intrinsic cues with physically-based constrains and use them to conduct global and local lightings estimation. Experiments on both synthetic and real datasets show that SOLID-Net significantly outperforms previous methods.",
+  "s2id": "5f395f0820e0bf8d364a4ffeffa28bf7936e2d11",
+  "twitter": {
+    "retweets": 3,
+    "likes": 6,
+    "replies": 0
+  },
+  "citations": 0
+}

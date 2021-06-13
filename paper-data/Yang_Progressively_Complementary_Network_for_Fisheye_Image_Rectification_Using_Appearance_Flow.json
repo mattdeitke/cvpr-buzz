@@ -1,0 +1,15 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16026",
+  "title": "Progressively Complementary Network for Fisheye Image Rectification Using Appearance Flow",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Progressively_Complementary_Network_for_Fisheye_Image_Rectification_Using_Appearance_Flow_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shangrong Yang",
+    "Chunyu Lin",
+    "Kang Liao",
+    "Chunjie Zhang",
+    "Yao Zhao"
+  ],
+  "abstract": "Distortion rectification is often required for fisheye images. The generation-based method is one mainstream solution due to its label-free property, but its naive skip-connection and overburdened decoder will cause blur and incomplete correction. First, the skip-connection directly transfers the image features, which may introduce distortion and cause incomplete correction. Second, the decoder is overburdened during simultaneously reconstructing the content and structure of the image, resulting in vague performance. To solve these two problems, in this paper, we focus on the interpretable correction mechanism of the distortion rectification network and propose a feature-level correction scheme. We embed a correction layer in skip-connection and leverage the appearance flows in different layers to pre-correct the image features. Consequently, the decoder can easily reconstruct a plausible result with the remaining distortion-less information. In addition, we propose a parallel complementary structure. It effectively reduces the burden of the decoder by separating content reconstruction and structure correction. Subjective and objective experiment results on different datasets demonstrate the superiority of our method.",
+  "s2id": "ab047178864dffd3924668f8cd3557be5299dc84",
+  "citations": 0
+}

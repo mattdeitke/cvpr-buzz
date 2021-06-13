@@ -1,0 +1,13 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.03438",
+  "title": "Convolutional Neural Network Pruning With Structural Redundancy Reduction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Convolutional_Neural_Network_Pruning_With_Structural_Redundancy_Reduction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zi Wang",
+    "Chengcheng Li",
+    "Xiangyang Wang"
+  ],
+  "abstract": "Convolutional neural network (CNN) pruning has become one of the most successful network compression approaches in recent years. Existing works on network pruning usually focus on removing the least important filters in the network to achieve compact architectures. In this study, we claim that identifying structural redundancy plays a more essential role than finding unimportant filters, theoretically and empirically. We first statistically model the network pruning problem in a redundancy reduction perspective and find that pruning in the layer(s) with the most structural redundancy outperforms pruning the least important filters across all layers. Based on this finding, we then propose a network pruning approach that identifies structural redundancy of a CNN and prunes filers in the selected layer(s) with the most redundancy. Experiments on various benchmark network architectures and datasets show that our proposed approach significantly outperforms the previous state-of-the-art.",
+  "s2id": "8dc94728873e6365524d98840303a5e9f7d0e283",
+  "citations": 1
+}

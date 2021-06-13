@@ -1,0 +1,12 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.13994",
+  "title": "Linguistic Structures As Weak Supervision for Visual Scene Graph Generation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ye_Linguistic_Structures_As_Weak_Supervision_for_Visual_Scene_Graph_Generation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Keren Ye",
+    "Adriana Kovashka"
+  ],
+  "abstract": "Prior work in scene graph generation requires categorical supervision at the level of triplets---subjects and objects, and predicates that relate them, either with or without bounding box information. However, scene graph generation is a holistic task: thus holistic, contextual supervision should intuitively improve performance. In this work, we explore how linguistic structures in captions can benefit scene graph generation. Our method captures the information provided in captions about relations between individual triplets, and context for subjects and objects (e.g. visual properties are mentioned). Captions are a weaker type of supervision than triplets since the alignment between the exhaustive list of human-annotated subjects and objects in triplets, and the nouns in captions, is weak. However, given the large and diverse sources of multimodal data on the web (e.g. blog posts with images and captions), linguistic supervision is more scalable than crowdsourced triplets. We show extensive experimental comparisons against prior methods which leverage instance- and image-level supervision, and ablate our method to show the impact of leveraging phrasal and sequential context, and techniques to improve localization of subjects and objects.",
+  "s2id": "f61886d138497431cbeaa7bb73051bfb7a745026",
+  "citations": 0
+}

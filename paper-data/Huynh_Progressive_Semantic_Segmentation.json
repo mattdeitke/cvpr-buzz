@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.03778",
+  "title": "Progressive Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huynh_Progressive_Semantic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chuong Huynh",
+    "Anh Tuan Tran",
+    "Khoa Luu",
+    "Minh Hoai"
+  ],
+  "abstract": "The objective of this work is to segment high-resolution images without overloading GPU memory usage or losing the fine details in the output segmentation map. The memory constraint means that we must either downsample the big image or divide the image into local patches for separate processing. However, the former approach would lose the fine details, while the latter can be ambiguous due to the lack of a global picture. In this work, we present MagNet, a multi-scale framework that resolves local ambiguity by looking at the image at multiple magnification levels. MagNet has multiple processing stages, where each stage corresponds to a magnification level, and the output of one stage is fed into the next stage for coarse-to-fine information propagation. Each stage analyzes the image at a higher resolution than the previous stage, recovering the previously lost details due to the lossy downsampling step, and the segmentation output is progressively refined through the processing stages. Experiments on three high-resolution datasets of urban views, aerial scenes, and medical images shows that MagNet consistently outperforms the state-of-the-art methods by a significant margin.",
+  "s2id": "5b532b9f7219d25f4bed745ba709c1c03d44f25c",
+  "twitter": {
+    "retweets": 4,
+    "likes": 31,
+    "replies": 1
+  },
+  "citations": 0
+}

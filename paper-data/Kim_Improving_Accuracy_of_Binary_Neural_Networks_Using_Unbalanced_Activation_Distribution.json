@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.00938",
+  "title": "Improving Accuracy of Binary Neural Networks Using Unbalanced Activation Distribution",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_Improving_Accuracy_of_Binary_Neural_Networks_Using_Unbalanced_Activation_Distribution_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hyungjun Kim",
+    "Jihoon Park",
+    "Changhun Lee",
+    "Jae-Joon Kim"
+  ],
+  "abstract": "Binarization of neural network models is considered as one of the promising methods to deploy deep neural network models on resource-constrained environments such as mobile devices. However, Binary Neural Networks (BNNs) tend to suffer from severe accuracy degradation compared to the full-precision counterpart model. Several techniques were proposed to improve the accuracy of BNNs. One of the approaches is to balance the distribution of binary activations so that the amount of information in the binary activations becomes maximum. Based on extensive analysis, in stark contrast to previous work, we argue that unbalanced activation distribution can actually improve the accuracy of BNNs. We also show that adjusting the threshold values of binary activation functions results in the unbalanced distribution of the binary activation, which increases the accuracy of BNN models. Experimental results show that the accuracy of previous BNN models (e.g. XNOR-Net and Bi-Real-Net) can be improved by simply shifting the threshold values of binary activation functions without requiring any other modification.",
+  "s2id": "5688ada5bf8013a023de9330f04044fac87c9eb5",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 1
+}

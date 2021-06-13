@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.06462",
+  "title": "Self-Supervised Collision Handling via Generative 3D Garment Models for Virtual Try-On",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Santesteban_Self-Supervised_Collision_Handling_via_Generative_3D_Garment_Models_for_Virtual_CVPR_2021_paper.pdf",
+  "authors": [
+    "Igor Santesteban",
+    "Nils Thuerey",
+    "Miguel A. Otaduy",
+    "Dan Casas"
+  ],
+  "abstract": "We propose a new generative model for 3D garment deformations that enables us to learn, for first time, a data-driven method for virtual try-on that effectively addresses garment-body collisions. In contrast to existing methods that require an undesirable postprocessing step to fix garment-body interpenetrations at test time, our approach directly outputs 3D garment configurations that do not collide with the underlying body. Key to our success is a new canonical space for garments that removes pose-and-shape deformations already captured by a new diffused human body model, which extrapolates body surface properties such as skinning weights and blendshapes to any 3D point. We leverage this representation to train a generative model with a novel self-supervised collision term that learns to reliably solve garment-body interpenetrations. We extensively evaluate and compare our results with recently proposed data-driven methods, and show that our method is the first to successfully address garment-body contact in unseen body shapes and motions, without compromising the realism and detail.",
+  "s2id": "ae793443a5c209dbfab7fd16a02a6c55ef49bb45",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

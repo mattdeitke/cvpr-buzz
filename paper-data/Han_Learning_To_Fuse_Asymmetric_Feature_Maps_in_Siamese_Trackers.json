@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.02776",
+  "title": "Learning To Fuse Asymmetric Feature Maps in Siamese Trackers",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.pdf",
+  "authors": [
+    "Wencheng Han",
+    "Xingping Dong",
+    "Fahad Shahbaz Khan",
+    "Ling Shao",
+    "Jianbing Shen"
+  ],
+  "abstract": "Recently, Siamese-based trackers have achieved promising performance in visual tracking. Most recent Siamese-based trackers typically employ a depth-wise cross-correlation (DW-XCorr) to obtain multi-channel correlation information from the two feature maps (target and search region). However, DW-XCorr has several limitations within Siamese-based tracking: it can easily be fooled by distractors, has fewer activated channels, and provides weak discrimination of object boundaries. Further, DW-XCorr is a handcrafted parameter-free module and cannot fully benefit from offline learning on large-scale data. We propose a learnable module, called the asymmetric convolution (ACM), which learns to better capture the semantic correlation information in offline training on large-scale data. Different from DW-XCorr and its predecessor(XCorr), which regard a single feature map as the convolution kernel, our ACM decomposes the convolution operation on a concatenated feature map into two mathematically equivalent operations, thereby avoiding the need for the feature maps to be of the same size (width and height)during concatenation. Our ACM can incorporate useful prior information, such as bounding-box size, with standard visual features. Furthermore, ACM can easily be integrated into existing Siamese trackers based on DW-XCorror XCorr. To demonstrate its generalization ability, we integrate ACM into three representative trackers: SiamFC, SiamRPN++, and SiamBAN. Our experiments reveal the benefits of the proposed ACM, which outperforms existing methods on six tracking benchmarks. On the LaSOT test set, our ACM-based tracker obtains a significant improvement of 5.8% in terms of success (AUC), over the baseline.",
+  "s2id": "5ed692fb9f93ea1cb8a982be58634a5a4cbfb5da",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

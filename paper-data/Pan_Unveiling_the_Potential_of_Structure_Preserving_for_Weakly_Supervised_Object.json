@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.04523",
+  "title": "Unveiling the Potential of Structure Preserving for Weakly Supervised Object Localization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_Unveiling_the_Potential_of_Structure_Preserving_for_Weakly_Supervised_Object_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xingjia Pan",
+    "Yingguo Gao",
+    "Zhiwen Lin",
+    "Fan Tang",
+    "Weiming Dong",
+    "Haolei Yuan",
+    "Feiyue Huang",
+    "Changsheng Xu"
+  ],
+  "abstract": "Weakly supervised object localization (WSOL) remains an open problem due to the deficiency of finding object extent information using a classification network. While prior works struggle to localize objects by various spatial regularization strategies, we argue that how to extract object structural information from the trained classification network is neglected. In this paper, we propose a two-stage approach, termed structure-preserving activation (SPA), towards fully leveraging the structure information incorporated in convolutional features for WSOL. In the first stage, a restricted activation module (RAM) is designed to alleviate the structure-missing issue caused by the classification network, based on the observation that the unbounded classification map and global average pooling layer drive the network to focus only on object parts. In the second stage, we propose a post-process approach, termed the self-correlation map generating (SCG) module to obtain structure-preserving localization maps on the basis of the activation maps acquired from the first stage. Specifically, we utilize the high-order self-correlation (HSC) to extract the inherent structural information retained in the learned model and then aggregate HSC of multiple points for precise object localization. Extensive experiments on two publicly available benchmarks including CUB-200-2011 and ILSVRC show that the proposed SPA achieves substantial and consistent performance gains compared with baseline approaches.",
+  "s2id": "c0b29e11d0770f96b409555cba99e785a3316f96",
+  "twitter": {
+    "retweets": 1,
+    "likes": 4,
+    "replies": 0
+  },
+  "citations": 0
+}

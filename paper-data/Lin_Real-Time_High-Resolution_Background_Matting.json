@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.07810",
+  "title": "Real-Time High-Resolution Background Matting",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_Real-Time_High-Resolution_Background_Matting_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shanchuan Lin",
+    "Andrey Ryabtsev",
+    "Soumyadip Sengupta",
+    "Brian L. Curless",
+    "Steven M. Seitz",
+    "Ira Kemelmacher-Shlizerman"
+  ],
+  "abstract": "We introduce a real-time, high-resolution background replacement technique which operates at 30fps in 4K resolution, and 60fps for HD on a modern GPU. Our technique is based on background matting, where an additional frame of the background is captured and used to inform the alpha matte and the foreground layer. The main challenge is to compute a high-quality alpha matte, preserving strand-level hair details, while processing high-resolution images in real-time. To achieve this goal, we employ two neural networks; the base network computes a low-resolution result which is refined by a second network operating at high-resolution on selective patches. We introduce two large-scale video and image matting datasets: VideoMatte240K and PhotoMatte13K/85. Our approach yields higher quality results compared to the previous state-of-the-art in background matting, while simultaneously yielding a dramatic boost in both speed and resolution.",
+  "s2id": "1f476738e6d2950ab2ca08ac852764640c8e9d93",
+  "twitter": {
+    "retweets": 89,
+    "likes": 574,
+    "replies": 11
+  },
+  "citations": 4
+}

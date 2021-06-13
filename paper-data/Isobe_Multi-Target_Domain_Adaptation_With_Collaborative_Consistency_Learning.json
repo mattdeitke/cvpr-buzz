@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2106.03418",
+  "title": "Multi-Target Domain Adaptation With Collaborative Consistency Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Isobe_Multi-Target_Domain_Adaptation_With_Collaborative_Consistency_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Takashi Isobe",
+    "Xu Jia",
+    "Shuaijun Chen",
+    "Jianzhong He",
+    "Yongjie Shi",
+    "Jianzhuang Liu",
+    "Huchuan Lu",
+    "Shengjin Wang"
+  ],
+  "abstract": "Recently unsupervised domain adaptation for the semantic segmentation task has become more and more popular due to the high-cost of pixel-level annotation on real-world images. However, most domain adaptation methods are only restricted to single-source-single-target pair, and can not be directly extended to multiple target domains. In this work, we propose a collaborative learning framework to achieve unsupervised multi-target domain adaptation. An unsupervised domain adaptation expert model is first trained for each source-target pair and is further encouraged to collaborate with each other through a bridge built between different target domains. These expert models are further improved by adding the regularization of making the consistent pixel-wise prediction for each sample with the same structured context. To obtain a single model that works across multiple target domains, we propose to simultaneously learn a student model which is trained to not only imitate the output of each expert on the corresponding target domain but also to pull different expert close to each other with regularization on their weights. Extensive experiments demonstrate that the proposed method can effectively exploit rich structured information contained in both labeled source domain and multiple unlabeled target domains. Not only does it perform well across multiple target domains but also performs favorably against state-of-the-art unsupervised domain adaptation methods specially trained on a single source-target pair.",
+  "s2id": "ba71b7005f2a94bf1519d88ae6f825e5b6aa8915",
+  "citations": 2
+}

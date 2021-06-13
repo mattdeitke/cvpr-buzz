@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16831",
+  "title": "Convolutional Hough Matching Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Min_Convolutional_Hough_Matching_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Juhong Min",
+    "Minsu Cho"
+  ],
+  "abstract": "Despite advances in feature representation, leveraging geometric relations is crucial for establishing reliable visual correspondences under large variations of images. In this work we introduce a Hough transform perspective on convolutional matching and propose an effective geometric matching algorithm, dubbed Convolutional Hough Matching (CHM). The method distributes similarities of candidate matches over a geometric transformation space and evaluate them in a convolutional manner. We cast it into a trainable neural layer with a semi-isotropic high-dimensional kernel, which learns non-rigid matching with a small number of interpretable parameters. To validate the effect, we develop the neural network with CHM layers that perform convolutional matching in the space of translation and scaling. Our method sets a new state of the art on standard benchmarks for semantic visual correspondence, proving its strong robustness to challenging intra-class variations.",
+  "s2id": "f10e85fd14921f7efd87170445218547f2fe8766",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 1
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.05833",
+  "title": "Semantic Segmentation With Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Semantic_Segmentation_With_Generative_Models_Semi-Supervised_Learning_and_Strong_Out-of-Domain_CVPR_2021_paper.pdf",
+  "authors": [
+    "Daiqing Li",
+    "Junlin Yang",
+    "Karsten Kreis",
+    "Antonio Torralba",
+    "Sanja Fidler"
+  ],
+  "abstract": "Training deep networks with limited labeled data while achieving a strong generalization ability is key in the quest to reduce human annotation efforts. This is the goal of semi-supervised learning, which exploits more widely available unlabeled data to complement small labeled data sets. In this paper, we propose a novel framework for discriminative pixel-level tasks using a generative model of both images and labels. Concretely, we learn a generative adversarial network that captures the joint image-label distribution and is trained efficiently using a large set of unlabeled images supplemented with only few labeled ones. We build our architecture on top of StyleGAN2, augmented with a label synthesis branch. Image labeling at test time is achieved by first embedding the target image into the joint latent space via an encoder network and test-time optimization, and then generating the label from the inferred embedding. We evaluate our approach in two important domains: medical image segmentation and part-based face segmentation. We demonstrate strong in-domain performance compared to several baselines, and are the first to showcase extreme out-of-domain generalization, such as transferring from CT to MRI in medical imaging, and photographs of real faces to paintings, sculptures, and even cartoons and animal faces.",
+  "s2id": "0db79fa4f25545e57213e9acf22f2e72100d563f",
+  "twitter": {
+    "retweets": 85,
+    "likes": 355,
+    "replies": 7
+  },
+  "citations": 3
+}

@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "MeGA-CDA: Memory Guided Attention for Category-Aware Unsupervised Domain Adaptive Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/VS_MeGA-CDA_Memory_Guided_Attention_for_Category-Aware_Unsupervised_Domain_Adaptive_Object_CVPR_2021_paper.pdf",
+  "authors": [
+    "Vibashan VS",
+    "Vikram Gupta",
+    "Poojan Oza",
+    "Vishwanath A. Sindagi",
+    "Vishal M. Patel"
+  ],
+  "abstract": "Existing approaches for unsupervised domain adaptive object detection perform feature alignment via adversarial training. While these methods achieve reasonable improvements in performance, they typically perform category-agnostic domain alignment, thereby resulting in negative transfer of features. To overcome this issue, in this work, we attempt to incorporate category information into the domain adaptation process by proposing Memory Guided Attention for Category-Aware Domain Adaptation (MeGA-CDA). The proposed method consists of employing category-wise discriminators to ensure category-aware feature alignment for learning domain-invariant discriminative features. However, since the category information is not available for the target samples, we propose to generate memory-guided category-specific attention maps which are then used to route the features appropriately to the corresponding category discriminator. The proposed method is evaluated on several benchmark datasets and is shown to outperform existing approaches.",
+  "s2id": "5937d7c2c10da2418f7979cd55ad12fa1b93a58e",
+  "citations": 1
+}

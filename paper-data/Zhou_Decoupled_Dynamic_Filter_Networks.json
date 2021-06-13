@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.14107",
+  "title": "Decoupled Dynamic Filter Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_Decoupled_Dynamic_Filter_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jingkai Zhou",
+    "Varun Jampani",
+    "Zhixiong Pi",
+    "Qiong Liu",
+    "Ming-Hsuan Yang"
+  ],
+  "abstract": "Convolution is one of the basic building blocks of CNN architectures. Despite its common use, standard convolution has two main shortcomings: Content-agnostic and Computation-heavy. Dynamic filters are content-adaptive, while further increasing the computational overhead. Depth-wise convolution is a lightweight variant, but it usually leads to a drop in CNN performance or requires a larger number of channels. In this work, we propose the Decoupled Dynamic Filter (DDF) that can simultaneously tackle both of these shortcomings. Inspired by recent advances in attention, DDF decouples a depth-wise dynamic filter into spatial and channel dynamic filters. This decomposition considerably reduces the number of parameters and limits computational costs to the same level as depth-wise convolution. Meanwhile, we observe a significant boost in performance when replacing standard convolution with DDF in classification networks. ResNet50 / 101 get improved by 1.9% and 1.3% on the top-1 accuracy, while their computational costs are reduced by nearly half. Experiments on the detection and joint upsampling networks also demonstrate the superior performance of the DDF upsampling variant (DDF-Up) in comparison with standard convolution and specialized content-adaptive layers.",
+  "s2id": "3afbc6386026fe2e694337d0316d3979df7911e5",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

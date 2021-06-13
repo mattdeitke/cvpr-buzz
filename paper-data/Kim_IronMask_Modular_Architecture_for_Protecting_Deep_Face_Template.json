@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.02239",
+  "title": "IronMask: Modular Architecture for Protecting Deep Face Template",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_IronMask_Modular_Architecture_for_Protecting_Deep_Face_Template_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sunpill Kim",
+    "Yunseong Jeong",
+    "Jinsu Kim",
+    "Jungkon Kim",
+    "Hyung Tae Lee",
+    "Jae Hong Seo"
+  ],
+  "abstract": "Convolutional neural networks have made remarkable progress in the face recognition field. The more the technology of face recognition advances, the greater discriminative features into a face template. However, this increases the threat to user privacy in case the template is exposed. In this paper, we present a modular architecture for face template protection, called IronMask, that can be combined with any face recognition system using angular distance metric. We circumvent the need for binarization, which is the main cause of performance degradation in most existing face template protections, by proposing a new real-valued error-correcting-code that is compatible with real-valued templates and can therefore, minimize performance degradation. We evaluate the efficacy of IronMask by extensive experiments on two face recognitions, ArcFace and CosFace with three datasets, CMU-Multi-PIE, FEI, and Color-FERET. According to our experimental results, IronMask achieves a true accept rate (TAR) of 99.79% at a false accept rate (FAR) of 0.0005% when combined with ArcFace, and 95.78% TAR at 0% FAR with CosFace, while providing at least 115-bit security against known attacks.",
+  "s2id": "8766d273dd20f82f75b0376e75e10f35a851cce6",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

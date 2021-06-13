@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "LAU-Net: Latitude Adaptive Upscaling Network for Omnidirectional Image Super-Resolution",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Deng_LAU-Net_Latitude_Adaptive_Upscaling_Network_for_Omnidirectional_Image_Super-Resolution_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xin Deng",
+    "Hao Wang",
+    "Mai Xu",
+    "Yichen Guo",
+    "Yuhang Song",
+    "Li Yang"
+  ],
+  "abstract": "The omnidirectional images (ODIs) are usually at low-resolution, due to the constraints of collection, storage and transmission. The traditional two-dimensional (2D) image super-resolution methods are not effective for spherical ODIs, because ODIs tend to have non-uniformly distributed pixel density and varying texture complexity across latitudes. In this work, we propose a novel latitude adaptive upscaling network (LAU-Net) for ODI super-resolution, which allows pixels at different latitudes to adopt distinct upscaling factors. Specifically, we introduce a Laplacian multi-level separation architecture to split an ODI into different latitude bands, and hierarchically upscale them with different factors. In addition, we propose a deep reinforcement learning scheme with a latitude adaptive reward, in order to automatically select optimal upscaling factors for different latitude bands. To the best of our knowledge, LAU-Net is the first attempt to consider the latitude difference for ODI super-resolution. Extensive results demonstrate that our LAU-Net significantly advances the super-resolution performance for ODIs.",
+  "s2id": ""
+}

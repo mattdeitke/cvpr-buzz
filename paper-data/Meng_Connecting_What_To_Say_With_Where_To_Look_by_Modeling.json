@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.05964",
+  "title": "Connecting What To Say With Where To Look by Modeling Human Attention Traces",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_Connecting_What_To_Say_With_Where_To_Look_by_Modeling_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zihang Meng",
+    "Licheng Yu",
+    "Ning Zhang",
+    "Tamara L. Berg",
+    "Babak Damavandi",
+    "Vikas Singh",
+    "Amy Bearman"
+  ],
+  "abstract": "We introduce a unified framework to jointly model images, text, and human attention traces. Our work is built on top of the recent Localized Narratives annotation framework, where each word of a given caption is paired with a mouse trace segment. We propose two novel tasks: (1) predict a trace given an image and caption (i.e., visual grounding), and (2) predict a caption and a trace given only an image. Learning the grounding of each word is challenging, due to noise in the human-provided traces and the presence of words that cannot be meaningfully visually grounded. We present a novel model architecture that is jointly trained on dual tasks (controlled trace generation and controlled caption generation). To evaluate the quality of the generated traces, we propose a local bipartite matching (LBM) distance metric which allows the comparison of two traces of different lengths. Extensive experiments show our model is robust to the imperfect training data and outperforms the baselines by a clear margin. Moreover, we demonstrate that our model pre-trained on the proposed tasks can be also beneficial to the downstream task of COCO's guided image captioning. Our code and project page are publicly available.",
+  "s2id": "2d7e4b2c3d69e9d3af12f4e1c90cab1dab4e1776",
+  "twitter": {
+    "retweets": 18,
+    "likes": 59,
+    "replies": 1
+  },
+  "citations": 0
+}

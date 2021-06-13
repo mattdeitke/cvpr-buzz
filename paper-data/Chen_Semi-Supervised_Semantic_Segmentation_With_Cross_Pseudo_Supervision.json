@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2106.01226",
+  "title": "Semi-Supervised Semantic Segmentation With Cross Pseudo Supervision",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Semi-Supervised_Semantic_Segmentation_With_Cross_Pseudo_Supervision_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xiaokang Chen",
+    "Yuhui Yuan",
+    "Gang Zeng",
+    "Jingdong Wang"
+  ],
+  "abstract": "In this paper, we study the semi-supervised semantic segmentation problem via exploring both labeled data and extra unlabeled data. We propose a novel consistency regularization approach, called cross pseudo supervision (CPS). Our approach imposes the consistency on two segmentation networks perturbed with different initialization for the same input image. The pseudo one-hot label map, output from one perturbed segmentation network, is used to supervise the other segmentation network with the standard cross-entropy loss, and vice versa. The CPS consistency has two roles: encourage high similarity between the predictions of two perturbed networks for the same input image, and expand training data by using the unlabeled data with pseudo labels.",
+  "s2id": "07fdff9dae9ea9ba32c251669b3b7a66269930f9",
+  "twitter": {
+    "retweets": 0,
+    "likes": 3,
+    "replies": 0
+  },
+  "citations": 0
+}

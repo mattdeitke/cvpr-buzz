@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01856",
+  "title": "Spatial-Phase Shallow Learning: Rethinking Face Forgery Detection in Frequency Domain",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Spatial-Phase_Shallow_Learning_Rethinking_Face_Forgery_Detection_in_Frequency_Domain_CVPR_2021_paper.pdf",
+  "authors": [
+    "Honggu Liu",
+    "Xiaodan Li",
+    "Wenbo Zhou",
+    "Yuefeng Chen",
+    "Yuan He",
+    "Hui Xue",
+    "Weiming Zhang",
+    "Nenghai Yu"
+  ],
+  "abstract": "The remarkable success in face forgery techniques has received considerable attention in computer vision due to security concerns. We observe that up-sampling is a necessary step of most face forgery techniques, and cumulative up-sampling will result in obvious changes in the frequency domain, especially in the phase spectrum. According to the property of natural images, the phase spectrum preserves abundant frequency components that provide extra information and complement the loss of the amplitude spectrum. To this end, we present a novel Spatial-Phase Shallow Learning (SPSL) method, which combines spatial image and phase spectrum to capture the up-sampling artifacts of face forgery to improve the transferability, for face forgery detection. And we also theoretically analyze the validity of utilizing the phase spectrum. Moreover, we notice that local texture information is more crucial than high-level semantic information for the face forgery detection task. So we reduce the receptive fields by shallowing the network to suppress high-level features and focus on the local region. Extensive experiments show that SPSL can achieve the state-of-the-art performance on cross-datasets evaluation as well as multi-class classification and obtain comparable results on single dataset evaluation.",
+  "s2id": "45187881878cd6c21b944312b77e62cefed46b39",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

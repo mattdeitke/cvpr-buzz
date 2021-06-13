@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.07893",
+  "title": "DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_DivCo_Diverse_Conditional_Image_Synthesis_via_Contrastive_Generative_Adversarial_Network_CVPR_2021_paper.pdf",
+  "authors": [
+    "Rui Liu",
+    "Yixiao Ge",
+    "Ching Lam Choi",
+    "Xiaogang Wang",
+    "Hongsheng Li"
+  ],
+  "abstract": "Conditional generative adversarial networks (cGANs) target at synthesizing diverse images given the input conditions and latent codes, but unfortunately, they usually suffer from the issue of mode collapse. Towards solving this issue, previous works mainly focused on encouraging the correlation between the latent codes and the generated images, while ignoring the relations between images generated from various latent codes. The recent MSGAN tried to encourage the diversity of the generated image but still only considers \"negative\" relations between the image pairs. In this paper, we propose a novel DivCo framework to properly constrain both \"positive\" and \"negative\" relations between the generated images specified in the latent space. To the best of our knowledge, this is the first attempt to use contrastive learning for diverse conditional image synthesis. A latent-augmented contrastive loss is introduced, which encourage images generated from adjacent latent codes to be similar and those generated from distinct latent codes to show low affinities. The proposed latent-augmented contrastive loss are well compatible with various cGAN architectures. Extensive experiments demonstrate the proposed DivCo could produce more diverse images than state-of-the-art methods without sacrificing visual quality in multiple settings.",
+  "s2id": "80ac12b2de9685a753b069bb36ad250ba842b872",
+  "twitter": {
+    "retweets": 0,
+    "likes": 4,
+    "replies": 1
+  },
+  "citations": 2
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "Calibrated RGB-D Salient Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ji_Calibrated_RGB-D_Salient_Object_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Wei Ji",
+    "Jingjing Li",
+    "Shuang Yu",
+    "Miao Zhang",
+    "Yongri Piao",
+    "Shunyu Yao",
+    "Qi Bi",
+    "Kai Ma",
+    "Yefeng Zheng",
+    "Huchuan Lu",
+    "Li Cheng"
+  ],
+  "abstract": "Complex backgrounds and similar appearances between objects and their surroundings are generally recognized as challenging scenarios in Salient Object Detection (SOD). This naturally leads to the incorporation of depth information in addition to the conventional RGB image as input, known as RGB-D SOD or depth-aware SOD. Meanwhile, this emerging line of research has been considerably hindered by the noise and ambiguity that prevail in raw depth images. To address the aforementioned issues, we propose a Depth Calibration and Fusion (DCF) framework that contains two novel components: 1) a learning strategy to calibrate the latent bias in the original depth maps towards boosting the SOD performance; 2) a simple yet effective cross reference module to fuse features from both RGB and depth modalities. Extensive empirical experiments demonstrate that the proposed approach achieves superior performance against 27 state-of-the-art methods. Moreover, the proposed depth calibration strategy as a preprocessing step, can be further applied to existing cutting-edge RGB-D SOD models and noticeable improvements are achieved.",
+  "s2id": ""
+}

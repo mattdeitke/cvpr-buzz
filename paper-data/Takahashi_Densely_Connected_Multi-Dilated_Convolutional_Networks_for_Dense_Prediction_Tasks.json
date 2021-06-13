@@ -1,0 +1,12 @@
+{
+  "arXiv": null,
+  "title": "Densely Connected Multi-Dilated Convolutional Networks for Dense Prediction Tasks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Takahashi_Densely_Connected_Multi-Dilated_Convolutional_Networks_for_Dense_Prediction_Tasks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Naoya Takahashi",
+    "Yuki Mitsufuji"
+  ],
+  "abstract": "Tasks that involve high-resolution dense prediction require a modeling of both local and global patterns in a large input field. Although the local and global structures often depend on each other and their simultaneous modeling is important, many convolutional neural network (CNN)-based approaches interchange representations in different resolutions only a few times. In this paper, we claim the importance of a dense simultaneous modeling of multiresolution representation and propose a novel CNN architecture called densely connected multidilated DenseNet (D3Net). D3Net involves a novel multidilated convolution that has different dilation factors in a single layer to model different resolutions simultaneously. By combining the multidilated convolution with the DenseNet architecture, D3Net incorporates multiresolution learning with an exponentially growing receptive field in almost all layers, while avoiding the aliasing problem that occurs when we naively incorporate the dilated convolution in DenseNet. Experiments on the image semantic segmentation task using Cityscapes and the audio source separation task using MUSDB18 show that the proposed method has superior performance over state-of-the-art methods.",
+  "s2id": "f9f1aa5ad584d64e244229501bc47323d796db35",
+  "citations": 1
+}

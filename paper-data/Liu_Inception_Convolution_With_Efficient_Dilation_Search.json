@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.13587",
+  "title": "Inception Convolution With Efficient Dilation Search",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Inception_Convolution_With_Efficient_Dilation_Search_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jie Liu",
+    "Chuming Li",
+    "Feng Liang",
+    "Chen Lin",
+    "Ming Sun",
+    "Junjie Yan",
+    "Wanli Ouyang",
+    "Dong Xu"
+  ],
+  "abstract": "As a variant of standard convolution, a dilated convolution can control effective receptive fields and handle large scale variance of objects without introducing additional computational costs. To fully explore the potential of dilated convolution, we proposed a new type of dilated convolution (referred to as inception convolution), where the convolution operations have independent dilation patterns among different axes, channels and layers. To develop a practical method for learning complex inception convolution based on the data, a simple but effective search algorithm, referred to as efficient dilation optimization (EDO), is developed. Based on statistical optimization, the EDO method operates in a low-cost manner and is extremely fast when it is applied on large scale datasets. Empirical results validate that our method achieves consistent performance gains for image recognition, object detection, instance segmentation, human detection, and human pose estimation. For instance, by simply replacing the 3 x 3 standard convolution in the ResNet-50 backbone with inception convolution, we significantly improve the AP of Faster R-CNN from 36.4% to 39.2% on MS COCO.",
+  "s2id": "81a0575c6dac1187cb5e695f7a78d63b1d800548",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 1
+}

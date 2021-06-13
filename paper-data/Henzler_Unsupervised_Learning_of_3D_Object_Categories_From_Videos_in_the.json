@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16552",
+  "title": "Unsupervised Learning of 3D Object Categories From Videos in the Wild",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Henzler_Unsupervised_Learning_of_3D_Object_Categories_From_Videos_in_the_CVPR_2021_paper.pdf",
+  "authors": [
+    "Philipp Henzler",
+    "Jeremy Reizenstein",
+    "Patrick Labatut",
+    "Roman Shapovalov",
+    "Tobias Ritschel",
+    "Andrea Vedaldi",
+    "David Novotny"
+  ],
+  "abstract": "Recently, numerous works have attempted to learn 3D reconstructors of textured 3D models of visual categories given a training set of annotated static images of objects. In this paper, we seek to decrease the amount of needed supervision by leveraging a collection of object-centric videos captured in-the-wild without requiring any manual 3D annotations. Since existing category-centric datasets are insufficient for this problem, we contribute with a large-scale crowd-sourced dataset of object-centric videos suitable for this task. We further propose a novel method that learns via differentiable rendering of a predicted implicit surface of the scene. Here, inspired by classic multi-view stereo methods, our key technical contribution is a novel warp-conditioned implicit shape function, which is robust to the noise in the SfM video reconstructions that supervise our learning. Our evaluation demonstrates performance improvements over several deep monocular reconstruction baselines on 2 existing benchmarks and on our novel dataset.",
+  "s2id": "e0e72ce5d83dc4a0c419b4b55ff97340d6035d8c",
+  "twitter": {
+    "retweets": 25,
+    "likes": 130,
+    "replies": 1
+  },
+  "citations": 1
+}

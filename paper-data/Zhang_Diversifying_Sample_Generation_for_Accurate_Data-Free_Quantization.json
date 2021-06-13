@@ -1,0 +1,24 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01049",
+  "title": "Diversifying Sample Generation for Accurate Data-Free Quantization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Diversifying_Sample_Generation_for_Accurate_Data-Free_Quantization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xiangguo Zhang",
+    "Haotong Qin",
+    "Yifu Ding",
+    "Ruihao Gong",
+    "Qinghua Yan",
+    "Renshuai Tao",
+    "Yuhang Li",
+    "Fengwei Yu",
+    "Xianglong Liu"
+  ],
+  "abstract": "Quantization has emerged as one of the most prevalent approaches to compress and accelerate neural networks. Recently, data-free quantization has been widely studied as a practical and promising solution. It synthesizes data for calibrating the quantized model according to the batch normalization (BN) statistics of FP32 ones and significantly relieves the heavy dependency on real training data in traditional quantization methods. Unfortunately, we find that in practice, the synthetic data identically constrained by BN statistics suffers serious homogenization at both distribution level and sample level and further causes a significant performance drop of the quantized model. We propose Diverse Sample Generation (DSG) scheme to mitigate the adverse effects caused by homogenization. Specifically, we slack the alignment of feature statistics in the BN layer to relax the constraint at the distribution level and design a layerwise enhancement to reinforce specific layers for different data samples. Our DSG scheme is versatile and even able to be applied to the state-of-the-art post-training quantization method like AdaRound. We evaluate the DSG scheme on the large-scale image classification task and consistently obtain significant improvements over various network architectures and quantization methods, especially when quantized to lower bits (e.g., up to 22% improvement on W4A4). Moreover, benefiting from the enhanced diversity, models calibrated by synthetic data perform close to those calibrated by real data and even outperform them on W4A4.",
+  "s2id": "0a53641e8492edca0ac0126b5bcbe0b6a5e5a44c",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 0
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Bin Yan",
+    "Xinyu Zhang",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Xiaoyun Yang"
+  ],
+  "abstract": "Visual object tracking aims to precisely estimate the bounding box for the given target, which is a challenging problem due to factors such as deformation and occlusion. Many recent trackers adopt the multiple-stage tracking strategy to improve the quality of bounding box estimation. These methods first coarsely locate the target and then refine the initial prediction in the following stages. However, existing approaches still suffer from limited precision, and the coupling of different stages severely restricts the method's transferability. This work proposes a novel, flexible, and accurate refinement module called Alpha-Refine (AR), which can significantly improve the base trackers' box estimation quality. By exploring a series of design options, we conclude that the key to successful refinement is extracting and maintaining detailed spatial information as much as possible. Following this principle, Alpha-Refine adopts a pixel-wise correlation, a corner prediction head, and an auxiliary mask head as the core components. Comprehensive experiments on TrackingNet, LaSOT, GOT-10K, and VOT2020 benchmarks with multiple base trackers show that our approach significantly improves the base trackers' performance with little extra latency. The proposed Alpha-Refine method leads to a series of strengthened trackers, among which the ARSiamRPN (AR strengthened SiamRPNpp) and the ARDiMP50 (ARstrengthened DiMP50) achieve good efficiency-precision trade-off, while the ARDiMPsuper (AR strengthened DiMP-super) achieves very competitive performance at a real-time speed. Code and pretrained models are available at https://github.com/MasterBin-IIAU/AlphaRefine.",
+  "s2id": "2c1228e79722728fe292f2e8bdc7b7fb9ac9c454",
+  "twitter": {
+    "retweets": 2,
+    "likes": 5,
+    "replies": 1
+  },
+  "citations": 8
+}

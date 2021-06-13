@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.02751",
+  "title": "Semi-Supervised Action Recognition With Temporal Contrastive Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Singh_Semi-Supervised_Action_Recognition_With_Temporal_Contrastive_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ankit Singh",
+    "Omprakash Chakraborty",
+    "Ashutosh Varshney",
+    "Rameswar Panda",
+    "Rogerio Feris",
+    "Kate Saenko",
+    "Abir Das"
+  ],
+  "abstract": "Learning to recognize actions from only a handful of labeled videos is a challenging problem due to the scarcity of tediously collected activity labels. We approach this problem by learning a two-pathway temporal contrastive model using unlabeled videos at two different speeds leveraging the fact that changing video speed does not change an action. Specifically, we propose to maximize the similarity between encoded representations of the same video at two different speeds as well as minimize the similarity between different videos played at different speeds. This way we use the rich supervisory information in terms of `time' that is present in otherwise unsupervised pool of videos. With this simple yet effective strategy of manipulating video playback rates, we considerably outperform video extensions of sophisticated state-of-the-art semi-supervised image recognition methods across multiple diverse benchmark datasets and network architectures. Interestingly, our proposed approach benefits from out-of-domain unlabeled videos showing generalization and robustness. We also perform rigorous ablations and analysis to validate our approach. Project page: https://cvir.github.io/TCL/.",
+  "s2id": "1cbec5efa0bf040c7fa608d021f8a6e1b6b84d8f",
+  "twitter": {
+    "retweets": 5,
+    "likes": 11,
+    "replies": 0
+  },
+  "citations": 1
+}

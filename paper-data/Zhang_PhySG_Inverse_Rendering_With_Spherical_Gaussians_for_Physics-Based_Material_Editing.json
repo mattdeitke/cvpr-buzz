@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00674",
+  "title": "PhySG: Inverse Rendering With Spherical Gaussians for Physics-Based Material Editing and Relighting",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_PhySG_Inverse_Rendering_With_Spherical_Gaussians_for_Physics-Based_Material_Editing_CVPR_2021_paper.pdf",
+  "authors": [
+    "Kai Zhang",
+    "Fujun Luan",
+    "Qianqian Wang",
+    "Kavita Bala",
+    "Noah Snavely"
+  ],
+  "abstract": "We present an end-to-end inverse rendering pipeline that includes a fully differentiable renderer, and can reconstruct geometry, materials, and illumination from scratch from a set of images. Our rendering framework represents specular BRDFs and environmental illumination using mixtures of spherical Gaussians, and represents geometry as a signed distance function parameterized as a Multi-Layer Perceptron. The use of spherical Gaussians allows us to efficiently solve for approximate light transport, and our method works on scenes with challenging non-Lambertian reflectance captured under natural, static illumination. We demonstrate, with both synthetic and real data, that our reconstruction not only can render novel viewpoints, but also enables physics-based appearance editing of materials and illumination.",
+  "s2id": "50bca2632e973fc6a60cdd7da1d64f3fc5ddd9b1",
+  "twitter": {
+    "retweets": 10,
+    "likes": 67,
+    "replies": 0
+  },
+  "citations": 1
+}

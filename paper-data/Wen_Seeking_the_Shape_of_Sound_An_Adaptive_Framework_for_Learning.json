@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.07293",
+  "title": "Seeking the Shape of Sound: An Adaptive Framework for Learning Voice-Face Association",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wen_Seeking_the_Shape_of_Sound_An_Adaptive_Framework_for_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Peisong Wen",
+    "Qianqian Xu",
+    "Yangbangyan Jiang",
+    "Zhiyong Yang",
+    "Yuan He",
+    "Qingming Huang"
+  ],
+  "abstract": "Nowadays, we have witnessed the early progress on learning the association between voice and face automatically, which brings a new wave of studies to the computer vision community. However, most of the prior arts along this line (a) merely adopt local information to perform modality alignment and (b) ignore the diversity of learning difficulty across different subjects. In this paper, we propose a novel framework to jointly address the above-mentioned issues. Targeting at (a), we propose a two-level modality alignment loss where both global and local information are considered. Compared with the existing methods, we introduce a global loss into the modality alignment process. The global component of the loss is driven by the accuracy of the identity classification. Theoretically, we show that minimizing the loss could maximize the distance between embeddings across different identities while minimizing the distance between embeddings belonging to the same identity, in a global sense (instead of a mini-batch). Targeting at (b), we propose a dynamic reweighting scheme to better explore the hard but valuable identities while filtering out the unlearnable and noisy identities. Experiments show that the proposed method outperforms the previous methods in multiple settings, including voice-face matching, verification and retrieval.",
+  "s2id": "f49db3dbfa02a88205e98e1504f3e52b66b0cb3e",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 2
+  },
+  "citations": 1
+}

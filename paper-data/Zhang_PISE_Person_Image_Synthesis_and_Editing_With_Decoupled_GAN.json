@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.04023",
+  "title": "PISE: Person Image Synthesis and Editing With Decoupled GAN",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_PISE_Person_Image_Synthesis_and_Editing_With_Decoupled_GAN_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jinsong Zhang",
+    "Kun Li",
+    "Yu-Kun Lai",
+    "Jingyu Yang"
+  ],
+  "abstract": "Person image synthesis, e.g., pose transfer, is a challenging problem due to large variation and occlusion. Existing methods have difficulties predicting reasonable invisible regions and fail to decouple the shape and style of clothing, which limits their applications on person image editing. In this paper, we propose PISE, a novel two-stage generative model for person image synthesis and editing, which can generate realistic person images with desired poses, textures, and semantic layouts. To better predict the invisible region, we first synthesize a human parsing map aligned with the target pose to represent the shape of clothing by a parsing generator, and then generate the final image by an image generator. To decouple the shape and style of clothing, we propose joint global and local per-region encoding and normalization to predict the reasonable style of clothing for invisible regions. We also propose spatial-aware normalization to retain the spatial context relationship in the source image. The results of qualitative and quantitative experiments demonstrate the superiority of our model. Besides, the results of texture transfer and parsing editing show that our model can be applied to person image editing.",
+  "s2id": "05a92beee49ac2008ea281bf46c45f71d82e4eee",
+  "twitter": {
+    "retweets": 3,
+    "likes": 24,
+    "replies": 2
+  },
+  "citations": 1
+}

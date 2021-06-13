@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.01257",
+  "title": "Unsupervised Discovery of the Long-Tail in Instance Segmentation Using Hierarchical Self-Supervision",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Weng_Unsupervised_Discovery_of_the_Long-Tail_in_Instance_Segmentation_Using_Hierarchical_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhenzhen Weng",
+    "Mehmet Giray Ogut",
+    "Shai Limonchik",
+    "Serena Yeung"
+  ],
+  "abstract": "Instance segmentation is an active topic in computer vision that is usually solved by using supervised learning approaches over very large datasets composed of object level masks. Obtaining such a dataset for any new domain can be very expensive and time-consuming. In addition, models trained on certain annotated categories do not generalize well to unseen objects. The goal of this paper is to propose a method that can perform unsupervised discovery of long-tail categories in instance segmentation, through learning instance embeddings of masked regions. Leveraging rich relationship and hierarchical structure between objects in the images, we propose self-supervised losses for learning mask embeddings. Trained on COCO dataset without additional annotations of the long-tail objects, our model is able to discover novel and more fine-grained objects than the common categories in COCO. We show that the model achieves competitive quantitative results on LVIS as compared to the supervised and partially supervised methods.",
+  "s2id": "0c13154582fe70b6b46184033610528119a60a22",
+  "twitter": {
+    "retweets": 2,
+    "likes": 4,
+    "replies": 2
+  },
+  "citations": 0
+}

@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "Representative Batch Normalization With Feature Calibration",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Representative_Batch_Normalization_With_Feature_Calibration_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shang-Hua Gao",
+    "Qi Han",
+    "Duo Li",
+    "Ming-Ming Cheng",
+    "Pai Peng"
+  ],
+  "abstract": "Batch Normalization (BatchNorm) has become the default component in modern neural networks to stabilize training. In BatchNorm, centering and scaling operations, along with mean and variance statistics, are utilized for feature standardization over the batch dimension. The batch dependency of BatchNorm enables stable training and better representation of the network, while inevitably ignores the representation differences among instances. We propose to add a simple yet effective feature calibration scheme into the centering and scaling operations of BatchNorm, enhancing the instance-specific representations with the negligible computational cost. The centering calibration strengthens informative features and reduces noisy features. The scaling calibration restricts the feature intensity to form a more stable feature distribution. Our proposed variant of BatchNorm, namely Representative BatchNorm, can be plugged into existing methods to boost the performance of various tasks such as classification, detection, and segmentation. The source code is available in http://mmcheng.net/rbn.",
+  "s2id": "498b323fc8d2eaf9e5a29a8b33d18971c3ed1408",
+  "citations": 5
+}

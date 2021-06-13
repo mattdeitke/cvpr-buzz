@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.07287",
+  "title": "Information-Theoretic Segmentation by Inpainting Error Maximization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Savarese_Information-Theoretic_Segmentation_by_Inpainting_Error_Maximization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Pedro Savarese",
+    "Sunnie S. Y. Kim",
+    "Michael Maire",
+    "Greg Shakhnarovich",
+    "David McAllester"
+  ],
+  "abstract": "We study image segmentation from an information-theoretic perspective, proposing a novel adversarial method that performs unsupervised segmentation by partitioning images into maximally independent sets. More specifically, we group image pixels into foreground and background, with the goal of minimizing predictability of one set from the other. An easily computed loss drives a greedy search process to maximize inpainting error over these partitions. Our method does not involve training deep networks, is computationally cheap, class-agnostic, and even applicable in isolation to a single unlabeled image. Experiments demonstrate that it achieves a new state-of-the-art in unsupervised segmentation quality, while being substantially faster and more general than competing approaches.",
+  "s2id": "7dd0fd227dd461c7d67182fdacf0870f881a7e80",
+  "twitter": {
+    "retweets": 61,
+    "likes": 390,
+    "replies": 4
+  },
+  "citations": 1
+}

@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.10429",
+  "title": "Neural Parts: Learning Expressive 3D Shape Abstractions With Invertible Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Paschalidou_Neural_Parts_Learning_Expressive_3D_Shape_Abstractions_With_Invertible_Neural_CVPR_2021_paper.pdf",
+  "authors": [
+    "Despoina Paschalidou",
+    "Angelos Katharopoulos",
+    "Andreas Geiger",
+    "Sanja Fidler"
+  ],
+  "abstract": "Impressive progress in 3D shape extraction led to representations that can capture object geometries with high fidelity. In parallel, primitive-based methods seek to represent objects as semantically consistent part arrangements. However, due to the simplicity of existing primitive representations, these methods fail to accurately reconstruct 3D shapes using a small number of primitives/parts. We address the trade-off between reconstruction quality and number of parts with Neural Parts, a novel 3D primitive representation that defines primitives using an Invertible Neural Network (INN) which implements homeomorphic mappings between a sphere and the target object. The INN allows us to compute the inverse mapping of the homeomorphism, which in turn, enables the efficient computation of both the implicit surface function of a primitive and its mesh, without any additional post-processing. Our model learns to parse 3D objects into semantically consistent part arrangements without any part-level supervision.Evaluations on ShapeNet, D-FAUST and FreiHAND demonstrate that our primitives can capture complex geometries and thus simultaneously achieve geometrically accurate as well as interpretable reconstructions using an order of magnitude fewer primitives than state-of-the-art shape abstraction methods.",
+  "s2id": "55cd31f1a88f4d53152aad8fa3fe1cec17b59f68",
+  "twitter": {
+    "retweets": 44,
+    "likes": 169,
+    "replies": 2
+  },
+  "citations": 1
+}

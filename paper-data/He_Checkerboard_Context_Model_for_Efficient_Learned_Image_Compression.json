@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15306",
+  "title": "Checkerboard Context Model for Efficient Learned Image Compression",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/He_Checkerboard_Context_Model_for_Efficient_Learned_Image_Compression_CVPR_2021_paper.pdf",
+  "authors": [
+    "Dailan He",
+    "Yaoyan Zheng",
+    "Baocheng Sun",
+    "Yan Wang",
+    "Hongwei Qin"
+  ],
+  "abstract": "For learned image compression, the autoregressive context model is proved effective in improving the rate-distortion (RD) performance. Because it helps remove spatial redundancies among latent representations. However, the decoding process must be done in a strict scan order, which breaks the parallelization. We propose a parallelizable checkerboard context model (CCM) to solve the problem. Our two-pass checkerboard context calculation eliminates such limitations on spatial locations by re-organizing the decoding order. Speeding up the decoding process more than 40 times in our experiments, it achieves significantly improved computational efficiency with almost the same rate-distortion performance. To the best of our knowledge, this is the first exploration on parallelization-friendly spatial context model for learned image compression.",
+  "s2id": "d64945650501eaccd842ed5f93fe0e8932cac50c",
+  "twitter": {
+    "retweets": 6,
+    "likes": 25,
+    "replies": 0
+  },
+  "citations": 0
+}

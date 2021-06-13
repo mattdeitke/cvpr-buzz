@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.04315",
+  "title": "Counterfactual VQA: A Cause-Effect Look at Language Bias",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Niu_Counterfactual_VQA_A_Cause-Effect_Look_at_Language_Bias_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yulei Niu",
+    "Kaihua Tang",
+    "Hanwang Zhang",
+    "Zhiwu Lu",
+    "Xian-Sheng Hua",
+    "Ji-Rong Wen"
+  ],
+  "abstract": "Recent VQA models may tend to rely on language bias as a shortcut and thus fail to sufficiently learn the multi-modal knowledge from both vision and language. In this paper, we investigate how to capture and mitigate language bias in VQA. Motivated by causal effects, we proposed a novel counterfactual inference framework, which enables us to capture the language bias as the direct causal effect of questions on answers and reduce the language bias by subtracting the direct language effect from the total causal effect. Experiments demonstrate that our proposed counterfactual inference framework 1) is general to various VQA backbones and fusion strategies, 2) achieves competitive performance on the language-bias sensitive VQA-CP dataset while performs robustly on the balanced VQA v2 dataset without any argumented data. The code is available at https://github.com/yuleiniu/cfvqa.",
+  "s2id": "3e3f55cb25b919c4e8158195fd3ce2f23cfa7723",
+  "twitter": {
+    "retweets": 11,
+    "likes": 50,
+    "replies": 2
+  },
+  "citations": 22
+}

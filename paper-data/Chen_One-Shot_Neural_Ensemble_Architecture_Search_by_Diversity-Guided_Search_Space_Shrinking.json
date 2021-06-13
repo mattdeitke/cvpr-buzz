@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00597",
+  "title": "One-Shot Neural Ensemble Architecture Search by Diversity-Guided Search Space Shrinking",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_One-Shot_Neural_Ensemble_Architecture_Search_by_Diversity-Guided_Search_Space_Shrinking_CVPR_2021_paper.pdf",
+  "authors": [
+    "Minghao Chen",
+    "Jianlong Fu",
+    "Haibin Ling"
+  ],
+  "abstract": "Despite remarkable progress achieved, most neural architecture search (NAS) methods focus on searching for one single accurate and robust architecture. To further build models with better generalization capability and performance, model ensemble is usually adopted and performs better than stand-alone models. Inspired by the merits of model ensemble, we propose to search for multiple diverse models simultaneously as an alternative way to find powerful models. Searching for ensembles is non-trivial and has two key challenges: enlarged search space and potentially more complexity for the searched model. In this paper, we propose a one-shot neural ensemble architecture search (NEAS) solution that addresses the two challenges. For the first challenge, we introduce a novel diversity-based metric to guide search space shrinking, considering both the potentiality and diversity of candidate operators. For the second challenge, we enable a new search dimension to learn layer sharing among different models for efficiency purposes. The experiments on ImageNet clearly demonstrate that our solution can improve the supernet's capacity of ranking ensemble architectures, and further lead to better search results. The discovered architectures achieve superior performance compared with state-of-the-arts such as MobileNetV3 and EfficientNet families under aligned settings. Moreover, we evaluate the generalization ability and robustness of our searched architecture on the COCO detection benchmark and achieve a 3.1% improvement on AP compared with MobileNetV3. Codes and models are available here.",
+  "s2id": "e732703c4e8d1ed75616f5e594412055044bb164",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.09556",
+  "title": "Removing Diffraction Image Artifacts in Under-Display Camera via Dynamic Skip Connection Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feng_Removing_Diffraction_Image_Artifacts_in_Under-Display_Camera_via_Dynamic_Skip_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ruicheng Feng",
+    "Chongyi Li",
+    "Huaijin Chen",
+    "Shuai Li",
+    "Chen Change Loy",
+    "Jinwei Gu"
+  ],
+  "abstract": "Recent development of Under-Display Camera (UDC) systems provides a true bezel-less and notch-free viewing experience on smartphones (and TV, laptops, tablets), while allowing images to be captured from the selfie camera embedded underneath. In a typical UDC system, the microstructure of the semi-transparent organic light-emitting diode (OLED) pixel array attenuates and diffracts the incident light on the camera, resulting in significant image quality degradation. Oftentimes, noise, flare, haze, and blur can be observed in UDC images. In this work, we aim to analyze and tackle the aforementioned degradation problems. We define a physics-based image formation model to better understand the degradation. In addition, we utilize one of the world's first commodity UDC smartphone prototypes to measure the real-world Point Spread Function (PSF) of the UDC system, and provide a model-based data synthesis pipeline to generate realistically degraded images. We specially design a new domain knowledge-enabled Dynamic Skip Connection Network (DISCNet) to restore the UDC images. We demonstrate the effectiveness of our method through extensive experiments on both synthetic and real UDC data. Our physics-based image formation model and proposed DISCNet can provide foundations for further exploration in UDC image restoration, and even for general diffraction artifact removal in a broader sense.",
+  "s2id": "61254c941106a4c837e34cbcf89e81d7f0eccda3",
+  "twitter": {
+    "retweets": 2,
+    "likes": 13,
+    "replies": 0
+  },
+  "citations": 0
+}

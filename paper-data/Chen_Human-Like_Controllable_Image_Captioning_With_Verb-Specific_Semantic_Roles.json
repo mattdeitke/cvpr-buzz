@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.12204",
+  "title": "Human-Like Controllable Image Captioning With Verb-Specific Semantic Roles",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Human-Like_Controllable_Image_Captioning_With_Verb-Specific_Semantic_Roles_CVPR_2021_paper.pdf",
+  "authors": [
+    "Long Chen",
+    "Zhihong Jiang",
+    "Jun Xiao",
+    "Wei Liu"
+  ],
+  "abstract": "Controllable Image Captioning (CIC) -- generating image descriptions following designated control signals -- has received unprecedented attention over the last few years. To emulate the human ability in controlling caption generation, current CIC studies focus exclusively on control signals concerning objective properties, such as contents of interest or descriptive patterns. However, we argue that almost all existing objective control signals have overlooked two indispensable characteristics of an ideal control signal: 1) Event-compatible: all visual contents referred to in a single sentence should be compatible with the described activity. 2) Sample-suitable: the control signals should be suitable for a specific image sample. To this end, we propose a new control signal for CIC: Verb-specific Semantic Roles (VSR). VSR consists of a verb and some semantic roles, which represents a targeted activity and the roles of entities involved in this activity. Given a designated VSR, we first train a grounded semantic role labeling (GSRL) model to identify and ground all entities for each role. Then, we propose a semantic structure planner (SSP) to learn human-like descriptive semantic structures. Lastly, we use a role-shift captioning model to generate the captions. Extensive experiments and ablations demonstrate that our framework can achieve better controllability than several strong baselines on two challenging CIC benchmarks. Besides, we can generate multi-level diverse captions easily. The code is available at: https://github.com/mad-red/VSR-guided-CIC.",
+  "s2id": "ada35e2c099fbde9d07a279311f4abe698341cd8",
+  "twitter": {
+    "retweets": 1,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06422",
+  "title": "Holistic 3D Scene Understanding From a Single Image With Implicit Representation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Holistic_3D_Scene_Understanding_From_a_Single_Image_With_Implicit_CVPR_2021_paper.pdf",
+  "authors": [
+    "Cheng Zhang",
+    "Zhaopeng Cui",
+    "Yinda Zhang",
+    "Bing Zeng",
+    "Marc Pollefeys",
+    "Shuaicheng Liu"
+  ],
+  "abstract": "We present a new pipeline for holistic 3D scene understanding from a single image, which could predict object shape, object pose and scene layout. As it is a highly ill-posed problem, existing methods usually suffer from inaccurate estimation of both shapes and layout especially for the cluttered scene due to the heavy occlusion between objects. We propose to utilize the latest deep implicit representation to solve this challenge. We not only propose an image-based local structured implicit network to improve the object shape estimation, but also refine 3D object pose and scene layout via an novel implicit scene graph neural network that exploits the implicit local object features. A novel physical violation loss is also proposed to avoid incorrect context between objects. Extensive experiments demonstrate that our method outperforms the state-of-the-art methods in terms of object shape, scene layout estimation, and 3D object detection.",
+  "s2id": "a7f26e875d1c8a9def609edf2de44f727fd224bd",
+  "twitter": {
+    "retweets": 118,
+    "likes": 525,
+    "replies": 4
+  },
+  "citations": 0
+}

@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.10602",
+  "title": "Visualizing Adapted Knowledge in Domain Transfer",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hou_Visualizing_Adapted_Knowledge_in_Domain_Transfer_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yunzhong Hou",
+    "Liang Zheng"
+  ],
+  "abstract": "A source model trained on source data and a target model learned through unsupervised domain adaptation (UDA) usually encode different knowledge. To understand the adaptation process, we portray their knowledge difference with image translation. Specifically, we feed a translated image and its original version to the two models respectively, formulating two branches. Through updating the translated image, we force similar outputs from the two branches. When such requirements are met, differences between the two images can compensate for and hence represent the knowledge difference between models. To enforce similar outputs from the two branches and depict the adapted knowledge, we propose a source-free image translation method that generates source-style images using only target images and the two models. We visualize the adapted knowledge on several datasets with different UDA methods and find that generated images successfully capture the style difference between the two domains. For application, we show that generated images enable further tuning of the target model without accessing source data. Code available at https://github.com/hou-yz/DA_visualization.",
+  "s2id": "31fac8d48ee0f1dd40dc66bd5c63471dd9eb4827",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 1
+  },
+  "citations": 1
+}

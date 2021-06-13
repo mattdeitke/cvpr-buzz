@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.01710",
+  "title": "Learning Accurate Dense Correspondences and When To Trust Them",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Truong_Learning_Accurate_Dense_Correspondences_and_When_To_Trust_Them_CVPR_2021_paper.pdf",
+  "authors": [
+    "Prune Truong",
+    "Martin Danelljan",
+    "Luc Van Gool",
+    "Radu Timofte"
+  ],
+  "abstract": "Establishing dense correspondences between a pair of images is an important and general problem. However, dense flow estimation is often inaccurate in the case of large displacements or homogeneous regions. For most applications and down-stream tasks, such as pose estimation, image manipulation, or 3D reconstruction, it is crucial to know when and where to trust the estimated matches. In this work, we aim to estimate a dense flow field relating two images, coupled with a robust pixel-wise confidence map indicating the reliability and accuracy of the prediction. We develop a flexible probabilistic approach that jointly learns the flow prediction and its uncertainty. In particular, we parametrize the predictive distribution as a constrained mixture model, ensuring better modelling of both accurate flow predictions and outliers. Moreover, we develop an architecture and training strategy tailored for robust and generalizable uncertainty prediction in the context of self-supervised training. Our approach obtains state-of-the-art results on multiple challenging geometric matching and optical flow datasets. We further validate the usefulness of our probabilistic confidence estimation for the task of pose estimation. Code and models are available at https://github.com/PruneTruong/PDCNet.",
+  "s2id": "3b65b8ed14ccb6ed102e0290adc57d00e27218c9",
+  "twitter": {
+    "retweets": 3,
+    "likes": 8,
+    "replies": 0
+  },
+  "citations": 4
+}

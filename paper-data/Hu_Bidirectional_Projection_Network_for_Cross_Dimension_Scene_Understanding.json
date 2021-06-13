@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.14326",
+  "title": "Bidirectional Projection Network for Cross Dimension Scene Understanding",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Bidirectional_Projection_Network_for_Cross_Dimension_Scene_Understanding_CVPR_2021_paper.pdf",
+  "authors": [
+    "Wenbo Hu",
+    "Hengshuang Zhao",
+    "Li Jiang",
+    "Jiaya Jia",
+    "Tien-Tsin Wong"
+  ],
+  "abstract": "2D image representations are in regular grids and can be processed efficiently, whereas 3D point clouds are unordered and scattered in 3D space. The information inside these two visual domains is well complementary, e.g., 2D images have fine-grained texture while 3D point clouds contain plentiful geometry information. However, most current visual recognition systems process them individually. In this paper, we present a bidirectional projection network (BPNet) for joint 2D and 3D reasoning in an end-to-end manner. It contains 2D and 3D sub-networks with symmetric architectures, that are connected by our proposed bidirectional projection module (BPM). Via the BPM, complementary 2D and 3D information can interact with each other in multiple architectural levels, such that advantages in these two visual domains can be combined for better scene recognition. Extensive quantitative and qualitative experimental evaluations show that joint reasoning over 2D and 3D visual domains can benefit both 2D and 3D scene understanding simultaneously. Our BPNet achieves top performance on the ScanNetV2 benchmark for both 2D and 3D semantic segmentation. Code is available at https://github.com/wbhu/BPNet.",
+  "s2id": "0a3efe0cf3ddb0ddbb560e4ebb01ff9626982ee5",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 0
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.02808",
+  "title": "Multi-Stage Progressive Image Restoration",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zamir_Multi-Stage_Progressive_Image_Restoration_CVPR_2021_paper.pdf",
+  "authors": [
+    "Syed Waqas Zamir",
+    "Aditya Arora",
+    "Salman Khan",
+    "Munawar Hayat",
+    "Fahad Shahbaz Khan",
+    "Ming-Hsuan Yang",
+    "Ling Shao"
+  ],
+  "abstract": "Image restoration tasks demand a complex balance between spatial details and high-level contextualized information while recovering images. In this paper, we propose a novel synergistic design that can optimally balance these competing goals. Our main proposal is a multi-stage architecture, that progressively learns restoration functions for the degraded inputs, thereby breaking down the overall recovery process into more manageable steps. Specifically, our model first learns the contextualized features using encoder-decoder architectures and later combines them with a high-resolution branch that retains local information. At each stage, we introduce a novel per-pixel adaptive design that leverages in-situ supervised attention to reweight the local features. A key ingredient in such a multi-stage architecture is the information exchange between different stages. To this end, we propose a two-faceted approach where the information is not only exchanged sequentially from early to late stages, but lateral connections between feature processing blocks also exist to avoid any loss of information. The resulting tightly interlinked multi-stage architecture, named as MPRNet, delivers strong performance gains on ten datasets across a range of tasks including image deraining, deblurring, and denoising. The source code and pre-trained models are available at https://github.com/swz30/MPRNet.",
+  "s2id": "92d50602db5746f03b91562e2cc8a98bec584e9b",
+  "twitter": {
+    "retweets": 8,
+    "likes": 43,
+    "replies": 0
+  },
+  "citations": 9
+}

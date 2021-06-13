@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.10095",
+  "title": "On Semantic Similarity in Video Retrieval",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wray_On_Semantic_Similarity_in_Video_Retrieval_CVPR_2021_paper.pdf",
+  "authors": [
+    "Michael Wray",
+    "Hazel Doughty",
+    "Dima Damen"
+  ],
+  "abstract": "Current video retrieval efforts all found their evaluation on an instance-based assumption, that only a single caption is relevant to a query video and vice versa. We demonstrate that this assumption results in performance comparisons often not indicative of models' retrieval capabilities. We propose a move to semantic similarity video retrieval, where (i) multiple videos/captions can be deemed equally relevant, and their relative ranking does not affect a method's reported performance and (ii) retrieved videos/captions are ranked by their similarity to a query. We propose several proxies to estimate semantic similarities in large-scale retrieval datasets, without additional annotations. Our analysis is performed on three commonly used video retrieval datasets (MSR-VTT, YouCook2 and EPIC-KITCHENS).",
+  "s2id": "c5ec16be37131398704bab98b71a154028733731",
+  "twitter": {
+    "retweets": 21,
+    "likes": 120,
+    "replies": 3
+  },
+  "citations": 0
+}

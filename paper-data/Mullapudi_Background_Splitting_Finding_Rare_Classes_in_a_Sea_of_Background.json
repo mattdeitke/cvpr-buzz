@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2008.12873",
+  "title": "Background Splitting: Finding Rare Classes in a Sea of Background",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Mullapudi_Background_Splitting_Finding_Rare_Classes_in_a_Sea_of_Background_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ravi Teja Mullapudi",
+    "Fait Poms",
+    "William R. Mark",
+    "Deva Ramanan",
+    "Kayvon Fatahalian"
+  ],
+  "abstract": "We focus on the problem of training deep image classification models for a small number of extremely rare categories. In this common, real-world scenario, almost all images belong to the background category in the dataset. We find that state-of-the-art approaches for training on imbalanced datasets do not produce accurate deep models in this regime. Our solution is to split the large, visually diverse background into many smaller, visually similar categories during training. We implement this idea by extending an image classification model with an additional auxiliary loss that learns to mimic the predictions of a pre-existing classification model on the training set. The auxiliary loss requires no additional human labels and regularizes feature learning in the shared network trunk by forcing the model to discriminate between auxiliary categories for all training set examples, including those belonging to the monolithic background of the main rare category classification task. To evaluate our method we contribute modified versions of the iNaturalist and Places365 datasets where only a small subset of rare category labels are available during training (all other images are labeled as background). By jointly learning to recognize both the selected rare categories and auxiliary categories, our approach yields models that perform 8.3 mAP points higher than state-of-the-art imbalanced learning baselines when 98.30% of the data is background, and up to 42.3 mAP points higher than fine-tuning baselines when 99.98% of the data is background.",
+  "s2id": "c226e57f7bc35427310e1b4c559a94579ef45e69",
+  "twitter": {
+    "retweets": 1,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 0
+}

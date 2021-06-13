@@ -1,0 +1,19 @@
+{
+  "arXiv": null,
+  "title": "Scan2Cap: Context-Aware Dense Captioning in RGB-D Scans",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Scan2Cap_Context-Aware_Dense_Captioning_in_RGB-D_Scans_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhenyu Chen",
+    "Ali Gholami",
+    "Matthias Niessner",
+    "Angel X. Chang"
+  ],
+  "abstract": "We introduce the new task of dense captioning in RGB-D scans. As input, we assume a point cloud of a 3D scene; the expected output is the bounding boxes along with the descriptions for the underlying objects. To address the 3D object detecting and describing problem at the same time, we propose Scan2Cap, an end-to-end trained architecture, to detect objects in the input scene and generate the descriptions for all of them in natural language. We apply an attention-based captioning method to generate descriptive tokens while referring to the related components in the local context. To better handle the relative spatial relations between objects, a message passing graph module is applied to learn the relation features, which are later used in the captioning phase. On the recently proposed ScanRefer dataset, we show that our architecture can effectively localize and describe the 3D objects in the scene. It also outperforms the 2D-based methods on the 3D dense captioning task by a big margin.",
+  "s2id": "7a4ba78d377eea9650e5e399a0878e30bd22f648",
+  "twitter": {
+    "retweets": 24,
+    "likes": 85,
+    "replies": 3
+  },
+  "citations": 2
+}

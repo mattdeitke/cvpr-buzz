@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.07241",
+  "title": "Deep Optimized Priors for 3D Shape Modeling and Reconstruction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Deep_Optimized_Priors_for_3D_Shape_Modeling_and_Reconstruction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mingyue Yang",
+    "Yuxin Wen",
+    "Weikai Chen",
+    "Yongwei Chen",
+    "Kui Jia"
+  ],
+  "abstract": "Many learning-based approaches have difficulty scaling to unseen data, as the generality of its learned prior is limited to the scale and variations of the training samples. This holds particularly true with 3D learning tasks, given the sparsity of 3D datasets available. We introduce a new learning framework for 3D modeling and reconstruction that greatly improves the generalization ability of a deep generator. Our approach strives to connect the good ends of both learning-based and optimization-based methods. In particular, unlike the common practice that fixes the pre-trained priors at test time, we propose to further optimize the learned prior and latent code according to the input physical measurements after the training. We show that the proposed strategy effectively breaks the barriers constrained by the pre-trained priors and could lead to high-quality adaptation to unseen data. We realize our framework using the implicit surface representation and validate the efficacy of our approach in a variety of challenging tasks that take highly sparse or collapsed observations as input. Experimental results show that our approach compares favorably with the state-of-the-art methods in terms of both generality and accuracy.",
+  "s2id": "3c519e3ffdd43bce506a6de9c8ed9ef4b9dbe66b",
+  "twitter": {
+    "retweets": 1,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 3
+}

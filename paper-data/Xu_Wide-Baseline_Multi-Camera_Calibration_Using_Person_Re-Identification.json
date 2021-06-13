@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.08568",
+  "title": "Wide-Baseline Multi-Camera Calibration Using Person Re-Identification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_Wide-Baseline_Multi-Camera_Calibration_Using_Person_Re-Identification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yan Xu",
+    "Yu-Jhe Li",
+    "Xinshuo Weng",
+    "Kris Kitani"
+  ],
+  "abstract": "We address the problem of estimating the 3D pose of a network of cameras for large-environment wide-baseline scenarios, e.g., cameras for construction sites, sports stadiums, and public spaces. This task is challenging since detecting and matching the same 3D keypoint observed from two very different camera views is difficult, making standard structure-from-motion (SfM) pipelines inapplicable. In such circumstances, treating people in the scene as \"keypoints\" and associating them across different camera views can be an alternative method for obtaining correspondences. Based on this intuition, we propose a method that uses ideas from person re-identification (re-ID) for wide-baseline camera calibration. Our method first employs a re-ID method to associate human bounding boxes across cameras, then converts bounding box correspondences to point correspondences, and finally solves for camera pose using multi-view geometry and bundle adjustment. Since our method does not require specialized calibration targets except for visible people, it applies to situations where frequent calibration updates are required. We perform extensive experiments on datasets captured from scenes of different sizes, camera settings (indoor and outdoor), and human activities (walking, playing basketball, construction). Experiment results show that our method achieves similar performance to standard SfM methods relying on manually labeled point correspondences.",
+  "s2id": "7c49e6cd95e96934ed80ff7ce59c02fef51b2baf",
+  "twitter": {
+    "retweets": 7,
+    "likes": 40,
+    "replies": 1
+  },
+  "citations": 0
+}

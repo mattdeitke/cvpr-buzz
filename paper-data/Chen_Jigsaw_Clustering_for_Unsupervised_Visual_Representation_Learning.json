@@ -1,0 +1,13 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00323",
+  "title": "Jigsaw Clustering for Unsupervised Visual Representation Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Jigsaw_Clustering_for_Unsupervised_Visual_Representation_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Pengguang Chen",
+    "Shu Liu",
+    "Jiaya Jia"
+  ],
+  "abstract": "Unsupervised representation learning with contrastive learning achieves great success recently. However, these methods have to duplicate each training batch to construct contrastive pairs, ie, each training batch and its augmented version should be forwarded simultaneously, leading to nearly double computation resource demand. We propose a novel Jigsaw Clustering pretext task in this paper, which only needs to forward each training batch itself, nearly reducing the training cost by a half. Our method makes use of information from both intra-image and inter-images, and outperforms previous single-batch based methods by a large margin, even comparable to the costly contrastive learning methods with only half the number of training batches. Our method shows that multiple batches during training are not necessary, and opens a new door for future research of single-batch based unsupervised methods. Our models trained on ImageNet datasets achieve state-of-the-art results with linear classification, outperform previous single-batch methods by 2.6%. Models transfer to COCO datasets outperforms MoCo v2 by 0.4% with only half the number of training samples. Our pretrained models outperform supervised ImageNet pretrained models on CIFAR-10 and CIFAR-100 datasets by 0.9% and 4.1% respectively.",
+  "s2id": "437b62b46cd2001e13756c25e00f0d6c8c6a2d49",
+  "citations": 0
+}

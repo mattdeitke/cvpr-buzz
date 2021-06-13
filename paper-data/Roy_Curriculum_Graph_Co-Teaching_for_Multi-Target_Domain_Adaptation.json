@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00808",
+  "title": "Curriculum Graph Co-Teaching for Multi-Target Domain Adaptation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Roy_Curriculum_Graph_Co-Teaching_for_Multi-Target_Domain_Adaptation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Subhankar Roy",
+    "Evgeny Krivosheev",
+    "Zhun Zhong",
+    "Nicu Sebe",
+    "Elisa Ricci"
+  ],
+  "abstract": "In this paper we address multi-target domain adaptation (MTDA), where given one labeled source dataset and multiple unlabeled target datasets that differ in data distributions, the task is to learn a robust predictor for all the target domains. We identify two key aspects that can help to alleviate multiple domain-shifts in the MTDA: feature aggregation and curriculum learning. To this end, we propose Curriculum Graph Co-Teaching (CGCT) that uses a dual classifier head, with one of them being a graph convolutional network (GCN) which aggregates features from similar samples across the domains. To prevent the classifiers from over-fitting on its own noisy pseudo-labels we develop a co-teaching strategy with the dual classifier head that is assisted by curriculum learning to obtain more reliable pseudo-labels. Furthermore, when the domain labels are available, we propose Domain-aware Curriculum Learning (DCL), a sequential adaptation strategy that first adapts on the easier target domains, followed by the harder ones. We experimentally demonstrate the effectiveness of our proposed frameworks on several benchmarks and advance the state-of-the-art in the MTDA by large margins (e.g. +5.6% on the DomainNet).",
+  "s2id": "a503fa52c2962d68f8f9b8bea48bd595f1298973",
+  "twitter": {
+    "retweets": 8,
+    "likes": 18,
+    "replies": 0
+  },
+  "citations": 0
+}

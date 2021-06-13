@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.08965",
+  "title": "Railroad Is Not a Train: Saliency As Pseudo-Pixel Supervision for Weakly Supervised Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf",
+  "authors": [
+    "Seungho Lee",
+    "Minhyun Lee",
+    "Jongwuk Lee",
+    "Hyunjung Shim"
+  ],
+  "abstract": "Existing studies in weakly-supervised semantic segmentation (WSSS) using image-level weak supervision have several limitations: sparse object coverage, inaccurate object boundaries, and co-occurring pixels from non-target objects. To overcome these challenges, we propose a novel framework, namely Explicit Pseudo-pixel Supervision (EPS), which learns from pixel-level feedback by combining two weak supervisions; the image-level label provides the object identity via the localization map and the saliency map from the off-the-shelf saliency detection model offers rich boundaries. We devise a joint training strategy to fully utilize the complementary relationship between both information. Our method can obtain accurate object boundaries and discard co-occurring pixels, thereby significantly improving the quality of pseudo-masks. Experimental results show that the proposed method remarkably outperforms existing methods by resolving key challenges of WSSS and achieves the new state-of-the-art performance on both PASCAL VOC 2012 and MS COCO 2014 datasets. The code is available at https://github.com/halbielee/EPS.",
+  "s2id": "40bd7b09a6d893b5d1c5d4615614cf65a79ad769",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 2
+  },
+  "citations": 0
+}

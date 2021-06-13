@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2010.05785",
+  "title": "Permuted AdaIN: Reducing the Bias Towards Global Statistics in Image Classification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Nuriel_Permuted_AdaIN_Reducing_the_Bias_Towards_Global_Statistics_in_Image_CVPR_2021_paper.pdf",
+  "authors": [
+    "Oren Nuriel",
+    "Sagie Benaim",
+    "Lior Wolf"
+  ],
+  "abstract": "Recent work has shown that convolutional neural network classifiers overly rely on texture at the expense of shape cues. We make a similar but different distinction between shape and local image cues, on the one hand, and global image statistics, on the other. Our method, called Permuted Adaptive Instance Normalization (pAdaIN), reduces the representation of global statistics in the hidden layers of image classifiers. pAdaIN samples a random permutation p that rearranges the samples in a given batch. Adaptive Instance Normalization (AdaIN) is then applied between the activations of each (non-permuted) sample i and the corresponding activations of the sample p(i), thus swapping statistics between the samples of the batch. Since the global image statistics are distorted, this swapping procedure causes the network to rely on cues, such as shape or texture. By choosing the random permutation with probability p and the identity permutation otherwise, one can control the effect's strength. With the correct choice of p, fixed apriori for all experiments and selected without considering test data, our method consistently outperforms baselines in multiple settings. In image classification, our method improves on both CIFAR100 and ImageNet using multiple architectures. In the setting of robustness, our method improves on both ImageNet-C and Cifar-100-C for multiple architectures. In the setting of domain adaptation and domain generalization, our method achieves state of the art results on the transfer learning task from GTAV to Cityscapes and on the PACS benchmark.",
+  "s2id": "1403fd998f477256482474a0876d4341075ebd4b",
+  "twitter": {
+    "retweets": 3,
+    "likes": 10,
+    "replies": 0
+  },
+  "citations": 2
+}

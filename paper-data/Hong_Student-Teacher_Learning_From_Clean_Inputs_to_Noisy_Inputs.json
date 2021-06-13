@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.07600",
+  "title": "Student-Teacher Learning From Clean Inputs to Noisy Inputs",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hong_Student-Teacher_Learning_From_Clean_Inputs_to_Noisy_Inputs_CVPR_2021_paper.pdf",
+  "authors": [
+    "Guanzhe Hong",
+    "Zhiyuan Mao",
+    "Xiaojun Lin",
+    "Stanley H. Chan"
+  ],
+  "abstract": "Feature-based student-teacher learning, a training method that encourages the student's hidden features to mimic those of the teacher network, is empirically successful in transferring the knowledge from a pre-trained teacher network to the student network. Furthermore, recent empirical results demonstrate that, the teacher's features can boost the student network's generalization even when the student's input sample is corrupted by noise. However, there is a lack of theoretical insights into why and when this method of transferring knowledge can be successful between such heterogeneous tasks. We analyze this method theoretically using deep linear networks, and experimentally using nonlinear networks. We identify three vital factors to the success of the method: (1) whether the student is trained to zero training loss; (2) how knowledgeable the teacher is on the clean-input problem; (3) how the teacher decomposes its knowledge in its hidden features. Lack of proper control in any of the three factors leads to failure of the student-teacher learning method.",
+  "s2id": "11128cea0ae59ae8c96efda8e57b2203b4fbed93",
+  "twitter": {
+    "retweets": 29,
+    "likes": 181,
+    "replies": 1
+  },
+  "citations": 0
+}

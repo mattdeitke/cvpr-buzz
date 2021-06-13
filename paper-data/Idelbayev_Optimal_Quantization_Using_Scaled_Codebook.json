@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "Optimal Quantization Using Scaled Codebook",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Idelbayev_Optimal_Quantization_Using_Scaled_Codebook_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yerlan Idelbayev",
+    "Pavlo Molchanov",
+    "Maying Shen",
+    "Hongxu Yin",
+    "Miguel A. Carreira-Perpinan",
+    "Jose M. Alvarez"
+  ],
+  "abstract": "We study the problem of quantizing N sorted, scalar datapoints with a fixed codebook containing K entries that are allowed to be rescaled. The problem is defined as finding the optimal scaling factor \\alpha and the datapoint assignments into the \\alpha-scaled codebook to minimize the squared error between original and quantized points. Previously, the globally optimal algorithms for this problem were derived only for certain codebooks (binary and ternary) or under the assumption of certain distributions (Gaussian, Laplacian). By studying the properties of the optimal quantizer, we derive an \\calO(NK \\log K) algorithm that is guaranteed to find the optimal quantization parameters for any fixed codebook regardless of data distribution. We apply our algorithm to synthetic and real-world neural network quantization problems and demonstrate the effectiveness of our approach.",
+  "s2id": ""
+}

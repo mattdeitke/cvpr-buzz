@@ -1,0 +1,19 @@
+{
+  "arXiv": null,
+  "title": "SG-Net: Spatial Granularity Network for One-Stage Video Instance Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_SG-Net_Spatial_Granularity_Network_for_One-Stage_Video_Instance_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Dongfang Liu",
+    "Yiming Cui",
+    "Wenbo Tan",
+    "Yingjie Chen"
+  ],
+  "abstract": "Video instance segmentation (VIS) is a new and critical task in computer vision. To date, top-performing VIS methods extend the two-stage Mask R-CNN by adding a tracking branch, leaving plenty of room for improvement. In contrast, we approach the VIS task from a new perspective and propose a one-stage spatial granularity network (SG-Net). SG-Net demonstrates four advantages: 1) Our task heads (detection, segmentation, and tracking) are crafted interdependently so they can effectively share features and enjoy the joint optimization; 2) Each of our task predictions avoids using proposal-based RoI features, resulting in much reduced runtime complexity per instance; 3) Our mask prediction is dynamically performed on the sub-regions of each detected instance, leading to high-quality masks of fine granularity; 4) Our tracking head models objects' centerness movements for tracking, which effectively enhances the tracking robustness to different object appearances. In evaluation, we present state-of-the-art comparisons on the YouTube-VIS dataset. Extensive experiments demonstrate that our compact one-stage method can achieve improved performance in both accuracy and inference speed. We hope our SG-Net could serve as a simple yet strong baseline for the VIS task. Code will be available.",
+  "s2id": "936fbcce8edfc4c09e8bbbd05bba81b6c965a1b5",
+  "twitter": {
+    "retweets": 0,
+    "likes": 4,
+    "replies": 0
+  },
+  "citations": 1
+}

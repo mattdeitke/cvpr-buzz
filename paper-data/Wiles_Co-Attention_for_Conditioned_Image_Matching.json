@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2007.08480",
+  "title": "Co-Attention for Conditioned Image Matching",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wiles_Co-Attention_for_Conditioned_Image_Matching_CVPR_2021_paper.pdf",
+  "authors": [
+    "Olivia Wiles",
+    "Sebastien Ehrhardt",
+    "Andrew Zisserman"
+  ],
+  "abstract": "We propose a new approach to determine correspondences between image pairs in the wild under large changes in illumination, viewpoint, context, and material. While other approaches find correspondences between pairs of images by treating the images independently, we instead condition on both images to implicitly take account of the differences between them. To achieve this, we introduce (i) a spatial attention mechanism (a co-attention module, CoAM) for conditioning the learned features on both images, and (ii) a distinctiveness score used to choose the best matches at test time. CoAM can be added to standard architectures and trained using self-supervision or supervised data, and achieves a significant performance improvement under hard conditions, e.g. large viewpoint changes. We demonstrate that models using CoAM achieve state-of-the-art or competitive results on a wide range of tasks: local matching, camera localization, 3D reconstruction, and image stylization.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 28,
+    "likes": 85,
+    "replies": 4
+  }
+}

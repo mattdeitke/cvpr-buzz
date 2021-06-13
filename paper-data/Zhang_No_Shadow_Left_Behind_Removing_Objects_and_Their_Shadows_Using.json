@@ -1,0 +1,19 @@
+{
+  "arXiv": null,
+  "title": "No Shadow Left Behind: Removing Objects and Their Shadows Using Approximate Lighting and Geometry",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_No_Shadow_Left_Behind_Removing_Objects_and_Their_Shadows_Using_CVPR_2021_paper.pdf",
+  "authors": [
+    "Edward Zhang",
+    "Ricardo Martin-Brualla",
+    "Janne Kontkanen",
+    "Brian L. Curless"
+  ],
+  "abstract": "Removing objects from images is a challenging technical problem that is important for many applications, including mixed reality. For believable results, the shadows that the object casts should also be removed. Current inpainting-based methods only remove the object itself, leaving shadows behind, or at best require specifying shadow regions to inpaint. We introduce a deep learning pipeline for removing a shadow along with its caster. We leverage rough scene models in order to remove a wide variety of shadows (hard or soft, dark or subtle, large or thin) from surfaces with a wide variety of textures. We train our pipeline on synthetically rendered data, and show qualitative and quantitative results on both synthetic and real scenes.",
+  "s2id": "b9b284e26e1a3e8cf181ff0272740022a693dc0d",
+  "twitter": {
+    "retweets": 14,
+    "likes": 54,
+    "replies": 0
+  },
+  "citations": 0
+}

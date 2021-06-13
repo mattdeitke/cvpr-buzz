@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.13400",
+  "title": "FrameExit: Conditional Early Exiting for Efficient Video Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ghodrati_FrameExit_Conditional_Early_Exiting_for_Efficient_Video_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Amir Ghodrati",
+    "Babak Ehteshami Bejnordi",
+    "Amirhossein Habibian"
+  ],
+  "abstract": "In this paper, we propose a conditional early exiting framework for efficient video recognition. While existing works focus on selecting a subset of salient frames to reduce the computation costs, we propose to use a simple sampling strategy combined with conditional early exiting to enable efficient recognition. Our model automatically learns to process fewer frames for simpler videos and more frames for complex ones. To achieve this, we employ a cascade of gating modules to automatically determine the earliest point in processing where an inference is sufficiently reliable. We generate on-the-fly supervision signals to the gates to provide a dynamic trade-off between accuracy and computational cost. Our proposed model outperforms competing methods on three large-scale video benchmarks. In particular, on ActivityNet1.3 and mini-kinetics, we outperform the state-of-the-art efficient video recognition methods with 1.3x and 2.1x less GFLOPs, respectively. Additionally, our method sets a new state of the art for efficient video understanding on the HVU benchmark.",
+  "s2id": "f0b5bee519034c9fa3bf664432542c14e414cdcb",
+  "twitter": {
+    "retweets": 1,
+    "likes": 14,
+    "replies": 0
+  },
+  "citations": 1
+}

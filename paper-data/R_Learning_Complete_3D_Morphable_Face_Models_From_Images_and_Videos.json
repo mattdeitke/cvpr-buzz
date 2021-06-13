@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2010.01679",
+  "title": "Learning Complete 3D Morphable Face Models From Images and Videos",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/R_Learning_Complete_3D_Morphable_Face_Models_From_Images_and_Videos_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mallikarjun B R",
+    "Ayush Tewari",
+    "Hans-Peter Seidel",
+    "Mohamed Elgharib",
+    "Christian Theobalt"
+  ],
+  "abstract": "Most 3D face reconstruction methods rely on 3D morphable models, which disentangle the space of facial deformations into identity and expression geometry, and skin reflectance. These models are typically learned from a limited number of 3D scans and thus do not generalize well across different identities and expressions. We present the first approach to learn complete 3D models of face identity and expression geometry, and reflectance, just from images and videos. The virtually endless collection of such data, in combination with our self-supervised learning-based approach allows for learning face models that generalize beyond the span of existing approaches. Our network design and loss functions ensure a disentangled parameterization of not only identity and albedo, but also, for the first time, an expression basis. Our method also allows for in-the-wild monocular reconstruction at test time. We show that our learned models better generalize and lead to higher quality image-based reconstructions than existing approaches. We show that the learned model can also be personalized to a video, for a better capture of the geometry and albedo.",
+  "s2id": "ac4c07984041a7c63d04bcf0a210d0dca29115f5",
+  "twitter": {
+    "retweets": 5,
+    "likes": 29,
+    "replies": 0
+  },
+  "citations": 1
+}

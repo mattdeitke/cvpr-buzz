@@ -1,0 +1,24 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.02976",
+  "title": "LASR: Learning Articulated Shape Reconstruction From a Monocular Video",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_LASR_Learning_Articulated_Shape_Reconstruction_From_a_Monocular_Video_CVPR_2021_paper.pdf",
+  "authors": [
+    "Gengshan Yang",
+    "Deqing Sun",
+    "Varun Jampani",
+    "Daniel Vlasic",
+    "Forrester Cole",
+    "Huiwen Chang",
+    "Deva Ramanan",
+    "William T. Freeman",
+    "Ce Liu"
+  ],
+  "abstract": "Remarkable progress has been made in 3D reconstruction of rigid structures from a video or a collection of images. However, it is still challenging to reconstruct nonrigid structures from RGB inputs, due to the under-constrained nature of this problem. While template-based approaches, such as parametric shape models, have achieved great success in terms of modeling the \"closed world\" of known object categories, their ability to handle the \"open-world\" of novel object categories and outlier shapes is still limited. In this work, we introduce a template-free approach for 3D shape learning from a single video. It adopts an analysis-by-synthesis strategy that forward-renders object silhouette, optical flow, and pixels intensities to compare against video observations, which generates gradients signals to adjust the camera, shape and motion parameters. Without relying on a category-specific shape template, our method faithfully reconstructs nonrigid 3D structures from videos of human, animals, and objects of unknown classes in the wild.",
+  "s2id": "b0d8650d08e6041c8851bfbba70097536fc4fbcb",
+  "twitter": {
+    "retweets": 17,
+    "likes": 124,
+    "replies": 0
+  },
+  "citations": 0
+}

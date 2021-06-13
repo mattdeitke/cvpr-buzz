@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00246",
+  "title": "Divergence Optimization for Noisy Universal Domain Adaptation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Divergence_Optimization_for_Noisy_Universal_Domain_Adaptation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Qing Yu",
+    "Atsushi Hashimoto",
+    "Yoshitaka Ushiku"
+  ],
+  "abstract": "Universal domain adaptation (UniDA) has been proposed to transfer knowledge learned from a label-rich source domain to a label-scarce target domain without any constraints on the label sets. In practice, however, it is difficult to obtain a large amount of perfectly clean labeled data in a source domain with limited resources. Existing UniDA methods rely on source samples with correct annotations, which greatly limits their application in the real world. Hence, we consider a new realistic setting called Noisy UniDA, in which classifiers are trained with noisy labeled data from the source domain and unlabeled data with an unknown class distribution from the target domain. This paper introduces a two-head convolutional neural network framework to solve all problems simultaneously. Our network consists of one common feature generator and two classifiers with different decision boundaries. By optimizing the divergence between the two classifiers' outputs, we can detect noisy source samples, find \"unknown\" classes in the target domain, and align the distribution of the source and target domains. In an extensive evaluation of different domain adaptation settings, the proposed method outperformed existing methods by a large margin in most settings.",
+  "s2id": "9bbc7c272fed6609604ffed3754999d54f29e7ad",
+  "twitter": {
+    "retweets": 8,
+    "likes": 5,
+    "replies": 0
+  },
+  "citations": 0
+}

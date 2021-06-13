@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "LayoutTransformer: Scene Layout Generation With Conceptual and Spatial Diversity",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.pdf",
+  "authors": [
+    "Cheng-Fu Yang",
+    "Wan-Cyuan Fan",
+    "Fu-En Yang",
+    "Yu-Chiang Frank Wang"
+  ],
+  "abstract": "When translating text inputs into layouts or images, existing works typically require explicit descriptions of each object in a scene, including their spatial information or the associated relationships. To better exploit the text input, so that implicit objects or relationships can be properly inferred during layout generation, we propose a LayoutTransformer Network (LT-Net) in this paper. Given a scene-graph input, our LT-Net uniquely encodes the semantic features for exploiting their co-occurrences and implicit relationships. This allows one to manipulate conceptually diverse yet plausible layout outputs. Moreover, the decoder of our LT-Net translates the encoded contextual features into bounding boxes with self-supervised relation consistency preserved. By fitting their distributions to Gaussian mixture models, spatially-diverse layouts can be additionally produced by LT-Net. We conduct extensive experiments on the datasets of MS-COCO and Visual Genome, and confirm the effectiveness and plausibility of our LT-Net over recent layout generation models.",
+  "s2id": ""
+}

@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05898",
+  "title": "Limitations of Post-Hoc Feature Alignment for Robustness",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Burns_Limitations_of_Post-Hoc_Feature_Alignment_for_Robustness_CVPR_2021_paper.pdf",
+  "authors": [
+    "Collin Burns",
+    "Jacob Steinhardt"
+  ],
+  "abstract": "Feature alignment is an approach to improving robustness to distribution shift that matches the distribution of feature activations between the training distribution and test distribution. A particularly simple but effective approach to feature alignment involves aligning the batch normalization statistics between the two distributions in a trained neural network. This technique has received renewed interest lately because of its impressive performance on robustness benchmarks. However, when and why this method works is not well understood. We investigate the approach in more detail and identify several limitations. We show that it only significantly helps with a narrow set of distribution shifts and we identify several settings in which it even degrades performance. We also explain why these limitations arise by pinpointing why this approach can be so effective in the first place. Our findings call into question the utility of this approach and Unsupervised Domain Adaptation more broadly for improving robustness in practice.",
+  "s2id": "36d57a83098d394538482aa8ffc85127ad45ef10",
+  "twitter": {
+    "retweets": 1,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 0
+}

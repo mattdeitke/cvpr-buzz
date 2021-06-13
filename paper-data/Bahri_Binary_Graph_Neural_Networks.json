@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.15823",
+  "title": "Binary Graph Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bahri_Binary_Graph_Neural_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mehdi Bahri",
+    "Gaetan Bahl",
+    "Stefanos Zafeiriou"
+  ],
+  "abstract": "Graph Neural Networks (GNNs) have emerged as a powerful and flexible framework for representation learning on irregular data. As they generalize the operations of classical CNNs on grids to arbitrary topologies, GNNs also bring much of the implementation challenges of their Euclidean counterparts. Model size, memory footprint, and energy consumption are common concerns for many real-world applications. Network binarization allocates a single bit to parameters and activations, thus dramatically reducing the memory requirements (up to 32x compared to single-precision floating-point numbers) and maximizing the benefits of fast SIMD instructions on modern hardware for measurable speedups. However, in spite of the large body of work on binarization for classical CNNs, this area remains largely unexplored in geometric deep learning. In this paper, we present and evaluate different strategies for the binarization of graph neural networks. We show that through careful design of the models, and control of the training process, binary graph neural networks can be trained at only a moderate cost in accuracy on challenging benchmarks. In particular, we present the first dynamic graph neural network in Hamming space, able to leverage efficient k-NN search on binary vectors to speed-up the construction of the dynamic graph. We further verify that the binary models offer significant savings on embedded devices. Our code is publicly available on Github.",
+  "s2id": "3c486df457e7c40f823a53666963d14af6792e75",
+  "twitter": {
+    "retweets": 1,
+    "likes": 9,
+    "replies": 1
+  },
+  "citations": 0
+}

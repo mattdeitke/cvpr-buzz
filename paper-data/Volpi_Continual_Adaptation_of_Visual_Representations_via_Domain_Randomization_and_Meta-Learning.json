@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.04324",
+  "title": "Continual Adaptation of Visual Representations via Domain Randomization and Meta-Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Volpi_Continual_Adaptation_of_Visual_Representations_via_Domain_Randomization_and_Meta-Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Riccardo Volpi",
+    "Diane Larlus",
+    "Gregory Rogez"
+  ],
+  "abstract": "Most standard learning approaches lead to fragile models which are prone to drift when sequentially trained on samples of a different nature -- the well-known \"catastrophic forgetting\" issue. In particular, when a model consecutively learns from different visual domains, it tends to forget the past domains in favor of the most recent ones. In this context, we show that one way to learn models that are inherently more robust against forgetting is domain randomization -- for vision tasks, randomizing the current domain's distribution with heavy image manipulations. Building on this result, we devise a meta-learning strategy where a regularizer explicitly penalizes any loss associated with transferring the model from the current domain to different \"auxiliary\" meta-domains, while also easing adaptation to them. Such meta-domains are also generated through randomized image manipulations. We empirically demonstrate in a variety of experiments -- spanning from classification to semantic segmentation -- that our approach results in models that are less prone to catastrophic forgetting when transferred to new domains.",
+  "s2id": "7b332de15ba865284fbd2c7943ca3110bc067ef7",
+  "twitter": {
+    "retweets": 6,
+    "likes": 67,
+    "replies": 3
+  },
+  "citations": 0
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.12405",
+  "title": "Unsupervised Part Segmentation Through Disentangling Appearance and Shape",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Unsupervised_Part_Segmentation_Through_Disentangling_Appearance_and_Shape_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shilong Liu",
+    "Lei Zhang",
+    "Xiao Yang",
+    "Hang Su",
+    "Jun Zhu"
+  ],
+  "abstract": "We study the problem of unsupervised discovery and segmentation of object parts, which, as an intermediate local representation, are capable of finding intrinsic object structure and providing more explainable recognition results. Recent unsupervised methods have greatly relaxed the dependency on annotated data which are costly to obtain, but still rely on additional information such as object segmentation masks or saliency map. To remove such a dependency and further improve the part segmentation performance, we develop a novel approach by disentangling the appearance and shape representations of object parts followed with reconstruction losses without using additional object mask information. To avoid degenerated solutions, a bottleneck block is designed to squeeze and expand the appearance representation, leading to a more effective disentanglement between geometry and appearance. Combined with a self-supervised part classification loss and an improved geometry concentration constraint, we can segment more consistent parts with semantic meanings. Comprehensive experiments on a wide variety of objects such as face, bird, and PASCAL VOC objects demonstrate the effectiveness of the proposed method.",
+  "s2id": "7a94617dac91e51464ffa158e2f83c06b8b67eb0",
+  "twitter": {
+    "retweets": 2,
+    "likes": 5,
+    "replies": 0
+  },
+  "citations": 0
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2010.04647",
+  "title": "Learning Invariant Representations and Risks for Semi-Supervised Domain Adaptation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Learning_Invariant_Representations_and_Risks_for_Semi-Supervised_Domain_Adaptation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Bo Li",
+    "Yezhen Wang",
+    "Shanghang Zhang",
+    "Dongsheng Li",
+    "Kurt Keutzer",
+    "Trevor Darrell",
+    "Han Zhao"
+  ],
+  "abstract": "The success of supervised learning crucially hinges on the assumption that training data matches test data, which rarely holds in practice due to potential distribution shift. In light of this, most existing methods for unsupervised domain adaptation focus on achieving domain-invariant representations and small source domain error. However, recent works have shown that this is not sufficient to guarantee good generalization on target domain and in fact is provably detrimental under label distribution shift. Furthermore, in many real-world applications it is often feasible to obtain a small amount of labeled data from the target domain and use them to facilitate model training with source data. Inspired by the above observations, in this paper we propose the first method that aims to simultaneously learn invariant representations and risks under the setting of semi-supervised domain adaptation (Semi-DA). To start with, we first give a finite sample bound for both classification and regression problems under Semi-DA. The bound suggests a principled way for target generalization by aligning both the marginal and conditional distributions across domains in feature space. Motivated by this, we then introduce our LIRR algorithm for jointly Learning Invariant Representations and Risks. Finally, we conduct extensive experiments on both classification and regression tasks to demonstrate the effectiveness of LIRR. Compared with methods that only learn invariant representations or invariant risks, LIRR achieves significant improvements.",
+  "s2id": "758fb62a9ce0cabfce71b0020a662522ca8ceabf",
+  "twitter": {
+    "retweets": 2,
+    "likes": 11,
+    "replies": 2
+  },
+  "citations": 3
+}

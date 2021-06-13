@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05347",
+  "title": "Understanding the Robustness of Skeleton-Based Action Recognition Under Adversarial Attack",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Understanding_the_Robustness_of_Skeleton-Based_Action_Recognition_Under_Adversarial_Attack_CVPR_2021_paper.pdf",
+  "authors": [
+    "He Wang",
+    "Feixiang He",
+    "Zhexi Peng",
+    "Tianjia Shao",
+    "Yong-Liang Yang",
+    "Kun Zhou",
+    "David Hogg"
+  ],
+  "abstract": "Action recognition has been heavily employed in many applications such as autonomous vehicles, surveillance, etc, where its robustness is a primary concern. In this paper, we examine the robustness of state-of-the-art action recognizers against adversarial attack, which has been rarely investigated so far. To this end, we propose a new method to attack action recognizers which rely on the 3D skeletal motion. Our method involves an innovative perceptual loss which ensures the imperceptibility of the attack. Empirical studies demonstrate that our method is effective in both white-box and black-box scenarios. Its generalizability is evidenced on a variety of action recognizers and datasets. Its versatility is shown in different attacking strategies. Its deceitfulness is proven in extensive perceptual studies. Our method shows that adversarial attack on 3D skeletal motions, one type of time-series data, is significantly different from traditional adversarial attack problems. Its success raises serious concern on the robustness of action recognizers and provides insights on potential improvements.",
+  "s2id": "17dfc825e69ca6dc6d5845b54070681981405c8a",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 2
+  },
+  "citations": 1
+}

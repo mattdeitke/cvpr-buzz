@@ -1,0 +1,16 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.06689",
+  "title": "Learning Normal Dynamics in Videos With Meta Prototype Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Learning_Normal_Dynamics_in_Videos_With_Meta_Prototype_Network_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hui Lv",
+    "Chen Chen",
+    "Zhen Cui",
+    "Chunyan Xu",
+    "Yong Li",
+    "Jian Yang"
+  ],
+  "abstract": "Frame reconstruction (current or future frames) based on Auto-Encoder (AE) is a popular method for video anomaly detection. With models trained on the normal data, the reconstruction errors of anomalous scenes are usually much larger than those of normal ones. Previous methods introduced the memory bank into AE, for encoding diverse normal patterns across the training videos. However, they are memory-consuming and cannot cope with unseen new scenarios in the training data. In this work, we propose a dynamic prototype unit (DPU) to encode the normal dynamics as prototypes in real time, free from extra memory cost. In addition, we introduce meta-learning to our DPU to form a novel few-shot normalcy learner, namely Meta-Prototype Unit (MPU). It enables the fast adaption capability on new scenes by only consuming a few iterations of update. Extensive experiments are conducted on various benchmarks. The superior performance over the state-of-the-art demonstrates the effectiveness of our method.",
+  "s2id": "65b166c644478c83c745ce8befc084411048d424",
+  "citations": 0
+}

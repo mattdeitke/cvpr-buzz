@@ -1,0 +1,16 @@
+{
+  "arXiv": null,
+  "title": "Diverse Part Discovery: Occluded Person Re-Identification With Part-Aware Transformer",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Diverse_Part_Discovery_Occluded_Person_Re-Identification_With_Part-Aware_Transformer_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yulin Li",
+    "Jianfeng He",
+    "Tianzhu Zhang",
+    "Xiang Liu",
+    "Yongdong Zhang",
+    "Feng Wu"
+  ],
+  "abstract": "Occluded person re-identification (Re-ID) is a challenging task as persons are frequently occluded by various obstacles or other persons, especially in the crowd scenario. To address these issues, we propose a novel end-to-end Part-Aware Transformer (PAT) for occluded person Re-ID through diverse part discovery via a transformer encoder-decoder architecture, including a pixel context based transformer encoder and a part prototype based transformer decoder. The proposed PAT model enjoys several merits. First, to the best of our knowledge, this is the first work to exploit the transformer encoder-decoder architecture for occluded person Re-ID in a unified deep model. Second, to learn part prototypes well with only identity labels, we design two effective mechanisms including part diversity and part discriminability. Consequently, we can achieve diverse part discovery for occluded person Re-ID in a weakly supervised manner. Extensive experimental results on six challenging benchmarks for three tasks (occluded, partial and holistic Re-ID) demonstrate that our proposed PAT performs favorably against stat-of-the-art methods.",
+  "s2id": "2236197ab23e5a9a4de37b76b82d61068843b83b",
+  "citations": 0
+}

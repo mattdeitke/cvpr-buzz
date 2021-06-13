@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.07017",
+  "title": "CRFace: Confidence Ranker for Model-Agnostic Face Detection Refinement",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Vesdapunt_CRFace_Confidence_Ranker_for_Model-Agnostic_Face_Detection_Refinement_CVPR_2021_paper.pdf",
+  "authors": [
+    "Noranart Vesdapunt",
+    "Baoyuan Wang"
+  ],
+  "abstract": "Face detection is a fundamental problem for many downstream face applications, and there is a rising demand for faster, more accurate yet support for higher resolution face detectors. Recent smartphones can record a video in 8K resolution, but many of the existing face detectors still fail due to the anchor size and training data. We analyze the failure cases and observe a large number of correct predicted boxes with incorrect confidences. To calibrate these confidences, we propose a confidence ranking network with a pairwise ranking loss to re-rank the predicted confidences locally within the same image. Our confidence ranker is model-agnostic, so we can augment the data by choosing the pairs from multiple face detectors during the training, and generalize to a wide range of face detectors during the testing. On WiderFace, we achieve the highest AP on the single-scale, and our AP is competitive with the previous multi-scale methods while being significantly faster. On 8K resolution, our method solves the GPU memory issue and allows us to indirectly train on 8K. We collect 8K resolution test set to show the improvement, and we will release our test set as a new benchmark for future research.",
+  "s2id": "a461fbe220a95036ff60fb6057c248ec80c21e92",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

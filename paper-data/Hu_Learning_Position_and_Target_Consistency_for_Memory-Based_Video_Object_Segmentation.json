@@ -1,0 +1,16 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.04329",
+  "title": "Learning Position and Target Consistency for Memory-Based Video Object Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Li Hu",
+    "Peng Zhang",
+    "Bang Zhang",
+    "Pan Pan",
+    "Yinghui Xu",
+    "Rong Jin"
+  ],
+  "abstract": "This paper studies the problem of semi-supervised video object segmentation(VOS). Multiple works have shown that memory-based approaches can be effective for video object segmentation. They are mostly based on pixel-level matching, both spatially and temporally. The main shortcoming of memory-based approaches is that they do not take into account the sequential order among frames and do not exploit object-level knowledge from the target. To address this limitation, we propose to learn position and target consistency framework for memory-based video object segmentation, termed as LCM. It applies the memory mechanism to retrieve pixels globally, and meanwhile learns position consistency for more reliable segmentation. The learned location response promotes a better discrimination between target and distractors. Besides, LCM introduces an object-level relationship from the target to maintain target consistency, making LCM more robust to error drifting. Experiments show that our LCM achieves state-of-the-art performance on both DAVIS and Youtube-VOS benchmark. And we rank the 1st in the DAVIS 2020 challenge semi-supervised VOS task.",
+  "s2id": "b7fedec1bd1ca479fda8314a107cac10c89ad7e3",
+  "citations": 1
+}

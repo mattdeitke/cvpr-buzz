@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.01203",
+  "title": "Learning Delaunay Surface Elements for Mesh Reconstruction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Rakotosaona_Learning_Delaunay_Surface_Elements_for_Mesh_Reconstruction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Marie-Julie Rakotosaona",
+    "Paul Guerrero",
+    "Noam Aigerman",
+    "Niloy J. Mitra",
+    "Maks Ovsjanikov"
+  ],
+  "abstract": "We present a method for reconstructing triangle meshes from point clouds. Existing learning-based methods for mesh reconstruction mostly generate triangles individually, making it hard to create manifold meshes. We leverage the properties of 2D Delaunay triangulations to construct a mesh from manifold surface elements. Our method first estimates local geodesic neighborhoods around each point. We then perform a 2D projection of these neighborhoods using a learned logarithmic map. A Delaunay triangulation in this 2D domain is guaranteed to produce a manifold patch, which we call a surface element. We synchronize the local 2D projections of neighboring elements to maximize the manifoldness of the reconstructed mesh. Our results show that we achieve better overall manifoldness of our reconstructed meshes than current methods to reconstruct meshes with arbitrary topology. Our code, data and pretrained models can be found online: https://github.com/mrakotosaon/dse-meshing",
+  "s2id": "ae746050aa6c36eae7f26243c617d70bd4b45d93",
+  "twitter": {
+    "retweets": 2,
+    "likes": 40,
+    "replies": 0
+  },
+  "citations": 0
+}

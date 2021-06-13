@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.04362",
+  "title": "Protecting Intellectual Property of Generative Adversarial Networks From Ambiguity Attacks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ong_Protecting_Intellectual_Property_of_Generative_Adversarial_Networks_From_Ambiguity_Attacks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ding Sheng Ong",
+    "Chee Seng Chan",
+    "Kam Woh Ng",
+    "Lixin Fan",
+    "Qiang Yang"
+  ],
+  "abstract": "Ever since Machine Learning as a Service emerges as a viable business that utilizes deep learning models to generate lucrative revenue, Intellectual Property Right (IPR) has become a major concern because these deep learning models can easily be replicated, shared, and re-distributed by any unauthorized third parties. To the best of our knowledge, one of the prominent deep learning models - Generative Adversarial Networks (GANs) which has been widely used to create photorealistic image are totally unprotected despite the existence of pioneering IPR protection methodology for Convolutional Neural Networks (CNNs). This paper therefore presents a complete protection framework in both black-box and white-box settings to enforce IPR protection on GANs. Empirically, we show that the proposed method does not compromise the original GANs performance (i.e. image generation, image super-resolution, style transfer), and at the same time, it is able to withstand both removal and ambiguity attacks against embedded watermarks.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  }
+}

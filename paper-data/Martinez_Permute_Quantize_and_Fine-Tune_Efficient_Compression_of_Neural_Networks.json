@@ -1,0 +1,21 @@
+{
+  "arXiv": null,
+  "title": "Permute, Quantize, and Fine-Tune: Efficient Compression of Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Martinez_Permute_Quantize_and_Fine-Tune_Efficient_Compression_of_Neural_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Julieta Martinez",
+    "Jashan Shewakramani",
+    "Ting Wei Liu",
+    "Ioan Andrei Barsan",
+    "Wenyuan Zeng",
+    "Raquel Urtasun"
+  ],
+  "abstract": "Compressing large neural networks is an important step for their deployment in resource-constrained computational platforms. In this context, vector quantization is an appealing framework that expresses multiple parameters using a single code, and has recently achieved state-of-the-art network compression on a range of core vision and natural language processing tasks. Key to the success of vector quantization is deciding which parameter groups should be compressed together. Previous work has relied on heuristics that group the spatial dimension of individual convolutional filters, but a general solution remains unaddressed. This is desirable for pointwise convolutions (which dominate modern architectures), linear layers (which have no notion of spatial dimension), and convolutions (when more than one filter is compressed to the same codeword). In this paper we make the observation that the weights of two adjacent layers can be permuted while expressing the same function. We then establish a connection to rate-distortion theory and search for permutations that result in networks that are easier to compress. Finally, we rely on an annealed quantization algorithm to better compress the network and achieve higher final accuracy. We show results on image classification, object detection, and segmentation, reducing the gap with the uncompressed model by 40 to 70% w.r.t. the current state of the art. We will release code to reproduce all our experiments.",
+  "s2id": "401585e0c8d512cad4866cec60a4f9bc9b5cbfb8",
+  "twitter": {
+    "retweets": 34,
+    "likes": 112,
+    "replies": 1
+  },
+  "citations": 0
+}

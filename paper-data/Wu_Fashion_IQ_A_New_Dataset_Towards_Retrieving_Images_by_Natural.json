@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/1905.12794",
+  "title": "Fashion IQ: A New Dataset Towards Retrieving Images by Natural Language Feedback",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_Fashion_IQ_A_New_Dataset_Towards_Retrieving_Images_by_Natural_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hui Wu",
+    "Yupeng Gao",
+    "Xiaoxiao Guo",
+    "Ziad Al-Halah",
+    "Steven Rennie",
+    "Kristen Grauman",
+    "Rogerio Feris"
+  ],
+  "abstract": "Conversational interfaces for the detail-oriented retail fashion domain are more natural, expressive, and user friendly than classical keyword-based search interfaces. In this paper, we introduce the Fashion IQ dataset to support and advance research on interactive fashion image retrieval. Fashion IQ is the first fashion dataset to provide human-generated captions that distinguish similar pairs of garment images together with side-information consisting of real-world product descriptions and derived visual attribute labels for these images. We provide a detailed analysis of the characteristics of the Fashion IQ data, and present a transformer-based user simulator and interactive image retriever that can seamlessly integrate visual attributes with image features, user feedback, and dialog history, leading to improved performance over the state of the art in dialog-based image retrieval. We believe that our dataset will encourage further work on developing more natural and real-world applicable conversational shopping assistants.",
+  "s2id": "d98b074b37b2ce6551af320c36d506462640d977",
+  "twitter": {
+    "retweets": 16,
+    "likes": 47,
+    "replies": 3
+  },
+  "citations": 8
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.14143",
+  "title": "i3DMM: Deep Implicit 3D Morphable Model of Human Heads",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yenamandra_i3DMM_Deep_Implicit_3D_Morphable_Model_of_Human_Heads_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tarun Yenamandra",
+    "Ayush Tewari",
+    "Florian Bernard",
+    "Hans-Peter Seidel",
+    "Mohamed Elgharib",
+    "Daniel Cremers",
+    "Christian Theobalt"
+  ],
+  "abstract": "We present the first deep implicit 3D morphable model (i3DMM) of full heads. Unlike earlier morphable face models it not only captures identity-specific geometry, texture, and expressions of the frontal face, but also models the entire head, including hair. We collect a new dataset consisting of 64 people with different expressions and hairstyles to train i3DMM. Our approach has the following favorable properties: (i) It is the first full head morphable model that includes hair. (ii) In contrast to mesh-based models it can be trained on merely rigidly aligned scans, without requiring difficult non-rigid registration. (iii) We design a novel architecture to decouple the shape model into an implicit reference shape and a deformation of this reference shape. With that, dense correspondences between shapes can be learned implicitly. (iv) This architecture allows us to semantically disentangle the geometry and color components, as color is learned in the reference space. Geometry is further disentangled as identity, expressions, and hairstyle, while color is disentangled as identity and hairstyle components. We show the merits of i3DMM using ablation studies, comparisons to state-of-the-art models, and applications such as semantic head editing and texture transfer. We will make our model publicly available.",
+  "s2id": "069acdd03090c794c0867a76e286ede90f6b9e30",
+  "twitter": {
+    "retweets": 5,
+    "likes": 58,
+    "replies": 2
+  },
+  "citations": 1
+}

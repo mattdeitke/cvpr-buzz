@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "Layer-Wise Searching for 1-Bit Detectors",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_Layer-Wise_Searching_for_1-Bit_Detectors_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sheng Xu",
+    "Junhe Zhao",
+    "Jinhu Lu",
+    "Baochang Zhang",
+    "Shumin Han",
+    "David Doermann"
+  ],
+  "abstract": "1-bit detectors show great promise for resource-constrained embedded devices but often suffer from a significant performance gap compared with their real-valued counterparts. The primary reason lies in the layer-wise error during binarization. This paper presents a layer-wise search (LWS) strategy to generate 1-bit detectors that maintain a performance very close to the original real-valued model. The approach introduces angular and amplitude angular error loss functions to increase detector capacity. At each layer, it exploits a differentiable binarization search (DBS) to minimize the angular error in a student-teacher framework. It then fine-tunes the scale parameter of that layer to reduce the amplitude error. Extensive experiments show that LWS-Det outperforms state-of-the-art 1-bit detectors by a considerable margin on the PASCAL VOC and COCO datasets. For example, the LWS-Det achieves 1-bit Faster-RCNN with ResNet-34 backbone within 2.0% mAP of its real-valued counterpart on the PASCAL VOC dataset.",
+  "s2id": ""
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.12799",
+  "title": "StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_StyleSpace_Analysis_Disentangled_Controls_for_StyleGAN_Image_Generation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zongze Wu",
+    "Dani Lischinski",
+    "Eli Shechtman"
+  ],
+  "abstract": "We explore and analyze the latent style space of StyleGAN2, a state-of-the-art architecture for image generation, using models pretrained on several different datasets. We first show that StyleSpace, the space of channel-wise style parameters, is significantly more disentangled than the other intermediate latent spaces explored by previous works. Next, we describe a method for discovering a large collection of style channels, each of which is shown to control a distinct visual attribute in a highly localized and disentangled manner. Third, we propose a simple method for identifying style channels that control a specific attribute, using a pretrained classifier or a small number of example images. Manipulation of visual attributes via these StyleSpace controls is shown to be better disentangled than via those proposed in previous works. To show this, we make use of a newly proposed Attribute Dependency metric. Finally, we demonstrate the applicability of StyleSpace controls to the manipulation of real images. Our findings pave the way to semantically meaningful and well-disentangled image manipulations via simple and intuitive interfaces.",
+  "s2id": "ecb34053270d0a1667f95dab682cce650871ab69",
+  "twitter": {
+    "retweets": 28,
+    "likes": 128,
+    "replies": 3
+  },
+  "citations": 14
+}

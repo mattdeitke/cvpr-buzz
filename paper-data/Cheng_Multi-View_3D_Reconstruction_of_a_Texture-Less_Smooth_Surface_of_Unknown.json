@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.11599",
+  "title": "Multi-View 3D Reconstruction of a Texture-Less Smooth Surface of Unknown Generic Reflectance",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_Multi-View_3D_Reconstruction_of_a_Texture-Less_Smooth_Surface_of_Unknown_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ziang Cheng",
+    "Hongdong Li",
+    "Yuta Asano",
+    "Yinqiang Zheng",
+    "Imari Sato"
+  ],
+  "abstract": "Recovering the 3D geometry of a purely texture-less object with generally unknown surface reflectance (e.g. nonLambertian) is regarded as a challenging task in multiview reconstruction. The major obstacle revolves around establishing cross-view correspondences where photometric constancy is violated. This paper proposes a simple and practical solution to overcome this challenge based on a co-located camera-light scanner device. Unlike existing solutions, we do not explicitly solve for correspondence. Instead, we argue the problem is generally well-posed by multi-view geometrical and photometric constraints, and can be solved from a small number of input views. We formulate the reconstruction task as a joint energy minimization over the surface geometry and reflectance. Despite this energy is highly non-convex, we develop an optimization algorithm that robustly recovers globally optimal shape and reflectance even from a random initialization. Extensive experiments on both simulated and real data have validated our method, and possible future extensions are discussed",
+  "s2id": "38c7534f5d1b3156f78a98235aa43a10144b7fe3",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 0
+}

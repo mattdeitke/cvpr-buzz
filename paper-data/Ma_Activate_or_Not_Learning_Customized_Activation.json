@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2009.04759",
+  "title": "Activate or Not: Learning Customized Activation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ma_Activate_or_Not_Learning_Customized_Activation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ningning Ma",
+    "Xiangyu Zhang",
+    "Ming Liu",
+    "Jian Sun"
+  ],
+  "abstract": "We present a simple, effective, and general activation function we term ACON which learns to activate the neurons or not. Interestingly, we find Swish, the recent popular NAS-searched activation, can be interpreted as a smooth approximation to ReLU. Intuitively, in the same way, we approximate the more general Maxout family to our novel ACON family, which remarkably improves the performance and makes Swish a special case of ACON. Next, we present meta-ACON, which explicitly learns to optimize the parameter switching between non-linear (activate) and linear (inactivate) and provides a new design space. By simply changing the activation function, we show its effectiveness on both small models and highly optimized large models (e.g. it improves the ImageNet top-1 accuracy rate by 6.7% and 1.8% on MobileNet-0.25 and ResNet-152, respectively). Moreover, our novel ACON can be naturally transferred to object detection and semantic segmentation, showing that ACON is an effective alternative in a variety of tasks. Code is available at https://github.com/nmaac/acon.",
+  "s2id": "4c3970d9eeb2687e0dce819bcf3f89ef41d7decd",
+  "twitter": {
+    "retweets": 15,
+    "likes": 79,
+    "replies": 2
+  },
+  "citations": 0
+}

@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.07177",
+  "title": "Simple Copy-Paste Is a Strong Data Augmentation Method for Instance Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ghiasi_Simple_Copy-Paste_Is_a_Strong_Data_Augmentation_Method_for_Instance_CVPR_2021_paper.pdf",
+  "authors": [
+    "Golnaz Ghiasi",
+    "Yin Cui",
+    "Aravind Srinivas",
+    "Rui Qian",
+    "Tsung-Yi Lin",
+    "Ekin D. Cubuk",
+    "Quoc V. Le",
+    "Barret Zoph"
+  ],
+  "abstract": "Building instance segmentation models that are data-efficient and can handle rare object categories is an important challenge in computer vision. Leveraging data augmentations is a promising direction towards addressing this challenge. Here, we perform a systematic study of the Copy-Paste augmentation (e.g., [13, 12]) for instance segmentation where we randomly paste objects onto an image. Prior studies on Copy-Paste relied on modeling the surrounding visual context for pasting the objects. However, we find that the simple mechanism of pasting objects randomly is good enough and can provide solid gains on top of strong baselines. Furthermore, we show Copy-Paste is additive with semi-supervised methods that leverage extra data through pseudo labeling (eg. self-training). On COCO instance segmentation, we achieve 49.1 mask AP and 57.3 box AP, an improvement of +0.6 mask AP and +1.5 box AP over the previous state-of-the-art. We further demonstrate that Copy-Paste can lead to significant improvements on the LVIS benchmark. Our baseline model outperforms the LVIS 2020 Challenge winning entry by +3.6 mask AP on rare categories.",
+  "s2id": "f926c862a24b8576ac3c14fed2b87026801ba6b9",
+  "twitter": {
+    "retweets": 147,
+    "likes": 765,
+    "replies": 11
+  },
+  "citations": 20
+}

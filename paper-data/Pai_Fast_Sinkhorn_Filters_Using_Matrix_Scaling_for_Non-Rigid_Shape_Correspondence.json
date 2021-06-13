@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "Fast Sinkhorn Filters: Using Matrix Scaling for Non-Rigid Shape Correspondence With Functional Maps",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Pai_Fast_Sinkhorn_Filters_Using_Matrix_Scaling_for_Non-Rigid_Shape_Correspondence_CVPR_2021_paper.pdf",
+  "authors": [
+    "Gautam Pai",
+    "Jing Ren",
+    "Simone Melzi",
+    "Peter Wonka",
+    "Maks Ovsjanikov"
+  ],
+  "abstract": "In this paper, we provide a theoretical foundation for pointwise map recovery from functional maps and highlight its relation to a range of shape correspondence methods based on spectral alignment. With this analysis in hand, we develop a novel spectral registration technique: Fast Sinkhorn Filters, which allows for the recovery of accurate and bijective pointwise correspondences with a superior time and memory complexity in comparison to existing approaches. Our method combines the simple and concise representation of correspondence using functional maps with the matrix scaling schemes from computational optimal transport. By exploiting the sparse structure of the kernel matrices involved in the transport map computation, we provide an efficient trade-off between acceptable accuracy and complexity for the problem of dense shape correspondence.",
+  "s2id": "6051a8a0f121820801b2f27d86de4c4fbaf2bf91",
+  "citations": 0
+}

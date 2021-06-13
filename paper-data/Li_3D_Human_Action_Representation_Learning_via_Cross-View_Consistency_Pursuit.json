@@ -1,0 +1,16 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.14466",
+  "title": "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_3D_Human_Action_Representation_Learning_via_Cross-View_Consistency_Pursuit_CVPR_2021_paper.pdf",
+  "authors": [
+    "Linguo Li",
+    "Minsi Wang",
+    "Bingbing Ni",
+    "Hang Wang",
+    "Jiancheng Yang",
+    "Wenjun Zhang"
+  ],
+  "abstract": "In this work, we propose a Cross-view Contrastive Learning framework for unsupervised 3D skeleton-based action representation (CrosSCLR), by leveraging multi-view complementary supervision signal. CrosSCLR consists of both single-view contrastive learning (SkeletonCLR) and cross-view consistent knowledge mining (CVC-KM) modules, integrated in a collaborative learning manner. It is noted that CVC-KM works in such a way that high-confidence positive/negative samples and their distributions are exchanged among views according to their embedding similarity, ensuring cross-view consistency in terms of contrastive context, i.e., similar distributions. Extensive experiments show that CrosSCLR achieves remarkable action recognition results on NTU-60 and NTU-120 datasets under unsupervised settings, with observed higher-quality action representations. Our code is available at https://github.com/LinguoLi/CrosSCLR.",
+  "s2id": "3d3fc7d86c09fd2c2806603d8d553cb7761b7811",
+  "citations": 0
+}

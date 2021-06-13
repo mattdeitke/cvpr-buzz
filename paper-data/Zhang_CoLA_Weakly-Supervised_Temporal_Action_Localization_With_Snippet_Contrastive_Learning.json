@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16392",
+  "title": "CoLA: Weakly-Supervised Temporal Action Localization With Snippet Contrastive Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_CoLA_Weakly-Supervised_Temporal_Action_Localization_With_Snippet_Contrastive_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Can Zhang",
+    "Meng Cao",
+    "Dongming Yang",
+    "Jie Chen",
+    "Yuexian Zou"
+  ],
+  "abstract": "Weakly-supervised temporal action localization (WS-TAL) aims to localize actions in untrimmed videos with only video-level labels. Most existing models follow the \"localization by classification\" procedure: locate temporal regions contributing most to the video-level classification. Generally, they process each snippet (or frame) individually and thus overlook the fruitful temporal context relation. Here arises the single snippet cheating issue: \"hard\" snippets are too vague to be classified. In this paper, we argue that learning by comparing helps identify these hard snippets and we propose to utilize snippet Contrastive learning to Localize Actions, CoLA for short. Specifically, we propose a Snippet Contrast (SniCo) Loss to refine the hard snippet representation in feature space, which guides the network to perceive precise temporal boundaries and avoid the temporal interval interruption. Besides, since it is infeasible to access frame-level annotations, we introduce a Hard Snippet Mining algorithm to locate the potential hard snippets. Substantial analyses verify that this mining strategy efficaciously captures the hard snippets and SniCo Loss leads to more informative feature representation. Extensive experiments show that CoLA achieves state-of-the-art results on THUMOS'14 and ActivityNet v1.2 datasets.",
+  "s2id": "b757413004eccc546920871798df01f5d1301a3e",
+  "twitter": {
+    "retweets": 2,
+    "likes": 5,
+    "replies": 0
+  },
+  "citations": 2
+}

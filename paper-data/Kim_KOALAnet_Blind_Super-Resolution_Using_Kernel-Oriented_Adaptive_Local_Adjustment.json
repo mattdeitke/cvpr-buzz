@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.08103",
+  "title": "KOALAnet: Blind Super-Resolution Using Kernel-Oriented Adaptive Local Adjustment",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_KOALAnet_Blind_Super-Resolution_Using_Kernel-Oriented_Adaptive_Local_Adjustment_CVPR_2021_paper.pdf",
+  "authors": [
+    "Soo Ye Kim",
+    "Hyeonjun Sim",
+    "Munchurl Kim"
+  ],
+  "abstract": "Blind super-resolution (SR) methods aim to generate a high quality high resolution image from a low resolution image containing unknown degradations. However, natural images contain various types and amounts of blur: some may be due to the inherent degradation characteristics of the camera, but some may even be intentional, for aesthetic purposes (e.g. Bokeh effect). In the case of the latter, it becomes highly difficult for SR methods to disentangle the blur to remove, and that to leave as is. In this paper, we propose a novel blind SR framework based on kernel-oriented adaptive local adjustment (KOALA) of SR features, called KOALAnet, which jointly learns spatially-variant degradation and restoration kernels in order to adapt to the spatially-variant blur characteristics in real images. Our KOALAnet outperforms recent blind SR methods for synthesized LR images obtained with randomized degradations, and we further show that the proposed KOALAnet produces the most natural results for artistic photographs with intentional blur, which are not over-sharpened, by effectively handling images mixed with in-focus and out-of-focus areas.",
+  "s2id": "134661b95ce5b54b1a8586e00eaa11e83998857a",
+  "twitter": {
+    "retweets": 5,
+    "likes": 38,
+    "replies": 0
+  },
+  "citations": 0
+}

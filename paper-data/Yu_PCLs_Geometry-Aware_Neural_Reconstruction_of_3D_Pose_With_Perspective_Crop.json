@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.13607",
+  "title": "PCLs: Geometry-Aware Neural Reconstruction of 3D Pose With Perspective Crop Layers",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_PCLs_Geometry-Aware_Neural_Reconstruction_of_3D_Pose_With_Perspective_Crop_CVPR_2021_paper.pdf",
+  "authors": [
+    "Frank Yu",
+    "Mathieu Salzmann",
+    "Pascal Fua",
+    "Helge Rhodin"
+  ],
+  "abstract": "Local processing is an essential feature of CNNs and other neural network architectures -- it is one of the reasons why they work so well on images where relevant information is, to a large extent, local. However, perspective effects stemming from the projection in a conventional camera vary for different global positions in the image. We introduce Perspective Crop Layers (PCLs) -- a form of perspective crop of the region of interest based on the camera geometry -- and show that accounting for the perspective consistently improves the accuracy of state-of-the-art 3D pose reconstruction methods. PCLs are modular neural network layers, which, when inserted into existing CNN and MLP architectures, deterministically remove the location-dependent perspective effects while leaving end-to-end training and the number of parameters of the underlying neural network unchanged. We demonstrate that PCL leads to improved 3D human pose reconstruction accuracy for CNN architectures that use cropping operations, such as spatial transformer networks (STN), and, somewhat surprisingly, MLPs used for 2D-to-3D keypoint lifting. Our conclusion is that it is important to utilize camera calibration information when available, for classical and deep-learning-based computer vision alike. PCL offers an easy way to improve the accuracy of existing 3D reconstruction networks by making them geometry aware. Our code is publicly available at github.com/yu-frank/PerspectiveCropLayers.",
+  "s2id": "1cb411046e9b1844ab006600ac698e5711f3fbae",
+  "twitter": {
+    "retweets": 2,
+    "likes": 13,
+    "replies": 1
+  },
+  "citations": 1
+}

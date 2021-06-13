@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2010.13338",
+  "title": "EDNet: Efficient Disparity Estimation With Cost Volume Combination and Attention-Based Spatial Residual",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_EDNet_Efficient_Disparity_Estimation_With_Cost_Volume_Combination_and_Attention-Based_CVPR_2021_paper.pdf",
+  "authors": [
+    "Songyan Zhang",
+    "Zhicheng Wang",
+    "Qiang Wang",
+    "Jinshuo Zhang",
+    "Gang Wei",
+    "Xiaowen Chu"
+  ],
+  "abstract": "Existing state-of-the-art disparity estimation works mostly leverage the 4D concatenation volume and construct a very deep 3D convolution neural network (CNN) for disparity regression, which is inefficient due to the high memory consumption and slow inference speed. In this paper, we propose a network named EDNet for efficient disparity estimation. Firstly, we construct a combined volume which incorporates contextual information from the squeezed concatenation volume and feature similarity measurement from the correlation volume. The combined volume can be next aggregated by 2D convolutions which are faster and require less memory than 3D convolutions. Secondly, we propose an attention-based spatial residual module to generate attention-aware residual features. The attention mechanism is applied to provide intuitive spatial evidence about inaccurate regions with the help of error maps at multiple scales and thus improve the residual learning efficiency. Extensive experiments on the Scene Flow and KITTI datasets show that EDNet outperforms the previous 3D CNN based works and achieves state-of-the-art performance with significantly faster speed and less memory consumption.",
+  "s2id": "bdec22a60804b84a4240af3e4e56d61e636eec2a",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 1
+  },
+  "citations": 0
+}

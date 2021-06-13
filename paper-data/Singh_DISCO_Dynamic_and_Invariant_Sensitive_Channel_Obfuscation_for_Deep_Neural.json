@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.11025",
+  "title": "DISCO: Dynamic and Invariant Sensitive Channel Obfuscation for Deep Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Singh_DISCO_Dynamic_and_Invariant_Sensitive_Channel_Obfuscation_for_Deep_Neural_CVPR_2021_paper.pdf",
+  "authors": [
+    "Abhishek Singh",
+    "Ayush Chopra",
+    "Ethan Garza",
+    "Emily Zhang",
+    "Praneeth Vepakomma",
+    "Vivek Sharma",
+    "Ramesh Raskar"
+  ],
+  "abstract": "Recent deep learning models have shown remarkable performance in image classification. While these deep learning systems are getting closer to practical deployment, the common assumption made about data is that it does not carry any sensitive information. This assumption may not hold for many practical cases, especially in the domain where an individual's personal information is involved, like healthcare and facial recognition systems. We posit that selectively removing features in this latent space can protect the sensitive information and provide better privacy-utility trade-off. Consequently, we propose DISCO which learns a dynamic and data driven pruning filter to selectively obfuscate sensitive information in the feature space. We propose diverse attack schemes for sensitive inputs and attributes and demonstrate the effectiveness of DISCO against state-of-the-art methods through quantitative and qualitative evaluation. Finally, we also release an evaluation benchmark dataset of 1 million sensitive representations to encourage rigorous exploration of novel attack and defense schemes at https://github.com/splitlearning/InferenceBenchmark",
+  "s2id": "3a507f5601535925ebe3ef46e9f75b3b7df43841",
+  "twitter": {
+    "retweets": 4,
+    "likes": 9,
+    "replies": 1
+  },
+  "citations": 0
+}

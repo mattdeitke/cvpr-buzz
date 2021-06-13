@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.10631",
+  "title": "MetricOpt: Learning To Optimize Black-Box Evaluation Metrics",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MetricOpt_Learning_To_Optimize_Black-Box_Evaluation_Metrics_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chen Huang",
+    "Shuangfei Zhai",
+    "Pengsheng Guo",
+    "Josh Susskind"
+  ],
+  "abstract": "We study the problem of directly optimizing arbitrary non-differentiable task evaluation metrics such as misclassification rate and recall. Our method, named MetricOpt, operates in a black-box setting where the computational details of the target metric are unknown. We achieve this by learning a differentiable value function, which maps compact task-specific model parameters to metric observations. The learned value function is easily pluggable into existing optimizers like SGD and Adam, and is effective for rapidly finetuning a pre-trained model. This leads to consistent improvements since the value function provides effective metric supervision during finetuning, and helps to correct the potential bias of loss-only supervision. MetricOpt achieves state-of-the-art performance on a variety of metrics for (image) classification, image retrieval and object detection. Solid benefits are found over competing methods, which often involve complex loss design or adaptation. MetricOpt also generalizes well to new tasks and model architectures.",
+  "s2id": "3e9fa14b16c3092718f3f9468553e106aa4ac818",
+  "twitter": {
+    "retweets": 5,
+    "likes": 18,
+    "replies": 0
+  },
+  "citations": 0
+}

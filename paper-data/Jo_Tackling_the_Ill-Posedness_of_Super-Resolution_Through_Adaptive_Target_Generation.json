@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "Tackling the Ill-Posedness of Super-Resolution Through Adaptive Target Generation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jo_Tackling_the_Ill-Posedness_of_Super-Resolution_Through_Adaptive_Target_Generation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Younghyun Jo",
+    "Seoung Wug Oh",
+    "Peter Vajda",
+    "Seon Joo Kim"
+  ],
+  "abstract": "By the one-to-many nature of the super-resolution (SR) problem, a single low-resolution (LR) image can be mapped to many high-resolution (HR) images. However, learning based SR algorithms are trained to map an LR image to the corresponding ground truth (GT) HR image in the training dataset. The training loss will increase and penalize the algorithm when the output does not exactly match the GT target, even when the outputs are mathematically valid candidates according to the SR framework. This becomes more problematic for the blind SR, as diverse unknown blur kernels exacerbate the ill-posedness of the problem. To this end, we propose a fundamentally different approach for the SR by introducing the concept of the adaptive target. The adaptive target is generated from the original GT target by a transformation to match the output of the SR network. The adaptive target provides an effective way for the SR algorithm to deal with the ill-posed nature of the SR, by providing the algorithm with the flexibility of accepting a variety of valid solutions. Experimental results show the effectiveness of our algorithm, especially for improving the perceptual quality of HR outputs.",
+  "s2id": ""
+}

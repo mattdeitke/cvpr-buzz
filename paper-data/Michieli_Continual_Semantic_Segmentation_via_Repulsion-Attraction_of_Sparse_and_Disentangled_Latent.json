@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06342",
+  "title": "Continual Semantic Segmentation via Repulsion-Attraction of Sparse and Disentangled Latent Representations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Michieli_Continual_Semantic_Segmentation_via_Repulsion-Attraction_of_Sparse_and_Disentangled_Latent_CVPR_2021_paper.pdf",
+  "authors": [
+    "Umberto Michieli",
+    "Pietro Zanuttigh"
+  ],
+  "abstract": "Deep neural networks suffer from the major limitation of catastrophic forgetting old tasks when learning new ones. In this paper we focus on class incremental continual learning in semantic segmentation, where new categories are made available over time while previous training data is not retained. The proposed continual learning scheme shapes the latent space to reduce forgetting whilst improving the recognition of novel classes. Our framework is driven by three novel components which we also combine on top of existing techniques effortlessly. First, prototypes matching enforces latent space consistency on old classes, constraining the encoder to produce similar latent representation for previously seen classes in the subsequent steps. Second, features sparsification allows to make room in the latent space to accommodate novel classes. Finally, contrastive learning is employed to cluster features according to their semantics while tearing apart those of different classes. Extensive evaluation on the Pascal VOC2012 and ADE20K datasets demonstrates the effectiveness of our approach, significantly outperforming state-of-the-art methods.",
+  "s2id": "5e8ee3ebb6ea95915edfff0048113a2b470839dd",
+  "twitter": {
+    "retweets": 3,
+    "likes": 6,
+    "replies": 1
+  },
+  "citations": 3
+}

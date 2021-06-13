@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.12955",
+  "title": "Learning Scene Structure Guidance via Cross-Task Knowledge Transfer for Single Depth Super-Resolution",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_Learning_Scene_Structure_Guidance_via_Cross-Task_Knowledge_Transfer_for_Single_CVPR_2021_paper.pdf",
+  "authors": [
+    "Baoli Sun",
+    "Xinchen Ye",
+    "Baopu Li",
+    "Haojie Li",
+    "Zhihui Wang",
+    "Rui Xu"
+  ],
+  "abstract": "Existing color-guided depth super-resolution (DSR) approaches require paired RGB-D data as training examples where the RGB image is used as structural guidance to recover the degraded depth map due to their geometrical similarity. However, the paired data may be limited or expensive to be collected in actual testing environment. Therefore, we explore for the first time to learn the cross-modal knowledge at training stage, where both RGB and depth modalities are available, but test on the target dataset, where only single depth modality exists. Our key idea is to distill the knowledge of scene structural guidance from color modality to the single DSR task without changing its network architecture. Specifically, we propose an auxiliary depth estimation (DE) task that takes color image as input to estimate a depth map, and train both DSR task and DE task collaboratively to boost the performance of DSR. A cross-task distillation module is designed to realize bilateral cross-task knowledge transfer. Moreover, to address the problem of RGB-D structure inconsistency and boost the structure perception, we advance a structure prediction (SP) task that provides extra structure regularization to help both DSR and DE networks learn more informative structure representations for depth recovery. Extensive experiments demonstrate that our scheme achieves superior performance in comparison with other DSR methods.",
+  "s2id": "c8a7014ab5013fe697592f78d9701d271874ae99",
+  "twitter": {
+    "retweets": 1,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

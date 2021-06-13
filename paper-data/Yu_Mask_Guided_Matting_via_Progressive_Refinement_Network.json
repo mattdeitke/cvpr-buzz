@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.06722",
+  "title": "Mask Guided Matting via Progressive Refinement Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Mask_Guided_Matting_via_Progressive_Refinement_Network_CVPR_2021_paper.pdf",
+  "authors": [
+    "Qihang Yu",
+    "Jianming Zhang",
+    "He Zhang",
+    "Yilin Wang",
+    "Zhe Lin",
+    "Ning Xu",
+    "Yutong Bai",
+    "Alan Yuille"
+  ],
+  "abstract": "We propose Mask Guided (MG) Matting, a robust matting framework that takes a general coarse mask as guidance. MG Matting leverages a network (PRN) design which encourages the matting model to provide self-guidance to progressively refine the uncertain regions through the decoding process. A series of guidance mask perturbation operations are also introduced in the training to further enhance its robustness to external guidance. We show that PRN can generalize to unseen types of guidance masks such as trimap and low-quality alpha matte, making it suitable for various application pipelines. In addition, we revisit the foreground color prediction problem for matting and propose a surprisingly simple improvement to address the dataset issue. Evaluation on real and synthetic benchmarks shows that MG Matting achieves state-of-the-art performance using various types of guidance inputs. Code and models are available at https://github.com/yucornetto/MGMatting.",
+  "s2id": "2dd4b5e8633a5587ce2ebf73284134f21d1bc6a9",
+  "twitter": {
+    "retweets": 8,
+    "likes": 53,
+    "replies": 0
+  },
+  "citations": 0
+}

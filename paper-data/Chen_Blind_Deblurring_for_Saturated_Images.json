@@ -1,0 +1,14 @@
+{
+  "arXiv": null,
+  "title": "Blind Deblurring for Saturated Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Blind_Deblurring_for_Saturated_Images_CVPR_2021_paper.pdf",
+  "authors": [
+    "Liang Chen",
+    "Jiawei Zhang",
+    "Songnan Lin",
+    "Faming Fang",
+    "Jimmy S. Ren"
+  ],
+  "abstract": "Blind deblurring has received considerable attention in recent years. However, state-of-the-art methods often fail to process saturated blurry images. The main reason is that saturated pixels are not conforming to the commonly used linear blur model. Pioneer arts suggest excluding saturated pixels during the deblurring process, which sacrifices the informative edges from saturated regions and results in insufficient information for kernel estimation when large saturated regions exist. To address this problem, we introduce a new blur model to fit both saturated and unsaturated pixels, and all informative pixels can be considered during deblurring process. Based on our model, we develop an effective maximum a posterior (MAP)-based optimization framework. Quantitative and qualitative evaluations on benchmark datasets and challenging real-world examples show that the proposed method performs favorably against existing methods.",
+  "s2id": ""
+}

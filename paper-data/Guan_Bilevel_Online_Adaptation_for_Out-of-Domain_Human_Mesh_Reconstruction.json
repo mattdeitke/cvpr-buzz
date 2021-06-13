@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16449",
+  "title": "Bilevel Online Adaptation for Out-of-Domain Human Mesh Reconstruction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Guan_Bilevel_Online_Adaptation_for_Out-of-Domain_Human_Mesh_Reconstruction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shanyan Guan",
+    "Jingwei Xu",
+    "Yunbo Wang",
+    "Bingbing Ni",
+    "Xiaokang Yang"
+  ],
+  "abstract": "This paper considers a new problem of adapting a pre-trained model of human mesh reconstruction to out-of-domain streaming videos. However, most previous methods based on the parametric SMPL model underperform in new domains with unexpected, domain-specific attributes, such as camera parameters, lengths of bones, backgrounds, and occlusions. Our general idea is to dynamically fine-tune the source model on test video streams with additional temporal constraints, such that it can mitigate the domain gaps without over-fitting the 2D information of individual test frames. A subsequent challenge is how to avoid conflicts between the 2D and temporal constraints. We propose to tackle this problem using a new training algorithm named Bilevel Online Adaptation (BOA), which divides the optimization process of overall multi-objective into two steps of weight probe and weight update in a training iteration. We demonstrate that BOA leads to state-of-the-art results on two human mesh reconstruction benchmarks.",
+  "s2id": "a9471043cef09ad7dc5b6605d8ce1f4b8f40183c",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

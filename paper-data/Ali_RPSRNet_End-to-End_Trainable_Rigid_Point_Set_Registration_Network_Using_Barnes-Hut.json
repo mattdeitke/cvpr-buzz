@@ -1,0 +1,14 @@
+{
+  "arXiv": null,
+  "title": "RPSRNet: End-to-End Trainable Rigid Point Set Registration Network Using Barnes-Hut 2D-Tree Representation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ali_RPSRNet_End-to-End_Trainable_Rigid_Point_Set_Registration_Network_Using_Barnes-Hut_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sk Aziz Ali",
+    "Kerem Kahraman",
+    "Gerd Reis",
+    "Didier Stricker"
+  ],
+  "abstract": "We propose RPSRNet - a novel end-to-end trainable deep neural network for rigid point set registration. For this task, we use a novel 2^D-tree representation for the input point sets and a hierarchical deep feature embedding in the neural network. An iterative transformation refinement module in our network boosts the feature matching accuracy in the intermediate stages. We achieve an inference speed of  12-15ms to register a pair of input point clouds as large as  250K. Extensive evaluation on (i) KITTI LiDAR odometry and (ii) ModelNet-40 datasets shows that our method outperforms prior state-of-the-art methods -- e.g., on the KITTI data set, DCP-v2 by1.3 and 1.5 times, and PointNetLK by 1.8 and 1.9 times better rotational and translational accuracy respectively. Evaluation on ModelNet40 shows that RPSRNet is more robust than other benchmark methods when the samples contain a significant amount of noise and other disturbances. RPSRNet accurately registers point clouds with non-uniform sampling densities, e.g., LiDAR data, which cannot be processed by many existing deep-learning-based registration methods.",
+  "s2id": "0ecf0ab58d8e653eb07662a1d31c665ec7ea3bbd",
+  "citations": 0
+}

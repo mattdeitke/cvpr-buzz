@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.09606",
+  "title": "Enhance Curvature Information by Structured Stochastic Quasi-Newton Methods",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Enhance_Curvature_Information_by_Structured_Stochastic_Quasi-Newton_Methods_CVPR_2021_paper.pdf",
+  "authors": [
+    "Minghan Yang",
+    "Dong Xu",
+    "Hongyu Chen",
+    "Zaiwen Wen",
+    "Mengyun Chen"
+  ],
+  "abstract": "In this paper, we consider stochastic second-order methods for minimizing a finite summation of nonconvex functions. One important key is to find an ingenious but cheap scheme to incorporate local curvature information. Since the true Hessian matrix is often a combination of a cheap part and an expensive part, we propose a structured stochastic quasi-Newton method by using partial Hessian information as much as possible. By further exploiting either the low-rank structure or the Kronecker-product properties of the quasi-Newton approximations, the computation of the quasi-Newton direction is affordable. Global convergence to stationary point and local superlinear convergence rate are established under some mild assumptions. Numerical results on logistic regression, deep autoencoder networks and deep convolutional neural networks show that our proposed method is quite competitive to the state-of-the-art methods.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  }
+}

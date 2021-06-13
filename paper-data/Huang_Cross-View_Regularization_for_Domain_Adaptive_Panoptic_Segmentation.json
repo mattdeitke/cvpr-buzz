@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.02584",
+  "title": "Cross-View Regularization for Domain Adaptive Panoptic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Cross-View_Regularization_for_Domain_Adaptive_Panoptic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jiaxing Huang",
+    "Dayan Guan",
+    "Aoran Xiao",
+    "Shijian Lu"
+  ],
+  "abstract": "Panoptic segmentation unifies semantic segmentation and instance segmentation which has been attracting increasing attention in recent years. On the other hand, most existing research was conducted under a supervised learning setup whereas domain adaptive panoptic segmentation which is critical in different tasks and applications is largely neglected. We design a domain adaptive panoptic segmentation network that exploits inter-style consistency and inter-task regularization for optimal domain adaptive panoptic segmentation. The inter-style consistency leverages geometric invariance across the same image of the different styles which ` fabricates' certain self-supervisions to guide the network to learn domain-invariant features. The inter-task regularization exploits the complementary nature of instance segmentation and semantic segmentation and uses it as a constraint for better feature alignment across domains. Extensive experiments over multiple domain adaptive panoptic segmentation tasks (e.g. synthetic-to-real and real-to-real) show that our proposed network achieves superior segmentation performance as compared with the state-of-the-art.",
+  "s2id": "e88d3e5e2ea364322581ed341a6c4941f05e213f",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 6
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01537",
+  "title": "Few-Shot Open-Set Recognition by Transformation Consistency",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jeong_Few-Shot_Open-Set_Recognition_by_Transformation_Consistency_CVPR_2021_paper.pdf",
+  "authors": [
+    "Minki Jeong",
+    "Seokeon Choi",
+    "Changick Kim"
+  ],
+  "abstract": "In this paper, we attack a few-shot open-set recognition (FSOSR) problem, which is a combination of few-shot learning (FSL) and open-set recognition (OSR). It aims to quickly adapt a model to a given small set of labeled samples while rejecting unseen class samples. Since OSR requires rich data and FSL considers closed-set classification, existing OSR and FSL methods show poor performances in solving FSOSR problems. The previous FSOSR method utilizes pseudo-unseen class samples, which are collected from the other dataset or synthesized samples to model unseen class representations. However, this approach is heavily dependent on the composition of the pseudo samples. In this paper, we propose a novel unknown class sample detector, named SnaTCHer, that does not require pseudo-unseen samples. Based on the transformation consistency, our method measures the difference between the transformed prototypes and a modified prototype set. The modified set is composed by replacing a query feature and its predicted class prototype. SnaTCHer rejects samples with large differences to the transformed prototypes. Our method alters the unseen class distribution estimation problem to a relative feature transformation problem, independent of pseudo-unseen class samples. We investigate our SnaTCHer with various prototype transformation methods and observe that our method consistently improves unseen class sample detection performance without closed-set classification reduction.",
+  "s2id": "1865cbc2036f3b0bd1101cc91179c99299f67aed",
+  "twitter": {
+    "retweets": 0,
+    "likes": 3,
+    "replies": 0
+  },
+  "citations": 0
+}

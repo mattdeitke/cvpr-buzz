@@ -1,0 +1,17 @@
+{
+  "arXiv": null,
+  "title": "Few-Shot Object Detection via Classification Refinement and Distractor Retreatment",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Few-Shot_Object_Detection_via_Classification_Refinement_and_Distractor_Retreatment_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yiting Li",
+    "Haiyue Zhu",
+    "Yu Cheng",
+    "Wenxin Wang",
+    "Chek Sing Teo",
+    "Cheng Xiang",
+    "Prahlad Vadakkepat",
+    "Tong Heng Lee"
+  ],
+  "abstract": "We aim to tackle the challenging Few-Shot Object Detection (FSOD) where data-scarce categories are presented during the model learning. The failure modes of FSOD are investigated that the performance degradation is mainly due to the classification incapability (false positives), which motivates us to address it from a novel aspect of hard example mining. Specifically, to address the intrinsic architecture limitation of common detectors under low-data constraint, we introduce a novel few-shot classification refinement mechanism where a decoupled Few-Shot Classification Network (FSCN) is employed to improve the classification. Moreover, we specially probe a commonly-overlooked but destructive issue of FSOD, i.e., the presence of distractor samples due to the incomplete annotations where images from base set may contain novel-class objects but remain unlabelled. Retreatment solutions are developed to eliminate the incurred false positives. For FSCN training, the distractor is formulated as a semi-supervised problem, where a distractor utilization loss is proposed to make proper use of it for boosting the data-scarce classes; while a Self-Supervised Dataset Pruning (SSDP) technique is developed to facilitate the few-shot adaptation of base detector. Experiments demonstrate that our proposed framework achieves the state-of-the-art FSOD performance on public datasets, e.g., Pascal VOC and MS-COCO.",
+  "s2id": ""
+}

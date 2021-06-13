@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.03375",
+  "title": "Nutrition5k: Towards Automatic Nutritional Understanding of Generic Food",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Thames_Nutrition5k_Towards_Automatic_Nutritional_Understanding_of_Generic_Food_CVPR_2021_paper.pdf",
+  "authors": [
+    "Quin Thames",
+    "Arjun Karpur",
+    "Wade Norris",
+    "Fangting Xia",
+    "Liviu Panait",
+    "Tobias Weyand",
+    "Jack Sim"
+  ],
+  "abstract": "Understanding the nutritional content of food from visual data is a challenging computer vision problem, with the potential to have a positive and widespread impact on public health. Studies in this area are limited to existing datasets in the field that lack sufficient diversity or labels required for training models with nutritional understanding capability. We introduce Nutrition5k, a novel dataset of 5k diverse, real world food dishes with corresponding video streams, depth images, component weights, and high accuracy nutritional content annotation. We demonstrate the potential of this dataset by training a computer vision algorithm capable of predicting the caloric and macronutrient values of a complex, real world dish at an accuracy that outperforms professional nutritionists. Further we present a baseline for incorporating depth sensor data to improve nutrition predictions. We release Nutrition5k in the hope that it will accelerate innovation in the space of nutritional understanding. The dataset is available at https://github.com/google-research-datasets/Nutrition5k.",
+  "s2id": "3f48a3f1fc5a765cff3590f38d4abeb390d0b3ad",
+  "twitter": {
+    "retweets": 0,
+    "likes": 24,
+    "replies": 1
+  },
+  "citations": 2
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.09559",
+  "title": "CReST: A Class-Rebalancing Self-Training Framework for Imbalanced Semi-Supervised Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wei_CReST_A_Class-Rebalancing_Self-Training_Framework_for_Imbalanced_Semi-Supervised_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chen Wei",
+    "Kihyuk Sohn",
+    "Clayton Mellina",
+    "Alan Yuille",
+    "Fan Yang"
+  ],
+  "abstract": "Semi-supervised learning on class-imbalanced data, although a realistic problem, has been under studied. While existing semi-supervised learning (SSL) methods are known to perform poorly on minority classes, we find that they still generate high precision pseudo-labels on minority classes. By exploiting this property, in this work, we propose Class-Rebalancing Self-Training (CReST), a simple yet effective framework to improve existing SSL methods on class-imbalanced data. CReST iteratively retrains a baseline SSL model with a labeled set expanded by adding pseudo-labeled samples from an unlabeled set, where pseudo-labeled samples from minority classes are selected more frequently according to an estimated class distribution. We also propose a progressive distribution alignment to adaptively adjust the rebalancing strength dubbed CReST+. We show that CReST and CReST+ improve state-of-the-art SSL algorithms on various class-imbalanced datasets and consistently outperform other popular rebalancing methods. Code has been made available at https://github.com/google-research/crest.",
+  "s2id": "dd7954c27dc20739b6ee4d6e3af60175041e31cd",
+  "twitter": {
+    "retweets": 0,
+    "likes": 3,
+    "replies": 1
+  },
+  "citations": 3
+}

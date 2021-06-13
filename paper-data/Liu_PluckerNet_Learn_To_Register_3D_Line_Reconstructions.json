@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "PluckerNet: Learn To Register 3D Line Reconstructions",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_PluckerNet_Learn_To_Register_3D_Line_Reconstructions_CVPR_2021_paper.pdf",
+  "authors": [
+    "Liu Liu",
+    "Hongdong Li",
+    "Haodong Yao",
+    "Ruyi Zha"
+  ],
+  "abstract": "Aligning two partially-overlapped 3D line reconstructions in Euclidean space is challenging, as we need to simultaneously solve line correspondences and relative pose between reconstructions. This paper proposes a neural network based method and it has three modules connected in sequence: (i) a Multilayer Perceptron (MLP) based network takes Pluecker representations of lines as inputs, to extract discriminative line-wise features and matchabilities (how likely each line is going to have a match), (ii) an Optimal Transport (OT) layer takes two-view line-wise features and matchabilities as inputs to estimate a 2D joint probability matrix, with each item describes the matchness of a line pair, and (iii) line pairs with Top-K matching probabilities are fed to a 2-line minimal solver in a RANSAC framework to estimate a six Degree-of-Freedom (6-DoF) rigid transformation. Experiments on both indoor and outdoor datasets show that registration (rotation and translation) precision of our method outperforms baselines significantly.",
+  "s2id": ""
+}

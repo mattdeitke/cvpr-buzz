@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15395",
+  "title": "No Frame Left Behind: Full Video Action Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_No_Frame_Left_Behind_Full_Video_Action_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xin Liu",
+    "Silvia L. Pintea",
+    "Fatemeh Karimi Nejadasl",
+    "Olaf Booij",
+    "Jan C. van Gemert"
+  ],
+  "abstract": "Not all video frames are equally informative for recognizing an action. It is computationally infeasible to train deep networks on all video frames when actions develop over hundreds of frames. A common heuristic is uniformly sampling a small number of video frames and using these to recognize the action. Instead, here we propose full video action recognition and consider all video frames. To make this computational tractable, we first cluster all frame activations along the temporal dimension based on their similarity with respect to the classification task, and then temporally aggregate the frames in the clusters into a smaller number of representations. Our method is end-to-end trainable and computationally efficient as it relies on temporally localized clustering in combination with fast Hamming distances in feature space. We evaluate on UCF101, HMDB51, Breakfast, and Something-Something V1 and V2, where we compare favorably to existing heuristic frame sampling methods.",
+  "s2id": "40481ae44c9cf75aa504bc8df6ca219d8b6edbfd",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

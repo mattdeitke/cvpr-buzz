@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13558",
+  "title": "Efficient Feature Transformations for Discriminative and Generative Continual Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Verma_Efficient_Feature_Transformations_for_Discriminative_and_Generative_Continual_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Vinay Kumar Verma",
+    "Kevin J Liang",
+    "Nikhil Mehta",
+    "Piyush Rai",
+    "Lawrence Carin"
+  ],
+  "abstract": "As neural networks are increasingly being applied to real-world applications, mechanisms to address distributional shift and sequential task learning without forgetting are critical. Methods incorporating network expansion have shown promise by naturally adding model capacity for learning new tasks while simultaneously avoiding catastrophic forgetting. However, the growth in the number of additional parameters of many of these types of methods can be computationally expensive at larger scales, at times prohibitively so. Instead, we propose a simple task-specific feature map transformation strategy for continual learning, which we call Efficient Feature Transformations (EFTs). These EFTs provide powerful flexibility for learning new tasks, achieved with minimal parameters added to the base architecture. We further propose a feature distance maximization strategy, which significantly improves task prediction in class incremental settings, without needing expensive generative models. We demonstrate the efficacy and efficiency of our method with an extensive set of experiments in discriminative (CIFAR-100 and ImageNet-1K) and generative (LSUN, CUB-200, Cats) sequences of tasks. Even with low single-digit parameter growth rates, EFTs can outperform many other continual learning methods in a wide range of settings.",
+  "s2id": "0e8eb0ed81cca79aa8828e1411d04d3d84acc8ef",
+  "twitter": {
+    "retweets": 2,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 0
+}

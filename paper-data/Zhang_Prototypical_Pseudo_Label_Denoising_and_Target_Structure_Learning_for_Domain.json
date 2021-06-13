@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.10979",
+  "title": "Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Prototypical_Pseudo_Label_Denoising_and_Target_Structure_Learning_for_Domain_CVPR_2021_paper.pdf",
+  "authors": [
+    "Pan Zhang",
+    "Bo Zhang",
+    "Ting Zhang",
+    "Dong Chen",
+    "Yong Wang",
+    "Fang Wen"
+  ],
+  "abstract": "Self-training is a competitive approach in domain adaptive segmentation, which trains the network with the pseudo labels on the target domain. However inevitably, the pseudo labels are noisy and the target features are dispersed due to the discrepancy between source and target domains. In this paper, we rely on representative prototypes, the feature centroids of classes, to address the two issues for unsupervised domain adaptation. In particular, we take one step further and exploit the feature distances from prototypes that provide richer information than mere prototypes. Specifically, we use it to estimate the likelihood of pseudo labels to facilitate online correction in the course of training. Meanwhile, we align the prototypical assignments based on relative feature distances for two different views of the same target, producing a more compact target feature space. Moreover, we find that distilling the already learned knowledge to a self-supervised pretrained model further boosts the performance. Our method shows tremendous performance advantage over state-of-the-art methods.",
+  "s2id": "48764f8f64986cf690ce0f1040b2e6bbf06fd23c",
+  "twitter": {
+    "retweets": 2,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 5
+}

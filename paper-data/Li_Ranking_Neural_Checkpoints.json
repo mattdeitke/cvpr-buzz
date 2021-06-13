@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.11200",
+  "title": "Ranking Neural Checkpoints",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Ranking_Neural_Checkpoints_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yandong Li",
+    "Xuhui Jia",
+    "Ruoxin Sang",
+    "Yukun Zhu",
+    "Bradley Green",
+    "Liqiang Wang",
+    "Boqing Gong"
+  ],
+  "abstract": "This paper is concerned with ranking many pre-trained deep neural networks (DNNs), called checkpoints, for the transfer learning to a downstream task. Thanks to the broad use of DNNs, we may easily collect hundreds of checkpoints from various sources. Which of them transfers the best to our downstream task of interest? Striving to answer this question thoroughly, we establish a neural checkpoint ranking benchmark (NeuCRaB) and study some intuitive ranking measures. These measures are generic, applying to the checkpoints of different output types without knowing how the checkpoints are pre-trained on which dataset. They also incur low computation cost, making them practically meaningful. Our results suggest that the linear separability of the features extracted by the checkpoints is a strong indicator of transferability. We also arrive at a new ranking measure, NLEEP, which gives rise to the best performance in the experiments.",
+  "s2id": "a56c1fb0aa6ff390c42cd7b2bc9208cd5f2adc8c",
+  "twitter": {
+    "retweets": 9,
+    "likes": 54,
+    "replies": 1
+  },
+  "citations": 1
+}

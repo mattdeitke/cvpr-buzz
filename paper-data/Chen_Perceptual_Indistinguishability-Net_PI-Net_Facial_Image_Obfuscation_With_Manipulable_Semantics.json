@@ -1,0 +1,14 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.01753",
+  "title": "Perceptual Indistinguishability-Net (PI-Net): Facial Image Obfuscation With Manipulable Semantics",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Perceptual_Indistinguishability-Net_PI-Net_Facial_Image_Obfuscation_With_Manipulable_Semantics_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jia-Wei Chen",
+    "Li-Ju Chen",
+    "Chia-Mu Yu",
+    "Chun-Shien Lu"
+  ],
+  "abstract": "With the growing use of camera devices, the industry has many image datasets that provide more opportunities for collaboration between the machine learning community and industry. However, the sensitive information in the datasets discourages data owners from releasing these datasets. Despite recent research devoted to removing sensitive information from images, they provide neither meaningful privacy-utility trade-off nor provable privacy guarantees. In this study, with the consideration of the perceptual similarity, we propose perceptual indistinguishability (PI) as a formal privacy notion particularly for images. We also propose PI-Net, a privacy-preserving mechanism that achieves image obfuscation with PI guarantee. Our study shows that PI-Net achieves significantly better privacy utility trade-off through public image data.",
+  "s2id": "7d55d9d6dedae90c26a12fd2aa462b73bb0a296a",
+  "citations": 0
+}

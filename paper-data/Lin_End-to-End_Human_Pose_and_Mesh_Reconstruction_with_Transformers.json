@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.09760",
+  "title": "End-to-End Human Pose and Mesh Reconstruction with Transformers",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_End-to-End_Human_Pose_and_Mesh_Reconstruction_with_Transformers_CVPR_2021_paper.pdf",
+  "authors": [
+    "Kevin Lin",
+    "Lijuan Wang",
+    "Zicheng Liu"
+  ],
+  "abstract": "We present a new method, called MEsh TRansfOrmer (METRO), to reconstruct 3D human pose and mesh vertices from a single image. Our method uses a transformer encoder to jointly model vertex-vertex and vertex-joint interactions, and outputs 3D joint coordinates and mesh vertices simultaneously. Compared to existing techniques that regress pose and shape parameters, METRO does not rely on any parametric mesh models like SMPL, thus it can be easily extended to other objects such as hands. We further relax the mesh topology and allow the transformer self-attention mechanism to freely attend between any two vertices, making it possible to learn non-local relationships among mesh vertices and joints. With the proposed masked vertex modeling, our method is more robust and effective in handling challenging situations like partial occlusions. METRO generates new state-of-the-art results for human mesh reconstruction on the public Human3.6M and 3DPW datasets. Moreover, we demonstrate the generalizability of METRO to 3D hand reconstruction in the wild, outperforming existing state-of-the-art methods on FreiHAND dataset.",
+  "s2id": "6102a12b22ec3e44f9bbdae76185ca6e8a358f83",
+  "twitter": {
+    "retweets": 6,
+    "likes": 34,
+    "replies": 0
+  },
+  "citations": 15
+}

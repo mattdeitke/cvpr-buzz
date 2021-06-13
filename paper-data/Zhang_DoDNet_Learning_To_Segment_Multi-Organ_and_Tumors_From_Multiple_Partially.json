@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.10217",
+  "title": "DoDNet: Learning To Segment Multi-Organ and Tumors From Multiple Partially Labeled Datasets",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_DoDNet_Learning_To_Segment_Multi-Organ_and_Tumors_From_Multiple_Partially_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jianpeng Zhang",
+    "Yutong Xie",
+    "Yong Xia",
+    "Chunhua Shen"
+  ],
+  "abstract": "Due to the intensive cost of labor and expertise in annotating 3D medical images at a voxel level, most benchmark datasets are equipped with the annotations of only one type of organs and/or tumors, resulting in the so-called partially labeling issue. To address this issue, we propose a dynamic on-demand network (DoDNet) that learns to segment multiple organs and tumors on partially labeled datasets. DoDNet consists of a shared encoder-decoder architecture, a task encoding module, a controller for dynamic filter generation, and a single but dynamic segmentation head. The information of current segmentation task is encoded as a task-aware prior to tell the model what the task is expected to achieve. Different from existing approaches which fix kernels after training, the kernels in dynamic head are generated adaptively by the controller, conditioned on both input image and assigned task. Thus, DoDNet is able to segment multiple organs and tumors, as done by multiple networks or a multi-head network, in a much efficient and flexible manner. We created a large-scale partially labeled dataset called MOTS and demonstrated the superior performance of our DoDNet over other competitors on seven organ and tumor segmentation tasks. We also transferred the weights pre-trained on MOTS to a downstream multi-organ segmentation task and achieved state-of-the-art performance. This study provides a general 3D medical image segmentation model that has been pre-trained on a large-scale partially labeled dataset and can be extended (after fine-tuning) to downstream volumetric medical data segmentation tasks. Code and models are available at https://git.io/DoDNet.",
+  "s2id": "e61c4f9f6c10e5c65aa7ab4b6e12e0c7afaf1f16",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 3
+}

@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.08907",
+  "title": "BBAM: Bounding Box Attribution Map for Weakly Supervised Semantic and Instance Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_BBAM_Bounding_Box_Attribution_Map_for_Weakly_Supervised_Semantic_and_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jungbeom Lee",
+    "Jihun Yi",
+    "Chaehun Shin",
+    "Sungroh Yoon"
+  ],
+  "abstract": "Weakly supervised segmentation methods using bounding box annotations focus on obtaining a pixel-level mask from each box containing an object. Existing methods typically depend on a class-agnostic mask generator, which operates on the low-level information intrinsic to an image. In this work, we utilize higher-level information from the behavior of a trained object detector, by seeking the smallest areas of the image from which the object detector produces almost the same result as it does from the whole image. These areas constitute a bounding-box attribution map (BBAM), which identifies the target object in its bounding box and thus serves as pseudo ground-truth for weakly supervised semantic and instance segmentation. This approach significantly outperforms recent comparable techniques on both the PASCAL VOC and MS COCO benchmarks in weakly supervised semantic and instance segmentation. In addition, we provide a detailed analysis of our method, offering deeper insight into the behavior of the BBAM.",
+  "s2id": "4ef921f4f61f5463bd51ed9f4c1cf56a121311e3",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

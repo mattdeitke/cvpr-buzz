@@ -1,0 +1,17 @@
+{
+  "arXiv": null,
+  "title": "Depth-Aware Mirror Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Mei_Depth-Aware_Mirror_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Haiyang Mei",
+    "Bo Dong",
+    "Wen Dong",
+    "Pieter Peers",
+    "Xin Yang",
+    "Qiang Zhang",
+    "Xiaopeng Wei"
+  ],
+  "abstract": "We present a novel mirror segmentation method that leverages depth estimates from ToF-based cameras as an additional cue to disambiguate challenging cases where the contrast or relation in RGB colors between the mirror reflection and the surrounding scene is subtle. A key observation is that ToF depth estimates do not report the true depth of the mirror surface, but instead return the total length of the reflected light paths, thereby creating obvious depth discontinuities at the mirror boundaries. To exploit depth information in mirror segmentation, we first construct a large-scale RGB-D mirror segmentation dataset, which we subsequently employ to train a novel depth-aware mirror segmentation framework. Our mirror segmentation framework first locates the mirrors based on color and depth discontinuities and correlations. Next, our model further refines the mirror boundaries through contextual contrast taking into account both color and depth information. We extensively validate our depth-aware mirror segmentation method and demonstrate that our model outperforms state-of-the-art RGB and RGB-D based methods for mirror segmentation. Experimental results also show that depth is a powerful cue for mirror segmentation.",
+  "s2id": "aa304858ce365a42d17e25b2525e48b8aebc997b",
+  "citations": 1
+}

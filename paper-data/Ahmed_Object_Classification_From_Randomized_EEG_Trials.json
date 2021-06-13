@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2004.06046",
+  "title": "Object Classification From Randomized EEG Trials",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ahmed_Object_Classification_From_Randomized_EEG_Trials_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hamad Ahmed",
+    "Ronnie B. Wilbur",
+    "Hari M. Bharadwaj",
+    "Jeffrey Mark Siskind"
+  ],
+  "abstract": "New results suggest strong limits to the feasibility of object classification from human brain activity evoked by image stimuli, as measured through EEG. Considerable prior work suffers from a confound between the stimulus class and the time since the start of the experiment. A prior attempt to avoid this confound using randomized trials was unable to achieve results above chance in a statistically significant fashion when the data sets were of the same size as the original experiments. Here, we attempt object classification from EEG using an array of methods that are representative of the state-of-the-art, with a far larger (20x) dataset of randomized EEG trials, 1,000 stimulus presentations of each of forty classes, all from a single subject. To our knowledge, this is the largest such EEG data-collection effort from a single subject and is at the bounds of feasibility. We obtain classification accuracy that is marginally above chance and above chance in a statistically significant fashion, and further assess how accuracy depends on the classifier used, the amount of training data used, and the number of classes. Reaching the limits of data collection with only marginally above-chance performance suggests that the prevailing literature substantially exaggerates the feasibility of object classification from EEG.",
+  "s2id": "8f67627596e9fc66817a863e07d6607c817e73cd",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 1
+  },
+  "citations": 1
+}

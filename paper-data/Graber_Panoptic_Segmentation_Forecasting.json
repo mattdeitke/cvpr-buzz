@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.03962",
+  "title": "Panoptic Segmentation Forecasting",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Graber_Panoptic_Segmentation_Forecasting_CVPR_2021_paper.pdf",
+  "authors": [
+    "Colin Graber",
+    "Grace Tsai",
+    "Michael Firman",
+    "Gabriel Brostow",
+    "Alexander G. Schwing"
+  ],
+  "abstract": "Our goal is to forecast the near future given a set of recent observations. We think this ability to forecast, i.e., to anticipate, is integral for the success of autonomous agents which need not only passively analyze an observation but also must react to it in real-time. Importantly, accurate forecasting hinges upon the chosen scene decomposition. We think that superior forecasting can be achieved by decomposing a dynamic scene into individual 'things' and background 'stuff'. Background 'stuff' largely moves because of camera motion, while foreground 'things' move because of both camera and individual object motion. Following this decomposition, we introduce panoptic segmentation forecasting. Panoptic segmentation forecasting opens up a middle-ground between existing extremes, which either forecast instance trajectories or predict the appearance of future image frames. To address this task we develop a two-component model: one component learns the dynamics of the background stuff by anticipating odometry, the other one anticipates the dynamics of detected things. We establish a leaderboard for this novel task, and validate a state-of-the-art model that outperforms available baselines.",
+  "s2id": "5c266347cd384a44eb76c72f40a57b653ce9224b",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 1
+  },
+  "citations": 0
+}

@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2003.05034",
+  "title": "SuperMix: Supervising the Mixing Data Augmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Dabouei_SuperMix_Supervising_the_Mixing_Data_Augmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ali Dabouei",
+    "Sobhan Soleymani",
+    "Fariborz Taherkhani",
+    "Nasser M. Nasrabadi"
+  ],
+  "abstract": "This paper presents a supervised mixing augmentation method termed SuperMix, which exploits the salient regions within input images to construct mixed training samples. SuperMix is designed to obtain mixed images rich in visual features and complying with realistic image priors. To enhance the efficiency of the algorithm, we develop a variant of the Newton iterative method, 65xfaster than gradient descent on this problem. We validate the effectiveness of SuperMix through extensive evaluations and ablation studies on two tasks of object classification and knowledge distillation. On the classification task, SuperMix provides comparable performance to the advanced augmentation methods, such as AutoAugment and RandAugment. In particular, combining SuperMix with RandAugment achieves 78.2% top-1 accuracy on ImageNet with ResNet50. On the distillation task, solely classifying images mixed using the teacher's knowledge achieves comparable performance to the state-of-the-art distillation methods. Furthermore, on average, incorporating mixed images into the distillation objective improves the performance by 3.4% and 3.1% on CIFAR-100 and ImageNet, respectively. The code is available at https://github.com/alldbi/SuperMix.",
+  "s2id": "94f82ec208c5546258721f90cd1b4f73c968dad4",
+  "twitter": {
+    "retweets": 1,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 5
+}

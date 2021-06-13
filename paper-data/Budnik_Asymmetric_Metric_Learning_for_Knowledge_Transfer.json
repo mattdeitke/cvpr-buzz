@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.16331",
+  "title": "Asymmetric Metric Learning for Knowledge Transfer",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Budnik_Asymmetric_Metric_Learning_for_Knowledge_Transfer_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mateusz Budnik",
+    "Yannis Avrithis"
+  ],
+  "abstract": "Knowledge transfer from large teacher models to smaller student models has recently been studied for metric learning, focusing on fine-grained classification. In this work, focusing on instance-level image retrieval, we study an asymmetric testing task, where the database is represented by the teacher and queries by the student. Inspired by this task, we introduce asymmetric metric learning, a novel paradigm of using asymmetric representations at training. This acts as a simple combination of knowledge transfer with the original metric learning task. We systematically evaluate different teacher and student models, metric learning and knowledge transfer loss functions on the new asymmetric testing as well as the standard symmetric testing task, where database and queries are represented by the same model. We find that plain regression is surprisingly effective compared to more complex knowledge transfer mechanisms, working best in asymmetric testing. Interestingly, our asymmetric metric learning approach works best in symmetric testing, allowing the student to even outperform the teacher. Our implementation is publicly available, including trained student models for all loss functions and all pairs of teacher/student models. This can serve as a benchmark for future research.",
+  "s2id": "77d2963441c35514fcc10465b46025cc94797a76",
+  "twitter": {
+    "retweets": 4,
+    "likes": 19,
+    "replies": 1
+  },
+  "citations": 2
+}

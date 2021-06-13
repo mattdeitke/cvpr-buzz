@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2003.04857",
+  "title": "Image Restoration for Under-Display Camera",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_Image_Restoration_for_Under-Display_Camera_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuqian Zhou",
+    "David Ren",
+    "Neil Emerton",
+    "Sehoon Lim",
+    "Timothy Large"
+  ],
+  "abstract": "The new trend of full-screen devices encourages us to position a camera behind a screen. Removing the bezel and centralizing the camera under the screen brings larger display-to-body ratio and enhances eye contact in video chat, but also causes image degradation. In this paper, we focus on a newly-defined Under-Display Camera (UDC), as a novel real-world single image restoration problem. First, we take a 4k Transparent OLED (T-OLED) and a phone Pentile OLED (P-OLED) and analyze their optical systems to understand the degradation. Second, we design a Monitor-Camera Imaging System (MCIS) for easier real pair data acquisition, and a model-based data synthesizing pipeline to generate Point Spread Function (PSF) and UDC data only from display pattern and camera measurements. Finally, we resolve the complicated degradation using deconvolution-based pipeline and learning-based methods. Our model demonstrates a real-time high-quality restoration. The presented methods and results reveal the promising research values and directions of UDC.",
+  "s2id": "2050ca7f9535710f74d698f4fc227eade31d546b",
+  "twitter": {
+    "retweets": 12,
+    "likes": 30,
+    "replies": 3
+  },
+  "citations": 5
+}

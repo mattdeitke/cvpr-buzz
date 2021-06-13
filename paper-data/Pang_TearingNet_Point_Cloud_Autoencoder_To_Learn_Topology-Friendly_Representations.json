@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.10187",
+  "title": "TearingNet: Point Cloud Autoencoder To Learn Topology-Friendly Representations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Pang_TearingNet_Point_Cloud_Autoencoder_To_Learn_Topology-Friendly_Representations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jiahao Pang",
+    "Duanshun Li",
+    "Dong Tian"
+  ],
+  "abstract": "Topology matters. Despite the recent success of point cloud processing with geometric deep learning, it remains arduous to capture the complex topologies of point cloud data with a learning model. Given a point cloud dataset containing objects with various genera, or scenes with multiple objects, we propose an autoencoder, TearingNet, which tackles the challenging task of representing the point clouds using a fixed-length descriptor. Unlike existing works directly deforming predefined primitives of genus zero (e.g., a 2D square patch) to an object-level point cloud, our TearingNet is characterized by a proposed Tearing network module and a Folding network module interacting with each other iteratively. Particularly, the Tearing network module learns the point cloud topology explicitly. By breaking the edges of a primitive graph, it tears the graph into patches or with holes to emulate the topology of a target point cloud, leading to faithful reconstructions. Experimentation shows the superiority of our proposal in terms of reconstructing point clouds as well as generating more topology-friendly representations than benchmarks.",
+  "s2id": "28a9f60de6e4e97a3507b8614fd184a8a15c40f0",
+  "twitter": {
+    "retweets": 2,
+    "likes": 13,
+    "replies": 0
+  },
+  "citations": 2
+}

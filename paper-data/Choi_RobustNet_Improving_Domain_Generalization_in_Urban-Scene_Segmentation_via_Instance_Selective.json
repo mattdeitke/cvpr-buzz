@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15597",
+  "title": "RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_RobustNet_Improving_Domain_Generalization_in_Urban-Scene_Segmentation_via_Instance_Selective_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sungha Choi",
+    "Sanghun Jung",
+    "Huiwon Yun",
+    "Joanne T. Kim",
+    "Seungryong Kim",
+    "Jaegul Choo"
+  ],
+  "abstract": "Enhancing the generalization capability of deep neural networks to unseen domains is crucial for safety-critical applications in the real world such as autonomous driving. To address this issue, this paper proposes a novel instance selective whitening loss to improve the robustness of the segmentation networks for unseen domains. Our approach disentangles the domain-specific style and domain-invariant content encoded in higher-order statistics (i.e., feature covariance) of the feature representations and selectively removes only the style information causing domain shift. As shown in Fig. 1, our method provides reasonable predictions for (a) low-illuminated, (b) rainy, and (c) unseen structures. These types of images are not included in the training dataset, where the baseline shows a significant performance drop, contrary to ours. Being simple yet effective, our approach improves the robustness of various backbone networks without additional computational cost. We conduct extensive experiments in urban-scene segmentation and show the superiority of our approach to existing work.",
+  "s2id": "cd8394d8b6679bb446cf154a6d123cf9a00e561e",
+  "twitter": {
+    "retweets": 1,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 1
+}

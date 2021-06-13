@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00340",
+  "title": "Reconstructing 3D Human Pose by Watching Humans in the Mirror",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Reconstructing_3D_Human_Pose_by_Watching_Humans_in_the_Mirror_CVPR_2021_paper.pdf",
+  "authors": [
+    "Qi Fang",
+    "Qing Shuai",
+    "Junting Dong",
+    "Hujun Bao",
+    "Xiaowei Zhou"
+  ],
+  "abstract": "In this paper, we introduce the new task of reconstructing 3D human pose from a single image in which we can see the person and the person's image through a mirror. Compared to general scenarios of 3D pose estimation from a single view, the mirror reflection provides an additional view for resolving the depth ambiguity. We develop an optimization-based approach that exploits mirror symmetry constraints for accurate 3D pose reconstruction. We also provide a method to estimate the surface normal of the mirror from vanishing points in the single image. To validate the proposed approach, we collect a large-scale dataset named Mirrored-Human, which covers a large variety of human subjects, poses and backgrounds. The experiments demonstrate that, when trained on Mirrored-Human with our reconstructed 3D poses as pseudo ground-truth, the accuracy and generalizability of existing single-view 3D pose estimators can be largely improved.",
+  "s2id": "04c2c577bc035bd07d4d1459ee279a9798d80ac0",
+  "twitter": {
+    "retweets": 28,
+    "likes": 125,
+    "replies": 3
+  },
+  "citations": 0
+}

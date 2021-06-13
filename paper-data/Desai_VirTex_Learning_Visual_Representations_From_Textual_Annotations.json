@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.06666",
+  "title": "VirTex: Learning Visual Representations From Textual Annotations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Desai_VirTex_Learning_Visual_Representations_From_Textual_Annotations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Karan Desai",
+    "Justin Johnson"
+  ],
+  "abstract": "The de-facto approach to many vision tasks is to start from pretrained visual representations, typically learned via supervised training on ImageNet. Recent methods have explored unsupervised pretraining to scale to vast quantities of unlabeled images. In contrast, we aim to learn high-quality visual representations from fewer images. To this end we revisit supervised pretraining, and seek data-efficient alternatives to classification-based pretraining. We propose VirTex -- a pretraining approach using semantically dense captions to learn visual representations. We train convolutional networks from scratch on COCO Captions, and transfer them to downstream recognition tasks including image classification, object detection, and instance segmentation. On all tasks, VirTex yields features that match or exceed those learned on ImageNet -- supervised or unsupervised -- despite using up to ten times fewer images.",
+  "s2id": "51149f5e8d4ef47093c49b69eb0986b7518bae13",
+  "twitter": {
+    "retweets": 227,
+    "likes": 1094,
+    "replies": 25
+  },
+  "citations": 35
+}

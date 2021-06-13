@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.08833",
+  "title": "SSTVOS: Sparse Spatiotemporal Transformers for Video Object Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Duke_SSTVOS_Sparse_Spatiotemporal_Transformers_for_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Brendan Duke",
+    "Abdalla Ahmed",
+    "Christian Wolf",
+    "Parham Aarabi",
+    "Graham W. Taylor"
+  ],
+  "abstract": "In this paper we introduce a Transformer-based approach to video object segmentation (VOS). To address compounding error and scalability issues of prior work, we propose a scalable, end-to-end method for VOS called Sparse Spatiotemporal Transformers (SST). SST extracts per-pixel representations for each object in a video using sparse attention over spatiotemporal features. Our attention-based formulation for VOS allows a model to learn to attend over a history of multiple frames and provides suitable inductive bias for performing correspondence-like computations necessary for solving motion segmentation. We demonstrate the effectiveness of attention-based over recurrent networks in the spatiotemporal domain. Our method achieves competitive results on YouTube-VOS and DAVIS 2017 with improved scalability and robustness to occlusions compared with the state of the art. Code is available at https://github.com/dukebw/SSTVOS.",
+  "s2id": "8f2221bc4da30a56bfcd3ebe481952a981b81e49",
+  "twitter": {
+    "retweets": 42,
+    "likes": 192,
+    "replies": 3
+  },
+  "citations": 6
+}

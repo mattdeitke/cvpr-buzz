@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.10782",
+  "title": "Three Ways To Improve Semantic Segmentation With Self-Supervised Depth Estimation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hoyer_Three_Ways_To_Improve_Semantic_Segmentation_With_Self-Supervised_Depth_Estimation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Lukas Hoyer",
+    "Dengxin Dai",
+    "Yuhua Chen",
+    "Adrian Koring",
+    "Suman Saha",
+    "Luc Van Gool"
+  ],
+  "abstract": "Training deep networks for semantic segmentation requires large amounts of labeled training data, which presents a major challenge in practice, as labeling segmentation masks is a highly labor-intensive process. To address this issue, we present a framework for semi-supervised semantic segmentation, which is enhanced by self-supervised monocular depth estimation from unlabeled image sequences. In particular, we propose three key contributions: (1) We transfer knowledge from features learned during self-supervised depth estimation to semantic segmentation, (2) we implement a strong data augmentation by blending images and labels using the geometry of the scene, and (3) we utilize the depth feature diversity as well as the level of difficulty of learning depth in a student-teacher framework to select the most useful samples to be annotated for semantic segmentation. We validate the proposed model on the Cityscapes dataset, where all three modules demonstrate significant performance gains, and we achieve state-of-the-art results for semi-supervised semantic segmentation. The implementation is available at https://github.com/lhoyer/improving_segmentation_with_selfsupervised_depth.",
+  "s2id": "07a7a0421c1f604f6b1dd26bf7789c7fa28f104e",
+  "twitter": {
+    "retweets": 19,
+    "likes": 126,
+    "replies": 2
+  },
+  "citations": 2
+}

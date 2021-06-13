@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16832",
+  "title": "Online Learning of a Probabilistic and Adaptive Scene Representation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Online_Learning_of_a_Probabilistic_and_Adaptive_Scene_Representation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zike Yan",
+    "Xin Wang",
+    "Hongbin Zha"
+  ],
+  "abstract": "Constructing and maintaining a consistent scene model on-the-fly is the core task for online spatial perception, interpretation, and action. In this paper, we represent the scene with a Bayesian nonparametric mixture model, seamlessly describing per-point occupancy status with a continuous probability density function. Instead of following the conventional data fusion paradigm, we address the problem of online learning the process how sequential point cloud data are generated from the scene geometry. An incremental and parallel inference is performed to update the parameter space in real-time. We experimentally show that the proposed representation achieves state-of-the-art accuracy with promising efficiency. The consistent probabilistic formulation assures a generative model that is adaptive to different sensor characteristics, and the model complexity can be dynamically adjusted on-the-fly according to different data scales.",
+  "s2id": "56619f60bb8bd17aa1bcd9250f235814857cb6dc",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

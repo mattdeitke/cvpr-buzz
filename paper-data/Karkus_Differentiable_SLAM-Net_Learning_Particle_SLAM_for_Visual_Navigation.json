@@ -1,0 +1,18 @@
+{
+  "arXiv": null,
+  "title": "Differentiable SLAM-Net: Learning Particle SLAM for Visual Navigation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Karkus_Differentiable_SLAM-Net_Learning_Particle_SLAM_for_Visual_Navigation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Peter Karkus",
+    "Shaojun Cai",
+    "David Hsu"
+  ],
+  "abstract": "Simultaneous localization and mapping (SLAM) remains challenging for a number of downstream applications, such as visual robot navigation, because of rapid turns, featureless walls, and poor camera quality. We introduce the Differentiable SLAM Network (SLAM-net) along with a navigation architecture to enable planar robot navigation in previously unseen indoor environments. SLAM-net encodes a particle filter based SLAM algorithm in a differentiable computation graph, and learns task-oriented neural network components by backpropagating through the SLAM algorithm. Because it can optimize all model components jointly for the end-objective, SLAM-net learns to be robust in challenging conditions. We run experiments in the Habitat platform with different real-world RGB and RGB-D datasets. SLAM-net significantly outperforms the widely adapted ORB-SLAM in noisy conditions. Our navigation architecture with SLAM-net improves the state-of-the-art for the Habitat Challenge 2020 PointNav task by a large margin (37% to 64% success).",
+  "s2id": "33660d7dc0e786bdedd811281b88f2253d512f4e",
+  "twitter": {
+    "retweets": 5,
+    "likes": 19,
+    "replies": 0
+  },
+  "citations": 0
+}

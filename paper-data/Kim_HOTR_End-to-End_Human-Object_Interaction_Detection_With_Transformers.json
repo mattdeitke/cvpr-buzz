@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.13682",
+  "title": "HOTR: End-to-End Human-Object Interaction Detection With Transformers",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_HOTR_End-to-End_Human-Object_Interaction_Detection_With_Transformers_CVPR_2021_paper.pdf",
+  "authors": [
+    "Bumsoo Kim",
+    "Junhyun Lee",
+    "Jaewoo Kang",
+    "Eun-Sol Kim",
+    "Hyunwoo J. Kim"
+  ],
+  "abstract": "Human-Object Interaction (HOI) detection is a task of identifying \"a set of interactions\" in an image, which involves the i) localization of the subject (i.e., humans) and target (i.e., objects) of interaction, and ii) the classification of the interaction labels. Most existing methods have addressed this task in an indirect way by detecting human and object instances and individually inferring every pair of the detected instances. In this paper, we present a novel framework, referred by HOTR, which directly predicts a set of <human, object, interaction> triplets from an image based on a transformer encoder-decoder architecture. Through the set prediction, our method effectively exploits the inherent semantic relationships in an image and does not require time-consuming post-processing which is the main bottleneck of existing methods. Our proposed algorithm achieves the state-of-the-art performance in two HOI detection benchmarks with an inference time under 1 ms after object detection.",
+  "s2id": "6a19558fb01ded2ebd4885e9c8d59f29355fcf9a",
+  "twitter": {
+    "retweets": 7,
+    "likes": 40,
+    "replies": 1
+  },
+  "citations": 2
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.04011",
+  "title": "Simultaneously Localize, Segment and Rank the Camouflaged Objects",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Simultaneously_Localize_Segment_and_Rank_the_Camouflaged_Objects_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yunqiu Lv",
+    "Jing Zhang",
+    "Yuchao Dai",
+    "Aixuan Li",
+    "Bowen Liu",
+    "Nick Barnes",
+    "Deng-Ping Fan"
+  ],
+  "abstract": "Camouflage is a key defence mechanism across species that is critical to survival. Common camouflage include background matching, imitating the color and pattern of the environment, and disruptive coloration, disguising body outlines. Camouflaged object detection (COD) aims to segment camouflaged objects hiding in their surroundings. Existing COD models are built upon binary ground truth to segment the camouflaged objects without illustrating the level of camouflage. In this paper, we revisit this task and argue that explicitly modeling the conspicuousness of camouflaged objects against their particular backgrounds can not only lead to a better understanding about camouflage and evolution of animals, but also provide guidance to design more sophisticated camouflage techniques. Furthermore, we observe that it is some specific parts of the camouflaged objects that make them detectable by predators. With the above understanding about camouflaged objects, we present the first ranking based COD network to simultaneously localize, segment and rank camouflaged objects. The localization model is proposed to find the discriminative regions that make the camouflaged object obvious. The segmentation model segments the full scope of the camouflaged objects. And, the ranking model infers the detectability of different camouflaged objects. Moreover, we contribute a large COD testing set to evaluate the generalization ability of COD models. Experimental results show that our model achieves new state-of-the-art, leading to a more interpretable COD network.",
+  "s2id": "0fc9efef74fdc686d36fa7d13e05c4d4f57b9451",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 4
+}

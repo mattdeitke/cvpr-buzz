@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05606",
+  "title": "NeX: Real-Time View Synthesis With Neural Basis Expansion",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wizadwongsa_NeX_Real-Time_View_Synthesis_With_Neural_Basis_Expansion_CVPR_2021_paper.pdf",
+  "authors": [
+    "Suttisak Wizadwongsa",
+    "Pakkapon Phongthawee",
+    "Jiraphon Yenphraphai",
+    "Supasorn Suwajanakorn"
+  ],
+  "abstract": "We present NeX, a new approach to novel view synthesis based on enhancements of multiplane image (MPI) that can reproduce next-level view-dependent effects--in real time. Unlike traditional MPI that uses a set of simple RGBa planes, our technique models view-dependent effects by instead parameterizing each pixel as a linear combination of basis functions learned from a neural network. Moreover, we propose a hybrid implicit-explicit modeling strategy that improves upon fine detail and produces state-of-the-art results. Our method is evaluated on benchmark forward-facing datasets as well as our newly-introduced dataset designed to test the limit of view-dependent modeling with significantly more challenging effects such as the rainbow reflections on a CD. Our method achieves the best overall scores across all major metrics on these datasets with more than 1000x faster rendering time than the state of the art. For real-time demos, visit https://nex-mpi.github.io/",
+  "s2id": "0283d3ace44c0deeb9c56039989eeb072c54f825",
+  "twitter": {
+    "retweets": 183,
+    "likes": 572,
+    "replies": 23
+  },
+  "citations": 6
+}

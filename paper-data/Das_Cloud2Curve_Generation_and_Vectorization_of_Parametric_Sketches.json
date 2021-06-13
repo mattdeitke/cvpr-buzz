@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15536",
+  "title": "Cloud2Curve: Generation and Vectorization of Parametric Sketches",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Das_Cloud2Curve_Generation_and_Vectorization_of_Parametric_Sketches_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ayan Das",
+    "Yongxin Yang",
+    "Timothy M. Hospedales",
+    "Tao Xiang",
+    "Yi-Zhe Song"
+  ],
+  "abstract": "Analysis of human sketches in deep learning has advanced immensely through the use of waypoint-sequences rather than raster-graphic representations. We further aim to model sketches as a sequence of low-dimensional parametric curves. To this end, we propose an inverse graphics framework capable of approximating a raster or waypoint based stroke encoded as a point-cloud with a variable-degree Bezier curve. Building on this module, we present Cloud2Curve, a generative model for scalable high-resolution vector sketches that can be trained end-to-end using point-cloud data alone. As a consequence, our model is also capable of deterministic vectorization which can map novel raster or waypoint based sketches to their corresponding high-resolution scalable Bezier equivalent. We evaluate the generation and vectorization capabilities of our model on Quick, Draw! and K-MNIST datasets.",
+  "s2id": "6f4490cfc05763b420ee2eb961a64f041e2c53c2",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

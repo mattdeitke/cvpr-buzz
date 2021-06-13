@@ -1,0 +1,21 @@
+{
+  "arXiv": null,
+  "title": "NeRF in the Wild: Neural Radiance Fields for Unconstrained Photo Collections",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Martin-Brualla_NeRF_in_the_Wild_Neural_Radiance_Fields_for_Unconstrained_Photo_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ricardo Martin-Brualla",
+    "Noha Radwan",
+    "Mehdi S. M. Sajjadi",
+    "Jonathan T. Barron",
+    "Alexey Dosovitskiy",
+    "Daniel Duckworth"
+  ],
+  "abstract": "We present a learning-based method for synthesizingnovel views of complex scenes using only unstructured collections of in-the-wild photographs. We build on Neural Radiance Fields (NeRF), which uses the weights of a multi-layer perceptron to model the density and color of a scene as a function of 3D coordinates. While NeRF works well on images of static subjects captured under controlled settings, it is incapable of modeling many ubiquitous, real-world phenomena in uncontrolled images, such as variable illumination or transient occluders. We introduce a series of extensions to NeRF to address these issues, thereby enabling accurate reconstructions from unstructured image collections taken from the internet. We apply our system, dubbed NeRF-W, to internet photo collections of famous landmarks,and demonstrate temporally consistent novel view renderings that are significantly closer to photorealism than the prior state of the art.",
+  "s2id": "691eddbfaebbc71f6a12d3c99d5c155042459434",
+  "twitter": {
+    "retweets": 131,
+    "likes": 504,
+    "replies": 8
+  },
+  "citations": 73
+}

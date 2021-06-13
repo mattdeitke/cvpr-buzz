@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16183",
+  "title": "Repopulating Street Scenes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Repopulating_Street_Scenes_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yifan Wang",
+    "Andrew Liu",
+    "Richard Tucker",
+    "Jiajun Wu",
+    "Brian L. Curless",
+    "Steven M. Seitz",
+    "Noah Snavely"
+  ],
+  "abstract": "We present a framework for automatically reconfiguring images of street scenes by populating, depopulating, or repopulating them with objects such as pedestrians or vehicles. Applications of this method include anonymizing images to enhance privacy, generating data augmentations for perception tasks like autonomous driving, and composing scenes to achieve a certain ambiance, such as empty streets in the early morning. At a technical level, our work has three primary contributions: (1) a method for clearing images of objects,(2) a method for estimating sun direction from a single image, and (3) a way to compose objects in scenes that respects scene geometry and illumination. Each component is learned from data with minimal ground truth annotations, by making creative use of large-numbers of short image bursts of street scenes. We demonstrate convincing results on a range of street scenes and illustrate potential applications.",
+  "s2id": "8ddbdfb9d587202970a8f4e5d5f3367dad94aab7",
+  "twitter": {
+    "retweets": 10,
+    "likes": 41,
+    "replies": 1
+  },
+  "citations": 0
+}

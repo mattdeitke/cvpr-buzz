@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.04275",
+  "title": "GATSBI: Generative Agent-Centric Spatio-Temporal Object Interaction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Min_GATSBI_Generative_Agent-Centric_Spatio-Temporal_Object_Interaction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Cheol-Hui Min",
+    "Jinseok Bae",
+    "Junho Lee",
+    "Young Min Kim"
+  ],
+  "abstract": "We present GATSBI, a generative model that can transform a sequence of raw observations into a structured latent representation that fully captures the spatio-temporal context of the agent's actions. In vision-based decision-making scenarios, an agent faces complex high-dimensional observations where multiple entities interact with each other. The agent requires a good scene representation of the visual observation that discerns essential components that consistently propagates along the time horizon. Our method, GATSBI, utilizes unsupervised scene representation learning to successfully separate an active agent, static background, and passive objects. GATSBI then models the interactions reflecting the causal relationships among decomposed entities and predicts physically plausible future states. Our model generalizes to a variety of environments where different types of robots and objects dynamically interact with each other. GATSBI achieves superior performance on scene decompo-sition and video prediction compared to its state-of-the-artcounterparts, and can be readily applied to sequential deci-sion making of an intelligent agent.",
+  "s2id": "65350c1bc1f295bb76ac43cbecd1a5d20ccd0140",
+  "twitter": {
+    "retweets": 1,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 0
+}

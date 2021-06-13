@@ -1,0 +1,14 @@
+{
+  "arXiv": null,
+  "title": "Iso-Points: Optimizing Neural Implicit Surfaces With Hybrid Representations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yifan_Iso-Points_Optimizing_Neural_Implicit_Surfaces_With_Hybrid_Representations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Wang Yifan",
+    "Shihao Wu",
+    "Cengiz Oztireli",
+    "Olga Sorkine-Hornung"
+  ],
+  "abstract": "Neural implicit functions have emerged as a powerful representation for surfaces in 3D. Such a function can encode a high quality surface with intricate details into the parameters of a deep neural network. However, optimizing for the parameters for accurate and robust reconstructions remains a challenge especially when the input data is noisy or incomplete. In this work, we develop a hybrid neural surface representation that allows us to impose geometry-aware sampling and regularization, which significantly improves the fidelity of reconstructions. We propose to use iso-points as an explicit representation for a neural implicit function. These points are computed and updated on-the-fly during training to capture important geometric features and impose geometric constraints on the optimization. We demonstrate that our method can be adopted to improve state-of-the-art techniques for reconstructing neural implicit surfaces from multi-view images or point clouds. Quantitative and qualitative evaluations show that, compared with existing sampling and optimization methods, our approach allows faster convergence, better generalization, and accurate recovery of details and topology.",
+  "s2id": "353da519633135683fe65ccab6c73983db9187dc",
+  "citations": 0
+}

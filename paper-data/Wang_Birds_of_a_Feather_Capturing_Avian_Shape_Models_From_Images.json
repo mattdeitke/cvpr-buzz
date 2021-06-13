@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.09396",
+  "title": "Birds of a Feather: Capturing Avian Shape Models From Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Birds_of_a_Feather_Capturing_Avian_Shape_Models_From_Images_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yufu Wang",
+    "Nikos Kolotouros",
+    "Kostas Daniilidis",
+    "Marc Badger"
+  ],
+  "abstract": "Animals are diverse in shape, but building a deformable shape model for a new species is not always possible due to the lack of 3D data. We present a method to capture new species using an articulated template and images of that species. In this work, we focus mainly on birds. Although birds represent almost twice the number of species as mammals, no accurate shape model is available. To capture a novel species, we first fit the articulated template to each training sample. By disentangling pose and shape, we learn a shape space that captures variation both among species and within each species from image evidence. We learn models of multiple species from the CUB dataset, and contribute new species-specific and multi-species shape models that are useful for downstream reconstruction tasks. Using a low-dimensional embedding, we show that our learned 3D shape space better reflects the phylogenetic relationships among birds than learned perceptual features.",
+  "s2id": "34504edc566825571eefaf070e598822d3600b8f",
+  "twitter": {
+    "retweets": 29,
+    "likes": 135,
+    "replies": 7
+  },
+  "citations": 0
+}

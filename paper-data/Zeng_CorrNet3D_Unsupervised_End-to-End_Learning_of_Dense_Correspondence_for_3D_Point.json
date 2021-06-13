@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.15638",
+  "title": "CorrNet3D: Unsupervised End-to-End Learning of Dense Correspondence for 3D Point Clouds",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zeng_CorrNet3D_Unsupervised_End-to-End_Learning_of_Dense_Correspondence_for_3D_Point_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yiming Zeng",
+    "Yue Qian",
+    "Zhiyu Zhu",
+    "Junhui Hou",
+    "Hui Yuan",
+    "Ying He"
+  ],
+  "abstract": "Motivated by the intuition that one can transform two aligned point clouds to each other more easily and meaningfully than a misaligned pair, we propose CorrNet3D -the first unsupervised and end-to-end deep learning-based framework - to drive the learning of dense correspondence between 3D shapes by means of deformation-like reconstruction to overcome the need for annotated data. Specifically, CorrNet3D consists of a deep feature embedding module and two novel modules called correspondence indicator and symmetric deformer. Feeding a pair of raw point clouds, our model first learns the pointwise features and passes them into the indicator to generate a learnable correspondence matrix used to permute the input pair. The symmetric deformer, with an additional regularized loss, transforms the two permuted point clouds to each other to drive the unsupervised learning of the correspondence. The extensive experiments on both synthetic and real-world datasets of rigid and non-rigid 3D shapes show our CorrNet3D outperforms state-of-the-art methods to a large extent, including those taking meshes as input. CorrNet3D is a flexible framework in that it can be easily adapted to supervised learning if annotated data are available. The source code and pre-trained model will be available at https://github.com/ZENGYIMINGEAMON/CorrNet3D.git.",
+  "s2id": "4a6ae62304908bb65cffa7f636024f4053a991f3",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 1
+  },
+  "citations": 0
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.16242",
+  "title": "The Heterogeneity Hypothesis: Finding Layer-Wise Differentiated Network Architectures",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_The_Heterogeneity_Hypothesis_Finding_Layer-Wise_Differentiated_Network_Architectures_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yawei Li",
+    "Wen Li",
+    "Martin Danelljan",
+    "Kai Zhang",
+    "Shuhang Gu",
+    "Luc Van Gool",
+    "Radu Timofte"
+  ],
+  "abstract": "In this paper, we tackle the problem of convolutional neural network design. Instead of focusing on the design of the overall architecture, we investigate a design space that is usually overlooked, i.e. adjusting the channel configurations of predefined networks. We find that this adjustment can be achieved by shrinking widened baseline networks and leads to superior performance. Based on that, we articulate the \"heterogeneity hypothesis\": with the same training protocol, there exists a layer-wise differentiated network architecture (LW-DNA) that can outperform the original network with regular channel configurations but with a lower level of model complexity. The LW-DNA models are identified without extra computational cost or training time compared with the original network. This constraint leads to controlled experiments which direct the focus to the importance of layer-wise specific channel configurations. LW-DNA models come with advantages related to overfitting, i.e. the relative relationship between model complexity and dataset size. Experiments are conducted on various networks and datasets for image classification, visual tracking and image restoration. The resultant LW-DNA models consistently outperform the baseline models. Code is available at https://github.com/ofsoundof/Heterogeneity_Hypothesis.git.",
+  "s2id": "f4fca83a8ff555c8618efffcaf4de430251aeb9c",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

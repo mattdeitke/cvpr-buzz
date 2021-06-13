@@ -1,0 +1,15 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.10988",
+  "title": "Post-Hoc Uncertainty Calibration for Domain Drift Scenarios",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tomani_Post-Hoc_Uncertainty_Calibration_for_Domain_Drift_Scenarios_CVPR_2021_paper.pdf",
+  "authors": [
+    "Christian Tomani",
+    "Sebastian Gruber",
+    "Muhammed Ebrar Erdem",
+    "Daniel Cremers",
+    "Florian Buettner"
+  ],
+  "abstract": "We address the problem of uncertainty calibration. While standard deep neural networks typically yield uncalibrated predictions, calibrated confidence scores that are representative of the true likelihood of a prediction can be achieved using post-hoc calibration methods. However, to date, the focus of these approaches has been on in-domain calibration. Our contribution is two-fold. First, we show that existing post-hoc calibration methods yield highly over-confident predictions under domain shift. Second, we introduce a simple strategy where perturbations are applied to samples in the validation set before performing the post-hoc calibration step. In extensive experiments, we demonstrate that this perturbation step results in substantially better calibration under domain shift on a wide range of architectures and modelling tasks.",
+  "s2id": "1c243142196a43ac913f0a472edbbfa5f8c9e293",
+  "citations": 0
+}

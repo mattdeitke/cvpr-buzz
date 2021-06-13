@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.12026",
+  "title": "Adversarial Generation of Continuous Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Skorokhodov_Adversarial_Generation_of_Continuous_Images_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ivan Skorokhodov",
+    "Savva Ignatyev",
+    "Mohamed Elhoseiny"
+  ],
+  "abstract": "In most existing learning systems, images are typically viewed as 2D pixel arrays. However, in another paradigm gaining popularity, a 2D image is represented as an implicit neural representation (INR) -- an MLP that predicts an RGB pixel value given its (x,y) coordinate. In this paper, we propose two novel architectural techniques for building INR-based image decoders: factorized multiplicative modulation and multi-scale INRs, and use them to build a state-of-the-art continuous image GAN. Previous attempts to adapt INRs for image generation were limited to MNIST-like datasets and do not scale to complex real-world data. Our proposed INR-GAN architecture improves the performance of continuous image generators by several times, greatly reducing the gap between continuous image GANs and pixel-based ones. Apart from that, we explore several exciting properties of the INR-based decoders, like out-of-the-box superresolution, meaningful image-space interpolation, accelerated inference of low-resolution images, an ability to extrapolate outside of image boundaries, and strong geometric prior. The project page is located at https://universome.github.io/inr-gan.",
+  "s2id": "25f52a76678a636179384363745123cd54ac6aa8",
+  "twitter": {
+    "retweets": 6,
+    "likes": 60,
+    "replies": 5
+  },
+  "citations": 7
+}

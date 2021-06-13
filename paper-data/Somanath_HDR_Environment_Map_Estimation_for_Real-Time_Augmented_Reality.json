@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.10687",
+  "title": "HDR Environment Map Estimation for Real-Time Augmented Reality",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Somanath_HDR_Environment_Map_Estimation_for_Real-Time_Augmented_Reality_CVPR_2021_paper.pdf",
+  "authors": [
+    "Gowri Somanath",
+    "Daniel Kurz"
+  ],
+  "abstract": "We present a method to estimate an HDR environment map from a narrow field-of-view LDR camera image in real-time. This enables perceptually appealing reflections and shading on virtual objects of any material finish, from mirror to diffuse, rendered into a real environment using augmented reality. Our method is based on our efficient convolutional neural network, EnvMapNet, trained end-to-end with two novel losses, ProjectionLoss for the generated image, and ClusterLoss for adversarial training. Through qualitative and quantitative comparison to state-of-the-art methods, we demonstrate that our algorithm reduces the directional error of estimated light sources by more than 50%, and achieves 3.7 times lower Frechet Inception Distance (FID). We further showcase a mobile application that is able to run our neural network model in under 9ms on an iPhone XS, and render in real-time, visually coherent virtual objects in previously unseen real-world environments.",
+  "s2id": "9baa20b5ac807aec45e1941693d956dcf70fd96e",
+  "twitter": {
+    "retweets": 11,
+    "likes": 41,
+    "replies": 0
+  },
+  "citations": 0
+}

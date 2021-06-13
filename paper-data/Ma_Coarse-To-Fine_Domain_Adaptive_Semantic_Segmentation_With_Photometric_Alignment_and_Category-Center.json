@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13041",
+  "title": "Coarse-To-Fine Domain Adaptive Semantic Segmentation With Photometric Alignment and Category-Center Regularization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ma_Coarse-To-Fine_Domain_Adaptive_Semantic_Segmentation_With_Photometric_Alignment_and_Category-Center_CVPR_2021_paper.pdf",
+  "authors": [
+    "Haoyu Ma",
+    "Xiangru Lin",
+    "Zifeng Wu",
+    "Yizhou Yu"
+  ],
+  "abstract": "Unsupervised domain adaptation (UDA) in semantic segmentation is a fundamental yet promising task relieving the need for laborious annotation works. However, the domain shifts/discrepancies problem in this task compromise the final segmentation performance. Based on our observation, the main causes of the domain shifts are differences in imaging conditions, called image-level domain shifts, and differences in object category configurations called category-level domain shifts. In this paper, we propose a novel UDA pipeline that unifies image-level alignment and category-level feature distribution regularization in a coarse-to-fine manner. Specifically, on the coarse side, we propose a photometric alignment module that aligns an image in the source domain with a reference image from the target domain using a set of image-level operators; on the fine side, we propose a category-oriented triplet loss that imposes a soft constraint to regularize category centers in the source domain and a self-supervised consistency regularization method in the target domain. Experimental results show that our proposed pipeline improves the generalization capability of the final segmentation model and significantly outperforms all previous state-of-the-arts.",
+  "s2id": "a2eb935cefe681d0176111e508b413281480a395",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 1
+}

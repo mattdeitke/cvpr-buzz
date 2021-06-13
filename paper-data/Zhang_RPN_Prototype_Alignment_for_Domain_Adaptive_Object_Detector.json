@@ -1,0 +1,12 @@
+{
+  "arXiv": null,
+  "title": "RPN Prototype Alignment for Domain Adaptive Object Detector",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_RPN_Prototype_Alignment_for_Domain_Adaptive_Object_Detector_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yixin Zhang",
+    "Zilei Wang",
+    "Yushi Mao"
+  ],
+  "abstract": "Recent years have witnessed great progress in object detection. However, due to the domain shift problem, applying the knowledge of an object detector learned from one specific domain to another one often suffers severe performance degradation. Most existing methods adopt feature alignment either on the backbone network or instance classifier to increase the transferability of object detector. Different from existing methods, we propose to perform feature alignment of foreground and background in the RPN stage such that the foreground and background RPN proposals in target domain can be effectively separated. Specifically, we first construct one set of learnable RPN prototypes, and then enforce the RPN features to align with the prototypes for both source and target domains. It essentially cooperates the learning of RPN prototypes and features to align the source and target RPN features. In this paradigm, the pseudo label of proposals in target domain need be first generated, and we propose a simple yet effective method suitable for RPN feature alignment,i.e., using the filtered detection results to guide the pseudo label generation of RPN proposals by IoU. Furthermore, we adopt Grad CAM to find the discriminative region within a proposal and use it to increase the discriminability of RPN features for alignment by spatially weighting. We conduct extensive experiments on multiple cross-domain detection scenarios. The results show the effectiveness of our proposed method against previous state-of-the-art methods.",
+  "s2id": ""
+}

@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.04630",
+  "title": "CASTing Your Model: Learning To Localize Improves Self-Supervised Representations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Selvaraju_CASTing_Your_Model_Learning_To_Localize_Improves_Self-Supervised_Representations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ramprasaath R. Selvaraju",
+    "Karan Desai",
+    "Justin Johnson",
+    "Nikhil Naik"
+  ],
+  "abstract": "Recent advances in self-supervised learning (SSL) have largely closed the gap with supervised ImageNet pretraining. Despite their success these methods have been primarily applied to unlabeled ImageNet images, and show marginal gains when trained on larger sets of uncurated images. We hypothesize that current SSL methods perform best on iconic images, and struggle on complex scene images with many objects. Analyzing contrastive SSL methods shows that they have poor visual grounding and receive poor supervisory signal when trained on scene images. We propose Contrast Attention-Supervised Tuning (CAST) to overcome these limitations. CAST uses unsupervised saliency maps to intelligently sample crops, and to provide grounding supervision via a Grad-CAM attention loss. Experiments on COCO show that CAST significantly improves the features learned by SSL methods on scene images, and further experiments show that CAST-trained models are more robust to changes in backgrounds. We hope that CAST can improve the ability of SSL methods to learn from complex non-iconic images. Our code is available at https://github.com/salesforce/CAST.",
+  "s2id": "88ce9fb5fe020092bfc576f63ebb382aaf9a4905",
+  "twitter": {
+    "retweets": 18,
+    "likes": 103,
+    "replies": 2
+  },
+  "citations": 2
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.00720",
+  "title": "Fully Convolutional Networks for Panoptic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Fully_Convolutional_Networks_for_Panoptic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yanwei Li",
+    "Hengshuang Zhao",
+    "Xiaojuan Qi",
+    "Liwei Wang",
+    "Zeming Li",
+    "Jian Sun",
+    "Jiaya Jia"
+  ],
+  "abstract": "In this paper, we present a conceptually simple, strong, and efficient framework for panoptic segmentation, called Panoptic FCN. Our approach aims to represent and predict foreground things and background stuff in a unified fully convolutional pipeline. In particular, Panoptic FCN encodes each object instance or stuff category into a specific kernel weight with the proposed kernel generator and produces the prediction by convolving the high-resolution feature directly. With this approach, instance-aware and semantically consistent properties for things and stuff can be respectively satisfied in a simple generate-kernel-then-segment workflow. Without extra boxes for localization or instance separation, the proposed approach outperforms previous box-based and -free models with high efficiency on COCO, Cityscapes, and Mapillary Vistas datasets with single scale input. Our code is made publicly available at https://github.com/Jia-Research-Lab/PanopticFCN.",
+  "s2id": "58b4202b7174ed4cfae24c284d4003d74ac5371f",
+  "twitter": {
+    "retweets": 4,
+    "likes": 16,
+    "replies": 0
+  },
+  "citations": 2
+}

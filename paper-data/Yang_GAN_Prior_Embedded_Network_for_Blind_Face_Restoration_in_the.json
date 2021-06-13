@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.06070",
+  "title": "GAN Prior Embedded Network for Blind Face Restoration in the Wild",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_GAN_Prior_Embedded_Network_for_Blind_Face_Restoration_in_the_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tao Yang",
+    "Peiran Ren",
+    "Xuansong Xie",
+    "Lei Zhang"
+  ],
+  "abstract": "Blind face restoration (BFR) from severely degraded face images in the wild is a very challenging problem. Due to the high illness of the problem and the complex unknown degradation, directly training a deep neural network (DNN) usually cannot lead to acceptable results. Existing generative adversarial network (GAN) based methods can produce better results but tend to generate over-smoothed restorations. In this work, we propose a new method by first learning a GAN for high-quality face image generation and embedding it into a U-shaped DNN as a prior decoder, then fine-tuning the GAN prior embedded DNN with a set of synthesized low-quality face images. The GAN blocks are designed to ensure that the latent code and noise input to the GAN can be respectively generated from the deep and shallow features of the DNN, controlling the global face structure, local face details and background of the reconstructed image. The proposed GAN prior embedded network (GPEN) is easy-to-implement, and it can generate visually photo-realistic results. Our experiments demonstrated that the proposed GPEN achieves significantly superior results to state-of-the-art BFR methods both quantitatively and qualitatively, especially for the restoration of severely degraded face images in the wild. The source code and models can be found at https://github.com/yangxy/GPEN.",
+  "s2id": "26f3ee78b1ff4041e7a8e9ecffc95a9185a17caa",
+  "twitter": {
+    "retweets": 90,
+    "likes": 412,
+    "replies": 7
+  },
+  "citations": 0
+}

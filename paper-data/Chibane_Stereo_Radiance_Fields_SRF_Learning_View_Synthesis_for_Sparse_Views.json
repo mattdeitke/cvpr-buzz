@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.06935",
+  "title": "Stereo Radiance Fields (SRF): Learning View Synthesis for Sparse Views of Novel Scenes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chibane_Stereo_Radiance_Fields_SRF_Learning_View_Synthesis_for_Sparse_Views_CVPR_2021_paper.pdf",
+  "authors": [
+    "Julian Chibane",
+    "Aayush Bansal",
+    "Verica Lazova",
+    "Gerard Pons-Moll"
+  ],
+  "abstract": "Recent neural view synthesis methods have achieved impressive quality and realism, surpassing classical pipelines which rely on multi-view reconstruction. State-of-the-Art methods, such as NeRF, are designed to learn a single scene with a neural network and require dense multi-view inputs. Testing on a new scene requires re-training from scratch, which takes 2-3 days. In this work, we introduce Stereo Radiance Fields (SRF), a neural view synthesis approach that is trained end-to-end, generalizes to new scenes, and requires only sparse views at test time. The core idea is a neural architecture inspired by classical multi-view stereo methods, which estimates surface points by finding similar image regions in stereo images. In SRF, we predict color and density for each 3D point given an encoding of its stereo correspondence in the input images. The encoding is implicitly learned by an ensemble of pair-wise similarities -- emulating classical stereo. Experiments show that SRF learns structure instead of overfitting on a scene. We train on multiple scenes of the DTU dataset and generalize to new ones without re-training, requiring only 10 sparse and spread-out views as input. We show that 10-15 minutes of fine-tuning further improve the results, achieving significantly sharper, more detailed results than scene-specific models. The code, model, and videos are available at https://virtualhumans.mpi-inf.mpg.de/srf/.",
+  "s2id": "2d029e88d045fed07ea6a6d01b56a6fc6df38474",
+  "twitter": {
+    "retweets": 8,
+    "likes": 47,
+    "replies": 0
+  },
+  "citations": 0
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.10219",
+  "title": "Sequential Graph Convolutional Network for Active Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Caramalau_Sequential_Graph_Convolutional_Network_for_Active_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Razvan Caramalau",
+    "Binod Bhattarai",
+    "Tae-Kyun Kim"
+  ],
+  "abstract": "We propose a novel pool-based Active Learning frame-work constructed on a sequential Graph Convolution Net-work (GCN). Each image's feature from a pool of data rep-resents a node in the graph and the edges encode their similarities. With a small number of randomly sampled images as seed labelled examples, we learn the parameters of the graph to distinguish labelled vs unlabelled nodes by minimising the binary cross-entropy loss. GCN performs message-passing operations between the nodes, and hence, induces similar representations of the strongly associated nodes. We exploit these characteristics of GCN to select the unlabelled examples which are sufficiently different from la-belled ones. To this end, we utilise the graph node embed-dings and their confidence scores and adapt sampling techniques such as CoreSet and uncertainty-based methods to query the nodes. We flip the label of newly queried nodes from unlabelled to labelled, re-train the learner to optimise the downstream task and the graph to minimise its modified objective. We continue this process within a fixed budget. We evaluate our method on 6 different benchmarks: 4 real image classification, 1 depth-based hand pose estimation and 1 synthetic RGB image classification datasets. Our method outperforms several competitive baselines such as VAAL, Learning Loss, CoreSet and attains the new state-of-the-art performance on multiple applications.",
+  "s2id": "9898b3d600b3881bde162b7e4b668a3c063cba10",
+  "twitter": {
+    "retweets": 10,
+    "likes": 36,
+    "replies": 3
+  },
+  "citations": 1
+}

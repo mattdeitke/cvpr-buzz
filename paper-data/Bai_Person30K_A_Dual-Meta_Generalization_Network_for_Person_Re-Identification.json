@@ -1,0 +1,21 @@
+{
+  "arXiv": null,
+  "title": "Person30K: A Dual-Meta Generalization Network for Person Re-Identification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bai_Person30K_A_Dual-Meta_Generalization_Network_for_Person_Re-Identification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yan Bai",
+    "Jile Jiao",
+    "Wang Ce",
+    "Jun Liu",
+    "Yihang Lou",
+    "Xuetao Feng",
+    "Ling-Yu Duan"
+  ],
+  "abstract": "Recently, person re-identification (ReID) has vastly benefited from the surging waves of data-driven methods. However, these methods are still not reliable enough for real-world deployments, due to the insufficient generalization capability of the models learned on existing benchmarks that have limitations in multiple aspects, including limited data scale, capture condition variations, and appearance diversities. To this end, we collect a new dataset named Person30K with the following distinct features: 1) a very large scale containing 1.38 million images of 30K identities, 2) a large capture system containing 6,497 cameras deployed at 89 different sites, 3) abundant sample diversities including varied backgrounds and diverse person poses. Furthermore, we propose a domain generalization ReID method, dual-meta generalization network (DMG-Net), to exploit the merits of meta-learning in both the training procedure and the metric space learning. Concretely, we design a \"learning then generalization evaluation\" meta-training procedure and a meta-discrimination loss to enhance model generalization and discrimination capabilities. Comprehensive experiments validate the effectiveness of our DMG-Net. (Dataset and code will be released.)",
+  "s2id": "",
+  "twitter": {
+    "retweets": 3,
+    "likes": 16,
+    "replies": 0
+  }
+}

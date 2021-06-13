@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.07720",
+  "title": "Hyperdimensional Computing as a Framework for Systematic Aggregation of Image Descriptors",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Neubert_Hyperdimensional_Computing_as_a_Framework_for_Systematic_Aggregation_of_Image_CVPR_2021_paper.pdf",
+  "authors": [
+    "Peer Neubert",
+    "Stefan Schubert"
+  ],
+  "abstract": "Image and video descriptors are an omnipresent tool in computer vision and its application fields like mobile robotics. Many hand-crafted and in particular learned image descriptors are numerical vectors with a potentially (very) large number of dimensions. Practical considerations like memory consumption or time for comparisons call for the creation of compact representations. In this paper, we use hyperdimensional computing (HDC) as an approach to systematically combine information from a set of vectors in a single vector of the same dimensionality. HDC is a known technique to perform symbolic processing with distributed representations in numerical vectors with thousands of dimensions. We present a HDC implementation that is suitable for processing the output of existing and future (deep learning based) image descriptors. We discuss how this can be used as a framework to process descriptors together with additional knowledge by simple and fast vector operations. A concrete outcome is a novel HDC-based approach to aggregate a set of local image descriptors together with their image positions in a single holistic descriptor. The comparison to available holistic descriptors and aggregation methods on a series of standard mobile robotics place recognition experiments shows a 20% improvement in average performance and >2x better worst-case performance compared to runner-up.",
+  "s2id": "33db9e6630d95d6087ce92390082787248867310",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

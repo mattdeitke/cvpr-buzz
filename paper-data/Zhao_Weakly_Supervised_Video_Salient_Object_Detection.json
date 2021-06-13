@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.02391",
+  "title": "Weakly Supervised Video Salient Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Weakly_Supervised_Video_Salient_Object_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Wangbo Zhao",
+    "Jing Zhang",
+    "Long Li",
+    "Nick Barnes",
+    "Nian Liu",
+    "Junwei Han"
+  ],
+  "abstract": "Significant performance improvement has been achieved for fully-supervised video salient object detection with the pixel-wise labeled training datasets, which are timeconsuming and expensive to obtain. To relieve the burden of data annotation, we present the first weakly supervised video salient object detection model based on relabeled \"fixation guided scribble annotations\". Specifically, an \"Appearance-motion fusion module\" and bidirectional ConvLSTM based framework are proposed to achieve effective multi-modal learning and long-term temporal context modeling based on our new weak annotations. Further, we design a novel foreground-background similarity loss to further explore the labeling similarity across frames. A weak annotation boosting strategy is also introduced to boost our model performance with a new pseudo-label generation technique. Extensive experimental results on six benchmark video saliency detection datasets illustrate the effectiveness of our solution.",
+  "s2id": "31b865ba60fa98de2f0af38cc3eb9d07fd994f06",
+  "twitter": {
+    "retweets": 0,
+    "likes": 5,
+    "replies": 0
+  },
+  "citations": 0
+}

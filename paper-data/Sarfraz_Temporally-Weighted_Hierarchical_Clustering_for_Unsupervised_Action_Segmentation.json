@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.11264",
+  "title": "Temporally-Weighted Hierarchical Clustering for Unsupervised Action Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sarfraz_Temporally-Weighted_Hierarchical_Clustering_for_Unsupervised_Action_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Saquib Sarfraz",
+    "Naila Murray",
+    "Vivek Sharma",
+    "Ali Diba",
+    "Luc Van Gool",
+    "Rainer Stiefelhagen"
+  ],
+  "abstract": "Action segmentation refers to inferring boundaries of semantically consistent visual concepts in videos and is an important requirement for many video understanding tasks. For this and other video understanding tasks, supervised approaches have achieved encouraging performance but require a high volume of detailed, frame-level, annotations. We present a fully automatic and unsupervised approach for segmenting actions in a video that does not require any training. Our proposal is an effective temporally-weighted hierarchical clustering algorithm that can group semantically consistent frames of the video. The main finding is that representing a video with a 1-nearest neighbor graph by taking into account the time progression is sufficient to form semantically and temporally consistent clusters of frames where each cluster may represent some action in the video. Additionally, we establish strong unsupervised baselines for action segmentation and show significant performance improvements over published unsupervised methods on five challenging action segmentation datasets. Our code is available at https://github.com/ssarfraz/FINCH-Clustering/tree/master/TW-FINCH",
+  "s2id": "18869a25a3b860e942a442d6782b39983c1ad484",
+  "twitter": {
+    "retweets": 6,
+    "likes": 31,
+    "replies": 5
+  },
+  "citations": 0
+}

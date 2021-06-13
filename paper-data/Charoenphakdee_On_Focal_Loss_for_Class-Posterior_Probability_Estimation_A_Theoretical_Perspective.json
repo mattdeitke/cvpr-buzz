@@ -1,0 +1,14 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.09172",
+  "title": "On Focal Loss for Class-Posterior Probability Estimation: A Theoretical Perspective",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Charoenphakdee_On_Focal_Loss_for_Class-Posterior_Probability_Estimation_A_Theoretical_Perspective_CVPR_2021_paper.pdf",
+  "authors": [
+    "Nontawat Charoenphakdee",
+    "Jayakorn Vongkulbhisal",
+    "Nuttapong Chairatanakul",
+    "Masashi Sugiyama"
+  ],
+  "abstract": "The focal loss has demonstrated its effectiveness in many real-world applications such as object detection and image classification, but its theoretical understanding has been limited so far. In this paper, we first prove that the focal loss is classification-calibrated, i.e., its minimizer surely yields the Bayes-optimal classifier and thus the use of the focal loss in classification can be theoretically justified. However, we also prove a negative fact that the focal loss is not strictly proper, i.e., the confidence score of the classifier obtained by focal loss minimization does not match the true class-posterior probability. This may cause the trained classifier to give an unreliable confidence score, which can be harmful in critical applications. To mitigate this problem, we prove that there exists a particular closed-form transformation that can recover the true class-posterior probability from the outputs of the focal risk minimizer. Our experiments show that our proposed transformation successfully improves the quality of class-posterior probability estimation and improves the calibration of the trained classifier, while preserving the same prediction accuracy.",
+  "s2id": "b1db2077cecda0728733f6d293d1bcbc861e48d5",
+  "citations": 0
+}

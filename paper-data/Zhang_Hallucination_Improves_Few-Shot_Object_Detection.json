@@ -1,0 +1,12 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.01294",
+  "title": "Hallucination Improves Few-Shot Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Hallucination_Improves_Few-Shot_Object_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Weilin Zhang",
+    "Yu-Xiong Wang"
+  ],
+  "abstract": "Learning to detect novel objects with a few instances is challenging. A particularly challenging but practical regime is the extremely-low-shot regime (less than three training examples). One critical factor in improving few-shot detection is to handle the lack of variation in training data. The classifier relies on high intersection-over-union (IOU) boxes reported by the RPN to build a model of the category's variation in appearance. With only a few training examples, the variations are insufficient to train the classifier in novel classes. We propose to build a better model of variation in novel classes by transferring the shared within-class variation from base classes. We introduce a hallucinator network and insert it into a modern object detector model, which learns to generate additional training examples in the Region of Interest (ROI's) feature space. Our approach yields significant performance improvements on two state-of-the-art few-shot detectors with different proposal generation processes. We achieve new state-of-the-art in very low-shot regimes on widely used benchmarks PASCAL VOC and COCO.",
+  "s2id": "6e90cabc26b345b595b1572383fc23fa903d9f35",
+  "citations": 0
+}

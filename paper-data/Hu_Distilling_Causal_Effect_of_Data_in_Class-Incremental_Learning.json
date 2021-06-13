@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01737",
+  "title": "Distilling Causal Effect of Data in Class-Incremental Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Distilling_Causal_Effect_of_Data_in_Class-Incremental_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xinting Hu",
+    "Kaihua Tang",
+    "Chunyan Miao",
+    "Xian-Sheng Hua",
+    "Hanwang Zhang"
+  ],
+  "abstract": "We propose a causal framework to explain the catastrophic forgetting in Class-Incremental Learning (CIL) and then derive a novel distillation method that is orthogonal to the existing anti-forgetting techniques, such as data replay and feature/label distillation. We first 1) place CIL into the framework, 2) answer why the forgetting happens: the causal effect of the old data is lost in new training, and then 3) explain how the existing techniques mitigate it: they bring the causal effect back. Based on the causal framework, we propose to distill the Colliding Effect between the old and the new data, which is fundamentally equivalent to the causal effect of data replay, but without any cost of replay storage. Thanks to the causal effect analysis, we can further capture the Incremental Momentum Effect of the data stream, removing which can help to retain the old effect overwhelmed by the new data effect, and thus alleviate the forgetting of the old class in testing. Extensive experiments on three CIL benchmarks: CIFAR-100, ImageNet-Sub&Full, show that the proposed causal effect distillation can improve various state-of-the-art CIL methods by a large margin (0.72%-9.06%)",
+  "s2id": "845ea5c0243074174e3a4979d2f2fcf7e19eaace",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 4
+}

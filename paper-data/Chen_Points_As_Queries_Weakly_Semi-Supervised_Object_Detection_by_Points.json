@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.07434",
+  "title": "Points As Queries: Weakly Semi-Supervised Object Detection by Points",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Points_As_Queries_Weakly_Semi-Supervised_Object_Detection_by_Points_CVPR_2021_paper.pdf",
+  "authors": [
+    "Liangyu Chen",
+    "Tong Yang",
+    "Xiangyu Zhang",
+    "Wei Zhang",
+    "Jian Sun"
+  ],
+  "abstract": "We propose a novel point annotated setting for the weakly semi-supervised object detection task, in which the dataset comprises small fully annotated images and large weakly annotated images by points. It achieves a balance between tremendous annotation burden and detection performance. Based on this setting, we analyze existing detectors and find that these detectors have difficulty in fully exploiting the power of the annotated points. To solve this, we introduce a new detector, Point DETR, which extends DETR by adding a point encoder. Extensive experiments conducted on MS-COCO dataset in various data settings show the effectiveness of our method. In particular, when using 20% fully labeled data from COCO, our detector achieves a promising performance, 33.3 AP, which outperforms a strong baseline (FCOS) by 2.0 AP, and we demonstrate the point annotations bring over 10 points in various AR metrics.",
+  "s2id": "570a8da4a181d60c06afee6fd7668bd56714595a",
+  "twitter": {
+    "retweets": 8,
+    "likes": 50,
+    "replies": 0
+  },
+  "citations": 0
+}

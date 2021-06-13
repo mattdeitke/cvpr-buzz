@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.14040",
+  "title": "Pushing It Out of the Way: Interactive Visual Navigation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zeng_Pushing_It_Out_of_the_Way_Interactive_Visual_Navigation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Kuo-Hao Zeng",
+    "Luca Weihs",
+    "Ali Farhadi",
+    "Roozbeh Mottaghi"
+  ],
+  "abstract": "We have observed significant progress in visual navigation for embodied agents. A common assumption in studying visual navigation is that the environments are static; this is a limiting assumption. Intelligent navigation may involve interacting with the environment beyond just moving forward/backward and turning left/right. Sometimes, the best way to navigate is to push something out of the way. In this paper, we study the problem of interactive navigation where agents learn to change the environment to navigate more efficiently to their goals. To this end, we introduce the Neural Interaction Engine (NIE) to explicitly predict the change in the environment caused by the agent's actions. By modeling the changes while planning, we find that agents exhibit significant improvements in their navigational capabilities. More specifically, we consider two downstream tasks in the physics-enabled, visually rich, AI2-THOR environment: (1) reaching a target while the path to the target is blocked (2) moving an object to a target location by pushing it. For both tasks, agents equipped with an NIE significantly outperform agents without the understanding of the effect of the actions indicating the benefits of our approach. The code and dataset are available at github.com/KuoHaoZeng/Interactive_Visual_Navigation.",
+  "s2id": "b7386dbdf7dcf344124408693c0e2075143dd5dd",
+  "twitter": {
+    "retweets": 5,
+    "likes": 25,
+    "replies": 2
+  },
+  "citations": 0
+}

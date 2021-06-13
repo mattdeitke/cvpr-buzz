@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.03493",
+  "title": "Riggable 3D Face Reconstruction via In-Network Optimization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bai_Riggable_3D_Face_Reconstruction_via_In-Network_Optimization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ziqian Bai",
+    "Zhaopeng Cui",
+    "Xiaoming Liu",
+    "Ping Tan"
+  ],
+  "abstract": "This paper presents a method for riggable 3D face reconstruction from monocular images, which jointly estimates a personalized face rig and per-image parameters including expressions, poses, and illuminations. To achieve this goal, we design an end-to-end trainable network embedded with a differentiable in-network optimization. The network first parameterizes the face rig as a compact latent code with a neural decoder, and then estimates the latent code as well as per-image parameters via a learnable optimization. By estimating a personalized face rig, our method goes beyond static reconstructions and enables downstream applications such as video retargeting. In-network optimization explicitly enforces constraints derived from the first principles, thus introduces additional priors than regression-based methods. Finally, data-driven priors from deep learning are utilized to constrain the ill-posed monocular setting and ease the optimization difficulty. Experiments demonstrate that our method achieves SOTA reconstruction accuracy, reasonable robustness and generalization ability, and supports standard face rig applications.",
+  "s2id": "68dfbbbc82deae29d37559b750762244517c2c94",
+  "twitter": {
+    "retweets": 1,
+    "likes": 3,
+    "replies": 0
+  },
+  "citations": 0
+}

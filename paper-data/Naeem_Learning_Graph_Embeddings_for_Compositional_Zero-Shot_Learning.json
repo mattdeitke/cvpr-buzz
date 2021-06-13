@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.01987",
+  "title": "Learning Graph Embeddings for Compositional Zero-Shot Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Naeem_Learning_Graph_Embeddings_for_Compositional_Zero-Shot_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Muhammad Ferjad Naeem",
+    "Yongqin Xian",
+    "Federico Tombari",
+    "Zeynep Akata"
+  ],
+  "abstract": "In compositional zero-shot learning, the goal is to recognize unseen compositions (e.g. old dog) of observed visual primitives states (e.g. old, cute) and objects (e.g. car, dog)in the training set. This is challenging because the same state can for example alter the visual appearance of a dog drastically differently from a car. As a solution, we propose a novel graph formulation called Compositional Graph Embedding (CGE) that learns image features, compositional classifiers, and latent representations of visual primitives in an end-to-end manner. The key to our approach is exploit-ing the dependency between states, objects, and their compositions within a graph structure to enforce the relevant knowledge transfer from seen to unseen compositions. By learning a joint compatibility that encodes semantics between concepts, our model allows for generalization to un-seen compositions without relying on an external knowledgebase like WordNet. We show that in the challenging generalized compositional zero-shot setting our CGE significantly outperforms the state of the art on MIT-States and UT-Zappos. We also propose a new benchmark for this task based on the recent GQA dataset.",
+  "s2id": "07a3676fac0208133639993f8a3c3d87ac33bcda",
+  "twitter": {
+    "retweets": 7,
+    "likes": 44,
+    "replies": 2
+  },
+  "citations": 2
+}

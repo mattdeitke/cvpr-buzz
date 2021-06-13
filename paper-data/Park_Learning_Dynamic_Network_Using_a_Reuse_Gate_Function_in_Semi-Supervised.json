@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.11655",
+  "title": "Learning Dynamic Network Using a Reuse Gate Function in Semi-Supervised Video Object Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Park_Learning_Dynamic_Network_Using_a_Reuse_Gate_Function_in_Semi-Supervised_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hyojin Park",
+    "Jayeon Yoo",
+    "Seohyeong Jeong",
+    "Ganesh Venkatesh",
+    "Nojun Kwak"
+  ],
+  "abstract": "Current state-of-the-art approaches for Semi-supervised Video Object Segmentation (Semi-VOS) propagates information from previous frames to generate segmentation mask for the current frame. This results in high-quality segmentation across challenging scenarios such as changes in appearance and occlusion. But it also leads to unnecessary computations for stationary or slow-moving objects where the change across frames is minimal. In this work, we exploit this observation by using temporal information to quickly identify frames with minimal change and skip the heavyweight mask generation step. To realize this efficiency, we propose a novel dynamic network that estimates change across frames and decides which path -- computing a full network or reusing previous frame's feature -- to choose depending on the expected similarity. Experimental results show that our approach significantly improves inference speed without much accuracy degradation on challenging Semi-VOS datasets -- DAVIS 16, DAVIS 17, and YouTube-VOS. Furthermore, our approach can be applied to multiple Semi-VOS methods demonstrating its generality. The code is available in https://github.com/HYOJINPARK/Reuse VOS.",
+  "s2id": "c6ce2cc7ce2973fcfc9ff1333649d9eed2a5cffd",
+  "twitter": {
+    "retweets": 0,
+    "likes": 6,
+    "replies": 0
+  },
+  "citations": 0
+}

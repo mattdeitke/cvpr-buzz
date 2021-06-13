@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.10054",
+  "title": "T2VLAD: Global-Local Sequence Alignment for Text-Video Retrieval",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_T2VLAD_Global-Local_Sequence_Alignment_for_Text-Video_Retrieval_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xiaohan Wang",
+    "Linchao Zhu",
+    "Yi Yang"
+  ],
+  "abstract": "Text-video retrieval is a challenging task that aims to search relevant video contents based on natural language descriptions. The key to this problem is to measure text-video similarities in a joint embedding space. However, most existing methods only consider the global cross-modal similarity and overlook the local details. Some works incorporate the local comparisons through cross-modal local matching and reasoning. These complex operations introduce tremendous computation. In this paper, we design an efficient global-local alignment method. The multi-modal video sequences and text features are adaptively aggregated with a set of shared semantic centers. The local cross-modal similarities are computed between the video feature and text feature within the same center. This design enables the meticulous local comparison and reduces the computational cost of the interaction between each text-video pair. Moreover, a global alignment method is proposed to provide a global cross-modal measurement that is complementary to the local perspective. The global aggregated visual features also provide additional supervision, which is indispensable to the optimization of the learnable semantic centers. We achieve consistent improvements on three standard text-video retrieval benchmarks and outperform the state-of-the-art by a clear margin.",
+  "s2id": "a24a0a2b3ddbddc406ea6791dbef8f980447eb43",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 2
+}

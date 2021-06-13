@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.00290",
+  "title": "A Peek Into the Reasoning of Neural Networks: Interpreting With Structural Visual Concepts",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ge_A_Peek_Into_the_Reasoning_of_Neural_Networks_Interpreting_With_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yunhao Ge",
+    "Yao Xiao",
+    "Zhi Xu",
+    "Meng Zheng",
+    "Srikrishna Karanam",
+    "Terrence Chen",
+    "Laurent Itti",
+    "Ziyan Wu"
+  ],
+  "abstract": "Despite substantial progress in applying neural networks (NN) to a wide variety of areas, they still largely suffer from a lack of transparency and interpretability. While recent developments in explainable artificial intelligence attempt to bridge this gap (e.g., by visualizing the correlation between input pixels and final outputs), these approaches are limited to explaining low-level relationships, and crucially, do not provide insights on error correction. In this work, we propose a framework (VRX) to interpret classification NNs with intuitive structural visual concepts. Given a trained classification model, the proposed VRX extracts relevant class-specific visual concepts and organizes them using structural concept graphs (SCG) based on pairwise concept relationships. By means of knowledge distillation, we show VRX can take a step towards mimicking the reasoning process of NNs and provide logical, concept-level explanations for final model decisions. With extensive experiments, we empirically show VRX can meaningfully answer \"why\" and \"why not\" questions about the prediction, providing easy-to-understand insights about the reasoning process. We also show that these insights can potentially provide guidance on improving NN's performance.",
+  "s2id": "2ac3e0e4653ba39393be3a2bb67dd52752d6801f",
+  "twitter": {
+    "retweets": 1,
+    "likes": 12,
+    "replies": 1
+  },
+  "citations": 0
+}

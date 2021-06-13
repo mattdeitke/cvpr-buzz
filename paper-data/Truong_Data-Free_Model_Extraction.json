@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.14779",
+  "title": "Data-Free Model Extraction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Truong_Data-Free_Model_Extraction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jean-Baptiste Truong",
+    "Pratyush Maini",
+    "Robert J. Walls",
+    "Nicolas Papernot"
+  ],
+  "abstract": "Current model extraction attacks assume that the adversary has access to a surrogate dataset with characteristics similar to the proprietary data used to train the victim model. This requirement precludes the use of existing model extraction techniques on valuable models, such as those trained on rare or hard to acquire datasets. In contrast, we propose data-free model extraction methods that do not require a surrogate dataset. Our approach adapts techniques from the area of data-free knowledge transfer for model extraction. As part of our study, we identify that the choice of loss is critical to ensuring that the extracted model is an accurate replica of the victim model. Furthermore, we address difficulties arising from the adversary's limited access to the victim model in a black-box setting. For example, we recover the model's logits from its probability predictions to approximate gradients. We find that the proposed data-free model extraction approach achieves high-accuracy with reasonable query complexity -- 0.99x and 0.92x the victim model accuracy on SVHN and CIFAR-10 datasets given 2M and 20M queries respectively.",
+  "s2id": "287e82b08cc5b8c8aae03825b466fcb73860b0c4",
+  "twitter": {
+    "retweets": 4,
+    "likes": 16,
+    "replies": 1
+  },
+  "citations": 1
+}

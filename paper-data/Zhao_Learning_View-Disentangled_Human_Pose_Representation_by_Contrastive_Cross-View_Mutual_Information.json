@@ -1,0 +1,25 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.01405",
+  "title": "Learning View-Disentangled Human Pose Representation by Contrastive Cross-View Mutual Information Maximization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_View-Disentangled_Human_Pose_Representation_by_Contrastive_Cross-View_Mutual_Information_CVPR_2021_paper.pdf",
+  "authors": [
+    "Long Zhao",
+    "Yuxiao Wang",
+    "Jiaping Zhao",
+    "Liangzhe Yuan",
+    "Jennifer J. Sun",
+    "Florian Schroff",
+    "Hartwig Adam",
+    "Xi Peng",
+    "Dimitris Metaxas",
+    "Ting Liu"
+  ],
+  "abstract": "We introduce a novel representation learning method to disentangle pose-dependent as well as view-dependent factors from 2D human poses. The method trains a network using cross-view mutual information maximization (CV-MIM) which maximizes mutual information of the same pose performed from different viewpoints in a contrastive learning manner. We further propose two regularization terms to ensure disentanglement and smoothness of the learned representations. The resulting pose representations can be used for cross-view action recognition. To evaluate the power of the learned representations, in addition to the conventional fully-supervised action recognition settings, we introduce a novel task called single-shot cross-view action recognition. This task trains models with actions from only one single viewpoint while models are evaluated on poses captured from all possible viewpoints. We evaluate the learned representations on standard benchmarks for action recognition, and show that (i) CV-MIM performs competitively compared with the state-of-the-art models in the fully-supervised scenarios; (ii) CV-MIM outperforms other competing methods by a large margin in the single-shot cross-view setting; (iii) and the learned representations can significantly boost the performance when reducing the amount of supervised training data. Our code is made publicly available at https://github.com/google-research/google-research/tree/master/poem.",
+  "s2id": "8e75a37b9fbe99b3a19b4fd30329edb90941a6e6",
+  "twitter": {
+    "retweets": 1,
+    "likes": 4,
+    "replies": 0
+  },
+  "citations": 0
+}

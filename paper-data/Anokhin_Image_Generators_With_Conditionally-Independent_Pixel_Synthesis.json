@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.13775",
+  "title": "Image Generators With Conditionally-Independent Pixel Synthesis",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Anokhin_Image_Generators_With_Conditionally-Independent_Pixel_Synthesis_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ivan Anokhin",
+    "Kirill Demochkin",
+    "Taras Khakhulin",
+    "Gleb Sterkin",
+    "Victor Lempitsky",
+    "Denis Korzhenkov"
+  ],
+  "abstract": "Existing image generator networks rely heavily on spatial convolutions and, optionally, self-attention blocks in order to gradually synthesize images in a coarse-to-fine manner. Here, we present a new architecture for image generators, where the color value at each pixel is computed independently given the value of a random latent vector and the coordinate of that pixel. No spatial convolutions or similar operations that propagate information across pixels are involved during the synthesis. We analyze the modeling capabilities of such generators when trained in an adversarial fashion, and observe the new generators to achieve similar generation quality to state-of-the-art convolutional generators. We also investigate several interesting properties unique to the new architecture.",
+  "s2id": "8a1453ab579871f1b595e4415fee8a5fdd2a13f1",
+  "twitter": {
+    "retweets": 56,
+    "likes": 414,
+    "replies": 14
+  },
+  "citations": 7
+}

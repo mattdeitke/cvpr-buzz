@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.17266",
+  "title": "Semi-Supervised Synthesis of High-Resolution Editable Textures for 3D Humans",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chaudhuri_Semi-Supervised_Synthesis_of_High-Resolution_Editable_Textures_for_3D_Humans_CVPR_2021_paper.pdf",
+  "authors": [
+    "Bindita Chaudhuri",
+    "Nikolaos Sarafianos",
+    "Linda Shapiro",
+    "Tony Tung"
+  ],
+  "abstract": "We introduce a novel approach to generate diverse high fidelity texture maps for 3D human meshes in a semi-supervised setup. Given a segmentation mask defining the layout of the semantic regions in the texture map, our network generates high-resolution textures with a variety of styles, that are then used for rendering purposes. To accomplish this task, we propose a Region-adaptive Adversarial Variational AutoEncoder (ReAVAE) that learns the probability distribution of the style of each region individually so that the style of the generated texture can be controlled by sampling from the region-specific distributions. In addition, we introduce a data generation technique to augment our training set with data lifted from single-view RGB inputs. Our training strategy allows the mixing of reference image styles with arbitrary styles for different regions, a property which can be valuable for virtual try-on AR/VR applications. Experimental results show that our method synthesizes better texture maps compared to prior work while enabling independent layout and style controllability.",
+  "s2id": "4404cfa42c09c8072eb21a44fcb36b5e324627a2",
+  "twitter": {
+    "retweets": 15,
+    "likes": 47,
+    "replies": 3
+  },
+  "citations": 0
+}

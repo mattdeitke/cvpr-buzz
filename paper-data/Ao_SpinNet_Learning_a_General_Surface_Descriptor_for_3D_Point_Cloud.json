@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.12149",
+  "title": "SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ao_SpinNet_Learning_a_General_Surface_Descriptor_for_3D_Point_Cloud_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sheng Ao",
+    "Qingyong Hu",
+    "Bo Yang",
+    "Andrew Markham",
+    "Yulan Guo"
+  ],
+  "abstract": "Extracting robust and general 3D local features is key to downstream tasks such as point cloud registration and reconstruction. Existing learning-based local descriptors are either sensitive to rotation transformations, or rely on classical handcrafted features which are neither general nor representative. In this paper, we introduce a new, yet conceptually simple, neural architecture, termed SpinNet, to extract local features which are rotationally invariant whilst sufficiently informative to enable accurate registration. A Spatial Point Transformer is first introduced to map the input local surface into a carefully designed cylindrical space, enabling end-to-end optimization with SO(2) equivariant representation. A Neural Feature Extractor which leverages the powerful point-based and 3D cylindrical convolutional neural layers is then utilized to derive a compact and representative descriptor for matching. Extensive experiments on both indoor and outdoor datasets demonstrate that SpinNet outperforms existing state-of-the-art techniques by a large margin. More critically, it has the best generalization ability across unseen scenarios with different sensor modalities.",
+  "s2id": "6c0f9090fa119009047e49e5530cae28f0dd2c7e",
+  "twitter": {
+    "retweets": 5,
+    "likes": 28,
+    "replies": 3
+  },
+  "citations": 4
+}

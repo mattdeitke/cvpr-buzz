@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15992",
+  "title": "A Multiplexed Network for End-to-End, Multilingual OCR",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_A_Multiplexed_Network_for_End-to-End_Multilingual_OCR_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jing Huang",
+    "Guan Pang",
+    "Rama Kovvuri",
+    "Mandy Toh",
+    "Kevin J Liang",
+    "Praveen Krishnan",
+    "Xi Yin",
+    "Tal Hassner"
+  ],
+  "abstract": "Recent advances in OCR have shown that an end-to-end (E2E) training pipeline that includes both detection and recognition leads to the best results. However, many existing methods focus primarily on Latin-alphabet languages, often even only case-insensitive English characters. In this paper, we propose an E2E approach, Multiplexed Multilingual Mask TextSpotter, that performs script identification at the word level and handles different scripts with different recognition heads, all while maintaining a unified loss that simultaneously optimizes script identification and multiple recognition heads. Experiments show that our method outperforms single-head model with similar parameters in end-to-end recognition tasks, and achieves state-of-the-art results on MLT17 and MLT19 joint text detection and script identification benchmarks. We believe that our work is a step towards end-to-end trainable and scalable multilingual multi-purpose OCR system.",
+  "s2id": "1ddef33ece4f6976f80d1ca586d63364379d6fe6",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

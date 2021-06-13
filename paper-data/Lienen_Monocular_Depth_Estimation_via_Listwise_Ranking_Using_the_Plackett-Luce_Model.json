@@ -1,0 +1,19 @@
+{
+  "arXiv": null,
+  "title": "Monocular Depth Estimation via Listwise Ranking Using the Plackett-Luce Model",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lienen_Monocular_Depth_Estimation_via_Listwise_Ranking_Using_the_Plackett-Luce_Model_CVPR_2021_paper.pdf",
+  "authors": [
+    "Julian Lienen",
+    "Eyke Hullermeier",
+    "Ralph Ewerth",
+    "Nils Nommensen"
+  ],
+  "abstract": "In many real-world applications, the relative depth of objects in an image is crucial for scene understanding. Recent approaches mainly tackle the problem of depth prediction in monocular images by treating the problem as a regression task. Yet, being interested in an order relation in the first place, ranking methods suggest themselves as a natural alternative to regression, and indeed, ranking approaches leveraging pairwise comparisons as training information (\"object A is closer to the camera than B\") have shown promising performance on this problem. In this paper, we elaborate on the use of so-called listwise ranking as a generalization of the pairwise approach. Our method is based on the Plackett-Luce (PL) model, a probability distribution on rankings, which we combine with a state-of-the-art neural network architecture and a simple sampling strategy to reduce training complexity. Moreover, taking advantage of the representation of PL as a random utility model, the proposed predictor offers a natural way to recover (shift-invariant) metric depth information from ranking-only data provided at training time. An empirical evaluation on several benchmark datasets in a \"zero-shot\" setting demonstrates the effectiveness of our approach compared to existing ranking and regression methods.",
+  "s2id": "97841b77bbb02e53d04c6c89439926cd40381436",
+  "twitter": {
+    "retweets": 1,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 1
+}

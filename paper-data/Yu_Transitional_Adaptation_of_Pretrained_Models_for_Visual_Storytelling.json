@@ -1,0 +1,19 @@
+{
+  "arXiv": null,
+  "title": "Transitional Adaptation of Pretrained Models for Visual Storytelling",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.pdf",
+  "authors": [
+    "Youngjae Yu",
+    "Jiwan Chung",
+    "Heeseung Yun",
+    "Jongseok Kim",
+    "Gunhee Kim"
+  ],
+  "abstract": "Previous models for vision-to-language generation tasks usually pretrain a visual encoder and a language generator in the respective domains and jointly finetune them with the target task. However, this direct transfer practice may suffer from the discord between visual specificity and language fluency since they are often separately trained from large corpora of visual and text data with no common ground. In this work, we claim that a transitional adaptation task is required between pretraining and finetuning to harmonize the visual encoder and the language model for challenging downstream target tasks like visual storytelling. We propose a novel approach named Transitional Adaptation of Pretrained Model (TAPM) that adapts the multi-modal modules to each other with a simpler alignment task between visual inputs only with no need for text labels. Through extensive experiments, we show that the adaptation step significantly improves the performance of multiple language models for sequential video and image captioning tasks. We achieve new state-of-the-art performance on both language metrics and human evaluation in the multi-sentence description task of LSMDC 2019 and the image storytelling task of VIST. Our experiments reveal that this improvement in caption quality does not depend on the specific choice of language models.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 1,
+    "likes": 13,
+    "replies": 0
+  }
+}

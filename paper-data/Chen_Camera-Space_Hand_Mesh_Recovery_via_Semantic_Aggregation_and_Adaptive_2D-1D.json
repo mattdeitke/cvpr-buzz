@@ -1,0 +1,24 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.02845",
+  "title": "Camera-Space Hand Mesh Recovery via Semantic Aggregation and Adaptive 2D-1D Registration",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Camera-Space_Hand_Mesh_Recovery_via_Semantic_Aggregation_and_Adaptive_2D-1D_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xingyu Chen",
+    "Yufeng Liu",
+    "Chongyang Ma",
+    "Jianlong Chang",
+    "Huayan Wang",
+    "Tian Chen",
+    "Xiaoyan Guo",
+    "Pengfei Wan",
+    "Wen Zheng"
+  ],
+  "abstract": "Recent years have witnessed significant progress in 3D hand mesh recovery. Nevertheless, because of the intrinsic 2D-to-3D ambiguity, recovering camera-space 3D information from a single RGB image remains challenging. To tackle this problem, we divide camera-space mesh recovery into two sub-tasks, i.e., root-relative mesh recovery and root recovery. First, joint landmarks and silhouette are extracted from a single input image to provide 2D cues for the 3D tasks. In the root-relative mesh recovery task, we exploit semantic relations among joints to generate a 3D mesh from the extracted 2D cues. Such generated 3D mesh coordinates are expressed relative to a root position, i.e., wrist of the hand. In the root recovery task, the root position is registered to the camera space by aligning the generated 3D mesh back to 2D cues, thereby completing camera-space 3D mesh recovery. Our pipeline is novel in that (1) it explicitly makes use of known semantic relations among joints and (2) it exploits 1D projections of the silhouette and mesh to achieve robust registration. Extensive experiments on popular datasets such as FreiHAND, RHD, and Human3.6M demonstrate that our approach achieves state-of-the-art performance on both root-relative mesh recovery and root recovery. Our code is publicly available at https://github.com/SeanChenxy/HandMesh.",
+  "s2id": "0c93ba7c58864fc401cd2711a1c6769dd3f97053",
+  "twitter": {
+    "retweets": 0,
+    "likes": 3,
+    "replies": 0
+  },
+  "citations": 0
+}

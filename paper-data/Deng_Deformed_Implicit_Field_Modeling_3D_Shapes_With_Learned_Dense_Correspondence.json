@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.13650",
+  "title": "Deformed Implicit Field: Modeling 3D Shapes With Learned Dense Correspondence",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Deng_Deformed_Implicit_Field_Modeling_3D_Shapes_With_Learned_Dense_Correspondence_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yu Deng",
+    "Jiaolong Yang",
+    "Xin Tong"
+  ],
+  "abstract": "We propose a novel Deformed Implicit Field (DIF) representation for modeling 3D shapes of a category and generating dense correspondences among shapes. With DIF, a 3D shape is represented by a template implicit field shared across the category, together with a 3D deformation field and a correction field dedicated for each shape instance. Shape correspondences can be easily established using their deformation fields. Our neural network, dubbed DIF-Net, jointly learns a shape latent space and these fields for 3D objects belonging to a category without using any correspondence or part label. The learned DIF-Net can also provides reliable correspondence uncertainty measurement reflecting shape structure discrepancy. Experiments show that DIF-Net not only produces high-fidelity 3D shapes but also builds high-quality dense correspondences across different shapes. We also demonstrate several applications such as texture transfer and shape editing, where our method achieves compelling results that cannot be achieved by previous methods.",
+  "s2id": "e81a2177dc5d3338a159d850ab49ee2ba33e7138",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 2
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.07561",
+  "title": "Layerwise Optimization by Gradient Decomposition for Continual Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Layerwise_Optimization_by_Gradient_Decomposition_for_Continual_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shixiang Tang",
+    "Dapeng Chen",
+    "Jinguo Zhu",
+    "Shijie Yu",
+    "Wanli Ouyang"
+  ],
+  "abstract": "Deep neural networks achieve state-of-the-art and sometimes super-human performance across a variety of domains. However, when learning tasks sequentially, the networks easily forget the knowledge of previous tasks, known as \"catastrophic forgetting\". To achieve the consistencies between the old tasks and the new task, one effective solution is to modify the gradient for update. Previous methods enforce independent gradient constraints for different tasks, while we consider these gradients contain complex information, and propose to leverage inter-task information by gradient decomposition. In particular, the gradient of an old task is decomposed into a part shared by all old tasks and a part specific to that task. The gradient for update should be close to the gradient of the new task, consistent with the gradients shared by all old tasks, and orthogonal to the space spanned by the gradients specific to the old tasks. In this way, our approach will encourage common knowledge consolidation but will not impair the task-specific knowledge. Furthermore, the optimization is performed for the gradients of each layer separately rather than the concatenation of all gradients as in previous works. This effectively avoids the influence of the magnitude variation of the gradients in different layers. Extensive experiments validate the effectiveness of both gradient-decomposed optimization and layer-wise updates. Our proposed method achieves state-of-the-art results on various benchmarks of continual learning.",
+  "s2id": "802d7cfbecd6b0176310f6791d9dbaffca7b4eca",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 1
+}

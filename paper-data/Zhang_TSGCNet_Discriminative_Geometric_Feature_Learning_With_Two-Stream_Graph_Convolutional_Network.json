@@ -1,0 +1,18 @@
+{
+  "arXiv": null,
+  "title": "TSGCNet: Discriminative Geometric Feature Learning With Two-Stream Graph Convolutional Network for 3D Dental Model Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_TSGCNet_Discriminative_Geometric_Feature_Learning_With_Two-Stream_Graph_Convolutional_Network_CVPR_2021_paper.pdf",
+  "authors": [
+    "Lingming Zhang",
+    "Yue Zhao",
+    "Deyu Meng",
+    "Zhiming Cui",
+    "Chenqiang Gao",
+    "Xinbo Gao",
+    "Chunfeng Lian",
+    "Dinggang Shen"
+  ],
+  "abstract": "The ability to segment teeth precisely from digitized 3D dental models is an essential task in computer-aided orthodontic surgical planning. To date, deep learning based methods have been popularly used to handle this task. State-of-the-art methods directly concatenate the raw attributes of 3D inputs, namely coordinates and normal vectors of mesh cells, to train a single-stream network for fully-automated tooth segmentation. This, however, has the drawback of ignoring the different geometric meanings provided by those raw attributes. This issue might possibly confuse the network in learning discriminative geometric features and result in many isolated false predictions on the dental model. Against this issue, we propose a two-stream graph convolutional network (TSGCNet) to learn multi-view geometric information from different geometric attributes. Our TSGCNet adopts two graph-learning streams, designed in an input-aware fashion, to extract more discriminative high-level geometric representations from coordinates and normal vectors, respectively. These feature representations learned from the designed two different streams are further fused to integrate the multi-view complementary information for the cell-wise dense prediction task. We evaluate our proposed TSGCNet on a real-patient dataset of dental models acquired by 3D intraoral scanners, and experimental results demonstrate that our method significantly outperforms state-of-the-art methods for 3D shape segmentation.",
+  "s2id": "c24ad0eaf96c840ba1fa5a0222800224741e51df",
+  "citations": 0
+}

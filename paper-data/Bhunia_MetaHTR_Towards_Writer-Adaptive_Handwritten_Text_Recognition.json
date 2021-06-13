@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.01876",
+  "title": "MetaHTR: Towards Writer-Adaptive Handwritten Text Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bhunia_MetaHTR_Towards_Writer-Adaptive_Handwritten_Text_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ayan Kumar Bhunia",
+    "Shuvozit Ghose",
+    "Amandeep Kumar",
+    "Pinaki Nath Chowdhury",
+    "Aneeshan Sain",
+    "Yi-Zhe Song"
+  ],
+  "abstract": "Handwritten Text Recognition (HTR) remains a challenging problem to date, largely due to the varying writing styles that exist amongst us. Prior works however generally operate with the assumption that there is a limited number of styles, most of which have already been captured by existing datasets. In this paper, we take a completely different perspective -- we work on the assumption that there is always a new style that is drastically different, and that we will only have very limited data during testing to perform adaptation. This results in creates a commercially viable solution -- being exposed to the new style, the model has the best shot at adaptation, and the few-sample nature makes it practical to implement. We achieve this via a novel meta-learning framework which exploits additional new-writer data via a support set, and outputs a writer-adapted model via single gradient step update, all during inference. We discover and leverage on the important insight that there exists few key characters per writer that exhibit relatively larger style discrepancies. For that, we additionally propose to meta-learn instance specific weights for a character-wise cross-entropy loss, which is specifically designed to work with the sequential nature of text data. Our writer-adaptive MetaHTR framework can be easily implemented on the top of most state-of-the-art HTR models. Experiments show an average performance gain of 5-7% can be obtained by observing very few new style data.",
+  "s2id": "2c12b14ed6f3353d524009affdaaf673eb1a52ae",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

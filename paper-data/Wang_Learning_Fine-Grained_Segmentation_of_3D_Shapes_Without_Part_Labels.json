@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13030",
+  "title": "Learning Fine-Grained Segmentation of 3D Shapes Without Part Labels",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Learning_Fine-Grained_Segmentation_of_3D_Shapes_Without_Part_Labels_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xiaogang Wang",
+    "Xun Sun",
+    "Xinyu Cao",
+    "Kai Xu",
+    "Bin Zhou"
+  ],
+  "abstract": "Existing learning-based approaches to 3D shape segmentation usually formulate it as a semantic labeling problem, assuming that all parts of training shapes are annotated with a given set of labels. This assumption, however, is unrealistic for training fine-grained segmentation on large datasets since the annotation of fine-grained parts is extremely tedious. In this paper, we approach the problem with deep clustering, where the key idea is to learn part priors from a dataset with fine-grained segmentation but no part annotations. Given point sampled 3D shapes, we model the clustering priors of points with a similarity matrix and achieve part-based segmentation through minimizing a novel low rank loss. Further, since fine-grained parts can be very tiny, a 3D shape has to be densely sampled to ensure the tiny parts are well captured and segmented. To handle densely sampled point sets, we adopt a divide-and-conquer scheme. We first partition the large point set into a number of blocks. Each block is segmented using a deep-clustering-based part prior network (PriorNet) trained in a category-agnostic manner. We then train MergeNet, a graph convolution network, to merge the segments of all blocks to form the final segmentation result. Our method is evaluated with a challenging benchmark of fine-grained segmentation, showing significant advantage over the state-of-the-art ones.",
+  "s2id": "237853a1f3c0441d13035319213de75fa1149fa4",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

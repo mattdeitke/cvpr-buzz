@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01350",
+  "title": "Hierarchical and Partially Observable Goal-Driven Policy Learning With Goals Relational Graph",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ye_Hierarchical_and_Partially_Observable_Goal-Driven_Policy_Learning_With_Goals_Relational_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xin Ye",
+    "Yezhou Yang"
+  ],
+  "abstract": "We present a novel two-layer hierarchical reinforcement learning approach equipped with a Goals Relational Graph (GRG) for tackling the partially observable goal-driven task, such as goal-driven visual navigation. Our GRG captures the underlying relations of all goals in the goal space through a Dirichlet-categorical process that facilitates: 1) the high-level network raising a sub-goal towards achieving a designated final goal; 2) the low-level network towards an optimal policy; and 3) the overall system generalizing unseen environments and goals. We evaluate our approach with two settings of partially observable goal-driven tasks -- a grid-world domain and a robotic object search task. Our experimental results show that our approach exhibits superior generalization performance on both unseen environments and new goals.",
+  "s2id": "aa8441031608c8417260ce6d15900afa6e68089d",
+  "twitter": {
+    "retweets": 3,
+    "likes": 19,
+    "replies": 1
+  },
+  "citations": 1
+}

@@ -1,0 +1,12 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.01591",
+  "title": "Holistic 3D Human and Scene Mesh Estimation From Single View Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Weng_Holistic_3D_Human_and_Scene_Mesh_Estimation_From_Single_View_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhenzhen Weng",
+    "Serena Yeung"
+  ],
+  "abstract": "The 3D world limits the human body pose and the human body pose conveys information about the surrounding objects. Indeed, from a single image of a person placed in an indoor scene, we as humans are adept at resolving ambiguities of the human pose and room layout through our knowledge of the physical laws and prior perception of the plausible object and human poses. However, few computer vision models fully leverage this fact. In this work, we propose a holistically trainable model that perceives the 3D scene from a single RGB image, estimates the camera pose and the room layout, and reconstructs both human body and object meshes. By imposing a set of comprehensive and sophisticated losses on all aspects of the estimations, we show that our model outperforms existing human body mesh methods and indoor scene reconstruction methods. To the best of our knowledge, this is the first model that outputs both object and human predictions at the mesh level, and performs joint optimization on the scene and human poses.",
+  "s2id": "8912d80a422f483644cb7b2116353a97e2a5cc5b",
+  "citations": 0
+}

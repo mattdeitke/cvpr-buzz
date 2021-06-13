@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.05558",
+  "title": "Intentonomy: A Dataset and Study Towards Human Intent Understanding",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jia_Intentonomy_A_Dataset_and_Study_Towards_Human_Intent_Understanding_CVPR_2021_paper.pdf",
+  "authors": [
+    "Menglin Jia",
+    "Zuxuan Wu",
+    "Austin Reiter",
+    "Claire Cardie",
+    "Serge Belongie",
+    "Ser-Nam Lim"
+  ],
+  "abstract": "An image is worth a thousand words, conveying information that goes beyond the physical visual content therein. In this paper, we study the intent behind social media images with an aim to analyze how visual information can help the recognition of human intent. Towards this goal, we introduce an intent dataset, Intentonomy, comprising 14K images covering a wide range of everyday scenes. These images are manually annotated with 28 intent categories that are derived from a social psychology taxonomy. We then systematically study whether, and to what extent, commonly used visual information, i.e., object and context, contribute to human motive understanding. Based on our findings, we conduct further study to quantify the effect of attending to object and context classes as well as textual information in the form of hashtags when training an intent classifier. Our results quantitatively and qualitatively shed light on how visual and textual information can produce observable effects when predicting intent.",
+  "s2id": "01b83275e3e71f8568271a14817f1dc40fe4b7fa",
+  "twitter": {
+    "retweets": 18,
+    "likes": 76,
+    "replies": 2
+  },
+  "citations": 1
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15954",
+  "title": "DiNTS: Differentiable Neural Network Topology Search for 3D Medical Image Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/He_DiNTS_Differentiable_Neural_Network_Topology_Search_for_3D_Medical_Image_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yufan He",
+    "Dong Yang",
+    "Holger Roth",
+    "Can Zhao",
+    "Daguang Xu"
+  ],
+  "abstract": "Recently, neural architecture search(NAS) has been applied to automatically search high-performance networks for medical image segmentation. The NAS search space usually contains a network topology level(controlling connections among cells with different spatial scales) and a cell level(operations within each cell). Existing methods either require long searching time for large-scale 3D image datasets, or are limited to pre-defined topologies (such as U-shaped or single-path). In this work, we focus on three important aspects of NAS in 3D medical image segmentation: flexible multi-path network topology, high search efficiency, and budgeted GPU memory usage. A novel differentiable search framework is proposed to support fast gradient-based search within a highly flexible network topology search space. The discretization of the searched optimal continuous model in differentiable scheme may produce a sub-optimal final discrete model (discretization gap). Therefore, we propose a topology loss to alleviate this problem. In addition, the GPU memory usage for the searched 3D model is limited with budget constraints during search. Our Differentiable Network Topology Search scheme(DiNTS) is evaluated on the Medical Segmentation Decathlon (MSD) challenge, which contains ten challenging segmentation tasks. Our method achieves the state-of-the-art performance and the top ranking on the MSD challenge leaderboard.",
+  "s2id": "c6c14a3cffab09fd12096dbe9db6cb41a5f90293",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 1
+  },
+  "citations": 1
+}

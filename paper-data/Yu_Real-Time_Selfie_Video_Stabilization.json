@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2009.02007",
+  "title": "Real-Time Selfie Video Stabilization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Real-Time_Selfie_Video_Stabilization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jiyang Yu",
+    "Ravi Ramamoorthi",
+    "Keli Cheng",
+    "Michel Sarkis",
+    "Ning Bi"
+  ],
+  "abstract": "We propose a novel real-time selfie video stabilization method. Our method is completely automatic and runs at 26 fps. We use a 1D linear convolutional network to directly infer the rigid moving least squares warping which implicitly balances between the global rigidity and local flexibility. Our network structure is specifically designed to stabilize the background and foreground at the same time, while providing optional control of stabilization focus (relative importance of foreground vs. background) to the users. To train our network, we collect a selfie video dataset with 1005 videos, which is significantly larger than previous selfie video datasets. We also propose a grid approximation to the rigid moving least squares that enables the real-time frame warping. Our method is fully automatic and produces visually and quantitatively better results than previous real-time general video stabilization methods. Compared to previous offline selfie video methods, our approach produces comparable quality with a speed improvement of orders of magnitude. Our code and selfie video dataset is available at https://github.com/jiy173/selfievideostabilization.",
+  "s2id": "ba65767da5ab72aa57e622ac7d2cfe1e78787a88",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

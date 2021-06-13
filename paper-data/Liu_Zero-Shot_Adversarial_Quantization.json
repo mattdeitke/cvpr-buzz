@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15263",
+  "title": "Zero-Shot Adversarial Quantization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Zero-Shot_Adversarial_Quantization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuang Liu",
+    "Wei Zhang",
+    "Jun Wang"
+  ],
+  "abstract": "Model quantization is a promising approach to compress deep neural networks and accelerate inference, making it possible to be deployed on mobile and edge devices. To retain the high performance of full-precision models, most existing quantization methods focus on fine-tuning quantized model by assuming training datasets are accessible. However, this assumption sometimes is not satisfied in real situations due to data privacy and security issues, thereby making these quantization methods not applicable. To achieve zero-short model quantization without accessing training data, a tiny number of quantization methods adopt either post-training quantization or batch normalization statistics-guided data generation for fine-tuning. However, both of them inevitably suffer from low performance, since the former is a little too empirical and lacks training support for ultra-low precision quantization, while the latter could not fully restore the peculiarities of original data and is often low efficient for diverse data generation. To address the above issues, we propose a zero-shot adversarial quantization (ZAQ) framework, facilitating effective discrepancy estimation and knowledge transfer from a full-precision model to its quantized model. This is achieved by a novel two-level discrepancy modeling to drive a generator to synthesize informative and diverse data examples to optimize the quantized model in an adversarial learning fashion. We conduct extensive experiments on three fundamental vision tasks, demonstrating the superiority of ZAQ over the strong zero-shot baselines and validating the effectiveness of its main components.",
+  "s2id": "0f85c82683fef2ec5321c061b170cebc23f4bc2d",
+  "twitter": {
+    "retweets": 2,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 0
+}

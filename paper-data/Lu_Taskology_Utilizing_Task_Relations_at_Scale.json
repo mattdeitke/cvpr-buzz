@@ -1,0 +1,24 @@
+{
+  "arXiv": "http://arxiv.org/abs/2005.07289",
+  "title": "Taskology: Utilizing Task Relations at Scale",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lu_Taskology_Utilizing_Task_Relations_at_Scale_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yao Lu",
+    "Soren Pirk",
+    "Jan Dlabal",
+    "Anthony Brohan",
+    "Ankita Pasad",
+    "Zhao Chen",
+    "Vincent Casser",
+    "Anelia Angelova",
+    "Ariel Gordon"
+  ],
+  "abstract": "Many computer vision tasks address the problem of scene understanding and are naturally interrelated e.g. object classification, detection, scene segmentation, depth estimation, etc. We show that we can leverage the inherent relationships among collections of tasks, as they are trained jointly, supervising each other through their known relationships via consistency losses. Furthermore, explicitly utilizing the relationships between tasks allows improving their performance while dramatically reducing the need for labeled data, and allows training with additional unsupervised or simulated data. We demonstrate a distributed joint training algorithm with task-level parallelism, which affords a high degree of asynchronicity and robustness. This allows learning across multiple tasks, or with large amounts of input data, at scale. We demonstrate our framework on subsets of the following collection of tasks: depth and normal prediction, semantic segmentation, 3D motion and ego-motion estimation, and object tracking and 3D detection in point clouds. We observe improved performance across these tasks, especially in the low-label regime.",
+  "s2id": "884b0fe671f2227d10bcb04ac61767a7371bd64e",
+  "twitter": {
+    "retweets": 0,
+    "likes": 3,
+    "replies": 1
+  },
+  "citations": 3
+}

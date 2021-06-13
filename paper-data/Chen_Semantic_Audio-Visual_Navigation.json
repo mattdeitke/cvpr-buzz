@@ -1,0 +1,18 @@
+{
+  "arXiv": null,
+  "title": "Semantic Audio-Visual Navigation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Semantic_Audio-Visual_Navigation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Changan Chen",
+    "Ziad Al-Halah",
+    "Kristen Grauman"
+  ],
+  "abstract": "Recent work on audio-visual navigation assumes a constantly-sounding target and restricts the role of audio to signaling the target's position. We introduce semantic audio-visual navigation, where objects in the environment make sounds consistent with their semantic meaning (e.g., toilet flushing, door creaking) and acoustic events are sporadic or short in duration. We propose a transformer-based model to tackle this new semantic AudioGoal task, incorporating an inferred goal descriptor that captures both spatial and semantic properties of the target. Our model's persistent multimodal memory enables it to reach the goal even long after the acoustic event stops. In support of the new task, we also expand the SoundSpaces audio simulations to provide semantically grounded sounds for an array of objects in Matterport3D. Our method strongly outperforms existing audio-visual navigation methods by learning to associate semantic, acoustic, and visual cues. Project page: http://vision.cs.utexas.edu/projects/semantic-audio-visual-navigation.",
+  "s2id": "1941a6e2d4fd61b63d1df518a40cb47cab19c0e6",
+  "twitter": {
+    "retweets": 1,
+    "likes": 11,
+    "replies": 1
+  },
+  "citations": 1
+}

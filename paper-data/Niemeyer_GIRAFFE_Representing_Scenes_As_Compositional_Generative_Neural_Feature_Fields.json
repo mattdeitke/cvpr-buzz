@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.12100",
+  "title": "GIRAFFE: Representing Scenes As Compositional Generative Neural Feature Fields",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Niemeyer_GIRAFFE_Representing_Scenes_As_Compositional_Generative_Neural_Feature_Fields_CVPR_2021_paper.pdf",
+  "authors": [
+    "Michael Niemeyer",
+    "Andreas Geiger"
+  ],
+  "abstract": "Deep generative models allow for photorealistic image synthesis at high resolutions. But for many applications, this is not enough: content creation also needs to be controllable. While several recent works investigate how to disentangle underlying factors of variation in the data, most of them operate in 2D and hence ignore that our world is three-dimensional. Further, only few works consider the compositional nature of scenes. Our key hypothesis is that incorporating a compositional 3D scene representation into the generative model leads to more controllable image synthesis. Representing scenes as compositional generative neural feature fields allows us to disentangle one or multiple objects from the background as well as individual objects' shapes and appearances while learning from unstructured and unposed image collections without any additional supervision. Combining this scene representation with a neural rendering pipeline yields a fast and realistic image synthesis model. As evidenced by our experiments, our model is able to disentangle individual objects and allows for translating and rotating them in the scene as well as changing the camera pose.",
+  "s2id": "69a1d72bac9dfb18940ff97ae91643d6c8158e6d",
+  "twitter": {
+    "retweets": 43,
+    "likes": 137,
+    "replies": 2
+  },
+  "citations": 20
+}

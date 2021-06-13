@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2005.03161",
+  "title": "MAZE: Data-Free Model Stealing Attack Using Zeroth-Order Gradient Estimation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kariyappa_MAZE_Data-Free_Model_Stealing_Attack_Using_Zeroth-Order_Gradient_Estimation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sanjay Kariyappa",
+    "Atul Prakash",
+    "Moinuddin K Qureshi"
+  ],
+  "abstract": "High quality Machine Learning (ML) models are often considered valuable intellectual property by companies. Model Stealing (MS) attacks allow an adversary with black-box access to a ML model to replicate its functionality by training a clone model using the predictions of the target model for different inputs. However, best available existing MS attacks fail to produce a high-accuracy clone without access to the target dataset or a representative dataset necessary to query the target model. In this paper, we show that preventing access to the target dataset is not an adequate defense to protect a model. We propose MAZE -- a data-free model stealing attack using zeroth-order gradient estimation that produces high-accuracy clones. In contrast to prior works, MAZE uses only synthetic data created using a generative model to perform MS. Our evaluation with four image classification models shows that MAZE provides a normalized clone accuracy in the range of 0.90x to 0.99x, and outperforms even the recent attacks that rely on partial data (JBDA, clone accuracy 0.13x to 0.69x) and on surrogate data (KnockoffNets, clone accuracy 0.52x to 0.97x). We also study an extension of MAZE in the partial-data setting and develop MAZE-PD, which generates synthetic data closer to the target distribution. MAZE-PD further improves the clone accuracy 0.97x to 1.0x) and reduces the query budget required for the attack by 2x-24x.",
+  "s2id": "a2bd735bf9f93fe447cddd68e0a38e01937fdaf3",
+  "twitter": {
+    "retweets": 0,
+    "likes": 9,
+    "replies": 0
+  },
+  "citations": 7
+}

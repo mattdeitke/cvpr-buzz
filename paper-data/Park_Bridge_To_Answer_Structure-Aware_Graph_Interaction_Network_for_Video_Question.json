@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.14085",
+  "title": "Bridge To Answer: Structure-Aware Graph Interaction Network for Video Question Answering",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Park_Bridge_To_Answer_Structure-Aware_Graph_Interaction_Network_for_Video_Question_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jungin Park",
+    "Jiyoung Lee",
+    "Kwanghoon Sohn"
+  ],
+  "abstract": "This paper presents a novel method, termed Bridge to Answer, to infer correct answers for questions about a given video by leveraging adequate graph interactions of heterogeneous crossmodal graphs. To realize this, we learn question conditioned visual graphs by exploiting the relation between video and question to enable each visual node using question-to-visual interactions to encompass both visual and linguistic cues. In addition, we propose bridged visual-to-visual interactions to incorporate two complementary visual information on appearance and motion by placing the question graph as an intermediate bridge. This bridged architecture allows reliable message passing through compositional semantics of the question to generate an appropriate answer. As a result, our method can learn the question conditioned visual representations attributed to appearance and motion that show powerful capability for video question answering. Extensive experiments prove that the proposed method provides effective and superior performance than state-of-the-art methods on several benchmarks.",
+  "s2id": "5b990c4e07e315b44a8e15c2e9d9290bbd5240b6",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

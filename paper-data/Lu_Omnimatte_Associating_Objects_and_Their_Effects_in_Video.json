@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.06993",
+  "title": "Omnimatte: Associating Objects and Their Effects in Video",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lu_Omnimatte_Associating_Objects_and_Their_Effects_in_Video_CVPR_2021_paper.pdf",
+  "authors": [
+    "Erika Lu",
+    "Forrester Cole",
+    "Tali Dekel",
+    "Andrew Zisserman",
+    "William T. Freeman",
+    "Michael Rubinstein"
+  ],
+  "abstract": "Computer vision has become increasingly better at segmenting objects in images and videos; however, scene effects related to the objects -- shadows, reflections, generated smoke, etc. -- are typically overlooked. Identifying such scene effects and associating them with the objects producing them is important for improving our fundamental understanding of visual scenes, and applications such as removing, duplicating, or enhancing objects in video. We take a step towards solving this novel problem of automatically associating objects with their effects in video. Given an ordinary video and a rough segmentation mask over time of one or more subjects of interest, we estimate an omnimatte for each subject -- an alpha matte and color image that includes the subject along with all its related time-varying scene elements. Our model is trained only on the input video in a self-supervised manner, without any manual labels, and is generic -- it produces omnimattes automatically for arbitrary objects and a variety of effects. We show results on real-world videos containing interactions between different types of subjects (cars, animals, people) and complex effects, ranging from semi-transparent smoke and reflections to fully opaque objects attached to the subject.",
+  "s2id": "dedf03d00db03b55fef0a481a32317f3327a3b41",
+  "twitter": {
+    "retweets": 123,
+    "likes": 595,
+    "replies": 5
+  },
+  "citations": 0
+}

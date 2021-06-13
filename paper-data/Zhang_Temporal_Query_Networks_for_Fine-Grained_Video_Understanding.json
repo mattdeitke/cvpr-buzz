@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.09496",
+  "title": "Temporal Query Networks for Fine-Grained Video Understanding",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Temporal_Query_Networks_for_Fine-Grained_Video_Understanding_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chuhan Zhang",
+    "Ankush Gupta",
+    "Andrew Zisserman"
+  ],
+  "abstract": "Our objective in this work is fine-grained classification of actions in untrimmed videos, where the actions may be temporally extended or may span only a few frames of the video. We cast this into a query-response mechanism, where each query addresses a particular question, and has its own response label set. We make the following four contributions: (i) We propose a new model---a Temporal Query Network---which enables the query-response functionality, and a structural understanding of fine-grained actions. It attends to relevant segments for each query with a temporal attention mechanism, and can be trained using only the labels for each query. (ii) We propose a new way---stochastic feature bank update---to train a network on videos of various lengths with the dense sampling required to respond to fine-grained queries. (iii) we compare the TQN to other architectures and text supervision methods, and analyze their pros and cons. Finally, (iv) we evaluate the method extensively on the FineGym and Diving48 benchmarks for fine-grained action classification and surpass the state-of-the-art using only RGB features.",
+  "s2id": "cd5d931ac67008d6469a8fe189339bcae776f48b",
+  "twitter": {
+    "retweets": 7,
+    "likes": 53,
+    "replies": 0
+  },
+  "citations": 0
+}

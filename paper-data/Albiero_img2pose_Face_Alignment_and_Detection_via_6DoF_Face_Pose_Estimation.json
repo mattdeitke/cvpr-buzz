@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.07791",
+  "title": "img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Albiero_img2pose_Face_Alignment_and_Detection_via_6DoF_Face_Pose_Estimation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Vitor Albiero",
+    "Xingyu Chen",
+    "Xi Yin",
+    "Guan Pang",
+    "Tal Hassner"
+  ],
+  "abstract": "We propose real-time, six degrees of freedom (6DoF), 3D face pose estimation without face detection or landmark localization. We observe that estimating the 6DoF rigid transformation of a face is a simpler problem than facial landmark detection, often used for 3D face alignment. In addition, 6DoF offers more information than face bounding box labels. We leverage these observations to make multiple contributions: (a) We describe an easily trained, efficient, Faster R-CNN-based model which regresses 6DoF pose for all faces in the photo, without preliminary face detection. (b) We explain how pose is converted and kept consistent between the input photo and arbitrary crops created while training and evaluating our model. (c) Finally, we show how face poses can replace detection bounding box training labels. Tests on AFLW2000-3D and BIWI show that our method runs at real-time and outperforms state of the art (SotA) face pose estimators. Remarkably, our method also surpasses SotA models of comparable complexity on the WIDER FACE detection benchmark, despite not been optimized on bounding box labels.",
+  "s2id": "84c784b88b21cd58b8c8c2d3de6f3012bb539197",
+  "twitter": {
+    "retweets": 21,
+    "likes": 109,
+    "replies": 1
+  },
+  "citations": 2
+}

@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.03149",
+  "title": "VisualVoice: Audio-Visual Speech Separation With Cross-Modal Consistency",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_VisualVoice_Audio-Visual_Speech_Separation_With_Cross-Modal_Consistency_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ruohan Gao",
+    "Kristen Grauman"
+  ],
+  "abstract": "We introduce a new approach for audio-visual speech separation. Given a video, the goal is to extract the speech associated with a face in spite of simultaneous background sounds and/or other human speakers. Whereas existing methods focus on learning the alignment between the speaker's lip movements and the sounds they generate, we propose to leverage the speaker's face appearance as an additional prior to isolate the corresponding vocal qualities they are likely to produce. Our approach jointly learns audio-visual speech separation and cross-modal speaker embeddings from unlabeled video. It yields state-of-the-art results on five benchmark datasets for audio-visual speech separation and enhancement, and generalizes well to challenging real-world videos of diverse scenarios. Our video results and code: http://vision.cs.utexas.edu/projects/VisualVoice/.",
+  "s2id": "52b1ceaf9ef4f88387557f80278bb976fce5a4c1",
+  "twitter": {
+    "retweets": 24,
+    "likes": 94,
+    "replies": 1
+  },
+  "citations": 4
+}

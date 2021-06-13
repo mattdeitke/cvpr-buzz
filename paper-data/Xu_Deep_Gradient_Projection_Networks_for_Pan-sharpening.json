@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.04584",
+  "title": "Deep Gradient Projection Networks for Pan-sharpening",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_Deep_Gradient_Projection_Networks_for_Pan-sharpening_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shuang Xu",
+    "Jiangshe Zhang",
+    "Zixiang Zhao",
+    "Kai Sun",
+    "Junmin Liu",
+    "Chunxia Zhang"
+  ],
+  "abstract": "Pan-sharpening is an important technique for remote sensing imaging systems to obtain high resolution multispectral images. Recently, deep learning has become the most popular tool for pan-sharpening. This paper develops a model-based deep pan-sharpening approach. Specifically, two optimization problems regularized by the deep prior are formulated, and they are separately responsible for the generative models for panchromatic images and low resolution multispectral images. Then, the two problems are solved by a gradient projection algorithm, and the iterative steps are generalized into two network blocks. By alternatively stacking the two blocks, a novel network, called gradient projection based pan-sharpening neural network, is constructed. The experimental results on different kinds of satellite datasets demonstrate that the new network outperforms state-of-the-art methods both visually and quantitatively. The codes are available at https://github.com/xsxjtu/GPPNN.",
+  "s2id": "1347a70411485366480b0a25e86d3ebe6aaec30b",
+  "twitter": {
+    "retweets": 2,
+    "likes": 15,
+    "replies": 0
+  },
+  "citations": 0
+}

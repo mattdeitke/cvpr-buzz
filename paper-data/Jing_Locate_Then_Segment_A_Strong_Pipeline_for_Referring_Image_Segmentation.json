@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16284",
+  "title": "Locate Then Segment: A Strong Pipeline for Referring Image Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jing_Locate_Then_Segment_A_Strong_Pipeline_for_Referring_Image_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ya Jing",
+    "Tao Kong",
+    "Wei Wang",
+    "Liang Wang",
+    "Lei Li",
+    "Tieniu Tan"
+  ],
+  "abstract": "Referring image segmentation aims to segment the objects referred by a natural language expression. Previous methods usually focus on designing an implicit and recurrent feature interaction mechanism to fuse the visual-linguistic features to directly generate the final segmentation mask without explicitly modeling the localization of the referent guided by language expression and designing a powerful segmentation module. To tackle these problems, we view this task from another perspective by decoupling it into a \"locate-then-segment\" (LTS) scheme. Given a language expression, people generally first perform attention to the corresponding target image regions, then generate a segmentation mask about the object based on its context. The LTS first extracts and fuses both visual and textual features to get a cross-modal representation, then applies a cross-model interaction on the visual-textual features to locate the referred object with position prior, and finally generates the segmentation result with a light-weight network. Our LTS is simple but surprisingly effective. On three popular benchmark datasets, the LTS outperforms all the previous state-of-the-arts methods by a large margin (e.g., +3.2% on RefCOCO+ and +3.4% on RefCOCOg). In addition, our model is more interpretable with explicitly locating the object, which is also proved by visualization experiments. Accordingly, this framework is very promising to serve as a pipeline for referring image segmentation.",
+  "s2id": "caf146b244da72523d0ebdd94a8a220b1aa7d946",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

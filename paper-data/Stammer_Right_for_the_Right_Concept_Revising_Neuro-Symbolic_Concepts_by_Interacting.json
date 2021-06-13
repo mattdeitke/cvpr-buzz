@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.12854",
+  "title": "Right for the Right Concept: Revising Neuro-Symbolic Concepts by Interacting With Their Explanations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Stammer_Right_for_the_Right_Concept_Revising_Neuro-Symbolic_Concepts_by_Interacting_CVPR_2021_paper.pdf",
+  "authors": [
+    "Wolfgang Stammer",
+    "Patrick Schramowski",
+    "Kristian Kersting"
+  ],
+  "abstract": "Most explanation methods in deep learning map importance estimates for a model's prediction back to the original input space. These \"visual\" explanations are often insufficient, as the model's actual concept remains elusive. Moreover, without insights into the model's semantic concept, it is difficult --if not impossible-- to intervene on the model's behavior via its explanations, called Explanatory Interactive Learning. Consequently, we propose to intervene on a Neuro-Symbolic scene representation, which allows one to revise the model on the semantic level, e.g. \"never focus on the color to make your decision\". We compiled a novel con-founded visual scene data set, the CLEVR-Hans data set,capturing complex compositions of different objects. The results of our experiments on CLEVR-Hans demonstrate that our semantic explanations, i.e. compositional explanations at a per-object level, can identify confounders that are not identifiable using \"visual\" explanations only. More importantly, feedback on this semantic level makes it possible to revise the model from focusing on these factors.",
+  "s2id": "329f9972e42ad78854282d50161c8f208c8e4983",
+  "twitter": {
+    "retweets": 7,
+    "likes": 22,
+    "replies": 3
+  },
+  "citations": 3
+}

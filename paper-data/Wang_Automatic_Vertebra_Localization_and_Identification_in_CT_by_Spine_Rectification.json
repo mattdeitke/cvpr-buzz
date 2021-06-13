@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.07947",
+  "title": "Automatic Vertebra Localization and Identification in CT by Spine Rectification and Anatomically-Constrained Optimization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Automatic_Vertebra_Localization_and_Identification_in_CT_by_Spine_Rectification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Fakai Wang",
+    "Kang Zheng",
+    "Le Lu",
+    "Jing Xiao",
+    "Min Wu",
+    "Shun Miao"
+  ],
+  "abstract": "Accurate vertebra localization and identification are required in many clinical applications of spine disorder diagnosis and surgery planning. However, significant challenges are posed in this task by highly varying pathologies (such as vertebral compression fracture, scoliosis, and vertebral fixation) and imaging conditions (such as limited field of view and metal streak artifacts). This paper proposes a robust and accurate method that effectively exploits the anatomical knowledge of the spine to facilitate vertebra localization and identification. A key point localization model is trained to produce activation maps of vertebra centers. They are then re-sampled along the spine centerline to produce spine-rectified activation maps, which are further aggregated into 1-D activation signals. Following this, an anatomically-constrained optimization module is introduced to jointly search for the optimal vertebra centers under a soft constraint that regulates the distance between vertebrae and a hard constraint on the consecutive vertebra indices. When being evaluated on a major public benchmark of 302 highly pathological CT images, the proposed method reports the state of the art identification (id.) rate of 97.4%, and outperforms the best competing method of 94.7% id. rate by reducing the relative id. error rate by half.",
+  "s2id": "7c16d2ebee10aa394cb49091c0dcaad42e8f49cd",
+  "twitter": {
+    "retweets": 4,
+    "likes": 9,
+    "replies": 0
+  },
+  "citations": 0
+}

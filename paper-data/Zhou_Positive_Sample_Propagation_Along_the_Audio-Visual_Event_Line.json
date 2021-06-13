@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00239",
+  "title": "Positive Sample Propagation Along the Audio-Visual Event Line",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_Positive_Sample_Propagation_Along_the_Audio-Visual_Event_Line_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jinxing Zhou",
+    "Liang Zheng",
+    "Yiran Zhong",
+    "Shijie Hao",
+    "Meng Wang"
+  ],
+  "abstract": "Visual and audio signals often coexist in natural environments, forming audio-visual events (AVEs). Given a video, we aim to localize video segments containing an AVE and identify its category. In order to learn discriminative features for a classifier, it is pivotal to identify the helpful (or positive) audio-visual segment pairs while filtering out the irrelevant ones, regardless whether they are synchronized or not. To this end, we propose a new positive sample propagation (PSP) module to discover and exploit the closely related audio-visual pairs by evaluating the relationship within every possible pair. It can be done by constructing an all-pair similarity map between each audio and visual segment, and only aggregating the features from the pairs with high similarity scores. To encourage the network to extract high correlated features for positive samples, a new audio-visual pair similarity loss is proposed. We also propose a new weighting branch to better exploit the temporal correlations in weakly supervised setting. We perform extensive experiments on the public AVE dataset and achieve new state-of-the-art accuracy in both fully and weakly supervised settings, thus verifying the effectiveness of our method.",
+  "s2id": "2cc471bc4f1aaa8009c62a867ab90265c6749c19",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

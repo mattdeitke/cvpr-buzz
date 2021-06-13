@@ -1,0 +1,13 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13447",
+  "title": "DRANet: Disentangling Representation and Adaptation Networks for Unsupervised Cross-Domain Adaptation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_DRANet_Disentangling_Representation_and_Adaptation_Networks_for_Unsupervised_Cross-Domain_Adaptation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Seunghun Lee",
+    "Sunghyun Cho",
+    "Sunghoon Im"
+  ],
+  "abstract": "In this paper, we present DRANet, a network architecture that disentangles image representations and transfers the visual attributes in a latent space for unsupervised cross-domain adaptation. Unlike the existing domain adaptation methods that learn associated features sharing a domain, DRANet preserves the distinctiveness of each domain's characteristics. Our model encodes individual representations of content (scene structure) and style (artistic appearance) from both source and target images. Then, it adapts the domain by incorporating the transferred style factor into the content factor along with learnable weights specified for each domain. This learning framework allows bi-/multi-directional domain adaptation with a single encoder-decoder network and aligns their domain shift. Additionally, we propose a content-adaptive domain transfer module that helps retain scene structure while transferring style. Extensive experiments show our model successfully separates content-style factors and synthesizes visually pleasing domain-transferred images. The proposed method demonstrates state-of-the-art performance on standard digit classification tasks as well as semantic segmentation tasks.",
+  "s2id": "3f7e066ed49d5734308d2f562ab6ee4ba18ed1ed",
+  "citations": 0
+}

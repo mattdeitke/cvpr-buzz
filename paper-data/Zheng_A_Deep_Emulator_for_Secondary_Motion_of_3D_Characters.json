@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01261",
+  "title": "A Deep Emulator for Secondary Motion of 3D Characters",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_A_Deep_Emulator_for_Secondary_Motion_of_3D_Characters_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mianlun Zheng",
+    "Yi Zhou",
+    "Duygu Ceylan",
+    "Jernej Barbic"
+  ],
+  "abstract": "Fast and light-weight methods for animating 3D characters are desirable in various applications such as computer games. We present a learning-based approach to enhance skinning-based animations of 3D characters with vivid secondary motion effects. We represent each local patch of a character simulation mesh as a graph network where the edges implicitly encode the internal forces between the neighboring vertices. We then train a neural network that emulates the ordinary differential equations of the character dynamics, predicting new vertex positions from the current accelerations, velocities and positions. Being a local method, our network is independent of the mesh topology and generalizes to arbitrarily shaped 3D character meshes at test time. We further represent per-vertex constraints and material properties such as stiffness, enabling us to easily adjust the dynamics in different parts of the mesh. We evaluate our method on various character meshes and complex motion sequences. Our method can be over 30 times more efficient than ground-truth physically based simulation, and outperforms alternative solutions that provide fast approximations.",
+  "s2id": "2b69c0960f169efeef98dce4173b93338f98e9b4",
+  "twitter": {
+    "retweets": 10,
+    "likes": 31,
+    "replies": 0
+  },
+  "citations": 0
+}

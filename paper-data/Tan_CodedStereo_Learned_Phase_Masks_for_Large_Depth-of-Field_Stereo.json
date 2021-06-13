@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.04641",
+  "title": "CodedStereo: Learned Phase Masks for Large Depth-of-Field Stereo",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tan_CodedStereo_Learned_Phase_Masks_for_Large_Depth-of-Field_Stereo_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shiyu Tan",
+    "Yicheng Wu",
+    "Shoou-I Yu",
+    "Ashok Veeraraghavan"
+  ],
+  "abstract": "Conventional stereo suffers from a fundamental trade-off between imaging volume and signal-to-noise ratio (SNR) -- due to the conflicting impact of aperture size on both these variables. Inspired by the extended depth of field cameras, we propose a novel end-to-end learning-based technique to overcome this limitation, by introducing a phase mask at the aperture plane of the cameras in a stereo imaging system. The phase mask creates a depth-dependent point spread function, allowing us to recover sharp image texture and stereo correspondence over a significantly extended depth of field (EDOF) than conventional stereo. The phase mask pattern, the EDOF image reconstruction, and the stereo disparity estimation are all trained together using an end-to-end learned deep neural network. We perform theoretical analysis and characterization of the proposed approach and show a 6x increase in volume that can be imaged in simulation. We also build an experimental prototype and validate the approach using real-world results acquired using this prototype system.",
+  "s2id": "1ea4eb9ea36e7a5de968e6ce8367ae58ef82efdb",
+  "twitter": {
+    "retweets": 19,
+    "likes": 55,
+    "replies": 0
+  },
+  "citations": 0
+}

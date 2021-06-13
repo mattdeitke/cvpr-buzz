@@ -1,0 +1,27 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15573",
+  "title": "HumanGPS: Geodesic PreServing Feature for Dense Human Correspondences",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tan_HumanGPS_Geodesic_PreServing_Feature_for_Dense_Human_Correspondences_CVPR_2021_paper.pdf",
+  "authors": [
+    "Feitong Tan",
+    "Danhang Tang",
+    "Mingsong Dou",
+    "Kaiwen Guo",
+    "Rohit Pandey",
+    "Cem Keskin",
+    "Ruofei Du",
+    "Deqing Sun",
+    "Sofien Bouaziz",
+    "Sean Fanello",
+    "Ping Tan",
+    "Yinda Zhang"
+  ],
+  "abstract": "In this paper, we address the problem of building pixel-wise dense correspondences between human images under arbitrary camera viewpoints and body poses. Previous methods either assume small motions or rely on discriminative descriptors extracted from local patches, which cannot handle large motion or visually ambiguous body parts, e.g. left v.s. right hand. In contrast, we propose a deep learning framework that maps each pixel to a feature space, where the feature distances reflect the geodesic distances among pixels as if they were projected onto the surface of 3D human scans. To this end, we introduce novel loss functions to push features apart according to their geodesic distances on the surface inside and across images. Without any semantic annotation, the features automatically learn to differentiate visually similar parts and align different subjects into a unified feature space. Extensive experiments show that the learned features can produce accurate correspondences between images with remarkable generalization capabilities on both intra and inter subjects. We demonstrate the effectiveness of our method on a variety of applications such as optical flow, non-rigid tracking, occlusions detection, and human dense pose regression.",
+  "s2id": "565f23e8c0501252f9830f42b978735f6b4049f1",
+  "twitter": {
+    "retweets": 2,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 0
+}

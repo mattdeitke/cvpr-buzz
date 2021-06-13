@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.09458",
+  "title": "Learning Discriminative Prototypes With Dynamic Time Warping",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chang_Learning_Discriminative_Prototypes_With_Dynamic_Time_Warping_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xiaobin Chang",
+    "Frederick Tung",
+    "Greg Mori"
+  ],
+  "abstract": "Dynamic Time Warping (DTW) is widely used for temporal data processing. However, existing methods can neither learn the discriminative prototypes of different classes nor exploit such prototypes for further analysis. We propose Discriminative Prototype DTW (DP-DTW), a novel method to learn class-specific discriminative prototypes for temporal recognition tasks. DP-DTW shows superior performance compared to conventional DTWs on time series classification benchmarks. Combined with end-to-end deep learning, DP-DTW can handle challenging weakly supervised action segmentation problems and achieves state of the art results on standard benchmarks. Moreover, detailed reasoning on the input video is enabled by the learned action prototypes. Specifically, an action-based video summarization can be obtained by aligning the input sequence with action prototypes.",
+  "s2id": "d12b54dc7f0cf16791ee05a2ab77cfab38a9e0ff",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

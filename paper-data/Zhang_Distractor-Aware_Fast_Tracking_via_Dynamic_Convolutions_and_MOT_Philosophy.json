@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.12041",
+  "title": "Distractor-Aware Fast Tracking via Dynamic Convolutions and MOT Philosophy",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Distractor-Aware_Fast_Tracking_via_Dynamic_Convolutions_and_MOT_Philosophy_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zikai Zhang",
+    "Bineng Zhong",
+    "Shengping Zhang",
+    "Zhenjun Tang",
+    "Xin Liu",
+    "Zhaoxiang Zhang"
+  ],
+  "abstract": "A practical long-term tracker typically contains three key properties, i.e., an efficient model design, an effective global re-detection strategy and a robust distractor awareness mechanism. However, most state-of-the-art long-term trackers (e.g., Pseudo and re-detecting based ones) do not take all three key properties into account and therefore may either be time-consuming or drift to distractors. To address the issues, we propose a two-task tracking framework (named DMTrack), which utilizes two core components (i.e., one-shot detection and re-identification (re-id) association) to achieve distractor-aware fast tracking via Dynamic convolutions (d-convs) and Multiple object tracking (MOT) philosophy. To achieve precise and fast global detection, we construct a lightweight one-shot detector using a novel dynamic convolutions generation method, which provides a unified and more flexible way for fusing target information into the search field. To distinguish the target from distractors, we resort to the philosophy of MOT to reason distractors explicitly by maintaining all potential similarities' tracklets. Benefited from the strength of high recall detection and explicit object association, our tracker achieves state-of-the-art performance on the LaSOT, OxUvA, TLP, VOT2018LT and VOT2019LT benchmarks and runs in real-time (3x faster than comparisons).",
+  "s2id": "16cf8225d1b86c54a18b917a9475bfbd68b46306",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 0
+}

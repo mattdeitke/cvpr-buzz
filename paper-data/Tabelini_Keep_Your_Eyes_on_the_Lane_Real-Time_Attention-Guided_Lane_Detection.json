@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2010.12035",
+  "title": "Keep Your Eyes on the Lane: Real-Time Attention-Guided Lane Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tabelini_Keep_Your_Eyes_on_the_Lane_Real-Time_Attention-Guided_Lane_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Lucas Tabelini",
+    "Rodrigo Berriel",
+    "Thiago M. Paixao",
+    "Claudine Badue",
+    "Alberto F. De Souza",
+    "Thiago Oliveira-Santos"
+  ],
+  "abstract": "Modern lane detection methods have achieved remarkable performances in complex real-world scenarios, but many have issues maintaining real-time efficiency, which is important for autonomous vehicles. In this work, we propose LaneATT: an anchor-based deep lane detection model, which, akin to other generic deep object detectors, uses the anchors for the feature pooling step. Since lanes follow a regular pattern and are highly correlated, we hypothesize that in some cases global information may be crucial to infer their positions, especially in conditions such as occlusion, missing lane markers, and others. Thus, this work proposes a novel anchor-based attention mechanism that aggregates global information. The model was evaluated extensively on three of the most widely used datasets in the literature. The results show that our method outperforms the current state-of-the-art methods showing both higher efficacy and efficiency. Moreover, an ablation study is performed along with a discussion on efficiency trade-off options that are useful in practice. Code and models are available at https://github.com/lucastabelini/LaneATT.",
+  "s2id": "00b0f67a932ca1d71206063cce86c6acf82b31d8",
+  "twitter": {
+    "retweets": 1,
+    "likes": 16,
+    "replies": 0
+  },
+  "citations": 1
+}

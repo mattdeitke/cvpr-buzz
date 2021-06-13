@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2007.10379",
+  "title": "Generative Hierarchical Features From Synthesizing Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_Generative_Hierarchical_Features_From_Synthesizing_Images_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yinghao Xu",
+    "Yujun Shen",
+    "Jiapeng Zhu",
+    "Ceyuan Yang",
+    "Bolei Zhou"
+  ],
+  "abstract": "Generative Adversarial Networks (GANs) have recently advanced image synthesis by learning the underlying distribution of the observed data. However, how the features learned from solving the task of image generation are applicable to other vision tasks remains seldom explored. In this work, we show that learning to synthesize images can bring remarkable hierarchical visual features that are generalizable across a wide range of applications. Specifically, we consider the pre-trained StyleGAN generator as a learned loss function and utilize its layer-wise representation to train a novel hierarchical encoder. The visual feature produced by our encoder, termed as Generative Hierarchical Feature (GH-Feat), has strong transferability to both generative and discriminative tasks, including image editing, image harmonization, image classification, face verification, landmark detection, and layout prediction. Extensive qualitative and quantitative experimental results demonstrate the appealing performance of GH-Feat.",
+  "s2id": "71f5e48323ab65bd93579b2b0ca48a5660c86cc3",
+  "twitter": {
+    "retweets": 37,
+    "likes": 149,
+    "replies": 2
+  },
+  "citations": 6
+}

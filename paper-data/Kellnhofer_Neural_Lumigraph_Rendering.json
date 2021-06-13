@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.11571",
+  "title": "Neural Lumigraph Rendering",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kellnhofer_Neural_Lumigraph_Rendering_CVPR_2021_paper.pdf",
+  "authors": [
+    "Petr Kellnhofer",
+    "Lars C. Jebe",
+    "Andrew Jones",
+    "Ryan Spicer",
+    "Kari Pulli",
+    "Gordon Wetzstein"
+  ],
+  "abstract": "Novel view synthesis is a challenging and ill-posed inverse rendering problem. Neural rendering techniques have recently achieved photorealistic image quality for this task. State-of-the-art (SOTA) neural volume rendering approaches, however, are slow to train and require minutes of inference (i.e., rendering) time for high image resolutions. We adopt high-capacity neural scene representations with periodic activations for jointly optimizing an implicit surface and a radiance field of a scene supervised exclusively with posed 2D images. Our neural rendering pipeline accelerates SOTA neural volume rendering by about two orders of magnitude and our implicit surface representation is unique in allowing us to export a mesh with view-dependent texture information. Thus, like other implicit surface representations, ours is compatible with traditional graphics pipelines, enabling real-time rendering rates, while achieving unprecedented image quality compared to other surface methods. We assess the quality of our approach using existing datasets as well as high-quality 3D face data captured with a custom multi-camera rig.",
+  "s2id": "eee5dcd8ce65bba83b653957009ecc028ff3b887",
+  "twitter": {
+    "retweets": 35,
+    "likes": 199,
+    "replies": 2
+  },
+  "citations": 2
+}

@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.00649",
+  "title": "Unpaired Image-to-Image Translation via Latent Energy Transport",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Unpaired_Image-to-Image_Translation_via_Latent_Energy_Transport_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yang Zhao",
+    "Changyou Chen"
+  ],
+  "abstract": "Image-to-image translation aims to preserve source contents while translating to discriminative target styles between two visual domains. Most works apply adversarial learning in the ambient image space, which could be computationally expensive and challenging to train. In this paper, we propose to deploy an energy-based model (EBM) in the latent space of a pretrained autoencoder for this task. The pretrained autoencoder serves as both a latent code extractor and an image reconstruction worker. Our model, LETIT, is based on the assumption that two domains share the same latent space, where latent representation is implicitly decomposed as a content code and a domain-specific style code. Instead of explicitly extracting the two codes and applying adaptive instance normalization to combine them, our latent EBM can implicitly learn to transport the source style code to the target style code while preserving the content code, an advantage over existing image translation methods. This simplified solution is also more efficient in the one-sided unpaired image translation setting. Qualitative and quantitative comparisons demonstrate superior translation quality and faithfulness for content preservation. Our model is the first to be applicable to 1024x1024-resolution unpaired image translation to the best of our knowledge. Code is available at https://github.com/YangNaruto/latent-energy-transport.",
+  "s2id": "b3aa6ca778f00bd30bfb0f3eeb2cf8223b25f44c",
+  "twitter": {
+    "retweets": 7,
+    "likes": 57,
+    "replies": 1
+  },
+  "citations": 1
+}

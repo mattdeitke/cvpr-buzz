@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00466",
+  "title": "Improving Calibration for Long-Tailed Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Improving_Calibration_for_Long-Tailed_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhisheng Zhong",
+    "Jiequan Cui",
+    "Shu Liu",
+    "Jiaya Jia"
+  ],
+  "abstract": "Deep neural networks may perform poorly when training datasets are heavily class-imbalanced. Recently, two-stage methods decouple representation learning and classifier learning to improve performance. But there is still the vital issue of miscalibration. To address it, we design two methods to improve calibration and performance in such scenarios. Motivated by the fact that predicted probability distributions of classes are highly related to the numbers of class instances, we propose label-aware smoothing to deal with different degrees of over-confidence for classes and improve classifier learning. For dataset bias between these two stages due to different samplers, we further propose shifted batch normalization in the decoupling framework. Our proposed methods set new records on multiple popular long-tailed recognition benchmark datasets, including CIFAR-10-LT, CIFAR-100-LT, ImageNet-LT, Places-LT, and iNaturalist 2018.",
+  "s2id": "09ce0a5073dde62e6cff2d5dfed1944e024e951e",
+  "twitter": {
+    "retweets": 6,
+    "likes": 24,
+    "replies": 0
+  },
+  "citations": 0
+}

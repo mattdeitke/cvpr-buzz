@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.11224",
+  "title": "Reciprocal Landmark Detection and Tracking With Extremely Few Annotations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_Reciprocal_Landmark_Detection_and_Tracking_With_Extremely_Few_Annotations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jianzhe Lin",
+    "Ghazal Sahebzamani",
+    "Christina Luong",
+    "Fatemeh Taheri Dezaki",
+    "Mohammad Jafari",
+    "Purang Abolmaesumi",
+    "Teresa Tsang"
+  ],
+  "abstract": "Localization of anatomical landmarks to perform two-dimensional measurements in echocardiography is part of routine clinical workflow in cardiac disease diagnosis. Automatic localization of those landmarks is highly desirable to improve workflow and reduce interobserver variability. Training a machine learning framework to perform such localization is hindered given the sparse nature of gold standard labels; only few percent of cardiac cine series frames are normally manually labeled for clinical use. In this paper, we propose a new end-to-end reciprocal detection and tracking model that is specifically designed to handle the sparse nature of echocardiography labels. The model is trained using few annotated frames across the entire cardiac cine sequence to generate consistent detection and tracking of landmarks, and an adversarial training for the model is proposed to take advantage of these annotated frames. The superiority of the proposed reciprocal model is demonstrated using a series of experiments.",
+  "s2id": "3b12cd8ac9699e8763cf4e0039427b0105bee091",
+  "twitter": {
+    "retweets": 2,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 0
+}

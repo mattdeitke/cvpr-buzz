@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "PU-GCN: Point Cloud Upsampling Using Graph Convolutional Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Qian_PU-GCN_Point_Cloud_Upsampling_Using_Graph_Convolutional_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Guocheng Qian",
+    "Abdulellah Abualshour",
+    "Guohao Li",
+    "Ali Thabet",
+    "Bernard Ghanem"
+  ],
+  "abstract": "The effectiveness of learning-based point cloud upsampling pipelines heavily relies on the upsampling modules and feature extractors used therein. For the point upsampling module, we propose a novel model called NodeShuffle, which uses a Graph Convolutional Network (GCN) to better encode local point information from point neighborhoods. NodeShuffle is versatile and can be incorporated into any point cloud upsampling pipeline. Extensive experiments show how NodeShuffle consistently improves state-of-the-art upsampling methods. For feature extraction, we also propose a new multi-scale point feature extractor, called Inception DenseGCN. By aggregating features at multiple scales, this feature extractor enables further performance gain in the final upsampled point clouds. We combine Inception DenseGCN with NodeShuffle into a new point upsampling pipeline called PU-GCN. PU-GCN sets new state-of-art performance with much fewer parameters and more efficient inference.",
+  "s2id": "175f8509b1a9641ef011b26df393a5f4f65d6185",
+  "twitter": {
+    "retweets": 4,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 3
+}

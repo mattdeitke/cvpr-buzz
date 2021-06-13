@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.05901",
+  "title": "Robust Consistent Video Depth Estimation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kopf_Robust_Consistent_Video_Depth_Estimation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Johannes Kopf",
+    "Xuejian Rong",
+    "Jia-Bin Huang"
+  ],
+  "abstract": "We present an algorithm for estimating consistent dense depth maps and camera poses from a monocular video. We integrate a learning-based depth prior, in the form of a convolutional neural network trained for single-image depth estimation, with geometric optimization, to estimate a smooth camera trajectory as well as detailed and stable depth reconstruction. Our algorithm combines two complementary techniques: (1) flexible deformation-splines for low-frequency large-scale alignment and (2) geometry-aware depth filtering for high-frequency alignment of fine depth details. In contrast to prior approaches, our method does not require camera poses as input and achieves robust reconstruction for challenging hand-held cell phone captures that contain a significant amount of noise, shake, motion blur, and rolling shutter deformations. Our method quantitatively outperforms state-of-the-arts on the Sintel benchmark for both depth and pose estimations, and attains favorable qualitative results across diverse wild datasets.",
+  "s2id": "34ceed8aef36c717b3bfad8f6ccdfb4247013b4e",
+  "twitter": {
+    "retweets": 109,
+    "likes": 754,
+    "replies": 10
+  },
+  "citations": 1
+}

@@ -1,0 +1,24 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.14544",
+  "title": "AutoFlow: Learning a Better Training Set for Optical Flow",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_AutoFlow_Learning_a_Better_Training_Set_for_Optical_Flow_CVPR_2021_paper.pdf",
+  "authors": [
+    "Deqing Sun",
+    "Daniel Vlasic",
+    "Charles Herrmann",
+    "Varun Jampani",
+    "Michael Krainin",
+    "Huiwen Chang",
+    "Ramin Zabih",
+    "William T. Freeman",
+    "Ce Liu"
+  ],
+  "abstract": "Synthetic datasets play a critical role in pre-training CNN models for optical flow, but they are painstaking to generate and hard to adapt to new applications. To automate the process, we present AutoFlow, a simple and effective method to render training data for optical flow that optimizes the performance of a model on a target dataset. AutoFlow takes a layered approach to render synthetic data, where the motion, shape, and appearance of each layer are controlled by learnable hyperparameters. Experimental results show that  AutoFlow achieves state-of-the-art accuracy in pre-training both  PWC-Net and RAFT. Our code and data are available at autoflow-google.github.io.",
+  "s2id": "9ee5045f42d7fbd4f848e91a354d63793365fdd1",
+  "twitter": {
+    "retweets": 5,
+    "likes": 25,
+    "replies": 1
+  },
+  "citations": 0
+}

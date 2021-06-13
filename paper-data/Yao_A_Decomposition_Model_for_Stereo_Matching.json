@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.07516",
+  "title": "A Decomposition Model for Stereo Matching",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yao_A_Decomposition_Model_for_Stereo_Matching_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chengtang Yao",
+    "Yunde Jia",
+    "Huijun Di",
+    "Pengxiang Li",
+    "Yuwei Wu"
+  ],
+  "abstract": "In this paper, we present a decomposition model for stereo matching to solve the problem of excessive growth in computational cost (time and memory cost) as the resolution increases. In order to reduce the huge cost of stereo matching at the original resolution, our model only runs dense matching at a very low resolution and uses sparse matching at different higher resolutions to recover the disparity of lost details scale-by-scale. After the decomposition of stereo matching, our model iteratively fuses the sparse and dense disparity maps from adjacent scales with an occlusion-aware mask. A refinement network is also applied to improving the fusion result. Compared with high-performance methods like PSMNet and GANet, our method achieves 10-100x speed increase while obtaining comparable disparity estimation results.",
+  "s2id": "a3ff5cb5d3e2a43e4dda4b9e26f385776a703a7a",
+  "twitter": {
+    "retweets": 2,
+    "likes": 11,
+    "replies": 0
+  },
+  "citations": 0
+}

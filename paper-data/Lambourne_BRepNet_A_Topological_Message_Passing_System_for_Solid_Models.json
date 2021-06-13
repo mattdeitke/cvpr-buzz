@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00706",
+  "title": "BRepNet: A Topological Message Passing System for Solid Models",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lambourne_BRepNet_A_Topological_Message_Passing_System_for_Solid_Models_CVPR_2021_paper.pdf",
+  "authors": [
+    "Joseph G. Lambourne",
+    "Karl D.D. Willis",
+    "Pradeep Kumar Jayaraman",
+    "Aditya Sanghi",
+    "Peter Meltzer",
+    "Hooman Shayani"
+  ],
+  "abstract": "Boundary representation (B-rep) models are the standard way 3D shapes are described in Computer-Aided Design (CAD) applications. They combine lightweight parametric curves and surfaces with topological information which connects the geometric entities to describe manifolds. In this paper we introduce BRepNet, a neural network architecture designed to operate directly on B-rep data structures, avoiding the need to approximate the model as meshes or point clouds. BRepNet defines convolutional kernels with respect to oriented coedges in the data structure. In the neighborhood of each coedge, a small collection of faces, edges and coedges can be identified and patterns in the feature vectors from these entities detected by specific learnable parameters. In addition, to encourage further deep learning research with B-reps, we publish the Fusion 360 Gallery segmentation dataset. A collection of over 35,000 B-rep models annotated with information about the modeling operations which created each face. We demonstrate that BRepNet can segment these models with higher accuracy than methods working on meshes, and point clouds.",
+  "s2id": "31714ffb9b31bed33f48fa07dcf36fd88ba4f2af",
+  "twitter": {
+    "retweets": 1,
+    "likes": 4,
+    "replies": 0
+  },
+  "citations": 3
+}

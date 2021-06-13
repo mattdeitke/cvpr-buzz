@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.14563",
+  "title": "Learnable Motion Coherence for Correspondence Pruning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Learnable_Motion_Coherence_for_Correspondence_Pruning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuan Liu",
+    "Lingjie Liu",
+    "Cheng Lin",
+    "Zhen Dong",
+    "Wenping Wang"
+  ],
+  "abstract": "Motion coherence is an important clue for distinguishing true correspondences from false ones. Modeling motion coherence on sparse putative correspondences is challenging due to their sparsity and uneven distributions. Existing works on motion coherence are sensitive to parameter settings and have difficulty in dealing with complex motion patterns. In this paper, we introduce a network called Laplacian Motion Coherence Network (LMCNet) to learn motion coherence property for correspondence pruning. We propose a novel formulation of fitting coherent motions with a smooth function on a graph of correspondences and show that this formulation allows a closed-form solution by graph Laplacian. This closed-form solution enables us to design a differentiable layer in a learning framework to capture global motion coherence from putative correspondences. The global motion coherence is further combined with local coherence extracted by another local layer to robustly detect inlier correspondences. Experiments demonstrate that LMCNet has superior performances to the state of the art in relative camera pose estimation and correspondences pruning of dynamic scenes.",
+  "s2id": "e3ef9f82f783dfd151f7263dcf5d5a0bae3049fb",
+  "twitter": {
+    "retweets": 7,
+    "likes": 23,
+    "replies": 7
+  },
+  "citations": 0
+}

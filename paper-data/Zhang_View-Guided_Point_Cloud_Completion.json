@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.05666",
+  "title": "View-Guided Point Cloud Completion",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_View-Guided_Point_Cloud_Completion_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xuancheng Zhang",
+    "Yutong Feng",
+    "Siqi Li",
+    "Changqing Zou",
+    "Hai Wan",
+    "Xibin Zhao",
+    "Yandong Guo",
+    "Yue Gao"
+  ],
+  "abstract": "This paper presents a view-guided solution for the task of point cloud completion. Unlike most existing methods directly inferring the missing points using shape priors, we address this task by introducing ViPC (view-guided point cloud completion) that takes the missing crucial global structure information from an extra single-view image. By leveraging a framework which sequentially performs effective cross-modality and cross-level fusions, our method achieves significantly superior results over typical existing solutions on a new large-scale dataset we collect for the view-guided point cloud completion task.",
+  "s2id": "c49512baf1c5f6068d8f0e33461bad55082f5884",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

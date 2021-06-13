@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06541",
+  "title": "Affect2MM: Affective Analysis of Multimedia Content Using Emotion Causality",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Mittal_Affect2MM_Affective_Analysis_of_Multimedia_Content_Using_Emotion_Causality_CVPR_2021_paper.pdf",
+  "authors": [
+    "Trisha Mittal",
+    "Puneet Mathur",
+    "Aniket Bera",
+    "Dinesh Manocha"
+  ],
+  "abstract": "We present Affect2MM, a learning method for time-series emotion prediction for multimedia content. Our goal is to automatically capture the varying emotions depicted by characters in real-life human-centric situations and behaviors. We use the ideas from emotion causation theories to computationally model and determine the emotional state evoked in clips of movies. Affect2MM explicitly models the temporal causality using attention-based methods and Granger causality. We use a variety of components like facial features of actors involved, scene understanding, visual aesthetics, action/situation description, and movie script to obtain an affective-rich representation to understand and perceive the scene. We use an LSTM-based learning model for emotion perception. To evaluate our method, we analyze and compare our performance on three datasets, SENDv1, MovieGraphs, and the LIRIS-ACCEDE dataset, and observe an average of 10-15% increase in the performance over SOTA methods for all three datasets.",
+  "s2id": "e9bf333219929128e3b96a280b55474b043d4f7b",
+  "twitter": {
+    "retweets": 1,
+    "likes": 4,
+    "replies": 0
+  },
+  "citations": 0
+}

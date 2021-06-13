@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.12464",
+  "title": "Practical Wide-Angle Portraits Correction With Deep Structured Models",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tan_Practical_Wide-Angle_Portraits_Correction_With_Deep_Structured_Models_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jing Tan",
+    "Shan Zhao",
+    "Pengfei Xiong",
+    "Jiangyu Liu",
+    "Haoqiang Fan",
+    "Shuaicheng Liu"
+  ],
+  "abstract": "Wide-angle portraits often enjoy expanded views. However, they contain perspective distortions, especially noticeable when capturing group portrait photos, where the background is skewed and faces are stretched. This paper introduces the first deep learning based approach to remove such artifacts from freely-shot photos. Specifically, given a wide-angle portrait as input, we build a cascaded network consisting of a LineNet, a ShapeNet, and a transition module (TM), which corrects perspective distortions on the background, adapts to the stereographic projection on facial regions, and achieves smooth transitions between these two projections, accordingly. To train our network, we build the first perspective portrait dataset with a large diversity in identities, scenes and camera modules. For the quantitative evaluation, we introduce two novel metrics, line consistency and face congruence. Compared to the previous state-of-the-art approach, our method does not require camera distortion parameters. We demonstrate that our approach significantly outperforms the previous state-of-the-art approach both qualitatively and quantitatively.",
+  "s2id": "cf93c0a6db5e46c367af4d3ba8a78f30565e7d30",
+  "twitter": {
+    "retweets": 2,
+    "likes": 13,
+    "replies": 1
+  },
+  "citations": 0
+}

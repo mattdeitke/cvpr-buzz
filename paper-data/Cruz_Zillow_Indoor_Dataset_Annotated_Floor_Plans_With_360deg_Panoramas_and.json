@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "Zillow Indoor Dataset: Annotated Floor Plans With 360deg Panoramas and 3D Room Layouts",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cruz_Zillow_Indoor_Dataset_Annotated_Floor_Plans_With_360deg_Panoramas_and_CVPR_2021_paper.pdf",
+  "authors": [
+    "Steve Cruz",
+    "Will Hutchcroft",
+    "Yuguang Li",
+    "Naji Khosravan",
+    "Ivaylo Boyadzhiev",
+    "Sing Bing Kang"
+  ],
+  "abstract": "We present Zillow Indoor Dataset (ZInD): A large indoor dataset with 71,474 panoramas from 1,524 real unfurnished homes. ZInD provides annotations of 3D room layouts, 2D and 3D floor plans, panorama location in the floor plan, and locations of windows and doors. The ground truth construction took over 1,500 hours of annotation work. To the best of our knowledge, ZInD is the largest real dataset with layout annotations. A unique property is the room layout data, which follows a real world distribution (cuboid, more general Manhattan, and non-Manhattan layouts) as opposed to the mostly cuboid or Manhattan layouts in current publicly available datasets. Also, the scale and annotations provided are valuable for effective research related to room layout and floor plan analysis. To demonstrate ZInD's benefits, we benchmark on room layout estimation from single panoramas and multi-view registration.",
+  "s2id": ""
+}

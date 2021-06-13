@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16372",
+  "title": "Source-Free Domain Adaptation for Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Source-Free_Domain_Adaptation_for_Semantic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuang Liu",
+    "Wei Zhang",
+    "Jun Wang"
+  ],
+  "abstract": "Unsupervised Domain Adaptation (UDA) can tackle the challenge that convolutional neural network (CNN)-based approaches for semantic segmentation heavily rely on the pixel-level annotated data, which is labor-intensive. However, existing UDA approaches in this regard inevitably require the full access to source datasets to reduce the gap between the source and target domains during model adaptation, which are impractical in the real scenarios where the source datasets are private, and thus cannot be released along with the well-trained source models. To cope with this issue, we propose a source-free domain adaptation framework for semantic segmentation, namely SFDA, in which only a well-trained source model and an unlabeled target domain dataset are available for adaptation. SFDA not only enables to recover and preserve the source domain knowledge from the source model via knowledge transfer during model adaptation, but also distills valuable information from the target domain for self-supervised learning. The pixel- and patch-level optimization objectives tailored for semantic segmentation are seamlessly integrated in the framework. The extensive experimental results on numerous benchmark datasets highlight the effectiveness of our framework against the existing UDA approaches relying on source data.",
+  "s2id": "a633ea2dea6a9bd24942e1f7c0cea4f7a94670df",
+  "twitter": {
+    "retweets": 2,
+    "likes": 15,
+    "replies": 1
+  },
+  "citations": 1
+}

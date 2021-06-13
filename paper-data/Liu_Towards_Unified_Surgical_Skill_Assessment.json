@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2106.01035",
+  "title": "Towards Unified Surgical Skill Assessment",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Towards_Unified_Surgical_Skill_Assessment_CVPR_2021_paper.pdf",
+  "authors": [
+    "Daochang Liu",
+    "Qiyue Li",
+    "Tingting Jiang",
+    "Yizhou Wang",
+    "Rulin Miao",
+    "Fei Shan",
+    "Ziyu Li"
+  ],
+  "abstract": "Surgical skills have a great influence on surgical safety and patients' well-being. Traditional assessment of surgical skills involves strenuous manual efforts, which lacks efficiency and repeatability. Therefore, we attempt to automatically predict how well the surgery is performed using the surgical video. In this paper, a unified multi-path framework for automatic surgical skill assessment is proposed, which takes care of multiple composing aspects of surgical skills, including surgical tool usage, intraoperative event pattern, and other skill proxies. The dependency relationships among these different aspects are specially modeled by a path dependency module in the framework. We conduct extensive experiments on the JIGSAWS dataset of simulated surgical tasks, and a new clinical dataset of real laparoscopic surgeries. The proposed framework achieves promising results on both datasets, with the state-of-the-art on the simulated dataset advanced from 0.71 Spearman's correlation to 0.80. It is also shown that combining multiple skill aspects yields better performance than relying on a single aspect.",
+  "s2id": "c2b9de7b90cf5c2cbf36fbc29566d0e7b94946ee",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

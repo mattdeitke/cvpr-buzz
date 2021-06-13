@@ -1,0 +1,14 @@
+{
+  "arXiv": null,
+  "title": "Learning View Selection for 3D Scenes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_Learning_View_Selection_for_3D_Scenes_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yifan Sun",
+    "Qixing Huang",
+    "Dun-Yu Hsiao",
+    "Li Guan",
+    "Gang Hua"
+  ],
+  "abstract": "Efficient 3D space sampling to represent an underlying3D object/scene is essential for 3D vision, robotics, and be-yond. A standard approach is to explicitly sample a densecollection of views and formulate it as a view selection prob-lem, or, more generally, a set cover problem. In this paper,we introduce a novel approach that avoids dense view sam-pling. The key idea is to learn a view prediction networkand a trainable aggregation module that takes the predictedviews as input and outputs an approximation of their genericscores (e.g., surface coverage, viewing angle from surfacenormals). This methodology allows us to turn the set coverproblem (or multi-view representation optimization) into acontinuous optimization problem. We then explain how toeffectively solve the induced optimization problem using con-tinuation, i.e., aggregating a hierarchy of smoothed scoringmodules. Experimental results show that our approach ar-rives at similar or better solutions with about 10 x speed upin running time, comparing with the standard methods.",
+  "s2id": ""
+}

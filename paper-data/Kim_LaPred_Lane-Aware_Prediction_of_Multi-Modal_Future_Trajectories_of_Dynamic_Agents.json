@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00249",
+  "title": "LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_LaPred_Lane-Aware_Prediction_of_Multi-Modal_Future_Trajectories_of_Dynamic_Agents_CVPR_2021_paper.pdf",
+  "authors": [
+    "ByeoungDo Kim",
+    "Seong Hyeon Park",
+    "Seokhwan Lee",
+    "Elbek Khoshimjonov",
+    "Dongsuk Kum",
+    "Junsoo Kim",
+    "Jeong Soo Kim",
+    "Jun Won Choi"
+  ],
+  "abstract": "In this paper, we address the problem of predicting the future motion of a dynamic agent (called a target agent) given its current and past states as well as the information on its environment. It is paramount to develop a prediction model that can exploit the contextual information in both static and dynamic environments surrounding the target agent and generate diverse trajectory samples that are meaningful in a traffic context. We propose a novel prediction model, referred to as the lane-aware prediction (LaPred) network, which uses the instance-level lane entities extracted from a semantic map to predict the multimodal future trajectories. For each lane candidate found in the neighborhood of the target agent, LaPred extracts the joint features relating the lane and the trajectories of the neighboring agents. Then, the features for all lane candidates are fused with the attention weights learned through a self-supervised learning task that identifies the lane candidate likely to be followed by the target agent. Using the instance-level lane information, LaPred can produce the trajectories compliant with the surroundings better than 2D raster image-based methods and generate the diverse future trajectories given multiple lane candidates. The experiments conducted on the public nuScenes dataset and Argoverse dataset demonstrate that the proposed LaPred method significantly outperforms the existing prediction models, achieving state-of-the-art performance in the benchmarks.",
+  "s2id": "5f625ad20b5aa170d612d3b8f4733e6067f7cfb4",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

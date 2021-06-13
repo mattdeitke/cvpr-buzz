@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/1912.02048",
+  "title": "Siamese Natural Language Tracker: Tracking by Natural Language Descriptions With Siamese Trackers",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.pdf",
+  "authors": [
+    "Qi Feng",
+    "Vitaly Ablavsky",
+    "Qinxun Bai",
+    "Stan Sclaroff"
+  ],
+  "abstract": "We propose a novel Siamese Natural Language Tracker (SNLT), which brings the advancements in visual tracking to the tracking by natural language (NL) specification task. The proposed SNLT is applicable to a wide range of Siamese trackers, providing a new class of baselines for the tracking by NL task and promising future improvements from the advancements of Siamese trackers. The carefully designed architecture of the Siamese Natural Language Region Proposal Network (SNL-RPN), together with the Dynamic Aggregation of vision and language modalities, is introduced to perform the tracking by NL task. Empirical results over tracking benchmarks with NL annotations show that the proposed SNLT improves Siamese trackers by 3 to 7 percentage points with a slight tradeoff of speed. The proposed SNLT outperforms all NL trackers to-date and is competitive among state-of-the-art real-time trackers on LaSOT benchmarks while running at 50 frames per second on a single GPU.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 1,
+    "likes": 0,
+    "replies": 1
+  }
+}

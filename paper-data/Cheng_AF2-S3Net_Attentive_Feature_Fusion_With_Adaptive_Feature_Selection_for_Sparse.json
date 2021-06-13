@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "(AF)2-S3Net: Attentive Feature Fusion With Adaptive Feature Selection for Sparse Semantic Segmentation Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_AF2-S3Net_Attentive_Feature_Fusion_With_Adaptive_Feature_Selection_for_Sparse_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ran Cheng",
+    "Ryan Razani",
+    "Ehsan Taghavi",
+    "Enxu Li",
+    "Bingbing Liu"
+  ],
+  "abstract": "Autonomous robotic systems and self driving cars rely on accurate perception of their surroundings as the safety of the passengers and pedestrians is the top priority. Semantic segmentation is one the essential components of environmental perception that provides semantic information of the scene. Recently, several methods have been introduced for 3D LiDAR semantic segmentation. While, they can lead to improved performance, they are either afflicted by high computational complexity, therefore are inefficient, or lack fine details of smaller instances. To alleviate this problem, we propose AF2-S3Net, an end-to-end encoder-decoder CNN network for 3D LiDAR semantic segmentation. We present a novel multi-branch attentive feature fusion module in the encoder and a unique adaptive feature selection module with feature map re-weighting in the decoder. Our AF2-S3Net fuses the voxel based learning and point-based learning into a single framework to effectively process the large 3D scene. Our experimental results show that the proposed method outperforms the state-of-the-art approaches on the large-scale nuScenes-lidarseg and SemanticKITTI benchmark, ranking 1st on both competitive public leaderboard competitions upon publication.",
+  "s2id": "dd2c89052f4dfb1f1d060b08374469aa1e0f57a6",
+  "twitter": {
+    "retweets": 8,
+    "likes": 17,
+    "replies": 0
+  },
+  "citations": 2
+}

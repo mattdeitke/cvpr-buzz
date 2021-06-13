@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.02337",
+  "title": "Probabilistic Tracklet Scoring and Inpainting for Multiple Object Tracking",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Saleh_Probabilistic_Tracklet_Scoring_and_Inpainting_for_Multiple_Object_Tracking_CVPR_2021_paper.pdf",
+  "authors": [
+    "Fatemeh Saleh",
+    "Sadegh Aliakbarian",
+    "Hamid Rezatofighi",
+    "Mathieu Salzmann",
+    "Stephen Gould"
+  ],
+  "abstract": "Despite the recent advances in multiple object tracking (MOT), achieved by joint detection and tracking, dealing with long occlusions remains a challenge. This is due to the fact that such techniques tend to ignore the long-term motion information. In this paper, we introduce a probabilistic autoregressive motion model to score tracklet proposals by directly measuring their likelihood. This is achieved by training our model to learn the underlying distribution of natural tracklets. As such, our model allows us not only to assign new detections to existing tracklets, but also to inpaint a tracklet when an object has been lost for a long time, e.g., due to occlusion, by sampling tracklets so as to fill the gap caused by misdetections. Our experiments demonstrate the superiority of our approach at tracking objects in challenging sequences; it outperforms the state of the art in most standard MOT metrics on multiple MOT benchmark datasets, including MOT16, MOT17, and MOT20.",
+  "s2id": "3e6998b2d2b4289202ddbc07036fd0a8f407cdf0",
+  "twitter": {
+    "retweets": 1,
+    "likes": 32,
+    "replies": 0
+  },
+  "citations": 1
+}

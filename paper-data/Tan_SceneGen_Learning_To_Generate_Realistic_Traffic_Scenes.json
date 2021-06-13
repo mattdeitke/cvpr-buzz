@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.06541",
+  "title": "SceneGen: Learning To Generate Realistic Traffic Scenes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tan_SceneGen_Learning_To_Generate_Realistic_Traffic_Scenes_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shuhan Tan",
+    "Kelvin Wong",
+    "Shenlong Wang",
+    "Sivabalan Manivasagam",
+    "Mengye Ren",
+    "Raquel Urtasun"
+  ],
+  "abstract": "We consider the problem of generating realistic traffic scenes automatically. Existing methods typically insert actors into the scene according to a set of hand-crafted heuristics and are limited in their ability to model the true complexity and diversity of real traffic scenes, thus inducing a content gap between synthesized traffic scenes versus real ones. As a result, existing simulators lack the fidelity necessary to train and test self-driving vehicles. To address this limitation, we present SceneGen, a neural autoregressive model of traffic scenes that eschews the need for rules and heuristics. In particular, given the ego-vehicle state and a high definition map of surrounding area, SceneGen inserts actors of various classes into the scene and synthesizes their sizes, orientations, and velocities. We demonstrate on two large-scale datasets SceneGen's ability to faithfully model distributions of real traffic scenes. Moreover, we show that SceneGen coupled with sensor simulation can be used to train perception models that generalize to the real world.",
+  "s2id": "8b817a28d880e4688956d6e1769475a9f22c7411",
+  "twitter": {
+    "retweets": 1,
+    "likes": 3,
+    "replies": 1
+  },
+  "citations": 1
+}

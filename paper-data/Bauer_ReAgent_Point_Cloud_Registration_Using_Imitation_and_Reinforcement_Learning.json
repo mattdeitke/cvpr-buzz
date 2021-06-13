@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15231",
+  "title": "ReAgent: Point Cloud Registration Using Imitation and Reinforcement Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bauer_ReAgent_Point_Cloud_Registration_Using_Imitation_and_Reinforcement_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Dominik Bauer",
+    "Timothy Patten",
+    "Markus Vincze"
+  ],
+  "abstract": "Point cloud registration is a common step in many 3D computer vision tasks such as object pose estimation, where a 3D model is aligned to an observation. Classical registration methods generalize well to novel domains but fail when given a noisy observation or a bad initialization. Learning-based methods, in contrast, are more robust but lack in generalization capacity. We propose to consider iterative point cloud registration as a reinforcement learning task and, to this end, present a novel registration agent (ReAgent). We employ imitation learning to initialize its discrete registration policy based on a steady expert policy. Integration with policy optimization, based on our proposed alignment reward, further improves the agent's registration performance. We compare our approach to classical and learning-based registration methods on both ModelNet40 (synthetic) and ScanObjectNN (real data) and show that our ReAgent achieves state-of-the-art accuracy. The lightweight architecture of the agent, moreover, enables reduced inference time as compared to related approaches.",
+  "s2id": "47312ef986c0b9574a4f60bef2d56cfdd09afa20",
+  "twitter": {
+    "retweets": 2,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 0
+}

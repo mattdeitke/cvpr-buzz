@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06871",
+  "title": "SMPLicit: Topology-Aware Generative Model for Clothed People",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Corona_SMPLicit_Topology-Aware_Generative_Model_for_Clothed_People_CVPR_2021_paper.pdf",
+  "authors": [
+    "Enric Corona",
+    "Albert Pumarola",
+    "Guillem Alenya",
+    "Gerard Pons-Moll",
+    "Francesc Moreno-Noguer"
+  ],
+  "abstract": "In this paper we introduce SMPLicit, a novel generative model to jointly represent body pose, shape and clothing geometry. In contrast to existing learning-based approaches that require training specific models for each type of garment, SMPLicit can represent in a unified manner different garment topologies (e.g. from sleeveless tops to hoodies and to open jackets), while controlling other properties like the garment size or tightness/looseness. We show our model to be applicable to a large variety of garments including T-shirts, hoodies, jackets, shorts, pants, skirts, shoes and even hair. The representation flexibility of SMPLicit builds upon an implicit model conditioned with the SMPL human body parameters and a learnable latent space which is semantically interpretable and aligned with the clothing attributes. The proposed model is fully differentiable, allowing for its use into larger end-to-end trainable systems. In the experimental section, we demonstrate SMPLicit can be readily used for fitting 3D scans and for 3D reconstruction in images of dressed people. In both cases we are able to go beyond state of the art, by retrieving complex garment geometries, handling situations with multiple clothing layers and providing a tool for easy outfit editing. To stimulate further research in this direction, we will make our code and model publicly available at https://link/smplicit/.",
+  "s2id": "ac4d4414f7555346dfad7c6a441e8d0e675a30a4",
+  "twitter": {
+    "retweets": 38,
+    "likes": 238,
+    "replies": 4
+  },
+  "citations": 4
+}

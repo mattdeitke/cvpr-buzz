@@ -1,0 +1,24 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.10994",
+  "title": "Neural Geometric Level of Detail: Real-Time Rendering With Implicit 3D Shapes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Takikawa_Neural_Geometric_Level_of_Detail_Real-Time_Rendering_With_Implicit_3D_CVPR_2021_paper.pdf",
+  "authors": [
+    "Towaki Takikawa",
+    "Joey Litalien",
+    "Kangxue Yin",
+    "Karsten Kreis",
+    "Charles Loop",
+    "Derek Nowrouzezahrai",
+    "Alec Jacobson",
+    "Morgan McGuire",
+    "Sanja Fidler"
+  ],
+  "abstract": "Neural signed distance functions (SDFs) are emerging as an effective representation for 3D shapes. State-of-the-art methods typically encode the SDF with a large, fixed-size neural network to approximate complex shapes with implicit surfaces. Rendering with these large networks is, however, computationally expensive since it requires many forward passes through the network for every pixel, making these representations impractical for real-time graphics. We introduce an efficient neural representation that, for the first time, enables real-time rendering of high-fidelity neural SDFs, while achieving state-of-the-art geometry reconstruction quality. We represent implicit surfaces using an octree-based feature volume which adaptively fits shapes with multiple discrete levels of detail (LODs), and enables continuous LOD with SDF interpolation. We further develop an efficient algorithm to directly render our novelneural SDF representation in real-time by querying only the necessary LODswith sparse octree traversal. We show that our representation is 2-3 orders of magnitude more efficient in terms of rendering speed compared to previous works. Furthermore, it produces state-of-the-art reconstruction quality for complex shapes under both 3D geometric and 2D image-space metrics.",
+  "s2id": "6ca0a80111fed68b8a5b7eac5ecdc3d258f0fea6",
+  "twitter": {
+    "retweets": 129,
+    "likes": 513,
+    "replies": 6
+  },
+  "citations": 12
+}

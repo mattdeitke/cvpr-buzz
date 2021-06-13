@@ -1,0 +1,18 @@
+{
+  "arXiv": null,
+  "title": "UnsupervisedR&R: Unsupervised Point Cloud Registration via Differentiable Rendering",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Banani_UnsupervisedRR_Unsupervised_Point_Cloud_Registration_via_Differentiable_Rendering_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mohamed El Banani",
+    "Luya Gao",
+    "Justin Johnson"
+  ],
+  "abstract": "Aligning partial views of a scene into a single whole is essential to understanding one's environment and is a key component of numerous robotics tasks such as SLAM and SfM. Recent approaches have proposed end-to-end systems that can outperform traditional methods by leveraging pose supervision. However, with the rising prevalence of cameras with depth sensors, we can expect a new stream of raw RGB-D data without the annotations needed for supervision. We propose UnsupervisedR&R: an end-to-end unsupervised approach to learning point cloud registration from raw RGB-D video. The key idea is to leverage differentiable alignment and rendering to enforce photometric and geometric consistency between frames. We evaluate our approach on indoor scene datasets and find that we outperform existing traditional approaches with classical and learned descriptors while being competitive with supervised geometric point cloud registration approaches.",
+  "s2id": "f50059bc2388ef69c8e2453701c7e684d1a7ebf7",
+  "twitter": {
+    "retweets": 11,
+    "likes": 40,
+    "replies": 1
+  },
+  "citations": 2
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.07296",
+  "title": "Using Shape To Categorize: Low-Shot Learning With an Explicit Shape Bias",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Stojanov_Using_Shape_To_Categorize_Low-Shot_Learning_With_an_Explicit_Shape_CVPR_2021_paper.pdf",
+  "authors": [
+    "Stefan Stojanov",
+    "Anh Thai",
+    "James M. Rehg"
+  ],
+  "abstract": "It is widely accepted that reasoning about object shape is important for object recognition. However, the most powerful object recognition methods today do not explicitly make use of object shape during learning. In this work, motivated by recent developments in low-shot learning, findings in developmental psychology, and the increased use of synthetic data in computer vision research, we investigate how reasoning about 3D shape can be used to improve low-shot learning methods' generalization performance. We propose a new way to improve existing low-shot learning approaches by learning a discriminative embedding space using 3D object shape, and using this embedding by learning how to map images into it. Our new approach improves the performance of image-only low-shot learning approaches on multiple datasets. We also introduce Toys4K, a 3D object dataset with the largest number of object categories currently available, which supports low-shot learning.",
+  "s2id": "2b01f6bc12b21eab6963515c1a38d0ed0a9d650a",
+  "twitter": {
+    "retweets": 9,
+    "likes": 13,
+    "replies": 1
+  },
+  "citations": 0
+}

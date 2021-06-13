@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.04379",
+  "title": "Repurposing GANs for One-Shot Semantic Part Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tritrong_Repurposing_GANs_for_One-Shot_Semantic_Part_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Nontawat Tritrong",
+    "Pitchaporn Rewatbowornwong",
+    "Supasorn Suwajanakorn"
+  ],
+  "abstract": "While GANs have shown success in realistic image generation, the idea of using GANs for other tasks unrelated to synthesis is underexplored. Do GANs learn meaningful structural parts of objects during their attempt to reproduce those objects? In this work, we test this hypothesis and propose a simple and effective approach based on GANs for semantic part segmentation that requires as few as one label example along with an unlabeled dataset. Our key idea is to leverage a trained GAN to extract a pixel-wise representation from the input image and use it as feature vectors for a segmentation network. Our experiments demonstrate that this GAN-derived representation is \"readily discriminative\" and produces surprisingly good results that are comparable to those from supervised baselines trained with significantly more labels. We believe this novel repurposing of GANs underlies a new class of unsupervised representation learning, which can generalize to many other tasks.",
+  "s2id": "687a2aaff2a0c1ac06e7d87918a407e8d6bfa642",
+  "twitter": {
+    "retweets": 33,
+    "likes": 202,
+    "replies": 2
+  },
+  "citations": 3
+}

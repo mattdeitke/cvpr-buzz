@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.04604",
+  "title": "SwiftNet: Real-Time Video Object Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_SwiftNet_Real-Time_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Haochen Wang",
+    "Xiaolong Jiang",
+    "Haibing Ren",
+    "Yao Hu",
+    "Song Bai"
+  ],
+  "abstract": "In this work we present SwiftNet for real-time semi-supervised video object segmentation (one-shot VOS), which reports 77.8% J&F and 70 FPS on DAVIS 2017 validation dataset, leading all present solutions in overall accuracy and speed performance. We achieve this by elaborately compressing spatiotemporal redundancy in matching-based VOS via Pixel-Adaptive Memory (PAM). Temporally, PAM adaptively triggers memory updates on frames where objects display noteworthy inter-frame variations. Spatially, PAM selectively performs memory update and match on dynamic pixels while ignoring the static ones, significantly reducing redundant computations wasted on segmentation-irrelevant pixels. To promote efficient reference encoding, light-aggregation encoder is also introduced in SwiftNet deploying reversed sub-pixel. We hope SwiftNet could set a strong and efficient baseline for real-time VOS and facilitate its application in mobile vision. The source code of SwiftNet can be found at https://github.com/haochenheheda/SwiftNet.",
+  "s2id": "2916938cced9c4936fe7b6f9cc65f1ee3fcc4f47",
+  "twitter": {
+    "retweets": 24,
+    "likes": 67,
+    "replies": 1
+  },
+  "citations": 1
+}

@@ -1,0 +1,16 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.01108",
+  "title": "Group Collaborative Learning for Co-Salient Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Group_Collaborative_Learning_for_Co-Salient_Object_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Qi Fan",
+    "Deng-Ping Fan",
+    "Huazhu Fu",
+    "Chi-Keung Tang",
+    "Ling Shao",
+    "Yu-Wing Tai"
+  ],
+  "abstract": "We present a novel group collaborative learning framework (GCNet) capable of detecting co-salient objects in real time (16ms), by simultaneously mining consensus representations at group level based on the two necessary criteria: 1) intra-group compactness to better formulate the consistency among co-salient objects by capturing their inherent shared attributes using our novel group affinity module; 2) inter-group separability to effectively suppress the influence of noisy objects on the output by introducing our new group collaborating module conditioning the inconsistent consensus. To learn a better embedding space without extra computational overhead, we explicitly employ auxiliary classification supervision. Extensive experiments on three challenging benchmarks, i.e., CoCA, CoSOD3k, and Cosal2015, demonstrate that our simple GCNet outperforms 10 cutting-edge models and achieves the new state-of-the-art. We demonstrate this paper's new technical contributions on a number of important downstream computer vision applications including content aware co-segmentation, co-localization based automatic thumbnails, etc. Our research code with two applications will be released.",
+  "s2id": "be49459caf20999bb8e464e826224d119578c3b1",
+  "citations": 0
+}

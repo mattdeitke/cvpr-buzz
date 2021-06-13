@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2008.08143",
+  "title": "How2Sign: A Large-Scale Multimodal Dataset for Continuous American Sign Language",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Duarte_How2Sign_A_Large-Scale_Multimodal_Dataset_for_Continuous_American_Sign_Language_CVPR_2021_paper.pdf",
+  "authors": [
+    "Amanda Duarte",
+    "Shruti Palaskar",
+    "Lucas Ventura",
+    "Deepti Ghadiyaram",
+    "Kenneth DeHaan",
+    "Florian Metze",
+    "Jordi Torres",
+    "Xavier Giro-i-Nieto"
+  ],
+  "abstract": "One of the factors that have hindered progress in the areas of sign language recognition, translation, and production is the absence of large annotated datasets. Towards this end, we introduce How2Sign, a multimodal and multiview continuous American Sign Language (ASL) dataset, consisting of a parallel corpus of more than 80 hours of sign language videos and a set of corresponding modalities including speech, English transcripts, and depth. A three-hour subset was further recorded in the Panoptic studio enabling detailed 3D pose estimation. To evaluate the potential of How2Sign for real-world impact, we conduct a study with ASL signers and show that synthesized videos using our dataset can indeed be understood. The study further gives insights on challenges that computer vision should address in order to make progress in this field. Dataset website: http://how2sign.github.io/",
+  "s2id": "59969ec4a68dbca4144b66b9f496ab86af4ebce5",
+  "twitter": {
+    "retweets": 8,
+    "likes": 21,
+    "replies": 1
+  },
+  "citations": 4
+}

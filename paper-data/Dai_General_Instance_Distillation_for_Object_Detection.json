@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.02340",
+  "title": "General Instance Distillation for Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_General_Instance_Distillation_for_Object_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xing Dai",
+    "Zeren Jiang",
+    "Zhao Wu",
+    "Yiping Bao",
+    "Zhicheng Wang",
+    "Si Liu",
+    "Erjin Zhou"
+  ],
+  "abstract": "In recent years, knowledge distillation has been proved to be an effective solution for model compression. This approach can make lightweight student models acquire the knowledge extracted from cumbersome teacher models. However, previous distillation methods of detection have weak generalization for different detection frameworks and rely heavily on ground truth (GT), ignoring the valuable relation information between instances. Thus, we propose a novel distillation method for detection tasks based on discriminative instances without considering the positive or negative distinguished by GT, which is called general instance distillation (GID). Our approach contains a general instance selection module (GISM) to make full use of feature-based, relation-based and response-based knowledge for distillation. Extensive results demonstrate that the student model achieves significant AP improvement and even outperforms the teacher in various detection frameworks. Specifically, RetinaNet with ResNet-50 achieves 39.1% in mAP with GID on COCO dataset, which surpasses the baseline 36.2% by 2.9%, and even better than the ResNet-101 based teacher model with 38.1% AP.",
+  "s2id": "0d28e828f933f7eff37d7ad56b5ba63ad9558c55",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 2
+}

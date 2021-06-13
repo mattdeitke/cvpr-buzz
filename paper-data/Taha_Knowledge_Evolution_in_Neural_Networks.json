@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05152",
+  "title": "Knowledge Evolution in Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Taha_Knowledge_Evolution_in_Neural_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ahmed Taha",
+    "Abhinav Shrivastava",
+    "Larry S. Davis"
+  ],
+  "abstract": "Deep learning relies on the availability of a large corpus of data (labeled or unlabeled). Thus, one challenging unsettled question is: how to train a deep network on a relatively small dataset? To tackle this question, we propose an evolution-inspired training approach to boost performance on relatively small datasets. The knowledge evolution (KE) approach splits a deep network into two hypotheses: the fit-hypothesis and the reset-hypothesis. We iteratively evolve the knowledge inside the fit-hypothesis by perturbing the reset-hypothesis for multiple generations. This approach not only boosts performance, but also learns a slim network with a smaller inference cost. KE integrates seamlessly with both vanilla and residual convolutional networks. KE reduces both overfitting and the burden for data collection. We evaluate KE on various network architectures and loss functions. We evaluate KE using relatively small datasets (e.g., CUB-200) and randomly initialized deep networks. KE achieves an absolute 21% improvement margin on a state-of-the-art baseline. This performance improvement is accompanied by a relative 73% reduction in inference cost. KE achieves state-of-the-art results on classification and metric learning benchmarks.",
+  "s2id": "6c315ee8546702037bef3276529838858c7a00ad",
+  "twitter": {
+    "retweets": 43,
+    "likes": 43,
+    "replies": 1
+  },
+  "citations": 0
+}

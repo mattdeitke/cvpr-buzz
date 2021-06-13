@@ -1,0 +1,22 @@
+{
+  "arXiv": null,
+  "title": "SOE-Net: A Self-Attention and Orientation Encoding Network for Point Cloud Based Place Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_SOE-Net_A_Self-Attention_and_Orientation_Encoding_Network_for_Point_Cloud_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yan Xia",
+    "Yusheng Xu",
+    "Shuang Li",
+    "Rui Wang",
+    "Juan Du",
+    "Daniel Cremers",
+    "Uwe Stilla"
+  ],
+  "abstract": "We tackle the problem of place recognition from point cloud data and introduce a self-attention and orientation encoding network (SOE-Net) that fully explores the relationship between points and incorporates long-range context into point-wise local descriptors. Local information of each point from eight orientations is captured in a PointOE module, whereas long-range feature dependencies among local descriptors are captured with a self-attention unit. Moreover, we propose a novel loss function called Hard Positive Hard Negative quadruplet loss (HPHN quadruplet), that achieves better performance than the commonly used metric learning loss. Experiments on various benchmark datasets demonstrate superior performance of the proposed network over the current state-of-the-art approaches. Our code is released publicly at https://github.com/Yan-Xia/SOE-Net.",
+  "s2id": "4f0448ccdfc9f9711c8677a87bf4b778861111ae",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 2
+}

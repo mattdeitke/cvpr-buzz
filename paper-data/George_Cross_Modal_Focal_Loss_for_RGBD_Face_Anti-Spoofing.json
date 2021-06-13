@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.00948",
+  "title": "Cross Modal Focal Loss for RGBD Face Anti-Spoofing",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/George_Cross_Modal_Focal_Loss_for_RGBD_Face_Anti-Spoofing_CVPR_2021_paper.pdf",
+  "authors": [
+    "Anjith George",
+    "Sebastien Marcel"
+  ],
+  "abstract": "Automatic methods for detecting presentation attacks are essential to ensure the reliable use of facial recognition technology. Most of the methods available in the literature for presentation attack detection (PAD) fails in generalizing to unseen attacks. In recent years, multi-channel methods have been proposed to improve the robustness of PAD systems. Often, only a limited amount of data is available for additional channels, which limits the effectiveness of these methods. In this work, we present a new framework for PAD that uses RGB and depth channels together with a novel loss function. The new architecture uses complementary information from the two modalities while reducing the impact of overfitting. Essentially, a cross-modal focal loss function is proposed to modulate the loss contribution of each channel as a function of the confidence of individual channels. Extensive evaluations in two publicly available datasets demonstrate the effectiveness of the proposed approach.",
+  "s2id": "55ea1c014e914f79a072a3c5587faad50cd9a92b",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.06820",
+  "title": "Few-Shot Image Generation via Cross-Domain Correspondence",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ojha_Few-Shot_Image_Generation_via_Cross-Domain_Correspondence_CVPR_2021_paper.pdf",
+  "authors": [
+    "Utkarsh Ojha",
+    "Yijun Li",
+    "Jingwan Lu",
+    "Alexei A. Efros",
+    "Yong Jae Lee",
+    "Eli Shechtman",
+    "Richard Zhang"
+  ],
+  "abstract": "Training generative models, such as GANs, on a target domain containing limited examples (e.g., 10) can easily result in overfitting. In this work, we seek to utilize a large source domain for pretraining and transfer the diversity information from source to target. We propose to preserve the relative similarities and differences between instances in the source via a novel cross-domain distance consistency loss. To further reduce overfitting, we present an anchor-based strategy to encourage different levels of realism over different regions in the latent space. With extensive results in both photorealistic and non-photorealistic domains, we demonstrate qualitatively and quantitatively that our few-shot model automatically discovers correspondences between source and target domains and generates more diverse and realistic images than previous methods.",
+  "s2id": "73c401e29cb83157bc6dfb33d5ce4364a7d2731b",
+  "twitter": {
+    "retweets": 12,
+    "likes": 79,
+    "replies": 2
+  },
+  "citations": 0
+}

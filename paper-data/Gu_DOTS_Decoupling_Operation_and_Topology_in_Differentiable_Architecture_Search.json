@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2010.00969",
+  "title": "DOTS: Decoupling Operation and Topology in Differentiable Architecture Search",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gu_DOTS_Decoupling_Operation_and_Topology_in_Differentiable_Architecture_Search_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yu-Chao Gu",
+    "Li-Juan Wang",
+    "Yun Liu",
+    "Yi Yang",
+    "Yu-Huan Wu",
+    "Shao-Ping Lu",
+    "Ming-Ming Cheng"
+  ],
+  "abstract": "Differentiable Architecture Search (DARTS) has attracted extensive attention due to its efficiency in searching for cell structures. DARTS mainly focuses on the operation search and derives the cell topology from the operation weights. However, the operation weights can not indicate the importance of cell topology and result in poor topology rating correctness. To tackle this, we propose to Decouple the Operation and Topology Search (DOTS), which decouples the topology representation from operation weights and makes an explicit topology search. DOTS is achieved by introducing a topology search space that contains combinations of candidate edges. The proposed search space directly reflects the search objective and can be easily extended to support a flexible number of edges in the searched cell. Existing gradient-based NAS methods can be incorporated into DOTS for further improvement by the topology search. Considering that some operations (e.g., Skip-Connection) can affect the topology, we propose a group operation search scheme to preserve topology-related operations for a better topology search. The experiments on CIFAR10/100 and ImageNet demonstrate that DOTS is an effective solution for differentiable NAS. The code is released at https://github.com/guyuchao/DOTS.",
+  "s2id": "29b243edfd4ee898d19bcd88fa57bd4afaa74440",
+  "twitter": {
+    "retweets": 1,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 4
+}

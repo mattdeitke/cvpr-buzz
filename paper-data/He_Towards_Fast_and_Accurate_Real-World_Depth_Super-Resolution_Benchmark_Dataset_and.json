@@ -1,0 +1,24 @@
+{
+  "arXiv": null,
+  "title": "Towards Fast and Accurate Real-World Depth Super-Resolution: Benchmark Dataset and Baseline",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/He_Towards_Fast_and_Accurate_Real-World_Depth_Super-Resolution_Benchmark_Dataset_and_CVPR_2021_paper.pdf",
+  "authors": [
+    "Lingzhi He",
+    "Hongguang Zhu",
+    "Feng Li",
+    "Huihui Bai",
+    "Runmin Cong",
+    "Chunjie Zhang",
+    "Chunyu Lin",
+    "Meiqin Liu",
+    "Yao Zhao"
+  ],
+  "abstract": "Depth maps obtained by commercial depth sensors are always in low-resolution, making it difficult to be used in various computer vision tasks. Thus, depth map super-resolution (SR) is a practical and valuable task, which upscales the depth map into high-resolution (HR) space. However, limited by the lack of real-world paired low-resolution (LR) and HR depth maps, most existing methods use downsampling to obtain paired training samples. To this end, we first construct a large-scale dataset named \"RGB-D-D\", which can greatly promote the study of depth map SR and even more depth-related real-world tasks. The \"D-D\" in our dataset represents the paired LR and HR depth maps captured from mobile phone and Lucid Helios respectively ranging from indoor scenes to challenging outdoor scenes. Besides, we provide a fast depth map super-resolution (FDSR) baseline, in which the high-frequency component adaptively decomposed from RGB image to guide the depth map SR. Extensive experiments on existing public datasets demonstrate the effectiveness and efficiency of our network compared with the state-of-the-art methods. Moreover, for the real-world LR depth maps, our algorithm can produce more accurate HR depth maps with clearer boundaries and to some extent correct the depth value errors.",
+  "s2id": "7a1f5c13adc6577f4eb6278a374fa55ed30decc2",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

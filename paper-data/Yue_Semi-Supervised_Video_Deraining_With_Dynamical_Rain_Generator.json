@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.07939",
+  "title": "Semi-Supervised Video Deraining With Dynamical Rain Generator",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yue_Semi-Supervised_Video_Deraining_With_Dynamical_Rain_Generator_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zongsheng Yue",
+    "Jianwen Xie",
+    "Qian Zhao",
+    "Deyu Meng"
+  ],
+  "abstract": "While deep learning (DL)-based video deraining methods have achieved significant success recently, they still exist two major drawbacks. Firstly, most of them do not sufficiently model the characteristics of rain layers of rainy videos. In fact, the rain layers exhibit strong physical properties (e.g., direction, scale and thickness) in spatial dimension and natural continuities in temporal dimension, and thus can be generally modelled by the spatial-temporal process in statistics. Secondly, current DL-based methods seriously depend on the labeled synthetic training data, whose rain types are always deviated from those in unlabeled real data. Such gap between synthetic and real data sets leads to poor performance when applying them in real scenarios. Against these issues, this paper proposes a new semisupervised video deraining method, in which a dynamic rain generator is employed to fit the rain layer, expecting to better depict its insightful characteristics. Specifically, such dynamic generator consists of one emission model and one transition model to simultaneously encode the spatially physical structure and temporally continuous changes of rain streaks, respectively, which both are parameterized as deep neural networks (DNNs). Further more, different prior formats are designed for the labeled synthetic and unlabeled real data, so as to fully exploit the common knowledge underlying them. Last but not least, we also design a Monte Carlo EM algorithm to solve this model. Extensive experiments are conducted to verify the superiorities of the proposed semi-supervised deraining model.",
+  "s2id": "2ddcf5bf4d25fa0e5bb52ad67d138bf89d271732",
+  "twitter": {
+    "retweets": 1,
+    "likes": 19,
+    "replies": 1
+  },
+  "citations": 0
+}

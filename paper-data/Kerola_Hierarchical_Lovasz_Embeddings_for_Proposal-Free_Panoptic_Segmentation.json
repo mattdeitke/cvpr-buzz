@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "Hierarchical Lovasz Embeddings for Proposal-Free Panoptic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kerola_Hierarchical_Lovasz_Embeddings_for_Proposal-Free_Panoptic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tommi Kerola",
+    "Jie Li",
+    "Atsushi Kanehira",
+    "Yasunori Kudo",
+    "Alexis Vallet",
+    "Adrien Gaidon"
+  ],
+  "abstract": "Panoptic segmentation brings together two separate tasks: instance and semantic segmentation. Although they are related, unifying them faces an apparent paradox: how to learn simultaneously instance-specific and category-specific (i.e. instance-agnostic) representations jointly. Hence, state-of-the-art panoptic segmentation methods use complex models with a distinct stream for each task. In contrast, we propose Hierarchical Lovasz Embeddings, per pixel feature vectors that simultaneously encode instance- and category-level discriminative information. We use a hierarchical Lovasz hinge loss to learn a low-dimensional embedding space structured into a unified semantic and instance hierarchy without requiring separate network branches or object proposals. Besides modeling instances precisely in a proposal-free manner, our Hierarchical Lovasz Embeddings generalize to categories by using a simple Nearest-Class-Mean classifier, including for non-instance \"\"stuff\"\" classes where instance segmentation methods are not applicable. Our simple model achieves state-of-the-art results compared to existing proposal-free panoptic segmentation methods on Cityscapes, COCO, and Mapillary Vistas. Furthermore, our model demonstrates temporal stability between video frames.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 1,
+    "likes": 3,
+    "replies": 0
+  }
+}

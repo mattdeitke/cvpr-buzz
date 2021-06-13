@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.08204",
+  "title": "3DCaricShop: A Dataset and a Baseline Method for Single-View 3D Caricature Face Reconstruction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Qiu_3DCaricShop_A_Dataset_and_a_Baseline_Method_for_Single-View_3D_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuda Qiu",
+    "Xiaojie Xu",
+    "Lingteng Qiu",
+    "Yan Pan",
+    "Yushuang Wu",
+    "Weikai Chen",
+    "Xiaoguang Han"
+  ],
+  "abstract": "Caricature is an artistic representation that deliberately exaggerates the distinctive features of a human face to convey humor or sarcasm. However, reconstructing a 3D caricature from a 2D caricature image remains a challenging task, mostly due to the lack of data. We propose to fill this gap by introducing 3DCaricShop, the first large-scale 3D caricature dataset that contains 2000 high-quality diversified 3D caricatures manually crafted by professional artists. 3DCaricShop also provides rich annotations including a paired 2D caricature image, camera parameters, and 3D facial landmarks. To demonstrate the advantage of 3DCaricShop, we present a novel baseline approach for single-view 3D caricature reconstruction. To ensure a faithful reconstruction with plausible face deformations, we propose to connect the good ends of the detail-rich implicit functions and the parametric mesh representations. In particular, we first register a template mesh to the output of the implicit generator and iteratively project the registration result onto a pre-trained PCA space to resolve artifacts and self-intersections. To deal with the large deformation during non-rigid registration, we propose a novel view-collaborative graph convolution network (VC-GCN) to extract key points from the implicit mesh for accurate alignment. Our method is able to generate high-fidelity 3D caricature in a pre-defined mesh topology that is animation-ready. Extensive experiments have been conducted on 3DCaricShop to verify the significance of the database and the effectiveness of the proposed method. We will release 3DCaricShop upon publication.",
+  "s2id": "1cccbd656dd00ab988e82138df5c18a9954954d4",
+  "twitter": {
+    "retweets": 4,
+    "likes": 38,
+    "replies": 2
+  },
+  "citations": 0
+}

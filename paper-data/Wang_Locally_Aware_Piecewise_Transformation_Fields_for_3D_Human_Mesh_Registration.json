@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.08160",
+  "title": "Locally Aware Piecewise Transformation Fields for 3D Human Mesh Registration",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Locally_Aware_Piecewise_Transformation_Fields_for_3D_Human_Mesh_Registration_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shaofei Wang",
+    "Andreas Geiger",
+    "Siyu Tang"
+  ],
+  "abstract": "Registering point clouds of dressed humans to parametric human models is a challenging task in computer vision. Traditional approaches often rely on heavily engineered pipelines that require accurate manual initialization of human poses and tedious post-processing. More recently, learning-based methods are proposed in hope to automate this process. We observe that pose initialization is key to accurate registration but existing methods often fail to provide accurate pose initialization. One major obstacle is that, despite recent effort on rotation representation learning in neural networks, regressing joint rotations from point clouds or images of humans is still very challenging. To this end, we propose novel piecewise transformation fields (PTF), a set of functions that learn 3D translation vectors to map any query point in posed space to its correspond position in rest-pose space. We combine PTF with multi-class occupancy networks, obtaining a novel learning-based framework that learns to simultaneously predict shape and per-point correspondences between the posed space and the canonical space for clothed human. Our key insight is that the translation vector for each query point can be effectively estimated using the point-aligned local features; consequently, rigid per bone transformations and joint rotations can be obtained efficiently via a least-square fitting given the estimated point correspondences, circumventing the challenging task of directly regressing joint rotations from neural networks. Furthermore, the proposed PTF facilitate canonicalized occupancy estimation, which greatly improves generalization capability and result in more accurate surface reconstruction with only half of the parameters compared with the state-of-the-art. Both qualitative and quantitative studies show that fitting parametric models with poses initialized by our network results in much better registration quality, especially for extreme poses.",
+  "s2id": "bd3357341ca482665a2e101b426125365a0f4852",
+  "twitter": {
+    "retweets": 6,
+    "likes": 30,
+    "replies": 1
+  },
+  "citations": 3
+}

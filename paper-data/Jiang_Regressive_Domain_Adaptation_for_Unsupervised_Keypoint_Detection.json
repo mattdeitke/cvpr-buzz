@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06175",
+  "title": "Regressive Domain Adaptation for Unsupervised Keypoint Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jiang_Regressive_Domain_Adaptation_for_Unsupervised_Keypoint_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Junguang Jiang",
+    "Yifei Ji",
+    "Ximei Wang",
+    "Yufeng Liu",
+    "Jianmin Wang",
+    "Mingsheng Long"
+  ],
+  "abstract": "Domain adaptation (DA) aims at transferring knowledge from a labeled source domain to an unlabeled target domain. Though many DA theories and algorithms have been proposed, most of them are tailored into classification settings and may fail in regression tasks, especially in the practical keypoint detection task. To tackle this difficult but significant task, we present a method of regressive domain adaptation (RegDA) for unsupervised keypoint detection. Inspired by the latest theoretical work, we first utilize an adversarial regressor to maximize the disparity on the target domain and train a feature generator to minimize this disparity. However, due to the high dimension of the output space, this regressor fails to detect samples that deviate from the support of the source. To overcome this problem, we propose two important ideas. First, based on our observation that the probability density of the output space is sparse, we introduce a spatial probability distribution to describe this sparsity and then use it to guide the learning of the adversarial regressor. Second, to alleviate the optimization difficulty in the high-dimensional space, we innovatively convert the minimax game in the adversarial training to the minimization of two opposite goals. Extensive experiments show that our method brings large improvement by 8% to 11% in terms of PCK on different datasets.",
+  "s2id": "3961acb8c63a46ab5fa54e79cb59b37288a8d8ad",
+  "twitter": {
+    "retweets": 2,
+    "likes": 9,
+    "replies": 3
+  },
+  "citations": 0
+}

@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.02166",
+  "title": "Learning Optical Flow From a Few Matches",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jiang_Learning_Optical_Flow_From_a_Few_Matches_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shihao Jiang",
+    "Yao Lu",
+    "Hongdong Li",
+    "Richard Hartley"
+  ],
+  "abstract": "State-of-the-art neural network models for optical flow estimation require a dense correlation volume at high resolutions for representing per-pixel displacement. Although the dense correlation volume is informative for accurate estimation, its heavy computation and memory usage hinders the efficient training and deployment of the models. In this paper, we show that the dense correlation volume representation is redundant and accurate flow estimation can be achieved with only a fraction of elements in it. Based on this observation, we propose an alternative displacement representation, named Sparse Correlation Volume, which is constructed directly by computing the k closest matches in one feature map for each feature vector in the other feature map and stored in a sparse data structure. Experiments show that our method can reduce computational cost and memory use significantly and produce fine-structure motion, while maintaining high accuracy compared to previous approaches with dense correlation volumes.",
+  "s2id": "08cfd4a23d3be9fb6ba0c35722e151429dbe5ede",
+  "twitter": {
+    "retweets": 1,
+    "likes": 5,
+    "replies": 0
+  },
+  "citations": 0
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00990",
+  "title": "Visual Semantic Role Labeling for Video Understanding",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sadhu_Visual_Semantic_Role_Labeling_for_Video_Understanding_CVPR_2021_paper.pdf",
+  "authors": [
+    "Arka Sadhu",
+    "Tanmay Gupta",
+    "Mark Yatskar",
+    "Ram Nevatia",
+    "Aniruddha Kembhavi"
+  ],
+  "abstract": "We propose a new framework for understanding and representing related salient events in a video using visual semantic role labeling. We represent videos as a set of related events, wherein each event consists of a verb and multiple entities that fulfill various roles relevant to that event. To study the challenging task of semantic role labeling in videos or VidSRL, we introduce the VidSitu benchmark, a large scale video understanding data source with 27K 10-second movie clips richly annotated with a verb and semantic-roles every 2 seconds. Entities are co-referenced across events within a movie clip and events are connected to each other via event-event relations. Clips in VidSitu are drawn from a large collection of movies ( 3K) and have been chosen to be both complex ( 4.2 unique verbs within a video) as well as diverse ( 200 verbs have more than 100 annotations each). We provide a comprehensive analysis of the dataset in comparison to other publicly available video understanding benchmarks, several illustrative baselines and evaluate a range of standard video recognition models. Our code and dataset will be released publicly.",
+  "s2id": "588a3b90556069ec02cd40c93b8092e21d10bb1c",
+  "twitter": {
+    "retweets": 21,
+    "likes": 67,
+    "replies": 1
+  },
+  "citations": 0
+}

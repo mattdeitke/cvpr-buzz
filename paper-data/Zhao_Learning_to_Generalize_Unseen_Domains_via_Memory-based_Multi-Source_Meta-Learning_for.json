@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.00417",
+  "title": "Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuyang Zhao",
+    "Zhun Zhong",
+    "Fengxiang Yang",
+    "Zhiming Luo",
+    "Yaojin Lin",
+    "Shaozi Li",
+    "Nicu Sebe"
+  ],
+  "abstract": "Recent advances in person re-identification (ReID) obtain impressive accuracy in the supervised and unsupervised learning settings. However, most of the existing methods need to train a new model for a new domain by accessing data. Due to public privacy, the new domain data are not always accessible, leading to a limited applicability of these methods. In this paper, we study the problem of multi-source domain generalization in ReID, which aims to learn a model that can perform well on unseen domains with only several labeled source domains. To address this problem, we propose the Memory-based Multi-Source Meta-Learning (M^3L) framework to train a generalizable model for unseen domains. Specifically, a meta-learning strategy is introduced to simulate the train-test process of domain generalization for learning more generalizable models. To overcome the unstable meta-optimization caused by the parametric classifier, we propose a memory-based identification loss that is non-parametric and harmonizes with meta-learning. We also present a meta batch normalization layer (MetaBN) to diversify meta-test features, further establishing the advantage of meta-learning. Experiments demonstrate that our M^3L can effectively enhance the generalization ability of the model for unseen domains and can outperform the state-of-the-art methods on four large-scale ReID datasets.",
+  "s2id": "82dc9a015ebcd4162a1d4bc525e032bd6a9abe90",
+  "citations": 5
+}

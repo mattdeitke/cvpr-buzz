@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.11275",
+  "title": "Center-Based 3D Object Detection and Tracking",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yin_Center-Based_3D_Object_Detection_and_Tracking_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tianwei Yin",
+    "Xingyi Zhou",
+    "Philipp Krahenbuhl"
+  ],
+  "abstract": "Three-dimensional objects are commonly represented as 3D boxes in a point-cloud. This representation mimics the well-studied image-based 2D bounding-box detection but comes with additional challenges. Objects in a 3D world do not follow any particular orientation, and box-based detectors have difficulties enumerating all orientations or fitting an axis-aligned bounding box to rotated objects. In this paper, we instead propose to represent, detect, and track 3D objects as points. Our framework, CenterPoint, first detects centers of objects using a keypoint detector and regresses to other attributes, including 3D size, 3D orientation, and velocity. In a second stage, it refines these estimates using additional point features on the object. In CenterPoint, 3D object tracking simplifies to greedy closest-point matching. The resulting detection and tracking algorithm is simple, efficient, and effective. On the nuScenes and Waymo datasets, CenterPoint surpasses prior methods by a large margin. On the Waymo Open Dataset, CenterPoint improves previous state-of-the-art by 10-20% while running at 13FPS. The code and pretrained models are available at https://github.com/tianweiy/CenterPoint.",
+  "s2id": "7cd0e23880cbcedbf3a46790674e5e67c1301847",
+  "twitter": {
+    "retweets": 2,
+    "likes": 22,
+    "replies": 0
+  },
+  "citations": 18
+}

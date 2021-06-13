@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.10873",
+  "title": "Sequence-to-Sequence Contrastive Learning for Text Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Aberdam_Sequence-to-Sequence_Contrastive_Learning_for_Text_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Aviad Aberdam",
+    "Ron Litman",
+    "Shahar Tsiper",
+    "Oron Anschel",
+    "Ron Slossberg",
+    "Shai Mazor",
+    "R. Manmatha",
+    "Pietro Perona"
+  ],
+  "abstract": "We propose a framework for sequence-to-sequence contrastive learning (SeqCLR) of visual representations, which we apply to text recognition. To account for the sequence-to-sequence structure, each feature map is divided into different instances over which the contrastive loss is computed. This operation enables us to contrast in a sub-word level, where from each image we extract several positive pairs and multiple negative examples. To yield effective visual representations for text recognition, we further suggest novel augmentation heuristics, different encoder architectures and custom projection heads. Experiments on handwritten text and on scene text show that when a text decoder is trained on the learned representations, our method outperforms non-sequential contrastive methods. In addition, when the amount of supervision is reduced, SeqCLR significantly improves performance compared with supervised training, and when fine-tuned with 100% of the labels, our method achieves state-of-the-art results on standard handwritten text recognition benchmarks.",
+  "s2id": "de9eee38b81021b3689046f72ab7c58fd7277325",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 1
+}

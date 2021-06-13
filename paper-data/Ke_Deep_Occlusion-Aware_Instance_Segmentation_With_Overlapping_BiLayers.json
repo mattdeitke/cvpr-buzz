@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.12340",
+  "title": "Deep Occlusion-Aware Instance Segmentation With Overlapping BiLayers",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ke_Deep_Occlusion-Aware_Instance_Segmentation_With_Overlapping_BiLayers_CVPR_2021_paper.pdf",
+  "authors": [
+    "Lei Ke",
+    "Yu-Wing Tai",
+    "Chi-Keung Tang"
+  ],
+  "abstract": "Segmenting highly-overlapping objects is challenging, because typically no distinction is made between real object contours and occlusion boundaries. Unlike previous two-stage instance segmentation methods, we model image formation as composition of two overlapping layers, and propose Bilayer Convolutional Network (BCNet), where the top GCN layer detects the occluding objects (occluder) and the bottom GCN layer infers partially occluded instance (occludee). The explicit modeling of occlusion relationship with bilayer structure naturally decouples the boundaries of both the occluding and occluded instances, and considers the interaction between them during mask regression. We validate the efficacy of bilayer decoupling on both one-stage and two-stage object detectors with different backbones and network layer choices. Despite its simplicity, extensive experiments on COCO and KINS show that our occlusion-aware BCNet achieves large and consistent performance gain especially for heavy occlusion cases. Code is available at https://github.com/lkeab/BCNet.",
+  "s2id": "bbe7029a82a9cf8a52d393929e3aa224c0060555",
+  "twitter": {
+    "retweets": 26,
+    "likes": 205,
+    "replies": 4
+  },
+  "citations": 1
+}

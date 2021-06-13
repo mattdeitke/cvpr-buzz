@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.09988",
+  "title": "Objectron: A Large Scale Dataset of Object-Centric Videos in the Wild With Pose Annotations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ahmadyan_Objectron_A_Large_Scale_Dataset_of_Object-Centric_Videos_in_the_CVPR_2021_paper.pdf",
+  "authors": [
+    "Adel Ahmadyan",
+    "Liangkai Zhang",
+    "Artsiom Ablavatski",
+    "Jianing Wei",
+    "Matthias Grundmann"
+  ],
+  "abstract": "3D object detection has recently become popular due to many applications in robotics, augmented reality, autonomy, and image retrieval. We introduce the Objectron dataset to advance the state of the art in 3D object detection and foster new research and applications, such as 3D object tracking, view synthesis, and improved 3D shape representation. The dataset contains object-centric short videos with pose annotations for nine categories and includes 4 million annotated images in 14,819 annotated videos. We also propose a new evaluation metric, 3D Intersection over Union, for 3D object detection. We demonstrate the usefulness of our dataset in 3D object detection and novel view synthesis tasks by providing baseline models trained on this dataset. Our dataset and evaluation source code are available online at Github.com/google-research-datasets/Objectron.",
+  "s2id": "464890394a85587ca8499f4f56cba0add7dcde9a",
+  "twitter": {
+    "retweets": 20,
+    "likes": 116,
+    "replies": 0
+  },
+  "citations": 4
+}

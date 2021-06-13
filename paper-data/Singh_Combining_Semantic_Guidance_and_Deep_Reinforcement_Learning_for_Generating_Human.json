@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.12589",
+  "title": "Combining Semantic Guidance and Deep Reinforcement Learning for Generating Human Level Paintings",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Singh_Combining_Semantic_Guidance_and_Deep_Reinforcement_Learning_for_Generating_Human_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jaskirat Singh",
+    "Liang Zheng"
+  ],
+  "abstract": "Generation of stroke-based non-photorealistic imagery, is an important problem in the computer vision community. As an endeavor in this direction, substantial recent research efforts have been focused on teaching machines \"how to paint\", in a manner similar to a human painter. However, the applicability of previous methods has been limited to datasets with little variation in position, scale and saliency of the foreground object. As a consequence, we find that these methods struggle to cover the granularity and diversity possessed by real world images. To this end, we propose a Semantic Guidance pipeline with 1) a bi-level painting procedure for learning the distinction between foreground and background brush strokes at training time. 2) We also introduce invariance to the position and scale of the foreground object through a neural alignment model, which combines object localization and spatial transformer networks in an end to end manner, to zoom into a particular semantic instance. 3) The distinguishing features of the in-focus object are then amplified by maximizing a novel guided backpropagation based focus reward. The proposed agent does not require any supervision on human stroke-data and successfully handles variations in foreground object attributes, thus, producing much higher quality canvases for the CUB-200 Birds and Stanford Cars-196 datasets. Finally, we demonstrate the further efficacy of our method on complex datasets with multiple foreground object instances by evaluating an extension of our method on the challenging Virtual-KITTI dataset. Source code and models are available at https://github.com/1jsingh/semantic-guidance.",
+  "s2id": "a3ad035ec0b7bcf8e078efdf50a2db41a2f922fd",
+  "twitter": {
+    "retweets": 4,
+    "likes": 6,
+    "replies": 1
+  },
+  "citations": 1
+}

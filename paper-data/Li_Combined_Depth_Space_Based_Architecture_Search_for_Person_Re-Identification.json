@@ -1,0 +1,13 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.04163",
+  "title": "Combined Depth Space Based Architecture Search for Person Re-Identification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Combined_Depth_Space_Based_Architecture_Search_for_Person_Re-Identification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hanjun Li",
+    "Gaojie Wu",
+    "Wei-Shi Zheng"
+  ],
+  "abstract": "Most works on person re-identification (ReID) take advantage of large backbone networks such as ResNet, which are designed for image classification instead of ReID, for feature extraction. However, these backbones may not be computationally efficient or the most suitable architectures for ReID. In this work, we aim to design a lightweight and suitable network for ReID. To this end, we propose a novel search space called Combined Depth Space (CDS), based on which we search for an efficient network architecture, which we call CDNet, via a differentiable architecture search algorithm. Through the use of the combined basic building blocks in CDS, CDNet tends to focus on combined pattern information that is typically found in images of pedestrians. We then propose a low-cost search strategy named the Top-k Sample Search strategy to make full use of the search space and avoid trapping in local optimal result. Furthermore, an effective Fine-grained Balance Neck (FBLNeck), which is removable at the inference time, is presented to balance the effects of triplet loss and softmax loss during the training process. Extensive experiments show that our CDNet ( 1.8 M parameters) has comparable performance with state-of-the-art lightweight networks.",
+  "s2id": "5c4d6efef862e753cfecc8c6fcaab8df176d7db6",
+  "citations": 0
+}

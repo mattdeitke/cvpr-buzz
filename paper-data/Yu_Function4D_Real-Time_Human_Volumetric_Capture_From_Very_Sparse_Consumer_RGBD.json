@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.01859",
+  "title": "Function4D: Real-Time Human Volumetric Capture From Very Sparse Consumer RGBD Sensors",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Function4D_Real-Time_Human_Volumetric_Capture_From_Very_Sparse_Consumer_RGBD_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tao Yu",
+    "Zerong Zheng",
+    "Kaiwen Guo",
+    "Pengpeng Liu",
+    "Qionghai Dai",
+    "Yebin Liu"
+  ],
+  "abstract": "Human volumetric capture is a long-standing topic in computer vision and computer graphics. Although high-quality results can be achieved using sophisticated off-line systems, real-time human volumetric capture of complex scenarios, especially using light-weight setups, remains challenging. In this paper, we propose a human volumetric capture method that combines temporal volumetric fusion and deep implicit functions. To achieve high-quality and temporal-continuous reconstruction, we propose dynamic sliding fusion to fuse neighboring depth observations together with topology consistency. Moreover, for detailed and complete surface generation, we propose detail-preserving deep implicit functions for RGBD input which can not only preserve the geometric details on the depth inputs but also generate more plausible texturing results. Results and experiments show that our method outperforms existing methods in terms of view sparsity, generalization capacity, reconstruction quality, and run-time efficiency.",
+  "s2id": "7e5fefa74f383ec2d77b72b639e3d6f30dea2970",
+  "twitter": {
+    "retweets": 30,
+    "likes": 122,
+    "replies": 1
+  },
+  "citations": 1
+}

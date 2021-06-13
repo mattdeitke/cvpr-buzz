@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.10566",
+  "title": "Exploring Simple Siamese Representation Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xinlei Chen",
+    "Kaiming He"
+  ],
+  "abstract": "Siamese networks have become a common structure in various recent models for unsupervised visual representation learning. These models maximize the similarity between two augmentations of one image, subject to certain conditions for avoiding collapsing solutions. In this paper, we report surprising empirical results that simple Siamese networks can learn meaningful representations even using none of the following: (i) negative sample pairs, (ii) large batches, (iii) momentum encoders. Our experiments show that collapsing solutions do exist for the loss and structure, but a stop-gradient operation plays an essential role in preventing collapsing. We provide a hypothesis on the implication of stop-gradient, and further show proof-of-concept experiments verifying it. Our \"SimSiam\" method achieves competitive results on ImageNet and downstream tasks. We hope this simple baseline will motivate people to rethink the roles of Siamese architectures for unsupervised representation learning. Code is made available. (https://github.com/facebookresearch/simsiam)",
+  "s2id": "0e23d2f14e7e56e81538f4a63e11689d8ac1eb9d",
+  "twitter": {
+    "retweets": 120,
+    "likes": 681,
+    "replies": 14
+  },
+  "citations": 102
+}

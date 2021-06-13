@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.05895",
+  "title": "IMAGINE: Image Synthesis by Image-Guided Model Inversion",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_IMAGINE_Image_Synthesis_by_Image-Guided_Model_Inversion_CVPR_2021_paper.pdf",
+  "authors": [
+    "Pei Wang",
+    "Yijun Li",
+    "Krishna Kumar Singh",
+    "Jingwan Lu",
+    "Nuno Vasconcelos"
+  ],
+  "abstract": "Synthesizing variations of a specific reference image with semantically valid content is an important task in terms of personalized generation as well as for data augmentation. In this work, we propose an inversion based method, denoted as IMAge-Guided model INvErsion (IMAGINE), to generate high-quality and diverse images only from one single training sample. We mainly leverage the knowledge of image semantics from a pre-trained classifier and achieve plausible generations via matching multi-level feature representations in the classifier, associated with adversarial training with an external discriminator. IMAGINE enables the synthesis procedure to be able to simultaneously 1) enforce semantic specificity constraints during the synthesis, 2) produce realistic images without the introduction of generator training, 3) allow fine controls over the synthesized image, and 4) be model-compact. With extensive experimental results, we demonstrate qualitatively and quantitatively that IMAGINE performs favorably against state-of-the-art GAN-based and inversion-based methods, across three different image domains, i.e., the object, scene and texture.",
+  "s2id": "d7a40ebebd8c00ff853b64ebecad366477bf0adb",
+  "twitter": {
+    "retweets": 2,
+    "likes": 39,
+    "replies": 0
+  },
+  "citations": 1
+}

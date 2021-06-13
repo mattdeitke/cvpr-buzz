@@ -1,0 +1,14 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13164",
+  "title": "M3DSSD: Monocular 3D Single Stage Object Detector",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_M3DSSD_Monocular_3D_Single_Stage_Object_Detector_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shujie Luo",
+    "Hang Dai",
+    "Ling Shao",
+    "Yong Ding"
+  ],
+  "abstract": "In this paper, we propose a Monocular 3D Single Stage object Detector (M3DSSD) with feature alignment and asymmetric non-local attention. Current anchor-based monocular 3D object detection methods suffer from feature mismatching. To overcome this, we propose a two-step feature alignment approach. In the first step, the shape alignment is performed to enable the receptive field of the feature map to focus on the pre-defined anchors with high confidence scores. In the second step, the center alignment is used to align the features at 2D/3D centers. Further, it is often difficult to learn global information and capture long-range relationships, which are important for the depth prediction of objects. Therefore, we propose a novel asymmetric non-local attention block with multi-scale sampling to extract depth-wise features. The proposed M3DSSD achieves significantly better performance than the monocular 3D object detection methods on the KITTI dataset, in both 3D object detection and bird's eye view tasks. The code is released at https://github.com/mumianyuxin/M3DSSD.",
+  "s2id": "203d80a576abe268fc66420f8721ebcce57a0e7c",
+  "citations": 1
+}

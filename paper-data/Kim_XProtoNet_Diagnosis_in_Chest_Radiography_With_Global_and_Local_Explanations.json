@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.10663",
+  "title": "XProtoNet: Diagnosis in Chest Radiography With Global and Local Explanations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_XProtoNet_Diagnosis_in_Chest_Radiography_With_Global_and_Local_Explanations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Eunji Kim",
+    "Siwon Kim",
+    "Minji Seo",
+    "Sungroh Yoon"
+  ],
+  "abstract": "Automated diagnosis using deep neural networks in chest radiography can help radiologists detect life-threatening diseases. However, existing methods only provide predictions without accurate explanations, undermining the trustworthiness of the diagnostic methods. Here, we present XProtoNet, a globally and locally interpretable diagnosis framework for chest radiography. XProtoNet learns representative patterns of each disease from X-ray images, which are prototypes, and makes a diagnosis on a given X-ray image based on the patterns. It predicts the area where a sign of the disease is likely to appear and compares the features in the predicted area with the prototypes. It can provide a global explanation, the prototype, and a local explanation, how the prototype contributes to the prediction of a single image. Despite the constraint for interpretability, XProtoNet achieves state-of-the-art classification performance on the public NIH chest X-ray dataset.",
+  "s2id": "0ef56a25b685f929e6151f705bd3f65c7df5c889",
+  "twitter": {
+    "retweets": 1,
+    "likes": 4,
+    "replies": 0
+  },
+  "citations": 1
+}

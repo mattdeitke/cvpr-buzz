@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.12052",
+  "title": "Few-Shot 3D Point Cloud Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Few-Shot_3D_Point_Cloud_Semantic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Na Zhao",
+    "Tat-Seng Chua",
+    "Gim Hee Lee"
+  ],
+  "abstract": "Many existing approaches for 3D point cloud semantic segmentation are fully supervised. These fully supervised approaches heavily rely on large amounts of labeled training data that are difficult to obtain and cannot segment new classes after training. To mitigate these limitations, we propose a novel attention-aware multi-prototype transductive few-shot point cloud semantic segmentation method to segment new classes given a few labeled examples. Specifically, each class is represented by multiple prototypes to model the complex data distribution of labeled points. Subsequently, we employ a transductive label propagation method to exploit the affinities between labeled multi-prototypes and unlabeled points, and among the unlabeled points. Furthermore, we design an attention-aware multi-level feature learning network to learn the discriminative features that capture the geometric dependencies and semantic correlations between points. Our proposed method shows significant and consistent improvements compared to baselines in different few-shot point cloud semantic segmentation settings (i.e., 2/3-way 1/5-shot) on two benchmark datasets. Our code is available at https://github.com/Na-Z/attMPTI.",
+  "s2id": "35549d6a4c5e09e8d2b3de95940dde38e41905ec",
+  "twitter": {
+    "retweets": 0,
+    "likes": 6,
+    "replies": 2
+  },
+  "citations": 2
+}

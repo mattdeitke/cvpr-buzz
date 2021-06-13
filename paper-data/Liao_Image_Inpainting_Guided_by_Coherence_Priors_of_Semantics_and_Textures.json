@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.08054",
+  "title": "Image Inpainting Guided by Coherence Priors of Semantics and Textures",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liao_Image_Inpainting_Guided_by_Coherence_Priors_of_Semantics_and_Textures_CVPR_2021_paper.pdf",
+  "authors": [
+    "Liang Liao",
+    "Jing Xiao",
+    "Zheng Wang",
+    "Chia-Wen Lin",
+    "Shin'ichi Satoh"
+  ],
+  "abstract": "Existing inpainting methods have achieved promising performance in recovering defected images of specific scenes. However, filling holes involving multiple semantic categories remains challenging due to the obscure semantic boundaries and the mixture of different semantic textures. In this paper, we introduce coherence priors between the semantics and textures which make it possible to concentrate on completing separate textures in a semantic-wise manner. Specifically, we adopt a multi-scale joint optimization framework to first model the coherence priors and then accordingly interleavingly optimize image inpainting and semantic segmentation in a coarse-to-fine manner. A Semantic-Wise Attention Propagation (SWAP) module is devised to refine completed image textures across scales by exploring non-local semantic coherence, which effectively mitigates mix-up of textures. We also propose two coherence losses to constrain the consistency between the semantics and the inpainted image in terms of the overall structure and detailed textures. Experimental results demonstrate the superiority of our proposed method for challenging cases with complex holes.",
+  "s2id": "26a8e0c99574ade64b9c02a69cb0df1c8c840c50",
+  "twitter": {
+    "retweets": 3,
+    "likes": 25,
+    "replies": 0
+  },
+  "citations": 0
+}

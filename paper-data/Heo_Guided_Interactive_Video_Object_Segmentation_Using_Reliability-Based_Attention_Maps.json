@@ -1,0 +1,13 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.10386",
+  "title": "Guided Interactive Video Object Segmentation Using Reliability-Based Attention Maps",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Heo_Guided_Interactive_Video_Object_Segmentation_Using_Reliability-Based_Attention_Maps_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuk Heo",
+    "Yeong Jun Koh",
+    "Chang-Su Kim"
+  ],
+  "abstract": "We propose a novel guided interactive segmentation (GIS) algorithm for video objects to improve the segmentation accuracy and reduce the interaction time. First, we design the reliability-based attention module to analyze the reliability of multiple annotated frames. Second, we develop the intersection-aware propagation module to propagate segmentation results to neighboring frames. Third, we introduce the GIS mechanism for a user to select unsatisfactory frames quickly with less effort. Experimental results demonstrate that the proposed algorithm provides more accurate segmentation results at a faster speed than conventional algorithms. Codes are available at https://github.com/yuk6heo/GIS-RAmap.",
+  "s2id": "307695c6a66c59ad4fee568f5e320bd785121e4b",
+  "citations": 0
+}

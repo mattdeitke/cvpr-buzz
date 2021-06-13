@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.01508",
+  "title": "Learning Neural Representation of Camera Pose with Matrix Representation of Pose Shift via View Synthesis",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Learning_Neural_Representation_of_Camera_Pose_with_Matrix_Representation_of_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yaxuan Zhu",
+    "Ruiqi Gao",
+    "Siyuan Huang",
+    "Song-Chun Zhu",
+    "Ying Nian Wu"
+  ],
+  "abstract": "How to efficiently represent camera pose is an essential problem in 3D computer vision, especially in tasks like camera pose regression and novel view synthesis. Traditionally, 3D position of the camera is represented by Cartesian coordinate and the orientation is represented by Euler angle or quaternions. These representations are manually designed, which may not be the most efficient representation for downstream tasks. In this work, we propose an approach to learn neural representations of camera poses and 3D scenes, coupled with neural representations of local camera movements. Specifically, the camera pose and 3D scene are represented as vectors and the local camera movement is represented as a matrix operating on the vector of the camera pose. We demonstrate that the camera movement can further be parametrized as a matrix Lie algebra that underlies a rotation system in the neural space. The vector representations are then concatenated and generate the posed 2D image through a decoder network. The model is learned from only posed 2D images and corresponding camera poses, without access to depth or shape. We conduct extensive experiments on synthetic and real datasets. The results show that compared with other camera pose representations, our learned representation is more robust to noise in novel view synthesis and more effective in camera pose regression.",
+  "s2id": "6b5c1c8ebc8155295917a9b8e9181a671ea1b277",
+  "twitter": {
+    "retweets": 2,
+    "likes": 6,
+    "replies": 0
+  },
+  "citations": 0
+}

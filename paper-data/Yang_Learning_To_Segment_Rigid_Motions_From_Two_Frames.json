@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.03694",
+  "title": "Learning To Segment Rigid Motions From Two Frames",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Learning_To_Segment_Rigid_Motions_From_Two_Frames_CVPR_2021_paper.pdf",
+  "authors": [
+    "Gengshan Yang",
+    "Deva Ramanan"
+  ],
+  "abstract": "Appearance-based detectors achieve remarkable performance on common scenes, benefiting from high-capacity models and massive annotated data, but tend to fail for scenarios that lack training data. Geometric motion segmentation algorithms, however, generalize to novel scenes, but have yet to achieve comparable performance to appearance-based ones, due to noisy motion estimations and degenerate motion configurations. To combine the best of both worlds, we propose a modular network, whose architecture is motivated by a geometric analysis of what independent object motions can be recovered from an ego-motion field. It takes two consecutive frames as input and predicts segmentation masks for the background and multiple rigidly moving objects, which are then parameterized by 3D rigid transformations. Our method achieves state-of-the-art performance for rigid motion segmentation on KITTI and Sintel. The inferred rigid motions lead to a significant improvement for depth and scene flow estimation.",
+  "s2id": "8c05c8b57605c76fbbe3492c24478d29621ef6c1",
+  "twitter": {
+    "retweets": 10,
+    "likes": 64,
+    "replies": 0
+  },
+  "citations": 0
+}

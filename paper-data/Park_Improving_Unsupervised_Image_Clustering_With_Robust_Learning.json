@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.11150",
+  "title": "Improving Unsupervised Image Clustering With Robust Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Park_Improving_Unsupervised_Image_Clustering_With_Robust_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sungwon Park",
+    "Sungwon Han",
+    "Sundong Kim",
+    "Danu Kim",
+    "Sungkyu Park",
+    "Seunghoon Hong",
+    "Meeyoung Cha"
+  ],
+  "abstract": "Unsupervised image clustering methods often introduce alternative objectives to indirectly train the model and are subject to faulty predictions and overconfident results. To overcome these challenges, the current research proposes an innovative model RUC that is inspired by robust learning. RUC's novelty is at utilizing pseudo-labels of existing image clustering models as a noisy dataset that may include misclassified samples. Its retraining process can revise misaligned knowledge and alleviate the overconfidence problem in predictions. The model's flexible structure makes it possible to be used as an add-on module to other clustering methods and helps them achieve better performance on multiple datasets. Extensive experiments show that the proposed model can adjust the model confidence with better calibration and gain additional robustness against adversarial noise.",
+  "s2id": "20843b783299bb8a14d53b31a35c971990a09eac",
+  "twitter": {
+    "retweets": 4,
+    "likes": 20,
+    "replies": 2
+  },
+  "citations": 1
+}

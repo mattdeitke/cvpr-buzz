@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.14950",
+  "title": "2D or not 2D? Adaptive 3D Convolution Selection for Efficient Video Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_2D_or_not_2D_Adaptive_3D_Convolution_Selection_for_Efficient_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hengduo Li",
+    "Zuxuan Wu",
+    "Abhinav Shrivastava",
+    "Larry S. Davis"
+  ],
+  "abstract": "3D convolutional networks are prevalent for video recognition. While achieving excellent recognition performance on standard benchmarks, they operate on a sequence of frames with 3D convolutions and thus are computationally demanding. Exploiting large variations among different videos, we introduce Ada3D, a conditional computation framework that learns instance-specific 3D usage policies to determine frames and convolution layers to be used in a 3D network. These policies are derived with a two-head lightweight selection network conditioned on each input video clip. Then, only frames and convolutions that are selected by the selection network are used in the 3D model to generate predictions. The selection network is optimized with policy gradient methods to maximize a reward that encourages making correct predictions with limited computation. We conduct experiments on three video recognition benchmarks and demonstrate that our method achieves similar accuracies to state-of-the-art 3D models while requiring 20%-50% less computation across different datasets. We also show that learned policies are transferable and Ada3D is compatible to different backbones and modern clip selection approaches. Our qualitative analysis indicates that our method allocates fewer 3D convolutions and frames for \"static\" inputs, yet uses more for motion-intensive clips.",
+  "s2id": "070e51a0c33fc732273df67e8c49ee91561f794e",
+  "twitter": {
+    "retweets": 2,
+    "likes": 10,
+    "replies": 0
+  },
+  "citations": 2
+}

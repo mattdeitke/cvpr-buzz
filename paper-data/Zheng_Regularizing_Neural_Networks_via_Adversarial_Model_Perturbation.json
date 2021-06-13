@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2010.04925",
+  "title": "Regularizing Neural Networks via Adversarial Model Perturbation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_Regularizing_Neural_Networks_via_Adversarial_Model_Perturbation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yaowei Zheng",
+    "Richong Zhang",
+    "Yongyi Mao"
+  ],
+  "abstract": "Effective regularization techniques are highly desired in deep learning for alleviating overfitting and improving generalization. This work proposes a new regularization scheme, based on the understanding that the flat local minima of the empirical risk cause the model to generalize better. This scheme is referred to as adversarial model perturbation (AMP), where instead of directly minimizing the empirical risk, an alternative \"AMP loss\" is minimized via SGD. Specifically, the AMP loss is obtained from the empirical risk by applying the \"worst\" norm-bounded perturbation on each point in the parameter space. Comparing with most existing regularization schemes, AMP has strong theoretical justifications, in that minimizing the AMP loss can be shown theoretically to favour flat local minima of the empirical risk. Extensive experiments on various modern deep architectures establish AMP as a new state of the art among regularization schemes. Our code is available at https://github.com/hiyouga/AMP-Regularizer.",
+  "s2id": "61dbbff771eee236a1116e69fab3674529fc3cc7",
+  "twitter": {
+    "retweets": 2,
+    "likes": 4,
+    "replies": 2
+  },
+  "citations": 2
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06030",
+  "title": "FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.pdf",
+  "authors": [
+    "Quande Liu",
+    "Cheng Chen",
+    "Jing Qin",
+    "Qi Dou",
+    "Pheng-Ann Heng"
+  ],
+  "abstract": "Federated learning allows distributed medical institutions to collaboratively learn a shared prediction model with privacy protection. While at clinical deployment, the models trained in federated learning can still suffer from performance drop when applied to completely unseen hospitals outside the federation. In this paper, we point out and solve a novel problem setting of federated domain generalization, which aims to learn a federated model from multiple distributed source domains such that it can directly generalize to unseen target domains. We present a novel approach, named as Episodic Learning in Continuous Frequency Space (ELCFS), for this problem by enabling each client to exploit multi-source data distributions under the challenging constraint of data decentralization. Our approach transmits the distribution information across clients in a privacy-protecting way through an effective continuous frequency space interpolation mechanism. With the transferred multi-source distributions, we further carefully design a boundary-oriented episodic learning paradigm to expose the local learning to domain distribution shifts and particularly meet the challenges of model generalization in medical image segmentation scenario. The effectiveness of our method is demonstrated with superior performance over state-of-the-arts and in-depth ablation experiments on two medical image segmentation tasks. The code is available at \"https://github.com/liuquande/FedDG-ELCFS\".",
+  "s2id": "d6a6d8f56c5db24bfae7c614f21195dc0e89f4a8",
+  "twitter": {
+    "retweets": 3,
+    "likes": 3,
+    "replies": 1
+  },
+  "citations": 2
+}

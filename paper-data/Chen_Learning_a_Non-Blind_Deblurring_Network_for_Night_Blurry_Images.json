@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "Learning a Non-Blind Deblurring Network for Night Blurry Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Learning_a_Non-Blind_Deblurring_Network_for_Night_Blurry_Images_CVPR_2021_paper.pdf",
+  "authors": [
+    "Liang Chen",
+    "Jiawei Zhang",
+    "Jinshan Pan",
+    "Songnan Lin",
+    "Faming Fang",
+    "Jimmy S. Ren"
+  ],
+  "abstract": "Deblurring night blurry images is difficult, because the common-used blur model based on the linear convolution operation does not hold in this situation due to the influence of saturated pixels. In this paper, we propose a non-blind deblurring network (NBDN) to restore night blurry images. To mitigate the side effects brought by the pixels that violate the blur model, we develop a confidence estimation unit (CEU) to estimate a map which ensures smaller contributions of these pixels to the deconvolution steps that are further optimized by the conjugate gradient (CG) method. Moreover, unlike the existing methods using manually tuned hyper-parameters in their frameworks, we propose a hyper-parameter estimation unit (HPEU) to adaptively estimate hyper-parameters  for better image restoration . The experimental results demonstrate that the proposed network performs favorably against state-of-the-art algorithms both quantitatively and qualitatively.",
+  "s2id": ""
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.05292",
+  "title": "Topological Planning With Transformers for Vision-and-Language Navigation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Topological_Planning_With_Transformers_for_Vision-and-Language_Navigation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Kevin Chen",
+    "Junshen K. Chen",
+    "Jo Chuang",
+    "Marynel Vazquez",
+    "Silvio Savarese"
+  ],
+  "abstract": "Conventional approaches to vision-and-language navigation (VLN) are trained end-to-end but struggle to perform well in freely traversable environments. Inspired by the robotics community, we propose a modular approach to VLN using topological maps. Given a natural language instruction and topological map, our approach leverages attention mechanisms to predict a navigation plan in the map. The plan is then executed with low-level actions (e.g. forward, rotate) using a robust controller. Experiments show that our method outperforms previous end-to-end approaches, generates interpretable navigation plans, and exhibits intelligent behaviors such as backtracking.",
+  "s2id": "a9dc44231239ef010dc2617bc4c373c00e4bee72",
+  "twitter": {
+    "retweets": 7,
+    "likes": 20,
+    "replies": 0
+  },
+  "citations": 2
+}

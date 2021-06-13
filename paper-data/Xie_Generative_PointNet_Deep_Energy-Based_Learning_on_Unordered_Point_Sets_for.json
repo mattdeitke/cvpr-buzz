@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2004.01301",
+  "title": "Generative PointNet: Deep Energy-Based Learning on Unordered Point Sets for 3D Generation, Reconstruction and Classification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xie_Generative_PointNet_Deep_Energy-Based_Learning_on_Unordered_Point_Sets_for_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jianwen Xie",
+    "Yifei Xu",
+    "Zilong Zheng",
+    "Song-Chun Zhu",
+    "Ying Nian Wu"
+  ],
+  "abstract": "We propose a generative model of unordered point sets, such as point clouds, in the forms of an energy-based model, where the energy function is parameterized by an input-permutation-invariant bottom-up neural network. The energy function learns a coordinate encoding of each point and then aggregates all individual point features into an energy for the whole point cloud. We show that our model can be derived from the discriminative PointNet. The model can be trained by MCMC-based maximum likelihood learning (as well as its variants), without the help of any assisting networks like those in GANs and VAEs. Unlike most point cloud generator that relies on hand-crafting distance metrics, our model does not rely on hand-crafting distance metric for the point cloud generation, because it synthesizes point clouds by matching observed examples in terms of statistical properties defined by the energy function. Furthermore, we can learn a short-run MCMC toward the energy-based model as a flow-like generator for point cloud reconstruction and interpolation. The learned point cloud representation can be useful for point cloud classification. Experiments demonstrate the advantages of the proposed generative model of point clouds.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 7,
+    "likes": 22,
+    "replies": 1
+  }
+}

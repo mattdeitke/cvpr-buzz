@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.03891",
+  "title": "LOHO: Latent Optimization of Hairstyles via Orthogonalization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Saha_LOHO_Latent_Optimization_of_Hairstyles_via_Orthogonalization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Rohit Saha",
+    "Brendan Duke",
+    "Florian Shkurti",
+    "Graham W. Taylor",
+    "Parham Aarabi"
+  ],
+  "abstract": "Hairstyle transfer is challenging due to hair structure differences in the source and target hair. Therefore, we propose Latent Optimization of Hairstyles via Orthogonalization (LOHO), an optimization-based approach using GAN inversion to infill missing hair structure details in latent space during hairstyle transfer. Our approach decomposes hair into three attributes: perceptual structure, appearance, and style, and includes tailored losses to model each of these attributes independently. Furthermore, we propose two-stage optimization and gradient orthogonalization to enable disentangled latent space optimization of our hair attributes. Using LOHO for latent space manipulation, users can synthesize novel photorealistic images by manipulating hair attributes either individually or jointly, transferring the desired attributes from reference hairstyles. LOHO achieves a superior FID compared with the current state-of-the-art (SOTA) for hairstyle transfer. Additionally, LOHO preserves the subject's identity comparably well according to PSNR and SSIM when compared to SOTA image embedding pipelines.",
+  "s2id": "4c3dca70c4b3091498f9608f7b0ccebc8854dfb5",
+  "twitter": {
+    "retweets": 11,
+    "likes": 39,
+    "replies": 1
+  },
+  "citations": 1
+}

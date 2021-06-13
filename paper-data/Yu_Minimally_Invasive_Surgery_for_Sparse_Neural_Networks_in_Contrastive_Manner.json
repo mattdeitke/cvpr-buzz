@@ -1,0 +1,10 @@
+{
+  "arXiv": null,
+  "title": "Minimally Invasive Surgery for Sparse Neural Networks in Contrastive Manner",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Minimally_Invasive_Surgery_for_Sparse_Neural_Networks_in_Contrastive_Manner_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chong Yu"
+  ],
+  "abstract": "With the development of deep learning, neural networks tend to be deeper and larger to achieve good performance. Trained models are more compute-intensive and memory-intensive, which lead to the big challenges on memory bandwidth, storage, latency, and throughput. In this paper, we propose the neural network compression method named minimally invasive surgery. Different from traditional model compression and knowledge distillation methods, the proposed method refers to the minimally invasive surgery principle. It learns the principal features from a pair of dense and compressed models in a contrastive manner. It also optimizes the neural networks to meet the specific hardware acceleration requirements. Through qualitative, quantitative, and ablation experiments, the proposed method shows a compelling performance, acceleration, and generalization in various tasks.",
+  "s2id": ""
+}

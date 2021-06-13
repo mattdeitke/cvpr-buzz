@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.00802",
+  "title": "Adversarial Robustness Across Representation Spaces",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Awasthi_Adversarial_Robustness_Across_Representation_Spaces_CVPR_2021_paper.pdf",
+  "authors": [
+    "Pranjal Awasthi",
+    "George Yu",
+    "Chun-Sung Ferng",
+    "Andrew Tomkins",
+    "Da-Cheng Juan"
+  ],
+  "abstract": "Adversarial robustness corresponds to the susceptibility of deep neural networks to imperceptible perturbations made at test time. In the context of image tasks, many algorithms have been proposed to make neural networks robust to adversarial perturbations made to the input pixels. These perturbations are typically measured in an l_p norm. However, robustness often holds only for the specific attack used for training. In this work we extend the above setting to consider the problem of training of deep neural networks that can be made simultaneously robust to perturbations applied in multiple natural representations spaces. For the case of image data, examples include the standard pixel representation as well as the representation in the discrete cosine transform (DCT) basis. We design a theoretically sound algorithm with formal guarantees for the above problem. Furthermore, our guarantees also hold when the goal is to require robustness with respect to multiple l_p norm based attacks. We then derive an efficient practical implementation and demonstrate the effectiveness of our approach on standard datasets for image classification.",
+  "s2id": "727e89a98628d0935a339e0c4d328c8c6307cdb5",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

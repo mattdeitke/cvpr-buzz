@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/1905.11903",
+  "title": "Efficient Object Embedding for Spliced Image Retrieval",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Efficient_Object_Embedding_for_Spliced_Image_Retrieval_CVPR_2021_paper.pdf",
+  "authors": [
+    "Bor-Chun Chen",
+    "Zuxuan Wu",
+    "Larry S. Davis",
+    "Ser-Nam Lim"
+  ],
+  "abstract": "Detecting spliced images is one of the emerging challenges in computer vision. Unlike prior methods that focus on detecting low-level artifacts generated during the manipulation process, we use an image retrieval approach to tackle this problem. When given a spliced query image, our goal is to retrieve the original image from a database of authentic images. To achieve this goal, we propose representing an image by its constituent objects based on the intuition that the finest granularity of manipulations is oftentimes at the object-level. We introduce a framework, object embeddings for spliced image retrieval (OE-SIR), that utilizes modern object detectors to localize object regions. Each region is then embedded and collectively used to represent the image. Further, we propose a student-teacher training paradigm for learning discriminative embeddings within object regions to avoid expensive multiple forward passes. Detailed analysis of the efficacy of different feature embedding models is also provided in this study. Extensive experimental results show that the OE-SIR achieves state-of-the-art performance in spliced image retrieval.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  }
+}

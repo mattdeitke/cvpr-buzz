@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.09116",
+  "title": "Hybrid Rotation Averaging: A Fast and Robust Rotation Averaging Approach",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Hybrid_Rotation_Averaging_A_Fast_and_Robust_Rotation_Averaging_Approach_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yu Chen",
+    "Ji Zhao",
+    "Laurent Kneip"
+  ],
+  "abstract": "We address rotation averaging (RA) and its application to real-world 3D reconstruction. Local optimisation based approaches are the de facto choice, though they only guarantee a local optimum. Global optimisers ensure global optimality in low noise conditions, but they are inefficient and may easily deviate under the influence of outliers or elevated noise levels. We push the envelope of rotation averaging by leveraging the advantages of a global RA method and a local RA method. Combined with a fast view graph filtering as preprocessing, the proposed hybrid approach is robust to outliers. We further apply the proposed hybrid rotation averaging approach to incremental Structure from Motion (SfM), the accuracy and robustness of SfM are both improved by adding the resulting global rotations as regularisers to bundle adjustment. Overall, we demonstrate high practicality of the proposed method as bad camera poses are effectively corrected and drift is reduced.",
+  "s2id": "0ef3af6292cf5c4b94d6bc0b2cc9020457322dfe",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

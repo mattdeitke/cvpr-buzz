@@ -1,0 +1,24 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01456",
+  "title": "Image-to-Image Translation via Hierarchical Style Disentanglement",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Image-to-Image_Translation_via_Hierarchical_Style_Disentanglement_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xinyang Li",
+    "Shengchuan Zhang",
+    "Jie Hu",
+    "Liujuan Cao",
+    "Xiaopeng Hong",
+    "Xudong Mao",
+    "Feiyue Huang",
+    "Yongjian Wu",
+    "Rongrong Ji"
+  ],
+  "abstract": "Recently, image-to-image translation has made significant progress in achieving both multi-label (i.e., translation conditioned on different labels) and multi-style (i.e., generation with diverse styles) tasks. However, due to the unexplored independence and exclusiveness in the labels, existing endeavors are defeated by involving uncontrolled manipulations to the translation results. In this paper, we propose Hierarchical Style Disentanglement (HiSD) to address this issue. Specifically, we organize the labels into a hierarchical tree structure, in which independent tags, exclusive attributes, and disentangled styles are allocated from top to bottom. Correspondingly, a new translation process is designed to adapt the above structure, in which the styles are identified for controllable translations. Both qualitative and quantitative results on the CelebA-HQ dataset verify the ability of the proposed HiSD. We hope our method will serve as a solid baseline and provide fresh insights with the hierarchically organized annotations for future research in image-to-image translation. The code will be released.",
+  "s2id": "6ba27b38f82052fd450091cd25fbf1ec92ddf79e",
+  "twitter": {
+    "retweets": 16,
+    "likes": 69,
+    "replies": 3
+  },
+  "citations": 0
+}

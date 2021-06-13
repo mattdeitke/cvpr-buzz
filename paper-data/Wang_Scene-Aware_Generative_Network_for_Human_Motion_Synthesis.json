@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.14804",
+  "title": "Scene-Aware Generative Network for Human Motion Synthesis",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Scene-Aware_Generative_Network_for_Human_Motion_Synthesis_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jingbo Wang",
+    "Sijie Yan",
+    "Bo Dai",
+    "Dahua Lin"
+  ],
+  "abstract": "We revisit human motion synthesis, a task useful in various real-world applications, in this paper. Whereas a number of methods have been developed previously for this task, they are often limited in two aspects: 1) focus on the poses while leaving the location movement behind, and 2) ignore the impact of the environment on the human motion. In this paper, we propose a new framework, with the interaction between the scene and the human motion is taken into account. Considering the uncertainty of human motion, we formulate this task as a generative task, whose objective is to generate plausible human motion conditioned on both the scene and the human's initial position. This framework factorizes the distribution of human motions into a distribution of movement trajectories conditioned on scenes and that of body pose dynamics conditioned on both scenes and trajectories. We further derive a GAN-based learning approach, with discriminators to enforce the compatibility between the human motion and the contextual scene as well as the 3D-to-2D projection constraints. We assess the effectiveness of the proposed method on two challenging datasets, which cover both synthetic and real-world environmentemphasizes local structural constraints via depth-map crops, and a projection discriminator that emphasizes global structural constraints via 3D-to-2D motion projections. The effectiveness of our framework is comprehensively evaluated on two large challenging datasets, covering both a synthetic environment (GTA-IM) and a real environment (PROX)",
+  "s2id": "80446df79c7d5d5c76dea68b5f8873e24efdd40e",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

@@ -1,0 +1,15 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13757",
+  "title": "I3Net: Implicit Instance-Invariant Network for Adapting One-Stage Object Detectors",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_I3Net_Implicit_Instance-Invariant_Network_for_Adapting_One-Stage_Object_Detectors_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chaoqi Chen",
+    "Zebiao Zheng",
+    "Yue Huang",
+    "Xinghao Ding",
+    "Yizhou Yu"
+  ],
+  "abstract": "Recent works on two-stage cross-domain detection have widely explored the local feature patterns to achieve more accurate adaptation results. These methods heavily rely on the region proposal mechanisms and ROI-based instance-level features to design fine-grained feature alignment modules with respect to the foreground objects. However, for one-stage detectors, it is hard or even impossible to obtain explicit instance-level features in the detection pipelines. Motivated by this, we propose an Implicit Instance-Invariant Network (I3Net), which is tailored for adapting one-stage detectors and implicitly learns instance-invariant features via exploiting the natural characteristics of deep features in different layers. Specifically, we facilitate the adaptation from three aspects: (1) Dynamic and Class-Balanced Reweighting (DCBR) strategy, which considers the coexistence of intra-domain and intra-class variations to assign larger weights to those sample-scarce categories and easy-to-adapt samples; (2) Category-aware Object Pattern Matching (COPM) module, which boosts the cross-domain foreground objects matching guided by the categorical information and suppresses the uninformative background features; (3) Regularized Joint Category Alignment (RJCA) module, which jointly enforces the category alignment at different domain-specific layers with a consistency regularization. Experiments reveal that I3Net exceeds the state-of-the-art performance on benchmark datasets.",
+  "s2id": "a9d76b31589529dd8a5ae7c1774d2c4c55ff9ad0",
+  "citations": 2
+}

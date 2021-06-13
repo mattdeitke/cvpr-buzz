@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06533",
+  "title": "Triple-Cooperative Video Shadow Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Triple-Cooperative_Video_Shadow_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhihao Chen",
+    "Liang Wan",
+    "Lei Zhu",
+    "Jia Shen",
+    "Huazhu Fu",
+    "Wennan Liu",
+    "Jing Qin"
+  ],
+  "abstract": "Shadow detection in single image has received signifi-cant research interests in recent years. However, much lessworks has been explored in shadow detection over dynamicscenes. The bottleneck is the lack of a well-establisheddataset with high-quality annotations for video shadow de-tection. In this work, we collect a new video shadow detec-tion dataset (ViSha), which contains120videos with11,685frames, covering 60 object categories, varying lengths, anddifferent motion/lighting conditions. All the frames are an-notated with a high-quality pixel-level shadow mask. Tothe best of our knowledge, this is the first learning-orienteddataset for video shadow detection. Furthermore, we de-velop a new baseline model, named triple-cooperative videoshadow detection network (TVSD-Net). It utilizes tripleparallel networks in a cooperative manner to learn discrim-inative representations at intra-video and inter-video lev-els. Within the network, a dual gated co-attention moduleis proposed to constrain features from neighboring framesin the same video, while an auxiliary similarity loss is in-troduced to mine semantic information between differentvideos. Finally, we conduct a comprehensive study on ViShadataset, systematically evaluating 10 state-of-the-art mod-els (including single image shadow detectors, video ob-ject and saliency detection methods). Experimental resultsdemonstrate that our model outperforms SOTA competitors.",
+  "s2id": "ea28802c3d531ea1d585de232375267384319633",
+  "twitter": {
+    "retweets": 1,
+    "likes": 3,
+    "replies": 0
+  },
+  "citations": 0
+}

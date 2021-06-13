@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.05289",
+  "title": "StereoPIFu: Depth Aware Clothed Human Digitization via Stereo Vision",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hong_StereoPIFu_Depth_Aware_Clothed_Human_Digitization_via_Stereo_Vision_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yang Hong",
+    "Juyong Zhang",
+    "Boyi Jiang",
+    "Yudong Guo",
+    "Ligang Liu",
+    "Hujun Bao"
+  ],
+  "abstract": "In this paper, we propose StereoPIFu, which integrates the geometric constraints of stereo vision with implicit function representation of PIFu, to recover the 3D shape of the clothed human from a pair of low-cost rectified images. First, we introduce the effective voxel-aligned features from a stereo vision-based network to enable depth-aware reconstruction. Moreover, the novel relative z-offset is employed to associate predicted high-fidelity human depth and occupancy inference, which helps restore fine-level surface details. Second, a network structure that fully utilizes the geometry information from the stereo images is designed to improve the human body reconstruction quality. Consequently, our StereoPIFu can naturally infer the human body's spatial location in camera space and maintain the correct relative position of different parts of the human body, which enables our method to capture human performance. Compared with previous works, our StereoPIFu significantly improves the robustness, completeness, and accuracy of the clothed human reconstruction, which is demonstrated by extensive experimental results.",
+  "s2id": "133be7a7e81d7c282ed676a125c6815a985394ce",
+  "twitter": {
+    "retweets": 7,
+    "likes": 30,
+    "replies": 1
+  },
+  "citations": 1
+}

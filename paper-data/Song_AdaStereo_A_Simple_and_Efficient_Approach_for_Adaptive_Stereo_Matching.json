@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2004.04627",
+  "title": "AdaStereo: A Simple and Efficient Approach for Adaptive Stereo Matching",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Song_AdaStereo_A_Simple_and_Efficient_Approach_for_Adaptive_Stereo_Matching_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xiao Song",
+    "Guorun Yang",
+    "Xinge Zhu",
+    "Hui Zhou",
+    "Zhe Wang",
+    "Jianping Shi"
+  ],
+  "abstract": "Recently, records on stereo matching benchmarks are constantly broken by end-to-end disparity networks. However, the domain adaptation ability of these deep models is quite poor. Addressing such problem, we present a novel domain-adaptive pipeline called AdaStereo that aims to align multi-level representations for deep stereo matching networks. Compared to previous methods for adaptive stereo matching, our AdaStereo realizes a more standard, complete and effective domain adaptation pipeline. Firstly, we propose a non-adversarial progressive color transfer algorithm for input image-level alignment. Secondly, we design an efficient parameter-free cost normalization layer for internal feature-level alignment. Lastly, a highly related auxiliary task, self-supervised occlusion-aware reconstruction is presented to narrow down the gaps in output space. Our AdaStereo models achieve state-of-the-art cross-domain performance on multiple stereo benchmarks, including KITTI, Middlebury, ETH3D, and DrivingStereo, even outperforming disparity networks finetuned with target-domain ground-truths.",
+  "s2id": "146d462e7372d985dc1e6cf18a1543ada451ee09",
+  "twitter": {
+    "retweets": 5,
+    "likes": 13,
+    "replies": 1
+  },
+  "citations": 6
+}

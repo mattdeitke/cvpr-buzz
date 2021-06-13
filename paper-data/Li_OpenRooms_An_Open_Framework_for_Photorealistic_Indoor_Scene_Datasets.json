@@ -1,0 +1,27 @@
+{
+  "arXiv": null,
+  "title": "OpenRooms: An Open Framework for Photorealistic Indoor Scene Datasets",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_OpenRooms_An_Open_Framework_for_Photorealistic_Indoor_Scene_Datasets_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhengqin Li",
+    "Ting-Wei Yu",
+    "Shen Sang",
+    "Sarah Wang",
+    "Meng Song",
+    "Yuhan Liu",
+    "Yu-Ying Yeh",
+    "Rui Zhu",
+    "Nitesh Gundavarapu",
+    "Jia Shi",
+    "Sai Bi",
+    "Hong-Xing Yu",
+    "Zexiang Xu",
+    "Kalyan Sunkavalli",
+    "Milos Hasan",
+    "Ravi Ramamoorthi",
+    "Manmohan Chandraker"
+  ],
+  "abstract": "We propose a novel framework for creating large-scale photorealistic datasets of indoor scenes, with ground truth geometry, material, lighting and semantics. Our goal is to make the dataset creation process widely accessible, allowing researchers to transform scans into datasets with highquality ground truth. We demonstrate our framework by creating a photorealistic synthetic version of the publicly available ScanNet dataset with consistent layout, semantic labels, high quality spatially-varying BRDF and complex lighting. We render photorealistic images, as well as complex spatially-varying lighting, including direct, indirect and visibility components. Such a dataset enables important applications in inverse rendering, scene understanding and robotics. We show that deep networks trained on the proposed dataset achieve competitive performance for shape, material and lighting estimation on real images, enabling photorealistic augmented reality applications, such as object insertion and material editing. We also show our semantic labels may be used for segmentation and multitask learning. Finally, we demonstrate that our framework may also be integrated with physics engines, to create virtual robotics environments with unique ground truth such as friction coefficients and correspondence to real scenes. The dataset and all the tools to create such datasets will be publicly released, enabling others in the community to easily build large-scale datasets of their own.",
+  "s2id": "765ad3844c7c8fe00fbd5475012e02b67627a11c",
+  "citations": 1
+}

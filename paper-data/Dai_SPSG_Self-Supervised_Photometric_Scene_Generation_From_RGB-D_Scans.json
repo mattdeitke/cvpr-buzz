@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "SPSG: Self-Supervised Photometric Scene Generation From RGB-D Scans",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_SPSG_Self-Supervised_Photometric_Scene_Generation_From_RGB-D_Scans_CVPR_2021_paper.pdf",
+  "authors": [
+    "Angela Dai",
+    "Yawar Siddiqui",
+    "Justus Thies",
+    "Julien Valentin",
+    "Matthias Niessner"
+  ],
+  "abstract": "We present SPSG, a novel approach to generate high-quality, colored 3D models of scenes from RGB-D scan observations by learning to infer unobserved scene geometry and color in a self-supervised fashion. Our self-supervised approach learns to jointly inpaint geometry and color by correlating an incomplete RGB-D scan with a more complete version of that scan. Notably, rather than relying on 3D reconstruction losses to inform our 3D geometry and color reconstruction, we propose adversarial and perceptual losses operating on 2D renderings in order to achieve high-resolution, high-quality colored reconstructions of scenes. This exploits the high-resolution, self-consistent signal from individual raw RGB-D frames, in contrast to fused 3D reconstructions of the frames which exhibit inconsistencies from view-dependent effects, such as color balancing or pose inconsistencies. Thus, by informing our 3D scene generation directly through 2D signal, we produce high-quality colored reconstructions of 3D scenes, outperforming state of the art on both synthetic and real data.",
+  "s2id": "0f2b71606b2eeab9e9b521abfce0e72f680c3861",
+  "twitter": {
+    "retweets": 12,
+    "likes": 75,
+    "replies": 0
+  },
+  "citations": 2
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15331",
+  "title": "POSEFusion: Pose-Guided Selective Fusion for Single-View Human Volumetric Capture",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_POSEFusion_Pose-Guided_Selective_Fusion_for_Single-View_Human_Volumetric_Capture_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhe Li",
+    "Tao Yu",
+    "Zerong Zheng",
+    "Kaiwen Guo",
+    "Yebin Liu"
+  ],
+  "abstract": "We propose POse-guided SElective Fusion (POSEFusion), a single-view human volumetric capture method that leverages tracking-based methods and tracking-free inference to achieve high-fidelity and dynamic 3D reconstruction. By contributing a novel reconstruction framework which contains pose-guided keyframe selection and robust implicit surface fusion, our method fully utilizes the advantages of both tracking-based methods and tracking-free inference methods, and finally enables the high-fidelity reconstruction of dynamic surface details even in the invisible regions. We formulate the keyframe selection as a dynamic programming problem to guarantee the temporal continuity of the reconstructed sequence. Moreover, the novel robust implicit surface fusion involves an adaptive blending weight to preserve high-fidelity surface details and an automatic collision handling method to deal with the potential self-collisions. Overall, our method enables high-fidelity and dynamic capture in both visible and invisible regions from a single RGBD camera, and the results and experiments show that our method outperforms state-of-the-art methods.",
+  "s2id": "f3b63c764246a36cf5ed57ae377965836ab350d7",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 1
+}

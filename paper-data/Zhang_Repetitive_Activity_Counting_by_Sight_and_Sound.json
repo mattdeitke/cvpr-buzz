@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13096",
+  "title": "Repetitive Activity Counting by Sight and Sound",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Repetitive_Activity_Counting_by_Sight_and_Sound_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yunhua Zhang",
+    "Ling Shao",
+    "Cees G. M. Snoek"
+  ],
+  "abstract": "This paper strives for repetitive activity counting in videos. Different from existing works, which all analyze the visual video content only, we incorporate for the first time the corresponding sound into the repetition counting process. This benefits accuracy in challenging vision conditions such as occlusion, dramatic camera view changes, low resolution, etc. We propose a model that starts with analyzing the sight and sound streams separately. Then an audiovisual temporal stride decision module and a reliability estimation module are introduced to exploit cross-modal temporal interaction. For learning and evaluation, an existing dataset is repurposed and reorganized to allow for repetition counting with sight and sound. We also introduce a variant of this dataset for repetition counting under challenging vision conditions. Experiments demonstrate the benefit of sound, as well as the other introduced modules, for repetition counting. Our sight-only model already outperforms the state-of-the-art by itself, when we add sound, results improve notably, especially under harsh vision conditions.",
+  "s2id": "3f762c399c6eeb184cfff9c8047c8e4fea626776",
+  "twitter": {
+    "retweets": 11,
+    "likes": 62,
+    "replies": 1
+  },
+  "citations": 0
+}

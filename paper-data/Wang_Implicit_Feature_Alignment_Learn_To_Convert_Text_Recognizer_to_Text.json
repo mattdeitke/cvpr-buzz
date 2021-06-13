@@ -1,0 +1,23 @@
+{
+  "arXiv": null,
+  "title": "Implicit Feature Alignment: Learn To Convert Text Recognizer to Text Spotter",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Implicit_Feature_Alignment_Learn_To_Convert_Text_Recognizer_to_Text_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tianwei Wang",
+    "Yuanzhi Zhu",
+    "Lianwen Jin",
+    "Dezhi Peng",
+    "Zhe Li",
+    "Mengchao He",
+    "Yongpan Wang",
+    "Canjie Luo"
+  ],
+  "abstract": "Text recognition is a popular research subject with many associated challenges. Despite the considerable progress made in recent years, the text recognition task itself is still constrained to solve the problem of reading cropped line text images and serves as a subtask of optical character recognition (OCR) systems. As a result, the final text recognition result is limited by the performance of the text detector. In this paper, we propose a simple, elegant and effective paradigm called Implicit Feature Alignment (IFA), which can be easily integrated into current text recognizers, resulting in a novel inference mechanism called IFA-inference. This enables an ordinary text recognizer to process multi-line text such that text detection can be completely freed. Specifically, we integrate IFA into the two most prevailing text recognition streams (attention-based and CTC-based) and propose attention-guided dense prediction (ADP) and Extended CTC (ExCTC). Furthermore, the Wasserstein-based Hollow Aggregation Cross-Entropy (WH-ACE) is proposed to suppress negative predictions to assist in training ADP and ExCTC. We experimentally demonstrate that IFA achieves state-of-the-art performance on end-to-end document recognition tasks while maintaining the fastest speed, and ADP and ExCTC complement each other on the perspective of different application scenarios. Code will be available at https://github.com/Wang-Tianwei/Implicit-feature-alignment.",
+  "s2id": "7d5b513aad54fb6a2bc63c6703d49c316a98aeda",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 0
+}

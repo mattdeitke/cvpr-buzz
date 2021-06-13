@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "Large-Capacity Image Steganography Based on Invertible Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lu_Large-Capacity_Image_Steganography_Based_on_Invertible_Neural_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shao-Ping Lu",
+    "Rong Wang",
+    "Tao Zhong",
+    "Paul L. Rosin"
+  ],
+  "abstract": "Many attempts have been made to hide information in images, where the main challenge is how to increase the payload capacity without the container image being detected as containing a message. In this paper, we propose a large-capacity Invertible Steganography Network (ISN) for image steganography. We take steganography and the recovery of hidden images as a pair of inverse problems on image domain transformation, and then introduce the forward and backward propagation operations of a single invertible network to leverage the image embedding and extracting problems. Sharing all parameters of our single ISN architecture enables us to efficiently generate both the container image and the revealed hidden image(s) with high quality. Moreover, in our architecture the capacity of image steganography is significantly improved by naturally increasing the number of channels of the hidden image branch. Comprehensive experiments demonstrate that with this significant improvement of the steganography capacity, our ISN achieves state-of-the-art in both visual and quantitative comparisons.",
+  "s2id": ""
+}

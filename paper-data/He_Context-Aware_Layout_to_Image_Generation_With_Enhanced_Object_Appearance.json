@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.11897",
+  "title": "Context-Aware Layout to Image Generation With Enhanced Object Appearance",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/He_Context-Aware_Layout_to_Image_Generation_With_Enhanced_Object_Appearance_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sen He",
+    "Wentong Liao",
+    "Michael Ying Yang",
+    "Yongxin Yang",
+    "Yi-Zhe Song",
+    "Bodo Rosenhahn",
+    "Tao Xiang"
+  ],
+  "abstract": "A layout to image (L2I) generation model aims to generate a complicated image containing multiple objects (things) against natural background (stuff), conditioned on a given layout. Built upon the recent advances in generative adversarial networks (GANs), recent L2I models have made great progress. However, a close inspection of their generated images reveals two major limitations: (1) the object-to-object as well as object-to-stuff relations are often broken and (2) each object's appearance is typically distorted lacking the key defining characteristics associated with the object class. We argue that these are caused by the lack of context-aware object and stuff feature encoding in their generators, and location-sensitive appearance representation in their discriminators. To address these limitations, two new modules are proposed in this work. First, a contextual feature transformation module is introduced in the generator to ensure that the generated feature encoding of either object or stuff is aware of other co-existing objects/stuff in the scene. Second, instead of feeding location-insensitive image features to the discriminator, we use the Gram matrix computed from the feature maps of the generated object images to preserve location-sensitive information, resulting in much enhanced object appearance. Extensive experiments show that the proposed method achieves state-of-the-art performance on the COCO-Thing-Stuff and Visual Genome benchmarks.",
+  "s2id": "cf8dd25f61803ff658d2572d2f5f9ba8c8d46fa1",
+  "twitter": {
+    "retweets": 1,
+    "likes": 12,
+    "replies": 1
+  },
+  "citations": 1
+}

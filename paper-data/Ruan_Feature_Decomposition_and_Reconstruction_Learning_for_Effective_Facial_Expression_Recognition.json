@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.05160",
+  "title": "Feature Decomposition and Reconstruction Learning for Effective Facial Expression Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ruan_Feature_Decomposition_and_Reconstruction_Learning_for_Effective_Facial_Expression_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Delian Ruan",
+    "Yan Yan",
+    "Shenqi Lai",
+    "Zhenhua Chai",
+    "Chunhua Shen",
+    "Hanzi Wang"
+  ],
+  "abstract": "In this paper, we propose a novel Feature Decomposition and Reconstruction Learning (FDRL) method for effective facial expression recognition. We view the expression information as the combination of the shared information (expression similarities) across different expressions and the unique information (expression-specific variations) for each expression. More specifically, FDRL mainly consists of two crucial networks: a Feature Decomposition Network (FDN) and a Feature Reconstruction Network (FRN). In particular, FDN first decomposes the basic features extracted from a backbone network into a set of facial action-aware latent features to model expression similarities. Then, FRN captures the intra-feature and inter-feature relationships for latent features to characterize expression-specific variations, and reconstructs the expression feature. To this end, two modules including an intra-feature relation modeling module and an inter-feature relation modeling module are developed in FRN. Experimental results on both the in-the-lab databases (including CK+, MMI, and Oulu-CASIA) and the in-the-wild databases (including RAF-DB and SFEW) show that the proposed FDRL method consistently achieves higher recognition accuracy than several state-of-the-art methods. This clearly highlights the benefit of feature decomposition and reconstruction for classifying expressions.",
+  "s2id": "4bf61c74542d62edb5716c7668e1be1fbae21d0c",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 2
+  },
+  "citations": 0
+}

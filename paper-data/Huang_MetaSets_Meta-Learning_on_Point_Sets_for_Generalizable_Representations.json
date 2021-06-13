@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "MetaSets: Meta-Learning on Point Sets for Generalizable Representations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MetaSets_Meta-Learning_on_Point_Sets_for_Generalizable_Representations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chao Huang",
+    "Zhangjie Cao",
+    "Yunbo Wang",
+    "Jianmin Wang",
+    "Mingsheng Long"
+  ],
+  "abstract": "Deep learning techniques for point clouds have achieved strong performance on a range of 3D vision tasks. However, it is costly to annotate large-scale point sets, making it critical to learn generalizable representations that can transfer well across different point sets. In this paper, we study a new problem of 3D Domain Generalization (3DDG) with the goal to generalize the model to other unseen domains of point clouds without any access to them in the training process. It is a challenging problem due to the substantial geometry shift from simulated to real data, such that most existing 3D models underperform due to overfitting the complete geometries in the source domain. We propose to tackle this problem with MetaSets, which meta-learns point cloud representations from a set of classification tasks on carefully-designed transformed point sets containing specific geometry priors. The learned representations are more generalizable to various unseen domains of different geometries. We design two benchmarks for Sim-to-Real transfer of 3D point clouds. Experimental results show that MetaSets outperforms existing 3D deep learning methods by large margins.",
+  "s2id": "0833bed96c0a571782b4b31e90c730726b702595",
+  "citations": 0
+}

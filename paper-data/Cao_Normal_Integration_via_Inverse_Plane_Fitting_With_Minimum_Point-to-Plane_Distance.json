@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "Normal Integration via Inverse Plane Fitting With Minimum Point-to-Plane Distance",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cao_Normal_Integration_via_Inverse_Plane_Fitting_With_Minimum_Point-to-Plane_Distance_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xu Cao",
+    "Boxin Shi",
+    "Fumio Okura",
+    "Yasuyuki Matsushita"
+  ],
+  "abstract": "This paper presents a surface normal integration method that solves an inverse problem of local plane fitting. Surface reconstruction from normal maps is essential in photometric shape reconstruction. To this end, we formulate normal integration in the camera coordinates and jointly solve for 3D point positions and local plane displacements. Unlike existing methods that consider the vertical distances between 3D points, we minimize the sum of squared point-to-plane distances. Our method can deal with both orthographic or perspective normal maps with arbitrary boundaries. Compared to existing normal integration methods, our method avoids the checkerboard artifact and performs more robustly against natural boundaries, sharp features, and outliers. We further provide a geometric analysis of the source of artifacts that appear in previous methods based on our plane fitting formulation. Experimental results on analytically computed, synthetic, and real-world surfaces show that our method yields accurate and stable reconstruction for both orthographic and perspective normal maps.",
+  "s2id": ""
+}

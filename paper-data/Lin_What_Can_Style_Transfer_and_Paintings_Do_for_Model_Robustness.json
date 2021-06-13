@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.14477",
+  "title": "What Can Style Transfer and Paintings Do for Model Robustness?",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_What_Can_Style_Transfer_and_Paintings_Do_for_Model_Robustness_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hubert Lin",
+    "Mitchell van Zuijlen",
+    "Sylvia C. Pont",
+    "Maarten W.A. Wijntjes",
+    "Kavita Bala"
+  ],
+  "abstract": "A common strategy for improving model robustness is through data augmentations. Data augmentations encourage models to learn desired invariances, such as invariance to horizontal flipping or small changes in color. Recent work has shown that arbitrary style transfer can be used as a form of data augmentation to encourage invariance to textures by creating painting-like images from photographs. However, a stylized photograph is not quite the same as an artist-created painting. Artists depict perceptually meaningful cues in paintings so that humans can recognize salient components in scenes, an emphasis which is not enforced in style transfer. Therefore, we study how style transfer and paintings differ in their impact on model robustness. First, we investigate the role of paintings as style images for stylization-based data augmentation. We find that style transfer functions well even without paintings as style images. Second, we show that learning from paintings as a form of perceptual data augmentation can improve model robustness. Finally, we investigate the invariances learned from stylization and from paintings, and show that models learn different invariances from these differing forms of data. Our results provide insights into how stylization improves model robustness, and provide evidence that artist-created paintings can be a valuable source of data for model robustness.",
+  "s2id": "5b78b022bb8464e4bab867bef67b880b84127562",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

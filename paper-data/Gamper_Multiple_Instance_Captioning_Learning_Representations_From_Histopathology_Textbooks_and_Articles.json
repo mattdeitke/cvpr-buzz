@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05121",
+  "title": "Multiple Instance Captioning: Learning Representations From Histopathology Textbooks and Articles",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gamper_Multiple_Instance_Captioning_Learning_Representations_From_Histopathology_Textbooks_and_Articles_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jevgenij Gamper",
+    "Nasir Rajpoot"
+  ],
+  "abstract": "We present ARCH, a computational pathology (CP) multiple instance captioning dataset to facilitate dense supervision of CP tasks. Existing CP datasets focus on narrow tasks; ARCH on the other hand contains dense diagnostic and morphological descriptions for a range of stains, tissue types and pathologies. Using intrinsic dimensionality estimation, we show that ARCH is the only CP dataset to (ARCH-)rival its computer vision analog MS-COCO Captions. We conjecture that an encoder pre-trained on dense image captions learns transferable representations for most CP tasks. We support the conjecture with evidence that ARCH representation transfers to a variety of pathology sub-tasks better than ImageNet features or representations obtained via self-supervised or multi-task learning on pathology images alone. We release our best model and invite other researchers to test it on their CP tasks.",
+  "s2id": "2972bd6cb49883a5c75e26f8f7266dc91e1af25a",
+  "twitter": {
+    "retweets": 8,
+    "likes": 44,
+    "replies": 7
+  },
+  "citations": 0
+}

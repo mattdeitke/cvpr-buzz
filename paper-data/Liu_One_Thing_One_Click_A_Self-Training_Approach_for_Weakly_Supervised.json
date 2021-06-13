@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.02246",
+  "title": "One Thing One Click: A Self-Training Approach for Weakly Supervised 3D Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_One_Thing_One_Click_A_Self-Training_Approach_for_Weakly_Supervised_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhengzhe Liu",
+    "Xiaojuan Qi",
+    "Chi-Wing Fu"
+  ],
+  "abstract": "Point cloud semantic segmentation often requires largescale annotated training data, but clearly, point-wise labels are too tedious to prepare. While some recent methods propose to train a 3D network with small percentages of point labels, we take the approach to an extreme and propose \"One Thing One Click,\" meaning that the annotator only needs to label one point per object. To leverage these extremely sparse labels in network training, we design a novel self-training approach, in which we iteratively conduct the training and label propagation, facilitated by a graph propagation module. Also, we adopt a relation network to generate per-category prototype and explicitly model the similarity among graph nodes to generate pseudo labels to guide the iterative training. Experimental results on both ScanNet-v2 and S3DIS show that our self-training approach, with extremely-sparse annotations, outperforms all existing weakly supervised methods for 3D semantic segmentation by a large margin, and our results are also comparable to those of the fully supervised counterparts.",
+  "s2id": "89bf75817b118f75cae61efcfc7656f96e8a63a4",
+  "twitter": {
+    "retweets": 0,
+    "likes": 9,
+    "replies": 1
+  },
+  "citations": 0
+}

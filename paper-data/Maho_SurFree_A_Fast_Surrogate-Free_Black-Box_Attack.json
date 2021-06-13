@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.12807",
+  "title": "SurFree: A Fast Surrogate-Free Black-Box Attack",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Maho_SurFree_A_Fast_Surrogate-Free_Black-Box_Attack_CVPR_2021_paper.pdf",
+  "authors": [
+    "Thibault Maho",
+    "Teddy Furon",
+    "Erwan Le Merrer"
+  ],
+  "abstract": "Machine learning classifiers are critically prone to evasion attacks. Adversarial examples are slightly modified inputs that are then misclassified, while remaining perceptively close to their originals. Last couple of years have witnessed a striking decrease in the amount of queries a black box attack submits to the target classifier, in order to forge adversarials. This particularly concerns the black box score-based setup, where the attacker has access to top predicted probabilites: the amount of queries went from to millions of to less than a thousand. This paper presents SurFree, a geometrical approach that achieves a similar drastic reduction in the amount of queries in the hardest setup: black box decision-based attacks (only the top-1 label is available). We first highlight that the most recent attacks in that setup, HSJA, QEBA and GeoDA all perform costly gradient surrogate estimations. SurFree proposes to bypass these, by instead focusing on careful trials along diverse directions, guided by precise indications of geometrical properties of the classifier decision boundaries. We motivate this geometric approach before performing a head-to-head comparison with previous attacks with the amount of queries as a first class citizen. We exhibit a faster distortion decay under low query amounts (few hundreds to a thousand), while remaining competitive at higher query budgets.",
+  "s2id": "6e574db0923c1d6e364c9b655ba7da831a9afd1d",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 2
+  },
+  "citations": 1
+}

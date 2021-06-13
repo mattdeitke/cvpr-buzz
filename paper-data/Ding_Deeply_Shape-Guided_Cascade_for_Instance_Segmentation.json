@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/1911.11263",
+  "title": "Deeply Shape-Guided Cascade for Instance Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_Deeply_Shape-Guided_Cascade_for_Instance_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hao Ding",
+    "Siyuan Qiao",
+    "Alan Yuille",
+    "Wei Shen"
+  ],
+  "abstract": "The key to a successful cascade architecture for precise instance segmentation is to fully leverage the relationship between bounding box detection and mask segmentation across multiple stages. Although modern instance segmentation cascades achieve leading performance, they mainly make use of a unidirectional relationship, i.e., mask segmentation can benefit from iteratively refined bounding box detection. In this paper, we investigate an alternative direction, i.e., how to take the advantage of precise mask segmentation for bounding box detection in a cascade architecture. We propose a Deeply Shape-guided Cascade (DSC) for instance segmentation, which iteratively imposes the shape guidances extracted from mask prediction at previous stage on bounding box detection at current stage. It forms a bi-directional relationship between the two tasks by introducing three key components: (1) Initial shape guidance: A mask-supervised Region Proposal Network (mPRN) with the ability to generate class-agnostic masks; (2) Explicit shape guidance: A mask-guided region-of-interest (RoI) feature extractor, which employs mask segmentation at previous stage to focus feature extraction at current stage within a region aligned well with the shape of the instance-of-interest rather than a rectangular RoI; (3) Implicit shape guidance: A feature fusion operation which feeds intermediate mask features at previous stage to the bounding box head at current stage. Experimental results show that DSC outperforms the state-of-the-art instance segmentation cascade, Hybrid Task Cascade (HTC), by a large margin and achieves 51.8 box AP and 45.5 mask AP on COCO test-dev. The code is released at: https://github.com/hding2455/DSC.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 2,
+    "likes": 2,
+    "replies": 0
+  }
+}

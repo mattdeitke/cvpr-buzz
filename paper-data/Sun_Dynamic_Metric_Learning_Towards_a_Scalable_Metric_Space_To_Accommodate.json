@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.11781",
+  "title": "Dynamic Metric Learning: Towards a Scalable Metric Space To Accommodate Multiple Semantic Scales",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_Dynamic_Metric_Learning_Towards_a_Scalable_Metric_Space_To_Accommodate_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yifan Sun",
+    "Yuke Zhu",
+    "Yuhan Zhang",
+    "Pengkun Zheng",
+    "Xi Qiu",
+    "Chi Zhang",
+    "Yichen Wei"
+  ],
+  "abstract": "This paper introduces a new fundamental characteristics, i.e., the dynamic range, from real-world metric tools to deep visual recognition. In metrology, the dynamic range is a basic quality of a metric tool, indicating its flexibility to accommodate various scales. Larger dynamic range offers higher flexibility. We argue that such flexibility is also important for deep metric learning, because different visual concepts indeed correspond to different semantic scales. Introducing the dynamic range to deep metric learning, we get a novel computer vision task, i.e., the Dynamic Metric Learning. Dynamic Metric Learning aims to learn a scalable metric space to accommodate visual concepts across multiple semantic scales. Based on three different types of images, i.e., vehicle, animal and online products, we construct three datasets for Dynamic Metric Learning. We benchmark these datasets with popular deep metric learning methods and find Dynamic Metric Learning to be very challenging. The major difficulty lies in a conflict between different scales: the discriminative ability under a small scale usually compromises the discriminative ability under a large one, and vice versa. As a minor contribution, we propose Cross-Scale Learning (CSL) to alleviate such conflict. We show that CSL consistently improves the baseline on all the three datasets.",
+  "s2id": "a7b177d4651473aacdc74895d798c9bd4a59ec14",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

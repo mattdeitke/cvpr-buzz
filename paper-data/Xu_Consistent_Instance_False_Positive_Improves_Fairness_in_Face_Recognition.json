@@ -1,0 +1,23 @@
+{
+  "arXiv": null,
+  "title": "Consistent Instance False Positive Improves Fairness in Face Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_Consistent_Instance_False_Positive_Improves_Fairness_in_Face_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xingkun Xu",
+    "Yuge Huang",
+    "Pengcheng Shen",
+    "Shaoxin Li",
+    "Jilin Li",
+    "Feiyue Huang",
+    "Yong Li",
+    "Zhen Cui"
+  ],
+  "abstract": "Demographic bias is a significant challenge in practical face recognition systems. Several methods have been proposed to reduce the bias, which rely on accurate demographic annotations. However, such annotations are usually not available in real scenarios. Moreover, these methods are explicitly designed for a specific demographic group divided by a predefined attribute, which is typically not general across different demographic groups divided by various attributes, such as race, gender, and age. In this paper, we propose a false positive rate penalty loss, which mitigates face recognition bias by increasing the consistency of instance false positive rate (FPR). Specifically, we first define the instance FPR as the ratio between the number of the non-target similarities above a unified threshold and the total number of the non-target similarities. The unified threshold is estimated for a given total FPR. Then, we introduce an additional false positive penalty term into the softmaxbased losses to promote the consistency of instance FPRs. Compared with the previous debiasing methods, our method requires no demographic annotations and can mitigate the bias across demographic groups divided by various kinds of attribute which are no need to be predefined in training. Extensive experimental results on popular benchmarks demonstrate the superiority of our method over state-of-the art competitors.",
+  "s2id": "37cab88678e3e0139d6110f3fcb51145e61e3c90",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

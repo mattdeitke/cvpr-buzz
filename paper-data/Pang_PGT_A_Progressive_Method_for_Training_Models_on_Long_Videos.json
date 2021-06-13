@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.11313",
+  "title": "PGT: A Progressive Method for Training Models on Long Videos",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Pang_PGT_A_Progressive_Method_for_Training_Models_on_Long_Videos_CVPR_2021_paper.pdf",
+  "authors": [
+    "Bo Pang",
+    "Gao Peng",
+    "Yizhuo Li",
+    "Cewu Lu"
+  ],
+  "abstract": "Convolutional video models have an order of magnitude larger computational complexity than their counterpart image-level models. Constrained by computational resources, there is no model or training method that can train long video sequences end-to-end. Currently, the main-stream method is to split a raw video into clips, leading to incomplete fragmentary temporal information flow. Inspired by natural language processing techniques dealing with long sentences, we propose to treat videos as serial fragments satisfying Markov property, and train it as a whole by progressively propagating information through the temporal dimension in multiple steps. This progressive training (PGT) method is able to train long videos end-to-end with limited resources and ensures the effective transmission of information. As a general and robust training method, we empirically demonstrate that it yields significant performance improvements on different models and datasets. As an illustrative example, the proposed method improves SlowOnly network by 3.7 mAP on Charades and 1.9 top-1 accuracy on Kinetics with negligible parameter and computation overhead. The code is attached in supplementary files and will be published with this paper.",
+  "s2id": "4f2649b5b0452fd982699562027b4c9cbd7194ad",
+  "twitter": {
+    "retweets": 2,
+    "likes": 11,
+    "replies": 0
+  },
+  "citations": 0
+}

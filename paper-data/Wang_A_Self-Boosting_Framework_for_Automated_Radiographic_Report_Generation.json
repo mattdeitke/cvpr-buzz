@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "A Self-Boosting Framework for Automated Radiographic Report Generation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_A_Self-Boosting_Framework_for_Automated_Radiographic_Report_Generation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhanyu Wang",
+    "Luping Zhou",
+    "Lei Wang",
+    "Xiu Li"
+  ],
+  "abstract": "Automated radiographic report generation is a challenging task since it requires to generate paragraphs describing fine-grained visual differences of cases, especially for those between the diseased and the healthy. Existing image captioning methods commonly target at generic images, and lack mechanism to meet this requirement. To bridge this gap, in this paper, we propose a self-boosting framework that improves radiographic report generation based on the cooperation of the main task of report generation and anauxiliary task of image-text matching. The two tasks are built as the two branches of a network model and influence each other in a cooperative way. On one hand, the image-text matching branch helps to learn highly text-correlated visual features for the report generation branch to output high quality reports. One the other hand, the improved reports produced by the report generation branch provideadditional harder samples for the image-text matching task and enforce the latter to improve itself by learning better visual and text feature representations. This, in turn, helps improve the report generation branch again. These two branches are jointly trained to help improve each other iteratively and progressively, so that the whole model is self-boosted without requiring any external resources. Additionally, in the loss function, our model evaluates the quality of the generated reports not only on the word similarity as common approaches do (via minimizing a cross-entropy loss), but also on the feature similarity at high-level, while the latter is provided by the text-encoder of the image-text matching branch. Experimental results demonstrate the effectiveness of our method on two public datasets, showing its superior performance over other state-of-the-art medical report generation methods.",
+  "s2id": ""
+}

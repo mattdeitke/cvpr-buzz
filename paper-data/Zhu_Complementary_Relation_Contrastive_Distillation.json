@@ -1,0 +1,23 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16367",
+  "title": "Complementary Relation Contrastive Distillation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Complementary_Relation_Contrastive_Distillation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jinguo Zhu",
+    "Shixiang Tang",
+    "Dapeng Chen",
+    "Shijie Yu",
+    "Yakun Liu",
+    "Mingzhe Rong",
+    "Aijun Yang",
+    "Xiaohua Wang"
+  ],
+  "abstract": "Knowledge distillation aims to transfer representation ability from a teacher model to a student model. Previous approaches focus on either individual representation distillation or inter-sample similarity preservation. While we argue that the inter-sample relation conveys abundant information and needs to be distilled in a more effective way. In this paper, we propose a novel knowledge distillation method, namely Complementary Relation Contrastive Distillation (CRCD), to transfer the structural knowledge from the teacher to the student. Specifically, we estimate the mutual relation in an anchor-based way and distill the anchor-student relation under the supervision of its corresponding anchor-teacher relation. To make it more robust, mutual relations are modeled by two complementary elements: the feature and its gradient. Furthermore, the low bound of mutual information between the anchor-teacher relation distribution and the anchor-student relation distribution is maximized via relation contrastive loss, which can distill both the sample representation and the inter-sample relations. Experiments on different benchmarks demonstrate the effectiveness of our proposed CRCD.",
+  "s2id": "fdc369b826bafb1eb0c4e1ff03dff3517896f80b",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 1
+}

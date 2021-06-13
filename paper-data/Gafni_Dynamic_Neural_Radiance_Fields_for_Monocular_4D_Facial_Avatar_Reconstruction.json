@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.03065",
+  "title": "Dynamic Neural Radiance Fields for Monocular 4D Facial Avatar Reconstruction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gafni_Dynamic_Neural_Radiance_Fields_for_Monocular_4D_Facial_Avatar_Reconstruction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Guy Gafni",
+    "Justus Thies",
+    "Michael Zollhofer",
+    "Matthias Niessner"
+  ],
+  "abstract": "We present dynamic neural radiance fields for modeling the appearance and dynamics of a human face. Digitally modeling and reconstructing a talking human is a key building-block for a variety of applications. Especially, for telepresence applications in AR or VR, a faithful reproduction of the appearance including novel viewpoint or head-poses is required. In contrast to state-of-the-art approaches that model the geometry and material properties explicitly, or are purely image-based, we introduce an implicit representation of the head based on scene representation networks. To handle the dynamics of the face, we combine our scene representation network with a low-dimensional morphable model which provides explicit control over pose and expressions. We use volumetric rendering to generate images from this hybrid representation and demonstrate that such a dynamic neural scene representation can be learned from monocular input data only, without the need of a specialized capture setup. In our experiments, we show that this learned volumetric representation allows for photorealistic image generation that surpasses the quality of state-of-the-art video-based reenactment methods.",
+  "s2id": "890398bb6364141f8b4a798fbc1c1605a871bd1d",
+  "twitter": {
+    "retweets": 39,
+    "likes": 157,
+    "replies": 1
+  },
+  "citations": 14
+}

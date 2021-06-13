@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.06806",
+  "title": "MP3: A Unified Model To Map, Perceive, Predict and Plan",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Casas_MP3_A_Unified_Model_To_Map_Perceive_Predict_and_Plan_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sergio Casas",
+    "Abbas Sadat",
+    "Raquel Urtasun"
+  ],
+  "abstract": "High-definition maps (HD maps) are a key component of most modern self-driving systems due to their valuable semantic and geometric information. Unfortunately, building HD maps has proven hard to scale due to their cost as well as the requirements they impose in the localization system that has to work everywhere with centimeter-level accuracy. Being able to drive without an HD map would be very beneficial to scale self-driving solutions as well as to increase the failure tolerance of existing ones (e.g., if localization fails or the map is not up-to-date). Towards this goal, we propose an end-to-end approach to mapless driving where the input is raw sensor data and a high-level command (e.g., turn left at the intersection). We then predict intermediate representations in the form of an online map and the current and future state of dynamic agents, and exploit them in a novel neural motion planner to make interpretable decisions taking into account uncertainty. We show that our approach is significantly safer, more comfortable, and can follow commands better than the baselines in challenging long-term closed-loop simulations, as well as when compared to an expert driver in a large-scale real-world dataset.",
+  "s2id": "1ba56df34200b028eace2f6cbdd62cb8bc2de20c",
+  "twitter": {
+    "retweets": 5,
+    "likes": 24,
+    "replies": 1
+  },
+  "citations": 0
+}

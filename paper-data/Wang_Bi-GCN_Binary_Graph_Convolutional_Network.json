@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "Bi-GCN: Binary Graph Convolutional Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Bi-GCN_Binary_Graph_Convolutional_Network_CVPR_2021_paper.pdf",
+  "authors": [
+    "Junfu Wang",
+    "Yunhong Wang",
+    "Zhen Yang",
+    "Liang Yang",
+    "Yuanfang Guo"
+  ],
+  "abstract": "Graph Neural Networks (GNNs) have achieved tremendous success in graph representation learning. Unfortunately, current GNNs usually rely on loading the entire attributed graph into network for processing. This implicit assumption may not be satisfied with limited memory resources, especially when the attributed graph is large. In this paper, we pioneer to propose a Binary Graph Convolutional Network (Bi-GCN), which binarizes both the network parameters and input node features. Besides, the original matrix multiplications are revised to binary operations for accelerations. According to the theoretical analysis, our Bi-GCN can reduce the memory consumption by an average of  30x for both the network parameters and input data, and accelerate the inference speed by an average of  47x, on the citation networks. Meanwhile, we also design a new gradient approximation based back-propagation method to train our Bi-GCN well. Extensive experiments have demonstrated that our Bi-GCN can give a comparable performance compared to the full-precision baselines. Besides, our binarization approach can be easily applied to other GNNs, which has been verified in the experiments.",
+  "s2id": "947e92c2342c1b6a6a09ced005da157904c6848b",
+  "twitter": {
+    "retweets": 4,
+    "likes": 15,
+    "replies": 1
+  },
+  "citations": 1
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.13033",
+  "title": "SSAN: Separable Self-Attention Network for Video Representation Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_SSAN_Separable_Self-Attention_Network_for_Video_Representation_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xudong Guo",
+    "Xun Guo",
+    "Yan Lu"
+  ],
+  "abstract": "Self-attention has been successfully applied to video representation learning due to the effectiveness of modeling long range dependencies. Existing approaches build the dependencies merely by computing the pairwise correlations along spatial and temporal dimensions simultaneously. However, spatial correlations and temporal correlations represent different contextual information of scenes and temporal reasoning. Intuitively, learning spatial contextual information first will benefit temporal modeling. In this paper, we propose a separable self-attention (SSA) module, which models spatial and temporal correlations sequentially, so that spatial contexts can be efficiently used in temporal modeling. By adding SSA module into 2D CNN, we build a SSA network (SSAN) for video representation learning. On the task of video action recognition, our approach outperforms state-of-the-art methods on Something-Something and Kinetics-400 datasets. Our models often outperform counterparts with shallower network and less modality. We further verify the semantic learning ability of our method in visual-language task of video retrieval, which showcase the homogeneity of video representations and text embeddings. On MSR-VTT and Youcook2 datasets, video representations learnt by SSA significantly improve the state-of-the-art methods.",
+  "s2id": "cdbbbeb1b4ff5bca7876de49232d8f784f7636de",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

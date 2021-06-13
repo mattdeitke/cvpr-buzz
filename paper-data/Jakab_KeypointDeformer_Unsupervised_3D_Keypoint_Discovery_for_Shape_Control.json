@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.11224",
+  "title": "KeypointDeformer: Unsupervised 3D Keypoint Discovery for Shape Control",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jakab_KeypointDeformer_Unsupervised_3D_Keypoint_Discovery_for_Shape_Control_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tomas Jakab",
+    "Richard Tucker",
+    "Ameesh Makadia",
+    "Jiajun Wu",
+    "Noah Snavely",
+    "Angjoo Kanazawa"
+  ],
+  "abstract": "We introduce KeypointDeformer, a novel unsupervised method for shape control through automatically discovered 3D keypoints. We cast this as the problem of aligning a source 3D object to a target 3D object from the same object category. Our method analyzes the difference between the shapes of the two objects by comparing their latent representations. This latent representation is in the form of 3D keypoints that are learned in an unsupervised way. The difference between the 3D keypoints of the source and the target objects then informs the shape deformation algorithm that deforms the source object into the target object. The whole model is learned end-to-end and simultaneously discovers 3D keypoints while learning to use them for deforming object shapes. Our approach produces intuitive and semantically consistent control of shape deformations. Moreover, our discovered 3D keypoints are consistent across object category instances despite large shape variations. As our method is unsupervised, it can be readily deployed to new object categories without requiring annotations for 3D keypoints and deformations. Project page: http://tomasjakab.github.io/KeypointDeformer",
+  "s2id": "8b77c6499139840e8f9287840d1a9feb1975fe74",
+  "twitter": {
+    "retweets": 27,
+    "likes": 97,
+    "replies": 3
+  },
+  "citations": 0
+}

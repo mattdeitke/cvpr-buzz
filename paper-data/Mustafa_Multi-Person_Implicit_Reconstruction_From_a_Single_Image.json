@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.09283",
+  "title": "Multi-Person Implicit Reconstruction From a Single Image",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Mustafa_Multi-Person_Implicit_Reconstruction_From_a_Single_Image_CVPR_2021_paper.pdf",
+  "authors": [
+    "Armin Mustafa",
+    "Akin Caliskan",
+    "Lourdes Agapito",
+    "Adrian Hilton"
+  ],
+  "abstract": "We present a new end-to-end learning framework to obtain detailed and spatially coherent reconstructions of multiple people from a single image. Existing multi-person methods suffer from two main drawbacks: they are often model-based and therefore cannot capture accurate 3D models of people with loose clothing and hair; or they require manual intervention to resolve occlusions or interactions. Our method addresses both limitations by introducing the first end-to-end learning approach to perform model-free implicit reconstruction for realistic 3D capture of multiple clothed people in arbitrary poses (with occlusions) from a single image. Our network simultaneously estimates the 3D geometry of each person and their 6DOF spatial locations, to obtain a coherent multi-human reconstruction. In addition, we introduce a new synthetic dataset that depicts images with a varying number of inter-occluded humans in a variety of clothing and hair. We demonstrate robust, high-resolution reconstructions on images of multiple humans with complex occlusions, loose clothing and a large variety of poses, and scenes. Our quantitative evaluation on both synthetic and real world datasets demonstrates state-of-the-art performance with significant improvements in the accuracy and completeness of the reconstructions over competing approaches.",
+  "s2id": "be76788da35f627efd1886cd6a3d015372328191",
+  "twitter": {
+    "retweets": 2,
+    "likes": 8,
+    "replies": 2
+  },
+  "citations": 0
+}

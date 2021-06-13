@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.03544",
+  "title": "End-to-End Object Detection With Fully Convolutional Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_End-to-End_Object_Detection_With_Fully_Convolutional_Network_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jianfeng Wang",
+    "Lin Song",
+    "Zeming Li",
+    "Hongbin Sun",
+    "Jian Sun",
+    "Nanning Zheng"
+  ],
+  "abstract": "Mainstream object detectors based on the fully convolutional network has achieved impressive performance. While most of them still need a hand-designed non-maximum suppression (NMS) post-processing, which impedes fully end-to-end training. In this paper, we give the analysis of discarding NMS, where the results reveal that a proper label assignment plays a crucial role. To this end, for fully convolutional detectors, we introduce a Prediction-aware One-To-One (POTO) label assignment for classification to enable end-to-end detection, which obtains comparable performance with NMS. Besides, a simple 3D Max Filtering (3DMF) is proposed to utilize the multi-scale features and improve the discriminability of convolutions in the local region. With these techniques, our end-to-end framework achieves competitive performance against many state-of-the-art detectors with NMS on COCO and CrowdHuman datasets. The code is available at https://github.com/Megvii-BaseDetection/DeFCN.",
+  "s2id": "5c5a9b8eec9edc5a5bc0a600e68a5442e4d7cd6a",
+  "twitter": {
+    "retweets": 7,
+    "likes": 94,
+    "replies": 2
+  },
+  "citations": 9
+}

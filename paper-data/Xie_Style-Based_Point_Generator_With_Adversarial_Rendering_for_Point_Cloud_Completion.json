@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.02535",
+  "title": "Style-Based Point Generator With Adversarial Rendering for Point Cloud Completion",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xie_Style-Based_Point_Generator_With_Adversarial_Rendering_for_Point_Cloud_Completion_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chulin Xie",
+    "Chuxin Wang",
+    "Bo Zhang",
+    "Hao Yang",
+    "Dong Chen",
+    "Fang Wen"
+  ],
+  "abstract": "In this paper, we proposed a novel Style-based Point Generator with Adversarial Rendering (SpareNet) for point cloud completion. Firstly, we present the channel-attentive EdgeConv to fully exploit the local structures as well as the global shape in point features. Secondly, we observe that the concatenation manner used by vanilla foldings limits its potential of generating a complex and faithful shape. Enlightened by the success of StyleGAN, we regard the shape feature as style code that modulates the normalization layers during the folding, which considerably enhances its capability. Thirdly, we realize that existing point supervisions, e.g., Chamfer Distance or Earth Mover's Distance, cannot faithfully reflect the perceptual quality of the reconstructed points. To address this, we propose to project the completed points to depth maps with a differentiable renderer and apply adversarial training to advocate the perceptual realism under different viewpoints. Comprehensive experiments on ShapeNet and KITTI prove the effectiveness of our method, which achieves state-of-the-art quantitative performance while offering superior visual quality.",
+  "s2id": "c6427f220f23275dfcbcf9b38ee1cbd985ced2f2",
+  "twitter": {
+    "retweets": 10,
+    "likes": 40,
+    "replies": 4
+  },
+  "citations": 2
+}

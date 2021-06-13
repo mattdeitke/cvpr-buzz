@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.03310",
+  "title": "Regularizing Generative Adversarial Networks Under Limited Data",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tseng_Regularizing_Generative_Adversarial_Networks_Under_Limited_Data_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hung-Yu Tseng",
+    "Lu Jiang",
+    "Ce Liu",
+    "Ming-Hsuan Yang",
+    "Weilong Yang"
+  ],
+  "abstract": "Recent years have witnessed the rapid progress of generative adversarial networks (GANs). However, the success of the GAN models hinges on a large amount of training data. This work proposes a regularization approach for training robust GAN models on limited data. We theoretically show a connection between the regularized loss and an f-divergence called LeCam-divergence, which we find is more robust under limited training data. Extensive experiments on several benchmark datasets demonstrate that the proposed regularization scheme 1) improves the generalization performance and stabilizes the learning dynamics of GAN models under limited training data, and 2) complements the recent data augmentation methods. These properties facilitate training GAN models to achieve state-of-the-art performance when only limited training data of the ImageNet benchmark is available. The source code is available at https://github.com/google/lecam-gan.",
+  "s2id": "cb2bd9549791520deccadfde221f8ca699675a96",
+  "twitter": {
+    "retweets": 39,
+    "likes": 143,
+    "replies": 3
+  },
+  "citations": 0
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.10978",
+  "title": "Probabilistic 3D Human Shape and Pose Estimation From Multiple Unconstrained Images in the Wild",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sengupta_Probabilistic_3D_Human_Shape_and_Pose_Estimation_From_Multiple_Unconstrained_CVPR_2021_paper.pdf",
+  "authors": [
+    "Akash Sengupta",
+    "Ignas Budvytis",
+    "Roberto Cipolla"
+  ],
+  "abstract": "This paper addresses the problem of 3D human body shape and pose estimation from RGB images. Recent progress in this field has focused on single images, video or multi-view images as inputs. In contrast, we propose a new task: shape and pose estimation from a group of multiple images of a human subject, without constraints on subject pose, camera viewpoint or background conditions between images in the group. Our solution to this task predicts distributions over SMPL body shape and pose parameters conditioned on the input images in the group. We probabilistically combine predicted body shape distributions from each image to obtain a final multi-image shape prediction. We show that the additional body shape information present in multi-image input groups improves 3D human shape estimation metrics compared to single-image inputs on the SSP-3D dataset and a private dataset of tape-measured humans. In addition, predicting distributions over 3D bodies allows us to quantify pose prediction uncertainty, which is useful when faced with challenging input images with significant occlusion. Our method demonstrates meaningful pose uncertainty on the 3DPW dataset and is competitive with the state-of-the-art in terms of pose estimation metrics.",
+  "s2id": "f2b9fca4cab776dd36a696a78eb2e912cca15189",
+  "twitter": {
+    "retweets": 1,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 0
+}

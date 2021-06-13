@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.03027",
+  "title": "Modeling Multi-Label Action Dependencies for Temporal Action Localization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tirupattur_Modeling_Multi-Label_Action_Dependencies_for_Temporal_Action_Localization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Praveen Tirupattur",
+    "Kevin Duarte",
+    "Yogesh S Rawat",
+    "Mubarak Shah"
+  ],
+  "abstract": "Real world videos contain many complex actions with inherent relationships between action classes. In this work, we propose an attention-based architecture that model these action relationships for the task of temporal action localization in untrimmed videos. As opposed to previous works which leverage video-level co-occurrence of actions, we distinguish the relationships between actions that occur at the same time-step and actions that occur at different time-steps (i.e. those which precede or follow each other). We define these distinct relationships as action dependencies. We propose to improve action localization performance by modeling these action dependencies in a novel attention based Multi-Label Action Dependency (MLAD) layer. The MLAD layer consists of two branches: a Co-occurrence Dependency Branch and a Temporal Dependency Branch to model co-occurrence action dependencies and temporal action dependencies, respectively. We observe that existing metrics used for multi-label classification do not explicitly measure how well action dependencies are modeled, therefore, we propose novel metrics which consider both co-occurrence and temporal dependencies between action classes. Through empirical evaluation and extensive analysis we show improved performance over state-of-the art methods on multi-label action localization benchmarks (MultiTHUMOS and Charades) in terms of f-mAP and our proposed metric.",
+  "s2id": "90be98b734544b37de53ee0887f37c1abb3452a0",
+  "twitter": {
+    "retweets": 0,
+    "likes": 5,
+    "replies": 4
+  },
+  "citations": 0
+}

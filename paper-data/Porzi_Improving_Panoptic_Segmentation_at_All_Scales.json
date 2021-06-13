@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.07717",
+  "title": "Improving Panoptic Segmentation at All Scales",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Porzi_Improving_Panoptic_Segmentation_at_All_Scales_CVPR_2021_paper.pdf",
+  "authors": [
+    "Lorenzo Porzi",
+    "Samuel Rota Bulo",
+    "Peter Kontschieder"
+  ],
+  "abstract": "Crop-based training strategies decouple training resolution from GPU memory consumption, allowing the use of large-capacity panoptic segmentation networks on multi-megapixel images. Using crops, however, can introduce a bias towards truncating or missing large objects. To address this, we propose a novel crop-aware bounding box regression loss (CABB loss), which promotes predictions to be consistent with the visible parts of the cropped objects, while not over-penalizing them for extending outside of the crop. We further introduce a novel data sampling and augmentation strategy which improves generalization across scales by counteracting the imbalanced distribution of object sizes. Combining these two contributions with a carefully designed, top-down panoptic segmentation architecture, we obtain new state-of-the-art results on the challenging Mapillary Vistas (MVD), Indian Driving and Cityscapes datasets, surpassing the previously best approach on MVD by +4.5% PQ and +5.2% mAP.",
+  "s2id": "04eae78cdde834722a3caa4b001bb838f906c65f",
+  "twitter": {
+    "retweets": 3,
+    "likes": 23,
+    "replies": 0
+  },
+  "citations": 0
+}

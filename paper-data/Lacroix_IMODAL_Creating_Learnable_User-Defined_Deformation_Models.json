@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "IMODAL: Creating Learnable User-Defined Deformation Models",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lacroix_IMODAL_Creating_Learnable_User-Defined_Deformation_Models_CVPR_2021_paper.pdf",
+  "authors": [
+    "Leander Lacroix",
+    "Benjamin Charlier",
+    "Alain Trouve",
+    "Barbara Gris"
+  ],
+  "abstract": "A natural way to model the evolution of an object (growth of a leaf for instance) is to estimate a plausible deforming path between two observations. This interpolation process can generate deceiving results when the set of considered deformations is not relevant to the observed data. To overcome this issue, the framework of deformation modules allows to incorporate in the model structured deformation patterns coming from prior knowledge on the data. The goal of this article is twofold. First defining new deformation modules incorporating structures coming from the elastic properties of the objects. Second, presenting the IMODAL library allowing to perform registration through structured deformations. This library is modular: adapted priors can be easily defined by the user, several priors can be combined into a global one and various types of data can be considered such as curves, meshes or images.",
+  "s2id": ""
+}

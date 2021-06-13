@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.13078",
+  "title": "Rotation Equivariant Siamese Networks for Tracking",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gupta_Rotation_Equivariant_Siamese_Networks_for_Tracking_CVPR_2021_paper.pdf",
+  "authors": [
+    "Deepak K. Gupta",
+    "Devanshu Arya",
+    "Efstratios Gavves"
+  ],
+  "abstract": "Rotation is among the long prevailing, yet still unresolved, hard challenges encountered in visual object tracking. The existing deep learning-based tracking algorithms use regular CNNs that are inherently translation equivariant, but not designed to tackle rotations. In this paper, we first demonstrate that in the presence of rotation instances in videos, the performance of existing trackers is severely affected. To circumvent the adverse effect of rotations, we present rotation-equivariant Siamese networks (RE-SiamNets), built through the use of group-equivariant convolutional layers comprising steerable filters. SiamNets allow estimating the change in orientation of the object in an unsupervised manner, thereby facilitating its use in relative 2D pose estimation as well. We further show that this change in orientation can be used to impose an additional motion constraint in Siamese tracking through imposing restriction on the change in orientation between two consecutive frames. For benchmarking, we present Rotation Tracking Benchmark (RTB), a dataset comprising a set of videos with rotation instances. Through experiments on two popular Siamese architectures, we show that RE-SiamNets handle the problem of rotation very well and outperform their regular counterparts. Further, RE-SiamNets can accurately estimate the relative change in pose of the target in an unsupervised fashion, namely the in-plane rotation the target has sustained with respect to the reference frame.",
+  "s2id": "52f6d9cb1ed66d899cbc918e2228be6950e83739",
+  "twitter": {
+    "retweets": 5,
+    "likes": 22,
+    "replies": 2
+  },
+  "citations": 0
+}

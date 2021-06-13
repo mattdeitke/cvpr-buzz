@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05955",
+  "title": "Spatiotemporal Registration for Event-Based Visual Odometry",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Spatiotemporal_Registration_for_Event-Based_Visual_Odometry_CVPR_2021_paper.pdf",
+  "authors": [
+    "Daqi Liu",
+    "Alvaro Parra",
+    "Tat-Jun Chin"
+  ],
+  "abstract": "A useful application of event sensing is visual odometry, especially in settings that require high-temporal resolution. The state-of-the-art method of contrast maximisation recovers the motion from a batch of events by maximising the contrast of the image of warped events. However, the cost scales with image resolution and the temporal resolution can be limited by the need for large batch sizes to yield sufficient structure in the contrast image (see supplementary material for demonstration program). In this work, we propose spatiotemporal registration as a compelling technique for event-based rotational motion estimation. We theoretically justify the approach and establish its fundamental and practical advantages over contrast maximisation. In particular, spatiotemporal registration also produces feature tracks as a by-product, which directly supports an efficient visual odometry pipeline with graph-based optimisation for motion averaging. The simplicity of our visual odometry pipeline allows it to process more than 1 M events/second. We also contribute a new event dataset for visual odometry, where motion sequences with large velocity variations were acquired using a high-precision robot arm. Our dataset will be published after the reviewing period.",
+  "s2id": "f0aec4c72f9fab03ed8fbdf60253593da3b6b5ba",
+  "twitter": {
+    "retweets": 2,
+    "likes": 8,
+    "replies": 0
+  },
+  "citations": 0
+}

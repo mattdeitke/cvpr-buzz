@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.12690",
+  "title": "Towards Good Practices for Efficiently Annotating Large-Scale Image Classification Datasets",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liao_Towards_Good_Practices_for_Efficiently_Annotating_Large-Scale_Image_Classification_Datasets_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuan-Hong Liao",
+    "Amlan Kar",
+    "Sanja Fidler"
+  ],
+  "abstract": "Data is the engine of modern computer vision, which necessitates collecting large-scale datasets. This is expensive, and guaranteeing the quality of the labels is a major challenge. In this paper, we investigate efficient annotation strategies for collecting multi-class classification labels for a large collection of images. While methods that exploit learnt models for labeling exist, a surprisingly prevalent approach is to query humans for a fixed number of labels per datum and aggregate them, which is expensive. Building on prior work on online joint probabilistic modeling of human annotations and machine-generated beliefs, we propose modifications and best practices aimed at minimizing human labeling effort. Specifically, we make use of advances in self-supervised learning, view annotation as a semi-supervised learning problem, identify and mitigate pitfalls and ablate several key design choices to propose effective guidelines for labeling. Our analysis is done in a more realistic simulation that involves querying human labelers, which uncovers issues with evaluation using existing worker simulation methods. Simulated experiments on a 125k image subset of the ImageNet100 show that it can be annotated to 80% top-1 accuracy with 0.35 annotations per image on average, a 2.7x and 6.7x improvement over prior work and manual annotation, respectively.",
+  "s2id": "56d833d15705e2805eb66281700d80b65666a5d8",
+  "twitter": {
+    "retweets": 34,
+    "likes": 163,
+    "replies": 4
+  },
+  "citations": 0
+}

@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.14670",
+  "title": "Meta Batch-Instance Normalization for Generalizable Person Re-Identification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Meta_Batch-Instance_Normalization_for_Generalizable_Person_Re-Identification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Seokeon Choi",
+    "Taekyung Kim",
+    "Minki Jeong",
+    "Hyoungseob Park",
+    "Changick Kim"
+  ],
+  "abstract": "Although supervised person re-identification (Re-ID) methods have shown impressive performance, they suffer from a poor generalization capability on unseen domains. Therefore, generalizable Re-ID has recently attracted growing attention. Many existing methods have employed an instance normalization technique to reduce style variations, but the loss of discriminative information could not be avoided. In this paper, we propose a novel generalizable Re-ID framework, named Meta Batch-Instance Normalization (MetaBIN). Our main idea is to generalize normalization layers by simulating unsuccessful generalization scenarios beforehand in the meta-learning pipeline. To this end, we combine learnable batch-instance normalization layers with meta-learning and investigate the challenging cases caused by both batch and instance normalization layers. Moreover, we diversify the virtual simulations via our meta-train loss accompanied by a cyclic inner-updating manner to boost generalization capability. After all, the MetaBIN framework prevents our model from overfitting to the given source styles and improves the generalization capability to unseen domains without additional data augmentation or complicated network design. Extensive experimental results show that our model outperforms the state-of-the-art methods on the large-scale domain generalization Re-ID benchmark and the cross-domain Re-ID problem. The source code is available at: https://github.com/bismex/MetaBIN.",
+  "s2id": "11fcbc38b3fc4cf9f17dcd4b97e15b84c283c9f5",
+  "twitter": {
+    "retweets": 0,
+    "likes": 3,
+    "replies": 0
+  },
+  "citations": 3
+}

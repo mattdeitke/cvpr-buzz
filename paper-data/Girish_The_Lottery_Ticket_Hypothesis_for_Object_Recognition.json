@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.04643",
+  "title": "The Lottery Ticket Hypothesis for Object Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Girish_The_Lottery_Ticket_Hypothesis_for_Object_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sharath Girish",
+    "Shishira R Maiya",
+    "Kamal Gupta",
+    "Hao Chen",
+    "Larry S. Davis",
+    "Abhinav Shrivastava"
+  ],
+  "abstract": "Recognition tasks, such as object recognition and keypoint estimation, have seen widespread adoption in recent years. Most state-of-the-art methods for these tasks use deep networks that are computationally expensive and have huge memory footprints. This makes it exceedingly difficult to deploy these systems on low power embedded devices. Hence, the importance of decreasing the storage requirements and the amount of computation in such models is paramount. The recently proposed Lottery Ticket Hypothesis (LTH) states that deep neural networks trained on large datasets contain smaller subnetworks that achieve on par performance as the dense networks. In this work, we perform the first empirical study investigating LTH for model pruning in the context of object detection, instance segmentation, and keypoint estimation. Our studies reveal that lottery tickets obtained from ImageNet pretraining do not transfer well to the downstream tasks. We provide guidance on how to find lottery tickets with up to 80% overall sparsity on different sub-tasks without incurring any drop in the performance. Finally, we analyse the behavior of trained tickets with respect to various task attributes such as object size, frequency, and difficulty of detection.",
+  "s2id": "65c826271c6d352d92d0519a569763d6ff913c27",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 2
+  },
+  "citations": 5
+}

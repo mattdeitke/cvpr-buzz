@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.06663",
+  "title": "Sketch2Model: View-Aware 3D Modeling From Single Free-Hand Sketches",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Sketch2Model_View-Aware_3D_Modeling_From_Single_Free-Hand_Sketches_CVPR_2021_paper.pdf",
+  "authors": [
+    "Song-Hai Zhang",
+    "Yuan-Chen Guo",
+    "Qing-Wen Gu"
+  ],
+  "abstract": "We investigate the problem of generating 3D meshes from single free-hand sketches, aiming at fast 3D modeling for novice users. It can be regarded as a single-view reconstruction problem, but with unique challenges, brought by the variation and conciseness of sketches. Ambiguities in poorly-drawn sketches could make it hard to determine how the sketched object is posed. In this paper, we address the importance of viewpoint specification for overcoming such ambiguities, and propose a novel view-aware generation approach. By explicitly conditioning the generation process on a given viewpoint, our method can generate plausible shapes automatically with predicted viewpoints, or with specified viewpoints to help users better express their intentions. Extensive evaluations on various datasets demonstrate the effectiveness of our view-aware design in solving sketch ambiguities and improving reconstruction quality.",
+  "s2id": "c157c4021af0025e5450350bb84901578d2f8ad7",
+  "twitter": {
+    "retweets": 8,
+    "likes": 61,
+    "replies": 1
+  },
+  "citations": 0
+}

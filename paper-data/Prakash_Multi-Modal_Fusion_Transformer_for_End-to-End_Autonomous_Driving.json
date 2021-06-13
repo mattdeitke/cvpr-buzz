@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.09224",
+  "title": "Multi-Modal Fusion Transformer for End-to-End Autonomous Driving",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Prakash_Multi-Modal_Fusion_Transformer_for_End-to-End_Autonomous_Driving_CVPR_2021_paper.pdf",
+  "authors": [
+    "Aditya Prakash",
+    "Kashyap Chitta",
+    "Andreas Geiger"
+  ],
+  "abstract": "How should representations from complementary sensors be integrated for autonomous driving? Geometry-based sensor fusion has shown great promise for perception tasks such as object detection and motion forecasting. However, for the actual driving task, the global context of the 3D scene is key, e.g. a change in traffic light state can affect the behavior of a vehicle geometrically distant from that traffic light. Geometry alone may therefore be insufficient for effectively fusing representations in end-to-end driving models. In this work, we demonstrate that imitation learning policies based on existing sensor fusion methods under-perform in the presence of a high density of dynamic agents and complex scenarios, which require global contextual reasoning, such as handling traffic oncoming from multiple directions at uncontrolled intersections. Therefore, we propose TransFuser, a novel Multi-Modal Fusion Transformer, to integrate image and LiDAR representations using attention. We experimentally validate the efficacy of our approach in urban settings involving complex scenarios using the CARLA urban driving simulator. Our approach achieves state-of-the-art driving performance while reducing collisions by 76% compared to geometry-based fusion.",
+  "s2id": "c0559fc7e7d6ea0f783ba791ddd5deaa74cf58a9",
+  "twitter": {
+    "retweets": 54,
+    "likes": 195,
+    "replies": 4
+  },
+  "citations": 1
+}

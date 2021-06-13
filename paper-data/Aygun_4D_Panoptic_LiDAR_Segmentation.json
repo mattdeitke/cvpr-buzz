@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.12472",
+  "title": "4D Panoptic LiDAR Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Aygun_4D_Panoptic_LiDAR_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mehmet Aygun",
+    "Aljosa Osep",
+    "Mark Weber",
+    "Maxim Maximov",
+    "Cyrill Stachniss",
+    "Jens Behley",
+    "Laura Leal-Taixe"
+  ],
+  "abstract": "Temporal semantic scene understanding is critical for self-driving cars or robots operating in dynamic environments. In this paper, we propose 4D panoptic LiDAR segmentation to assign a semantic class and a temporally-consistent instance ID to a sequence of 3D points. To this end, we present an approach and a novel evaluation metric. Our approach determines a semantic class for every point while modeling object instances as probability distributions in the 4D spatio-temporal domain. We process multiple point clouds in parallel and resolve point-to-instance associations, effectively alleviating the need for explicit temporal data association. Inspired by recent advances in benchmarking of multi-object tracking, we propose to adopt a new evaluation metric that separates the semantic and point-to-instance association aspects of the task. With this work, we aim at paving the road for future developments aiming at temporal LiDAR panoptic perception.",
+  "s2id": "7547d9c18a98479788986c2cdd898dd2bc01e696",
+  "twitter": {
+    "retweets": 13,
+    "likes": 46,
+    "replies": 1
+  },
+  "citations": 2
+}

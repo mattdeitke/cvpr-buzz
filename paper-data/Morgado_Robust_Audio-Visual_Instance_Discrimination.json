@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15916",
+  "title": "Robust Audio-Visual Instance Discrimination",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Morgado_Robust_Audio-Visual_Instance_Discrimination_CVPR_2021_paper.pdf",
+  "authors": [
+    "Pedro Morgado",
+    "Ishan Misra",
+    "Nuno Vasconcelos"
+  ],
+  "abstract": "We present a self-supervised learning method to learn audio and video representations. Prior work uses the natural correspondence between audio and video to define a standard cross-modal instance discrimination task, where a model is trained to match representations from the two modalities. However, the standard approach introduces two sources of training noise. First, audio-visual correspondences often produce faulty positives since the audio and video signals can be uninformative of each other. To limit the detrimental impact of faulty positives, we optimize a weighted contrastive learning loss, which down-weighs their contribution to the overall loss. Second, since self-supervised contrastive learning relies on random sampling of negative instances, instances that are semantically similar to the base instance can be used as faulty negatives. To alleviate the impact of faulty negatives, we propose to optimize an instance discrimination loss with a soft target distribution that estimates relationships between instances. We validate our contributions through extensive experiments on action recognition tasks and show that they address the problems of audio-visual instance discrimination and improve transfer learning performance.",
+  "s2id": "1ee89af0c5fc6255e255c90dbd4d95576a2d58f9",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

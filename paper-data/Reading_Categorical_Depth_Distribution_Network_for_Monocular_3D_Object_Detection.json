@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01100",
+  "title": "Categorical Depth Distribution Network for Monocular 3D Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Reading_Categorical_Depth_Distribution_Network_for_Monocular_3D_Object_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Cody Reading",
+    "Ali Harakeh",
+    "Julia Chae",
+    "Steven L. Waslander"
+  ],
+  "abstract": "Monocular 3D object detection is a key problem for autonomous vehicles, as it provides a solution with simple configuration compared to typical multi-sensor systems. The main challenge in monocular 3D detection lies in accurately predicting object depth, which must be inferred from object and scene cues due to the lack of direct range measurement. Many methods attempt to directly estimate depth to assist in 3D detection, but show limited performance as a result of depth inaccuracy. Our proposed solution, Categorical Depth Distribution Network (CaDDN), uses a predicted categorical depth distribution for each pixel to project rich contextual feature information to the appropriate depth interval in 3D space. We then use the computationally efficient bird's-eye-view projection and single-stage detector to produce the final output bounding boxes. We design CaDDN as a fully differentiable end-to-end approach for joint depth estimation and object detection. We validate our approach on the KITTI 3D object detection benchmark, where we rank 1st among published monocular methods. We also provide the first monocular 3D detection results on the newly released Waymo Open Dataset. We provide a code release for CaDDN which will be made publicly available.",
+  "s2id": "bd519be5f86187eb98ab1234b60afe94949bbca5",
+  "twitter": {
+    "retweets": 9,
+    "likes": 23,
+    "replies": 2
+  },
+  "citations": 1
+}

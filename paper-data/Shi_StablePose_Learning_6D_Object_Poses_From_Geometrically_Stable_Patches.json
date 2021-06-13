@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.09334",
+  "title": "StablePose: Learning 6D Object Poses From Geometrically Stable Patches",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Shi_StablePose_Learning_6D_Object_Poses_From_Geometrically_Stable_Patches_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yifei Shi",
+    "Junwen Huang",
+    "Xin Xu",
+    "Yifan Zhang",
+    "Kai Xu"
+  ],
+  "abstract": "We introduce the concept of geometric stability to the problem of 6D object pose estimation and propose to learn pose inference based on geometrically stable patches extracted from observed 3D point clouds. According to the theory of geometric stability analysis, a minimal set of three planar/cylindrical patches are geometrically stable and determine the full 6DoFs of the object pose. We train a deep neural network to regress 6D object pose based on geometrically stable patch groups via learning both intra-patch geometric features and inter-patch contextual features. A subnetwork is jointly trained to predict per-patch poses. This auxiliary task is a relaxation of the group pose prediction: A single patch cannot determine the full 6DoFs but is able to improve pose accuracy in its corresponding DoFs. Working with patch groups makes our method generalize well for random occlusion and unseen instances. The method is easily amenable to resolve symmetry ambiguities. Our method achieves the state-of-the-art results on public benchmarks compared not only to depth-only but also to RGBD methods. It also performs well in category-level pose estimation.",
+  "s2id": "a94487efe33bc340cf40cf0e23d0f1da7dfa3ef1",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 1
+  },
+  "citations": 0
+}

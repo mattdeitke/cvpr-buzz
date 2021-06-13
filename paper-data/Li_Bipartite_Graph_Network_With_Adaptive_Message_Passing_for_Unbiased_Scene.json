@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00308",
+  "title": "Bipartite Graph Network With Adaptive Message Passing for Unbiased Scene Graph Generation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Bipartite_Graph_Network_With_Adaptive_Message_Passing_for_Unbiased_Scene_CVPR_2021_paper.pdf",
+  "authors": [
+    "Rongjie Li",
+    "Songyang Zhang",
+    "Bo Wan",
+    "Xuming He"
+  ],
+  "abstract": "Scene graph generation is an important visual understanding task with a broad range of vision applications. Despite recent tremendous progress, it remains challenging due to the intrinsic long-tailed class distribution and large intra-class variation. To address these issues, we introduce a novel confidence-aware bipartite graph neural network with adaptive message propagation mechanism for unbiased scene graph generation. In addition, we propose an efficient bi-level data resampling strategy to alleviate the imbalanced data distribution problem in training our graph network. Our approach achieves superior or competitive performance over previous methods on several challenging datasets, including Visual Genome, Open Images V4/V6, demonstrating its effectiveness and generality.",
+  "s2id": "58685b702d73af2413cb46ac5529a8c0dc4f4150",
+  "twitter": {
+    "retweets": 4,
+    "likes": 13,
+    "replies": 0
+  },
+  "citations": 0
+}

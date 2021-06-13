@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.08808",
+  "title": "Track To Detect and Segment: An Online Multi-Object Tracker",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_Track_To_Detect_and_Segment_An_Online_Multi-Object_Tracker_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jialian Wu",
+    "Jiale Cao",
+    "Liangchen Song",
+    "Yu Wang",
+    "Ming Yang",
+    "Junsong Yuan"
+  ],
+  "abstract": "Most online multi-object trackers perform object detection stand-alone in a neural net without any input from tracking. In this paper, we present a new online joint detection and tracking model, TraDeS (TRAck to DEtect and Segment), exploiting tracking clues to assist detection end-to-end. TraDeS infers object tracking offset by a cost volume, which is used to propagate previous object features for improving current object detection and segmentation. Effectiveness and superiority of TraDeS are shown on 4 datasets, including MOT (2D tracking), nuScenes (3D tracking), MOTS and Youtube-VIS (instance segmentation tracking). Project page: https://jialianwu.com/projects/TraDeS.html.",
+  "s2id": "827455225f598f5444b8025073cefeb9bb3d4a85",
+  "twitter": {
+    "retweets": 1,
+    "likes": 7,
+    "replies": 1
+  },
+  "citations": 1
+}

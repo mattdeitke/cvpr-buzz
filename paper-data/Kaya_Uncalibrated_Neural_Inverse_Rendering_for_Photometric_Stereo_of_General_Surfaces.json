@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.06777",
+  "title": "Uncalibrated Neural Inverse Rendering for Photometric Stereo of General Surfaces",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kaya_Uncalibrated_Neural_Inverse_Rendering_for_Photometric_Stereo_of_General_Surfaces_CVPR_2021_paper.pdf",
+  "authors": [
+    "Berk Kaya",
+    "Suryansh Kumar",
+    "Carlos Oliveira",
+    "Vittorio Ferrari",
+    "Luc Van Gool"
+  ],
+  "abstract": "This paper presents an uncalibrated deep neural network framework for the photometric stereo problem. For training models to solve the problem, existing neural network-based methods either require exact light directions or ground-truth surface normals of the object or both. However, in practice, it is challenging to procure both of this information precisely, which restricts the broader adoption of photometric stereo algorithms for vision application. To bypass this difficulty, we propose an uncalibrated neural inverse rendering approach to this problem. Our method first estimates the light directions from the input images and then optimizes an image reconstruction loss to calculate the surface normals, bidirectional reflectance distribution function value, and depth. Additionally, our formulation explicitly models the concave and convex parts of a complex surface to consider the effects of interreflections in the image formation process. Extensive evaluation of the proposed method on the challenging subjects generally shows comparable or better results than the supervised and classical approaches.",
+  "s2id": "7718d74845248d46c611882b43982f10ae545a0f",
+  "twitter": {
+    "retweets": 7,
+    "likes": 52,
+    "replies": 2
+  },
+  "citations": 0
+}

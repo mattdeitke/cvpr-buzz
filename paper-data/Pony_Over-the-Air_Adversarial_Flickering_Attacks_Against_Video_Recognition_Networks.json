@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2002.05123",
+  "title": "Over-the-Air Adversarial Flickering Attacks Against Video Recognition Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Pony_Over-the-Air_Adversarial_Flickering_Attacks_Against_Video_Recognition_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Roi Pony",
+    "Itay Naeh",
+    "Shie Mannor"
+  ],
+  "abstract": "Deep neural networks for video classification, just like image classification networks, may be subjected to adversarial manipulation. The main difference between image classifiers and video classifiers is that the latter usually use temporal information contained within the video. In this work we present a manipulation scheme for fooling video classifiers by introducing a flickering temporal perturbation that in some cases may be unnoticeable by human observers and is implementable in the real world. After demonstrating the manipulation of action classification of single videos, we generalize the procedure to make universal adversarial perturbation, achieving high fooling ratio. In addition, we generalize the universal perturbation and produce a temporal-invariant perturbation, which can be applied to the video without synchronizing the perturbation to the input. The attack was implemented on several target models and the transferability of the attack was demonstrated. These properties allow us to bridge the gap between simulated environment and real-world application, as will be demonstrated in this paper for the first time for an over-the-air flickering attack.",
+  "s2id": "ef4549c94e1ee3e2a132c63bde4c2de51396febc",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 2
+  },
+  "citations": 1
+}

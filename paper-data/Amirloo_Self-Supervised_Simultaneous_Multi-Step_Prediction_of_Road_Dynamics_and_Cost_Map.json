@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01039",
+  "title": "Self-Supervised Simultaneous Multi-Step Prediction of Road Dynamics and Cost Map",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Amirloo_Self-Supervised_Simultaneous_Multi-Step_Prediction_of_Road_Dynamics_and_Cost_Map_CVPR_2021_paper.pdf",
+  "authors": [
+    "Elmira Amirloo",
+    "Mohsen Rohani",
+    "Ershad Banijamali",
+    "Jun Luo",
+    "Pascal Poupart"
+  ],
+  "abstract": "In this paper we propose a system consisting of a modular network and a trajectory planner. The network simultaneously predicts Occupancy Grid Maps (OGMs) and estimates space-time cost maps (CMs) corresponding to the areas around the vehicle. The trajectory planner computes the cost of a set of predefined trajectories and chooses the one with the lowest cost. Training this network is done in a self-supervised manner which desirably do not require any labeled data. The proposed training objective takes into account the accuracy of OGM predictions as well as contextual information and human driver behavior. Training these modules end-to-end makes each module aware of the errors caused by the other components of the system. We show that our proposed method can lead to the selection of low cost trajectories with a low collision rate and road violation in fairly long planning horizons.",
+  "s2id": "40561a613e26d436d6a24e078f7db361133984c2",
+  "twitter": {
+    "retweets": 3,
+    "likes": 8,
+    "replies": 0
+  },
+  "citations": 0
+}

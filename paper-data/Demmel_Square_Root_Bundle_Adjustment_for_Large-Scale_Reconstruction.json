@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.01843",
+  "title": "Square Root Bundle Adjustment for Large-Scale Reconstruction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Demmel_Square_Root_Bundle_Adjustment_for_Large-Scale_Reconstruction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Nikolaus Demmel",
+    "Christiane Sommer",
+    "Daniel Cremers",
+    "Vladyslav Usenko"
+  ],
+  "abstract": "We propose a new formulation for the bundle adjustment problem which relies on nullspace marginalization of landmark variables by QR decomposition. Our approach, which we call square root bundle adjustment, is algebraically equivalent to the commonly used Schur complement trick, improves the numeric stability of computations, and allows for solving large-scale bundle adjustment problems with single-precision floating-point numbers. We show in real-world experiments with the BAL datasets that even in single precision the proposed solver achieves on average equally accurate solutions compared to Schur complement solvers using double precision. It runs significantly faster, but can require larger amounts of memory on dense problems. The proposed formulation relies on simple linear algebra operations and opens the way for efficient implementations of bundle adjustment on hardware platforms optimized for single-precision linear algebra processing.",
+  "s2id": "2750b339a6eb2b55724cf3272cec02bf725c4672",
+  "twitter": {
+    "retweets": 0,
+    "likes": 4,
+    "replies": 0
+  },
+  "citations": 0
+}

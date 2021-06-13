@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.04382",
+  "title": "CondenseNet V2: Sparse Feature Reactivation for Deep Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_CondenseNet_V2_Sparse_Feature_Reactivation_for_Deep_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Le Yang",
+    "Haojun Jiang",
+    "Ruojin Cai",
+    "Yulin Wang",
+    "Shiji Song",
+    "Gao Huang",
+    "Qi Tian"
+  ],
+  "abstract": "Reusing features in deep networks through dense connectivity is an effective way to achieve high computational efficiency. The recent proposed CondenseNet has shown that this mechanism can be further improved if redundant features are removed. In this paper, we propose an alternative approach named sparse feature reactivation (SFR), aiming at actively increasing the utility of features for reusing. In the proposed network, named CondenseNetV2, each layer can simultaneously learn to 1) selectively reuse a set of most important features from preceding layers; and 2) actively update a set of preceding features to increase their utility for later layers. Our experiments show that the proposed models achieve promising performance on image classification (ImageNet and CIFAR) and object detection (MS COCO) in terms of both theoretical efficiency and practical speed.",
+  "s2id": "4f7e800d16cbe969b7f4b0797988e61e0059d003",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

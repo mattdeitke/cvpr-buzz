@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.06118",
+  "title": "Automatic Correction of Internal Units in Generative Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tousi_Automatic_Correction_of_Internal_Units_in_Generative_Neural_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ali Tousi",
+    "Haedong Jeong",
+    "Jiyeon Han",
+    "Hwanil Choi",
+    "Jaesik Choi"
+  ],
+  "abstract": "Generative Adversarial Networks (GANs) have shown satisfactory performance in synthetic image generation by devising complex network structure and adversarial training scheme. Even though GANs are able to synthesize realistic images, there exists a number of generated images with defective visual patterns which are known as artifacts. While most of the recent work tries to fix artifact generations by perturbing latent code, few investigate internal units of a generator to fix them. In this work, we devise a method that automatically identifies the internal units generating various types of artifact images. We further propose the sequential correction algorithm which adjusts the generation flow by modifying the detected artifact units to improve the quality of generation while preserving the original outline. Our method outperforms the baseline method in terms of FID-score and shows satisfactory results with human evaluation.",
+  "s2id": "8f9e0f1201b3fc672a05148ef50ce0b2ec7cd72c",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

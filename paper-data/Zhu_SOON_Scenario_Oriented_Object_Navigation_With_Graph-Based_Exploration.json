@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.17138",
+  "title": "SOON: Scenario Oriented Object Navigation With Graph-Based Exploration",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_SOON_Scenario_Oriented_Object_Navigation_With_Graph-Based_Exploration_CVPR_2021_paper.pdf",
+  "authors": [
+    "Fengda Zhu",
+    "Xiwen Liang",
+    "Yi Zhu",
+    "Qizhi Yu",
+    "Xiaojun Chang",
+    "Xiaodan Liang"
+  ],
+  "abstract": "The ability to navigate like a human towards a language-guided target from anywhere in a 3D embodied environment is one of the 'holy grail' goals of intelligent robots. Most visual navigation benchmarks, however, focus on navigating toward a target from a fixed starting point, guided by an elaborate set of instructions that depicts step-by-step. This approach deviates from real-world problems in which human-only describes what the object and its surrounding look like and asks the robot to start navigation from anywhere. Accordingly, in this paper, we introduce a Scenario Oriented Object Navigation (SOON) task. In this task, an agent is required to navigate from an arbitrary position in a 3D embodied environment to localize a target following a scene description. To give a promising direction to solve this task, we propose a novel graph-based exploration (GBE) method, which models the navigation state as a graph and introduces a novel graph-based exploration approach to learn knowledge from the graph and stabilize training by learning sub-optimal trajectories. We also propose a new large-scale benchmark named From Anywhere to Object (FAO) dataset. To avoid target ambiguity, the descriptions in FAO provide rich semantic scene information includes: object attribute, object relationship, region description, and nearby region description. Our experiments reveal that the proposed GBE outperforms various state-of-the-arts on both FAO and R2R datasets. And the ablation studies on FAO validates the quality of the dataset.",
+  "s2id": "4a4cc066a2426c71c028633da930b2827b46bf16",
+  "twitter": {
+    "retweets": 1,
+    "likes": 5,
+    "replies": 0
+  },
+  "citations": 0
+}

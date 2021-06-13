@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.06184",
+  "title": "Temporal-Relational CrossTransformers for Few-Shot Action Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Perrett_Temporal-Relational_CrossTransformers_for_Few-Shot_Action_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Toby Perrett",
+    "Alessandro Masullo",
+    "Tilo Burghardt",
+    "Majid Mirmehdi",
+    "Dima Damen"
+  ],
+  "abstract": "We propose a novel approach to few-shot action recognition, finding temporally-corresponding frame tuples between the query and videos in the support set. Distinct from previous few-shot works, we construct class prototypes using the CrossTransformer attention mechanism to observe relevant sub-sequences of all support videos, rather than using class averages or single best matches. Video representations are formed from ordered tuples of varying numbers of frames, which allows sub-sequences of actions at different speeds and temporal offsets to be compared. Our proposed Temporal-Relational CrossTransformers (TRX) achieve state-of-the-art results on few-shot splits of Kinetics, Something-Something V2 (SSv2), HMDB51 and UCF101. Importantly, our method outperforms prior work on SSv2 by a wide margin (12%) due to the its ability to model temporal relations. A detailed ablation showcases the importance of matching to multiple support set videos and learning higher-order relational CrossTransformers.",
+  "s2id": "895e890b7b21863421ae849c0599aa747bff31ba",
+  "twitter": {
+    "retweets": 16,
+    "likes": 91,
+    "replies": 2
+  },
+  "citations": 0
+}

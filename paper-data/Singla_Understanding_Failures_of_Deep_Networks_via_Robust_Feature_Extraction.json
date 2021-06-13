@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.01750",
+  "title": "Understanding Failures of Deep Networks via Robust Feature Extraction",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Singla_Understanding_Failures_of_Deep_Networks_via_Robust_Feature_Extraction_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sahil Singla",
+    "Besmira Nushi",
+    "Shital Shah",
+    "Ece Kamar",
+    "Eric Horvitz"
+  ],
+  "abstract": "Traditional evaluation metrics for learned models that report aggregate scores over a test set are insufficient for surfacing important and informative patterns of failure over features and instances. We introduce and study a method aimed at characterizing and explaining failures by identifying visual attributes whose presence or absence results in poor performance. In distinction to previous work that relies upon crowdsourced labels for visual attributes, we leverage the representation of a separate robust model to extract interpretable features and then harness these features to identify failure modes. We further propose a visualization method aimed at enabling humans to understand the meaning encoded in such features and we test the comprehensibility of the features. An evaluation of the methods on the ImageNet dataset demonstrates that: (i) the proposed workflow is effective for discovering important failure modes, (ii) the visualization techniques help humans to understand the extracted features, and (iii) the extracted insights can assist engineers with error analysis and debugging.",
+  "s2id": "723ea9a7f9feef2f6ee5757ba4f312f5d43fdc1b",
+  "twitter": {
+    "retweets": 25,
+    "likes": 109,
+    "replies": 2
+  },
+  "citations": 0
+}

@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.09955",
+  "title": "Learning Compositional Radiance Fields of Dynamic Human Heads",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Learning_Compositional_Radiance_Fields_of_Dynamic_Human_Heads_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ziyan Wang",
+    "Timur Bagautdinov",
+    "Stephen Lombardi",
+    "Tomas Simon",
+    "Jason Saragih",
+    "Jessica Hodgins",
+    "Michael Zollhofer"
+  ],
+  "abstract": "Photorealistic rendering of dynamic humans is an important ability for telepresence systems, virtual shopping, synthetic data generation, and more. Recently, neural rendering methods, which combine techniques from computer graphics and machine learning, have created high-fidelity models of humans and objects. Some of these methods do not produce results with high-enough fidelity for driveable human models (Neural Volumes) whereas others have extremely long rendering times (NeRF). We propose a novel compositional 3D representation that combines the best of previous methods to produce both higher-resolution and faster results. Our representation bridges the gap between discrete and continuous volumetric representations by combining a coarse 3D-structure-aware grid of animation codes with a continuous learned scene function that maps every position and its corresponding local animation code to its view-dependent emitted radiance and local volume density. Differentiable volume rendering is employed to compute photo-realistic novel views of the human head and upper body as well as to train our novel representation end-to-end using only 2D supervision. In addition, we show that the learned dynamic radiance field can be used to synthesize novel unseen expressions based on a global animation code. Our approach achieves state-of-the-art results for synthesizing novel views of dynamic human heads and the upper body. See our project page for more results.",
+  "s2id": "1c757868d20742d9105df6858665183a8c8e133c",
+  "twitter": {
+    "retweets": 14,
+    "likes": 63,
+    "replies": 0
+  },
+  "citations": 5
+}

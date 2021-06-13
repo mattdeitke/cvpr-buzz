@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2009.08891",
+  "title": "AdderSR: Towards Energy Efficient Image Super-Resolution",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Song_AdderSR_Towards_Energy_Efficient_Image_Super-Resolution_CVPR_2021_paper.pdf",
+  "authors": [
+    "Dehua Song",
+    "Yunhe Wang",
+    "Hanting Chen",
+    "Chang Xu",
+    "Chunjing Xu",
+    "Dacheng Tao"
+  ],
+  "abstract": "This paper studies the single image super-resolution problem using adder neural networks (AdderNets). Compared with convolutional neural networks, AdderNets utilize additions to calculate the output features thus avoid massive energy consumptions of conventional multiplications. However, it is very hard to directly inherit the existing success of AdderNets on large-scale image classification to the image super-resolution task due to the different calculation paradigm. Specifically, the adder operation cannot easily learn the identity mapping, which is essential for image processing tasks. In addition, the functionality of high-pass filters cannot be ensured by AdderNets. To this end, we thoroughly analyze the relationship between an adder operation and the identity mapping and insert shortcuts to enhance the performance of SR models using adder networks. Then, we develop a learnable power activation for adjusting the feature distribution and refining details. Experiments conducted on several benchmark models and datasets demonstrate that, our image super-resolution models using AdderNets can achieve comparable performance and visual quality to that of their CNN baselines with an about 2.5x reduction on the energy consumption. The codes are available at: https://github.com/huawei-noah/AdderNet.",
+  "s2id": "3f62ee37fa21b8e1de9b1d3c948f349720423d0d",
+  "twitter": {
+    "retweets": 4,
+    "likes": 3,
+    "replies": 2
+  },
+  "citations": 4
+}

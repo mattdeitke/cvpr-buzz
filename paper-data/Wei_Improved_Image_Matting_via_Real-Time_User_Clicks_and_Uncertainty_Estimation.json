@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.08323",
+  "title": "Improved Image Matting via Real-Time User Clicks and Uncertainty Estimation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wei_Improved_Image_Matting_via_Real-Time_User_Clicks_and_Uncertainty_Estimation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tianyi Wei",
+    "Dongdong Chen",
+    "Wenbo Zhou",
+    "Jing Liao",
+    "Hanqing Zhao",
+    "Weiming Zhang",
+    "Nenghai Yu"
+  ],
+  "abstract": "Image matting is a fundamental and challenging problem in computer vision and graphics. Most existing matting methods leverage a user-supplied trimap as an auxiliary input to produce good alpha matte. However, obtaining high-quality trimap itself is arduous, thus restricting the application of these methods. Recently, some trimap-free methods have emerged, however, the matting quality is still far behind the trimap-based methods. The main reason is that, without the trimap guidance in some cases, the target network is ambiguous about which is the foreground target. In fact, choosing the foreground is a subjective procedure and depends on the user's intention. To this end, this paper proposes an improved deep image matting framework which is trimap-free and only needs several user click interactions to eliminate the ambiguity. Moreover, we introduce a new uncertainty estimation module that can predict which parts need polishing and a following local refinement module. Based on the computation budget, users can choose how many local parts to improve with the uncertainty guidance. Quantitative and qualitative results show that our method performs better than existing trimap-free methods and comparably to state-of-the-art trimap-based methods with minimal user effort.",
+  "s2id": "aee8a56202088c2a51dc6f858c1bdd07c405e000",
+  "twitter": {
+    "retweets": 5,
+    "likes": 24,
+    "replies": 0
+  },
+  "citations": 0
+}

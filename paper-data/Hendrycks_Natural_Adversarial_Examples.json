@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/1907.07174",
+  "title": "Natural Adversarial Examples",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hendrycks_Natural_Adversarial_Examples_CVPR_2021_paper.pdf",
+  "authors": [
+    "Dan Hendrycks",
+    "Kevin Zhao",
+    "Steven Basart",
+    "Jacob Steinhardt",
+    "Dawn Song"
+  ],
+  "abstract": "We introduce two challenging datasets that reliably cause machine learning model performance to substantially degrade. The datasets are collected with a simple adversarial filtration technique to create datasets with limited spurious cues. Our datasets' real-world, unmodified examples transfer to various unseen models reliably, demonstrating that computer vision models have shared weaknesses. The first dataset is called ImageNet-A and is like the ImageNet test set, but it is far more challenging for existing models. We also curate an adversarial out-of-distribution detection dataset called ImageNet-O, which is the first out-of-distribution detection dataset created for ImageNet models. On ImageNet-A a DenseNet-121 obtains around 2% accuracy, an accuracy drop of approximately 90%, and its out-of-distribution detection performance on ImageNet-O is near random chance levels. We find that existing data augmentation techniques hardly boost performance, and using other public training datasets provides improvements that are limited. However, we find that improvements to computer vision architectures provide a promising path towards robust models.",
+  "s2id": "45557cc70cd6989ab6b03e5aeb787e34299099f7",
+  "twitter": {
+    "retweets": 337,
+    "likes": 835,
+    "replies": 30
+  },
+  "citations": 119
+}

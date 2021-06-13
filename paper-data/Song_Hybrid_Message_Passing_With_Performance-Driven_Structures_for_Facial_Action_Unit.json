@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "Hybrid Message Passing With Performance-Driven Structures for Facial Action Unit Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Song_Hybrid_Message_Passing_With_Performance-Driven_Structures_for_Facial_Action_Unit_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tengfei Song",
+    "Zijun Cui",
+    "Wenming Zheng",
+    "Qiang Ji"
+  ],
+  "abstract": "Message passing neural network has been an effective method to represent dependencies among nodes by propagating messages. However, most of message passing algorithms focus on one structure and the messages are estimated by one single approach. For the real-world data, like facial action units (AUs), the dependencies may vary in terms of different expressions and individuals. In this paper, we propose a novel hybrid message passing neural network with performance-driven structures (HMP-PS), which combines complementary message passing methods and captures more possible structures in a Bayesian manner. Particularly, a performance-driven Monte Carlo Markov Chain sampling method is proposed for generating high performance graph structures. Besides, the hybrid message passing is proposed to combine different types of messages, which provide the complementary information. The contribution of each type of message is adaptively adjusted along with different inputs. The experiments on two widely used benchmark datasets, i.e., BP4D and DISFA, validate that our proposed method can achieve the state-of-the-art performance.",
+  "s2id": ""
+}

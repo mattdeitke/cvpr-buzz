@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2009.03137",
+  "title": "Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Towards_Semantic_Segmentation_of_Urban-Scale_3D_Point_Clouds_A_Dataset_CVPR_2021_paper.pdf",
+  "authors": [
+    "Qingyong Hu",
+    "Bo Yang",
+    "Sheikh Khalid",
+    "Wen Xiao",
+    "Niki Trigoni",
+    "Andrew Markham"
+  ],
+  "abstract": "An essential prerequisite for unleashing the potential of supervised deep learning algorithms in the area of 3D scene understanding is the availability of large-scale and richly annotated datasets. However, publicly available datasets are either in relatively small spatial scales or have limited semantic annotations due to the expensive cost of data acquisition and data annotation, which severely limits the development of fine-grained semantic understanding in the context of 3D point clouds. In this paper, we present an urban-scale photogrammetric point cloud dataset with nearly three billion richly annotated points, which is three times the number of labeled points than the existing largest photogrammetric point cloud dataset. Our dataset consists of large areas from three UK cities, covering about 7.6 km^2 of the city landscape. In the dataset, each 3D point is labeled as one of 13 semantic classes. We extensively evaluate the performance of state-of-the-art algorithms on our dataset and provide a comprehensive analysis of the results. In particular, we identify several key challenges towards urban-scale point cloud understanding. The dataset is available at https://github.com/QingyongHu/SensatUrban.",
+  "s2id": "0ecd8b34e9dc7df9635821b9329bbe54a19bf5fc",
+  "twitter": {
+    "retweets": 13,
+    "likes": 39,
+    "replies": 1
+  },
+  "citations": 7
+}

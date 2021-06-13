@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2007.06919",
+  "title": "AQD: Towards Accurate Quantized Object Detection",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_AQD_Towards_Accurate_Quantized_Object_Detection_CVPR_2021_paper.pdf",
+  "authors": [
+    "Peng Chen",
+    "Jing Liu",
+    "Bohan Zhuang",
+    "Mingkui Tan",
+    "Chunhua Shen"
+  ],
+  "abstract": "Network quantization allows inference to be conducted using low-precision arithmetic for improved inference efficiency of deep neural networks on edge devices. However, designing aggressively low-bit (e.g., 2-bit) quantization schemes on complex tasks, such as object detection, still remains challenging in terms of severe performance degradation and unverifiable efficiency on common hardware. In this paper, we propose an Accurate Quantized object Detection solution, termed AQD, to fully get rid of floating-point computation. To this end, we target using fixed-point operations in all kinds of layers, including the convolutional layers, normalization layers, and skip connections, allowing the inference to be executed using integer-only arithmetic. To demonstrate the improved latency-vs-accuracy trade-off, we apply the proposed methods on RetinaNet and FCOS. In particular, experimental results on MS-COCO dataset show that our AQD achieves comparable or even better performance compared with the full-precision counterpart under extremely low-bit schemes, which is of great practical value. Source code and models are available at: https://github.com/aim-uofa/model-quantization",
+  "s2id": "2f5d1c6de2cf91a0bc328b94f19b72de19c38714",
+  "twitter": {
+    "retweets": 4,
+    "likes": 6,
+    "replies": 2
+  },
+  "citations": 2
+}

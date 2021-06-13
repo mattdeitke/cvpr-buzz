@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.15126",
+  "title": "One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_One-Shot_Free-View_Neural_Talking-Head_Synthesis_for_Video_Conferencing_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ting-Chun Wang",
+    "Arun Mallya",
+    "Ming-Yu Liu"
+  ],
+  "abstract": "We propose a neural talking-head video synthesis model and demonstrate its application to video conferencing. Our model learns to synthesize a talking-head video using a source image containing the target person's appearance and a driving video that dictates the motion in the output. Our motion is encoded based on a novel keypoint representation, where the identity-specific and motion-related information is decomposed unsupervisedly. Extensive experimental validation shows that our model outperforms competing methods on benchmark datasets. Moreover, our compact keypoint representation enables a video conferencing system that achieves the same visual quality as the commercial H.264 standard while only using one-tenth of the bandwidth. Besides, we show our keypoint representation allows the user to rotate the head during synthesis, which is useful for simulating face-to-face video conferencing experiences.",
+  "s2id": "85089ce8830e9fcd24ee6b157c22bfa34d7d828a",
+  "twitter": {
+    "retweets": 246,
+    "likes": 1133,
+    "replies": 21
+  },
+  "citations": 8
+}

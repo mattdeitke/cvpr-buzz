@@ -1,0 +1,16 @@
+{
+  "arXiv": null,
+  "title": "Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-View Transformation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf",
+  "authors": [
+    "Weixiang Yang",
+    "Qi Li",
+    "Wenxi Liu",
+    "Yuanlong Yu",
+    "Yuexin Ma",
+    "Shengfeng He",
+    "Jia Pan"
+  ],
+  "abstract": "HD map reconstruction is crucial for autonomous driving. LiDAR-based methods are limited due to the deployed expensive sensors and time-consuming computation. Camera-based methods usually need to separately perform road segmentation and view transformation, which often causes distortion and the absence of content. To push the limits of the technology, we present a novel framework that enables reconstructing a local map formed by road layout and vehicle occupancy in the bird's-eye view given a front-view monocular image only. In particular, we propose a cross-view transformation module, which takes the constraint of cycle consistency between views into account and makes full use of their correlation to strengthen the view transformation and scene understanding. Considering the relationship between vehicles and roads, we also design a context-aware discriminator to further refine the results. Experiments on public benchmarks show that our method achieves the state-of-the-art performance in the tasks of road layout estimation and vehicle occupancy estimation. Especially for the latter task, our model outperforms all competitors by a large margin. Furthermore, our model runs at 35 FPS on a single GPU, which is efficient and applicable for real-time panorama HD map reconstruction.",
+  "s2id": ""
+}

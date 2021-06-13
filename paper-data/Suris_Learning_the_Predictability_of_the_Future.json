@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.01600",
+  "title": "Learning the Predictability of the Future",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Suris_Learning_the_Predictability_of_the_Future_CVPR_2021_paper.pdf",
+  "authors": [
+    "Didac Suris",
+    "Ruoshi Liu",
+    "Carl Vondrick"
+  ],
+  "abstract": "We introduce a framework for learning from unlabeled video what is predictable in the future. Instead of committing up front to features to predict, our approach learns from data which features are predictable. Based on the observation that hyperbolic geometry naturally and compactly encodes hierarchical structure, we propose a predictive model in hyperbolic space. When the model is most confident, it will predict at a concrete level of the hierarchy, but when the model is not confident, it learns to automatically select a higher level of abstraction. Experiments on two established datasets show the key role of hierarchical representations for action prediction. Although our representation is trained with unlabeled video, visualizations show that action hierarchies emerge in the representation.",
+  "s2id": "8ce65937232b5083f0e9da47ce1d6220bc385c49",
+  "twitter": {
+    "retweets": 9,
+    "likes": 22,
+    "replies": 1
+  },
+  "citations": 0
+}

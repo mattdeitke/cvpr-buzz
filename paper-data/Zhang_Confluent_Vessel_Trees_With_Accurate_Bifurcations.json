@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.14268",
+  "title": "Confluent Vessel Trees With Accurate Bifurcations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Confluent_Vessel_Trees_With_Accurate_Bifurcations_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhongwen Zhang",
+    "Dmitrii Marin",
+    "Maria Drangova",
+    "Yuri Boykov"
+  ],
+  "abstract": "We are interested in unsupervised reconstruction of complex near-capillary vasculature with thousands of bifurcations where supervision and learning are infeasible. Unsupervised methods can use many structural constraints, e.g. topology, geometry, physics. Common techniques use variants of MST on geodesic \"tubular graphs\" minimizing symmetric pairwise costs, i.e. distances. We show limitations of such standard undirected tubular graphs producing typical errors at bifurcations where flow \"directedness\" is critical. We introduce a new general concept of \"confluence\" for continuous oriented curves forming vessel trees and show how to enforce it on discrete tubular graphs. While confluence is a high-order property, we present an efficient practical algorithm for reconstructing confluent vessel trees using minimum arborescence on a directed graph enforcing confluence via simple flow-extrapolating arc construction. Empirical tests on large near-capillary sub-voxel vasculature volumes demonstrate significantly improved reconstruction accuracy at bifurcations. Our code has also been made publicly available.",
+  "s2id": "f1005edfa1fbc4ea0d9a90345388bda8a01e69ed",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

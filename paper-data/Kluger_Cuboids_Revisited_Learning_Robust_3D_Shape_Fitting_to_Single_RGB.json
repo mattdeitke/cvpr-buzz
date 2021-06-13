@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.02047",
+  "title": "Cuboids Revisited: Learning Robust 3D Shape Fitting to Single RGB Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kluger_Cuboids_Revisited_Learning_Robust_3D_Shape_Fitting_to_Single_RGB_CVPR_2021_paper.pdf",
+  "authors": [
+    "Florian Kluger",
+    "Hanno Ackermann",
+    "Eric Brachmann",
+    "Michael Ying Yang",
+    "Bodo Rosenhahn"
+  ],
+  "abstract": "Humans perceive and construct the surrounding world as an arrangement of simple parametric models. In particular, man-made environments commonly consist of volumetric primitives such as cuboids or cylinders. Inferring these primitives is an important step to attain high-level, abstract scene descriptions. Previous approaches directly estimate shape parameters from a 2D or 3D input, and are only able to reproduce simple objects, yet unable to accurately parse more complex 3D scenes. In contrast, we propose a robust estimator for primitive fitting, which can meaningfully abstract real-world environments using cuboids. A RANSAC estimator guided by a neural network fits these primitives to 3D features, such as a depth map. We condition the network on previously detected parts of the scene, thus parsing it one-by-one. To obtain 3D features from a single RGB image, we additionally optimise a feature extraction CNN in an end-to-end manner. However, naively minimising point-to-primitive distances leads to large or spurious cuboids occluding parts of the scene behind. We thus propose an occlusion-aware distance metric correctly handling opaque scenes. The proposed algorithm does not require labour-intensive labels, such as cuboid annotations, for training. Results on the challenging NYU Depth v2 dataset demonstrate that the proposed algorithm successfully abstracts cluttered real-world 3D scene layouts.",
+  "s2id": "c1580a4d786285250614b07d1bfb73a372079760",
+  "twitter": {
+    "retweets": 28,
+    "likes": 157,
+    "replies": 3
+  },
+  "citations": 0
+}

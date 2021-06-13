@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.10379",
+  "title": "Neural Scene Graphs for Dynamic Scenes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ost_Neural_Scene_Graphs_for_Dynamic_Scenes_CVPR_2021_paper.pdf",
+  "authors": [
+    "Julian Ost",
+    "Fahim Mannan",
+    "Nils Thuerey",
+    "Julian Knodt",
+    "Felix Heide"
+  ],
+  "abstract": "Recent implicit neural rendering methods have demonstrated that it is possible to learn accurate view synthesis for complex scenes by predicting their volumetric density and color supervised solely by a set of RGB images. However, existing methods are restricted to learning efficient representations of static scenes that encode all scene objects into a single neural network, and they lack the ability to represent dynamic scenes and decompose scenes into individual objects. In this work, we present the first neural rendering method that represents multi-object dynamic scenes as scene graphs. We propose a learned scene graph representation, which encodes object transformations and radiance, allowing us to efficiently render novel arrangements and views of the scene. To this end, we learn implicitly encoded scenes, combined with a jointly learned latent representation to describe similar objects with a single implicit function. We assess the proposed method on synthetic and real automotive data, validating that our approach learns dynamic scenes -- only by observing a video of this scene -- and allows for rendering novel photo-realistic views of novel scene compositions with unseen sets of objects at unseen poses.",
+  "s2id": "8acce85836a5f6ee31d83e90a7d47b8cfa72a128",
+  "twitter": {
+    "retweets": 20,
+    "likes": 84,
+    "replies": 2
+  },
+  "citations": 8
+}

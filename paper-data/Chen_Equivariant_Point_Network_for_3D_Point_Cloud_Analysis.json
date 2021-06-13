@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.14147",
+  "title": "Equivariant Point Network for 3D Point Cloud Analysis",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Equivariant_Point_Network_for_3D_Point_Cloud_Analysis_CVPR_2021_paper.pdf",
+  "authors": [
+    "Haiwei Chen",
+    "Shichen Liu",
+    "Weikai Chen",
+    "Hao Li",
+    "Randall Hill"
+  ],
+  "abstract": "Features that are equivariant to a larger group of symmetries have been shown to be more discriminative and powerful in recent studies. However, higher-order equivariant features often come with an exponentially-growing computational cost. Furthermore, it remains relatively less explored how rotation-equivariant features can be leveraged to tackle 3D shape alignment tasks. While many past approaches have been based on either non-equivariant or invariant descriptors to align 3D shapes, we argue that such tasks may benefit greatly from an equivariant framework. In this paper, we propose an effective and practical SE(3) (3D translation and rotation) equivariant network for point cloud analysis that addresses both problems. First, we present SE(3) separable point convolution, a novel framework that breaks down the 6D convolution into two separable convolutional operators alternatively performed in the 3D Euclidean and SO(3) spaces. This significantly reduces the computational cost without compromising the performance. Second, we introduce an attention layer to effectively harness the expressiveness of the equivariant features. While jointly trained with the network, the attention layer implicitly derives the intrinsic local frame in the feature space and generates attention vectors that can be integrated into different alignment tasks. We evaluate our approach through extensive studies and visual interpretations. The empirical results demonstrate that our proposed model outperforms strong baselines in a variety of benchmarks.",
+  "s2id": "28b2b34f31238d657ded15a81bbce22e3b96b1ad",
+  "twitter": {
+    "retweets": 2,
+    "likes": 6,
+    "replies": 1
+  },
+  "citations": 0
+}

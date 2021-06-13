@@ -1,0 +1,21 @@
+{
+  "arXiv": null,
+  "title": "PD-GAN: Probabilistic Diverse GAN for Image Inpainting",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_PD-GAN_Probabilistic_Diverse_GAN_for_Image_Inpainting_CVPR_2021_paper.pdf",
+  "authors": [
+    "Hongyu Liu",
+    "Ziyu Wan",
+    "Wei Huang",
+    "Yibing Song",
+    "Xintong Han",
+    "Jing Liao"
+  ],
+  "abstract": "We propose PD-GAN, a probabilistic diverse GAN forimage inpainting. Given an input image with arbitrary holeregions, PD-GAN produces multiple inpainting results withdiverse and visually realistic content. Our PD-GAN is builtupon a vanilla GAN which generates images based on random noise. During image generation, we modulate deepfeatures of input random noise from coarse-to-fine by injecting an initially restored image and the hole regions inmultiple scales. We argue that during hole filling, the pixels near the hole boundary should be more deterministic(i.e., with higher probability trusting the context and initially restored image to create natural inpainting boundary), while those pixels lie in the center of the hole shouldenjoy more degrees of freedom (i.e., more likely to dependon the random noise for enhancing diversity). To this end, we propose spatially probabilistic diversity normalization(SPDNorm) inside the modulation to model the probabilityof generating a pixel conditioned on the context information. SPDNorm dynamically balances the realism and diversity inside the hole region, making the generated content more diverse towards the hole center and resembleneighboring image content more towards the hole boundary. Meanwhile, we propose a perceptual diversity loss tofurther empower PD-GAN for diverse content generation. Experiments on benchmark datasets including CelebA-HQ, Places2 and Paris Street View indicate that PD-GAN is ef-fective for diverse and visually realistic image restoration.",
+  "s2id": "aef7f3c942b2c8ff44434962809fa76f08f91030",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 0
+}

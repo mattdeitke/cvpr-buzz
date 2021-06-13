@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.00407",
+  "title": "ORDisCo: Effective and Efficient Usage of Incremental Unlabeled Data for Semi-Supervised Continual Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_ORDisCo_Effective_and_Efficient_Usage_of_Incremental_Unlabeled_Data_for_CVPR_2021_paper.pdf",
+  "authors": [
+    "Liyuan Wang",
+    "Kuo Yang",
+    "Chongxuan Li",
+    "Lanqing Hong",
+    "Zhenguo Li",
+    "Jun Zhu"
+  ],
+  "abstract": "Continual learning usually assumes the incoming data are fully labeled, which might not be applicable in real applications. In this work, we consider semi-supervised continual learning (SSCL) that incrementally learns from partially labeled data. Observing that existing continual learning methods lack the ability to continually exploit the unlabeled data, we propose deep Online Replay with Discriminator Consistency (ORDisCo) to interdependently learn a classifier with a conditional generative adversarial network (GAN), which continually passes the learned data distribution to the classifier. In particular, ORDisCo replays data sampled from the conditional generator to the classifier in an online manner, exploiting unlabeled data in a time- and storage-efficient way. Further, to explicitly overcome the catastrophic forgetting of unlabeled data, we selectively stabilize parameters of the discriminator that are important for discriminating the pairs of old unlabeled data and their pseudo-labels predicted by the classifier. We extensively evaluate ORDisCo on various semi-supervised learning benchmark datasets for SSCL, and show that ORDisCo achieves significant performance improvement on SVHN, CIFAR10 and Tiny-ImageNet, compared to strong baselines.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 2,
+    "likes": 5,
+    "replies": 0
+  }
+}

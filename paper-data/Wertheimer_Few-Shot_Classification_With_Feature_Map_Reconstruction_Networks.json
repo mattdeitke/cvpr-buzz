@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.01506",
+  "title": "Few-Shot Classification With Feature Map Reconstruction Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wertheimer_Few-Shot_Classification_With_Feature_Map_Reconstruction_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Davis Wertheimer",
+    "Luming Tang",
+    "Bharath Hariharan"
+  ],
+  "abstract": "In this paper we reformulate few-shot classification as a reconstruction problem in latent space. The ability of the network to reconstruct a query feature map from support features of a given class predicts membership of the query in that class. We introduce a novel mechanism for few-shot classification by regressing directly from support features to query features in closed form, without introducing any new modules or large-scale learnable parameters. The resulting Feature Map Reconstruction Networks are both more performant and computationally efficient than previous approaches. We demonstrate consistent and substantial accuracy gains on four fine-grained benchmarks with varying neural architectures. Our model is also competitive on the non-fine-grained mini-ImageNet and tiered-ImageNet benchmarks with minimal bells and whistles.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 2,
+    "likes": 5,
+    "replies": 0
+  }
+}

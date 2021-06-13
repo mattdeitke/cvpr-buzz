@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.14214",
+  "title": "Truly Shift-Invariant Convolutional Neural Networks",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chaman_Truly_Shift-Invariant_Convolutional_Neural_Networks_CVPR_2021_paper.pdf",
+  "authors": [
+    "Anadi Chaman",
+    "Ivan Dokmanic"
+  ],
+  "abstract": "Thanks to the use of convolution and pooling layers, convolutional neural networks were for a long time thought to be shift-invariant. However, recent works have shown that the output of a CNN can change significantly with small shifts in input--a problem caused by the presence of downsampling (stride) layers. The existing solutions rely either on data augmentation or on anti-aliasing, both of which have limitations and neither of which enables perfect shift invariance. Additionally, the gains obtained from these methods do not extend to image patterns not seen during training. To address these challenges, we propose adaptive polyphase sampling (APS), a simple sub-sampling scheme that allows convolutional neural networks to achieve 100% consistency in classification performance under shifts, without any loss in accuracy. With APS, the networks exhibit perfect consistency to shifts even before training, making it the first approach that makes convolutional neural networks truly shift-invariant.",
+  "s2id": "adcb8cad96a2f73e0a2ef8b7ed1737af804de30b",
+  "twitter": {
+    "retweets": 4,
+    "likes": 7,
+    "replies": 1
+  },
+  "citations": 3
+}

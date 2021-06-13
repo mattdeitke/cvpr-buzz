@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.12890",
+  "title": "ANR: Articulated Neural Rendering for Virtual Avatars",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Raj_ANR_Articulated_Neural_Rendering_for_Virtual_Avatars_CVPR_2021_paper.pdf",
+  "authors": [
+    "Amit Raj",
+    "Julian Tanke",
+    "James Hays",
+    "Minh Vo",
+    "Carsten Stoll",
+    "Christoph Lassner"
+  ],
+  "abstract": "Deferred Neural Rendering (DNR) uses a three-step pipeline to translate a mesh representation into an RGB image. The combination of a traditional rendering stack with neural networks hits a sweet spot in terms of computational complexity and realism of the resulting images. Using skinned meshes for animatable objects is a natural extension for the framework and would open it up to a plethora of applications. However, in this case the neural shading step must account for deformations that are possibly not captured in the mesh, as well as alignment accuracies and dynamics---which is not well-supported in the DNR pipeline. In this paper, we present an in-depth study of possibilities to develop the DNR framework towards handling these cases. We outline several steps that can be easily integrated into the DNR pipeline for addressing stability and deformation. We demonstrate their efficiency by building a virtual avatar pipeline, a highly challenging case with animation and clothing deformation, and show the superiority of the presented method not only with respect to the DNR pipeline but also with methods specifically for virtual avatar creation and animation. In two user studies, we observe a clear preference for our avatar model and outperform other methods on SSIM and LPIPS metrics. Perceptually, we observe better temporal stability, level of detail and plausibility.",
+  "s2id": "e850d04207d87734991a8441d6fbe5f8cc3b18ce",
+  "twitter": {
+    "retweets": 8,
+    "likes": 39,
+    "replies": 0
+  },
+  "citations": 4
+}

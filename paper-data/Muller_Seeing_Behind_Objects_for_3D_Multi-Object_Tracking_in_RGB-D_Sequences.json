@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "Seeing Behind Objects for 3D Multi-Object Tracking in RGB-D Sequences",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Muller_Seeing_Behind_Objects_for_3D_Multi-Object_Tracking_in_RGB-D_Sequences_CVPR_2021_paper.pdf",
+  "authors": [
+    "Norman Muller",
+    "Yu-Shiang Wong",
+    "Niloy J. Mitra",
+    "Angela Dai",
+    "Matthias Niessner"
+  ],
+  "abstract": "Multi-object tracking from RGB-D video sequences is a challenging problem due to the combination of changing viewpoints, motion, and occlusions over time. We observe that having the complete geometry of objects aids in their tracking, and thus propose to jointly infer the complete geometry of objects as well as track them, for rigidly moving objects over time. Our key insight is that inferring the complete geometry of the objects significantly helps in tracking. By hallucinating unseen regions of objects, we can obtain additional correspondences between the same instance, thus providing robust tracking even under strong change of appearance. From a sequence of RGB-D frames, we detect objects in each frame and learn to predict their complete object geometry as well as a dense correspondence mapping into a canonical space. This allows us to derive 6DoF poses for the objects in each frame, along with their correspondence between frames, providing robust object tracking across the RGB-D sequence. Experiments on both synthetic and real-world RGB-D data demonstrate that we achieve state-of-the-art performance on 3D multi-object tracking. Furthermore, we show that our object completion significantly helps tracking, providing an improvement of 8% in mean MOTA.",
+  "s2id": "029c8ab45a63cab801f0b80d28ba23b6c4675cae",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

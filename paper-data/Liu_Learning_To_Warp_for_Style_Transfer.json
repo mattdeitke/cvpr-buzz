@@ -1,0 +1,12 @@
+{
+  "arXiv": null,
+  "title": "Learning To Warp for Style Transfer",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Learning_To_Warp_for_Style_Transfer_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xiao-Chang Liu",
+    "Yong-Liang Yang",
+    "Peter Hall"
+  ],
+  "abstract": "Since its inception in 2015, Style Transfer has focused on texturing a content image using an art exemplar. Recently, the geometric changes that artists make have been acknowledged as an important component of style. Our contribution is to propose a neural network that, uniquely, learns a mapping from a 4D array of inter-feature distances to a non-parametric 2D warp field. The system is generic in not being limited by semantic class, a single learned model will suffice; all examples in this paper are output from one model. Our approach combines the benefits of the high speed of Liu et al. with the non-parametric warping of Kim et al. Furthermore, our system extends the normal NST paradigm: although it can be used with a single exemplar, we also allow two style exemplars: one for texture and another for geometry. This supports far greater flexibility in use cases than single exemplars can provide.",
+  "s2id": ""
+}

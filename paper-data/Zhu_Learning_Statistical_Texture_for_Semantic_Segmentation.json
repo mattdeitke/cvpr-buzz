@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.04133",
+  "title": "Learning Statistical Texture for Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Learning_Statistical_Texture_for_Semantic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Lanyun Zhu",
+    "Deyi Ji",
+    "Shiping Zhu",
+    "Weihao Gan",
+    "Wei Wu",
+    "Junjie Yan"
+  ],
+  "abstract": "Existing semantic segmentation works mainly focus on learning the contextual information in high-level semantic features with CNNs. In order to maintain a precise boundary, low-level texture features are directly skip-connected into the deeper layers. Nevertheless, texture features are not only about local structure, but also include global statistical knowledge of the input image. In this paper, we fully take advantages of the low-level texture features and propose a novel Statistical Texture Learning Network (STLNet) for semantic segmentation. For the first time, STLNet analyzes the distribution of low level information and efficiently utilizes them for the task. Specifically, a novel Quantization and Counting Operator (QCO) is designed to describe the texture information in a statistical manner. Based on QCO, two modules are introduced: (1) Texture Enhance Module (TEM), to capture texture-related information and enhance the texture details; (2) Pyramid Texture Feature Extraction Module (PTFEM), to effectively extract the statistical texture features from multiple scales. Through extensive experiments, we show that the proposed STLNet achieves state-of-the-art performance on three semantic segmentation benchmarks: Cityscapes, PASCAL Context and ADE20K.",
+  "s2id": "19c79ca9898266404623312dfbdad9b4331ee051",
+  "twitter": {
+    "retweets": 1,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 1
+}

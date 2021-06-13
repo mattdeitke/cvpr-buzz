@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.05170",
+  "title": "Memory-Guided Unsupervised Image-to-Image Translation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jeong_Memory-Guided_Unsupervised_Image-to-Image_Translation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Somi Jeong",
+    "Youngjung Kim",
+    "Eungbean Lee",
+    "Kwanghoon Sohn"
+  ],
+  "abstract": "We present a novel unsupervised framework for instance-level image-to-image translation. Although recent advances have been made by incorporating additional object annotations, existing methods often fail to handle images with multiple disparate objects. The main cause is that, during inference, they apply a global style to the whole image and do not consider the large style discrepancy between instance and background, or within instances. To address this problem, we propose a class-aware memory network that explicitly reasons about local style variations. A key-values memory structure, with a set of read/update operations, is introduced to record class-wise style variations and access them without requiring an object detector at the test time. The key stores a domain-agnostic content representation for allocating memory items, while the values encode domain-specific style representations. We also present a feature contrastive loss to boost the discriminative power of memory items. We show that by incorporating our memory, we can transfer class-aware and accurate style representations across domains. Experimental results demonstrate that our model outperforms recent instance-level methods and achieves state-of-the-art performance.",
+  "s2id": "84149211ed84edb70170845494230c5e97b60c60",
+  "twitter": {
+    "retweets": 1,
+    "likes": 3,
+    "replies": 0
+  },
+  "citations": 0
+}

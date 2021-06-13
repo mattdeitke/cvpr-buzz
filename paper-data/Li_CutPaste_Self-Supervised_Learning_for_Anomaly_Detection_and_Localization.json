@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.04015",
+  "title": "CutPaste: Self-Supervised Learning for Anomaly Detection and Localization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_CutPaste_Self-Supervised_Learning_for_Anomaly_Detection_and_Localization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chun-Liang Li",
+    "Kihyuk Sohn",
+    "Jinsung Yoon",
+    "Tomas Pfister"
+  ],
+  "abstract": "We aim at constructing a high performance model for defect detection that detects unknown anomalous patterns of an image without anomalous data. To this end, we propose a two-stage framework for building anomaly detectors using normal training data only. We first learn self-supervised deep representations and then build a generative one-class classifier on learned representations. We learn representations by classifying normal data from the CutPaste, a simple data augmentation strategy that cuts an image patch and pastes at a random location of a large image. Our empirical study on MVTec anomaly detection dataset demonstrates the proposed algorithm is general to be able to detect various types of real-world defects. We bring the improvement upon previous arts by 3.1 AUCs when learning representations from scratch. By transfer learning on pretrained representations on ImageNet, we achieve a new state-of-the-art 96.6 AUC. Lastly, we extend the framework to learn and extract representations from patches to allow localizing defective areas without annotations during training.",
+  "s2id": "78d80c343d36baaf89f18e12d325cf6309fb6c8f",
+  "twitter": {
+    "retweets": 93,
+    "likes": 442,
+    "replies": 1
+  },
+  "citations": 1
+}

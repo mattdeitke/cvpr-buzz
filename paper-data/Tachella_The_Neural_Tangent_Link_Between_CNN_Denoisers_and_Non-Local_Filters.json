@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.02379",
+  "title": "The Neural Tangent Link Between CNN Denoisers and Non-Local Filters",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tachella_The_Neural_Tangent_Link_Between_CNN_Denoisers_and_Non-Local_Filters_CVPR_2021_paper.pdf",
+  "authors": [
+    "Julian Tachella",
+    "Junqi Tang",
+    "Mike Davies"
+  ],
+  "abstract": "Convolutional Neural Networks (CNNs) are now a well-established tool for solving computational imaging problems. Modern CNN-based algorithms obtain state-of-the-art performance in diverse image restoration problems. Furthermore, it has been recently shown that, despite being highly overparameterized, networks trained with a single corrupted image can still perform as well as fully trained networks. We introduce a formal link between such networks through their neural tangent kernel (NTK), and well-known non-local filtering techniques, such as non-local means or BM3D. The filtering function associated with a given network architecture can be obtained in closed form without need to train the network, being fully characterized by the random initialization of the network weights. While the NTK theory accurately predicts the filter associated with networks trained using standard gradient descent, our analysis shows that it falls short to explain the behaviour of networks trained using the popular Adam optimizer. The latter achieves a larger change of weights in hidden layers, adapting the non-local filtering function during training. We evaluate our findings via extensive image denoising experiments.",
+  "s2id": "078e1cf673454fd08e1865fe8673a90dbfe2b9ea",
+  "twitter": {
+    "retweets": 5,
+    "likes": 9,
+    "replies": 2
+  },
+  "citations": 3
+}

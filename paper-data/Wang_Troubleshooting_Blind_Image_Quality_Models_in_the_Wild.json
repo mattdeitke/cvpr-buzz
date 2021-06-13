@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.06747",
+  "title": "Troubleshooting Blind Image Quality Models in the Wild",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Troubleshooting_Blind_Image_Quality_Models_in_the_Wild_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhihua Wang",
+    "Haotao Wang",
+    "Tianlong Chen",
+    "Zhangyang Wang",
+    "Kede Ma"
+  ],
+  "abstract": "Recently, the group maximum differentiation competition (gMAD) has been used to improve blind image quality assessment (BIQA) models, with the help of full-reference metrics. When applying this type of approach to troubleshoot \"best-performing\" BIQA models in the wild, we are faced with a practical challenge: it is highly nontrivial to obtain stronger competing models for efficient failure-spotting. Inspired by recent findings that difficult samples of deep models may be exposed through network pruning, we construct a set of \"self-competitors,\" as random ensembles of pruned versions of the target model to be improved. Diverse failures can then be efficiently identified via self-gMAD competition. Next, we fine-tune both the target and its pruned variants on the human-rated gMAD set. This allows all models to learn from their respective failures, preparing themselves for the next round of self-gMAD competition. Experimental results demonstrate that our method efficiently troubleshoots BIQA models in the wild with improved generalizability.",
+  "s2id": "7f6fe6a6c1765a85e6c8d393b60a5e50ebbd2a60",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

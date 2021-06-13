@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15459",
+  "title": "Capsule Network Is Not More Robust Than Convolutional Network",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gu_Capsule_Network_Is_Not_More_Robust_Than_Convolutional_Network_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jindong Gu",
+    "Volker Tresp",
+    "Han Hu"
+  ],
+  "abstract": "The Capsule Network is widely believed to be more robust than Convolutional Networks. However, there lack comprehensive comparisons between these two networks, and it is also unknown which components in the CapsNet affect its robustness. In this paper, we first carefully examine the special designs in CapsNet differing from that of a ConvNet, commonly used for image classification. The examination reveals 5 major new/different components in CapsNet: a transformation process, a dynamic routing layer, a squashing function, a marginal loss other than cross-entropy loss, and an additional class-conditional reconstruction loss for regularization. Along with these major differences, we comprehensively ablate their behavior on 3 kinds of robustness, including affine transformation, overlapping digits, and semantic representation. The study reveals that some designs which are thought critical to CapsNet actually can harm its robustness, i.e., the dynamic routing layer and the transformation process, while others are beneficial for the robustness. Based on these findings, we propose enhanced ConvNets simply by introducing the essential components behind the CapsNet's success. The proposed simple ConvNets can achieve better robustness than the CapsNet.",
+  "s2id": "144c60aa0faf4cc12d8f812e0afe50160a99342c",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.08572",
+  "title": "On Learning the Geodesic Path for Incremental Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Simon_On_Learning_the_Geodesic_Path_for_Incremental_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Christian Simon",
+    "Piotr Koniusz",
+    "Mehrtash Harandi"
+  ],
+  "abstract": "Neural networks notoriously suffer from the problem of catastrophic forgetting, the phenomenon of forgetting the past knowledge when acquiring new knowledge. Overcoming catastrophic forgetting is of significant importance to emulate the process of \"incremental learning\", where the model is capable of learning from sequential experience in an efficient and robust way. State-of-the-art techniques for incremental learning make use of knowledge distillation towards preventing catastrophic forgetting. Therein, one updates the network while ensuring that the network's responses to previously seen concepts remain stable throughout updates. This in practice is done by minimizing the dissimilarity between current and previous responses of the network one way or another. Our work contributes a novel method to the arsenal of distillation techniques. In contrast to previous state of the art, we propose to firstly construct low-dimensional manifolds for previous and current responses and minimize the dissimilarity between the responses along the geodesic connecting the manifolds. This induces a more formidable knowledge distillation with smooth properties which preserves the past knowledge more efficiently as observed by our comprehensive empirical study.",
+  "s2id": "2930659d61db41bc77aabc1bc4e9da52076b25bb",
+  "twitter": {
+    "retweets": 3,
+    "likes": 10,
+    "replies": 2
+  },
+  "citations": 2
+}

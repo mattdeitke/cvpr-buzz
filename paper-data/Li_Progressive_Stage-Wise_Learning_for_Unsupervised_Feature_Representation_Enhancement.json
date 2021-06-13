@@ -1,0 +1,21 @@
+{
+  "arXiv": null,
+  "title": "Progressive Stage-Wise Learning for Unsupervised Feature Representation Enhancement",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Stage-Wise_Learning_for_Unsupervised_Feature_Representation_Enhancement_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zefan Li",
+    "Chenxi Liu",
+    "Alan Yuille",
+    "Bingbing Ni",
+    "Wenjun Zhang",
+    "Wen Gao"
+  ],
+  "abstract": "Unsupervised learning methods have recently shown their competitiveness against supervised training. Typically, these methods use a single objective to train the entire network. But one distinct advantage of unsupervised over supervised learning is that the former possesses more variety and freedom in designing the objective. In this work, we explore new dimensions of unsupervised learning by proposing the Progressive Stage-wise Learning (PSL) framework. For a given unsupervised task, we design multi-level tasks and define different learning stages for the deep network. Early learning stages are forced to focus on low-level tasks while late stages are guided to extract deeper information through harder tasks. We discover that by progressive stage-wise learning, unsupervised feature representation can be effectively enhanced. Our extensive experiments show that PSL consistently improves results for the leading unsupervised learning methods.",
+  "s2id": "8c75d25feec688b84478a92668d1921a2345c850",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 0
+}

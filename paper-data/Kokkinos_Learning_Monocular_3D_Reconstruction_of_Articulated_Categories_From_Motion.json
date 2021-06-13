@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16352",
+  "title": "Learning Monocular 3D Reconstruction of Articulated Categories From Motion",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kokkinos_Learning_Monocular_3D_Reconstruction_of_Articulated_Categories_From_Motion_CVPR_2021_paper.pdf",
+  "authors": [
+    "Filippos Kokkinos",
+    "Iasonas Kokkinos"
+  ],
+  "abstract": "Monocular 3D reconstruction of articulated object categories is challenging due to the lack of training data and the inherent ill-posedness of the problem. In this work we use video self-supervision, forcing the consistency of consecutive 3D reconstructions by a motion-based cycle loss. This largely improves both optimization-based and learning-based 3D mesh reconstruction. We further introduce an interpretable model of 3D template deformations that controls a 3D surface through the displacement of a small number of local, learnable handles. We formulate this operation as a structured layer relying on mesh-laplacian regularization and show that it can be trained in an end-to-end manner. We finally introduce a per-sample numerical optimisation approach that jointly optimises over mesh displacements and cameras within a video, boosting accuracy both for training and also as test time post-processing. While relying exclusively on a small set of videos collected per category for supervision, we obtain state-of-the-art reconstructions with diverse shapes, viewpoints and textures for multiple articulated object categories.",
+  "s2id": "f7d1f69c1f599fb5a4840e3eb696a0645210d392",
+  "twitter": {
+    "retweets": 18,
+    "likes": 103,
+    "replies": 1
+  },
+  "citations": 1
+}

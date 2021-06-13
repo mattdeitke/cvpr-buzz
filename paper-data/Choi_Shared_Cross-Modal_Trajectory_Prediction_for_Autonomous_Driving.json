@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.08436",
+  "title": "Shared Cross-Modal Trajectory Prediction for Autonomous Driving",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Shared_Cross-Modal_Trajectory_Prediction_for_Autonomous_Driving_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chiho Choi",
+    "Joon Hee Choi",
+    "Jiachen Li",
+    "Srikanth Malla"
+  ],
+  "abstract": "Predicting future trajectories of traffic agents in highly interactive environments is an essential and challenging problem for the safe operation of autonomous driving systems. On the basis of the fact that self-driving vehicles are equipped with various types of sensors (e.g., LiDAR scanner, RGB camera, radar, etc.), we propose a Cross-Modal Embedding framework that aims to benefit from the use of multiple input modalities. At training time, our model learns to embed a set of complementary features in a shared latent space by jointly optimizing the objective functions across different types of input data. At test time, a single input modality (e.g., LiDAR data) is required to generate predictions from the input perspective (i.e., in the LiDAR space), while taking advantages from the model trained with multiple sensor modalities. An extensive evaluation is conducted to show the efficacy of the proposed framework using two benchmark driving datasets.",
+  "s2id": "4736155efd31f7ca54ccc5340598abb3eefaff75",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 3
+  },
+  "citations": 6
+}

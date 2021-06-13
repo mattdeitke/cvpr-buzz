@@ -1,0 +1,15 @@
+{
+  "arXiv": null,
+  "title": "Brain Image Synthesis With Unsupervised Multivariate Canonical CSCl4Net",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Brain_Image_Synthesis_With_Unsupervised_Multivariate_Canonical_CSCl4Net_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yawen Huang",
+    "Feng Zheng",
+    "Danyang Wang",
+    "Weilin Huang",
+    "Matthew R. Scott",
+    "Ling Shao"
+  ],
+  "abstract": "Recent advances in neuroscience have highlighted the effectiveness of multi-modal medical data for investigating certain pathologies and understanding human cognition. However, obtaining full sets of different modalities is limited by various factors, such as long acquisition times, high examination costs and artifact suppression. In addition, the complexity, high dimensionality and heterogeneity of neuroimaging data remains another key challenge in leveraging existing randomized scans effectively, as data of the same modality is often measured differently by different machines. There is a clear need to go beyond the traditional imaging-dependent process and synthesize anatomically specific target-modality data from a source input. In this paper, we propose to learn dedicated features that cross both intre- and intra-modal variations using a novel CSCl_4Net. Through an initial unification of intra-modal data in the feature maps and multivariate canonical adaptation, CSCl_4Net facilitates feature-level mutual transformation. The positive definite Riemannian manifold-penalized data fidelity term further enables CSCl_4Net to reconstruct missing measurements according to transformed features. Finally, the maximization l_4-norm boils down to a computationally efficient optimization problem. Extensive experiments validate the ability and robustness of our CSCl_4Net compared to the state-of-the-art methods on multiple datasets.",
+  "s2id": ""
+}

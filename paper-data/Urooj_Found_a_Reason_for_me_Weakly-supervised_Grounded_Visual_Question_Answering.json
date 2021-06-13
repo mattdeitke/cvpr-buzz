@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.04836",
+  "title": "Found a Reason for me? Weakly-supervised Grounded Visual Question Answering using Capsules",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Urooj_Found_a_Reason_for_me_Weakly-supervised_Grounded_Visual_Question_Answering_CVPR_2021_paper.pdf",
+  "authors": [
+    "Aisha Urooj",
+    "Hilde Kuehne",
+    "Kevin Duarte",
+    "Chuang Gan",
+    "Niels Lobo",
+    "Mubarak Shah"
+  ],
+  "abstract": "The problem of grounding VQA tasks has seen an increased attention in the research community recently, with most attempts usually focusing on solving this task by using pretrained object detectors. However, pre-trained object detectors require bounding box annotations for detecting relevant objects in the vocabulary, which may not always be feasible for real-life large-scale applications. In this paper, we focus on a more relaxed setting: the grounding of relevant visual entities in a weakly supervised manner by training on the VQA task alone. To address this problem, we propose a visual capsule module with a query-based selection mechanism of capsule features, that allows the model to focus on relevant regions based on the textual cues about visual information in the question. We show that integrating the proposed capsule module in existing VQA systems significantly improves their performance on the weakly supervised grounding task. Overall, we demonstrate the effectiveness of our approach on two state-of-the-art VQA systems, stacked NMN and MAC, on the CLEVR-Answers benchmark, our new evaluation set based on CLEVR scenes with ground truth bounding boxes for objects that are relevant for the correct answer, as well as on GQA, a real world VQA dataset with compositional questions. We show that the systems with the proposed capsule module consistently outperform the respective baseline systems in terms of answer grounding, while achieving comparable performance on VQA task.",
+  "s2id": "1caf796ff1e019429648e821cd01a15faaa364ac",
+  "twitter": {
+    "retweets": 0,
+    "likes": 5,
+    "replies": 1
+  },
+  "citations": 0
+}

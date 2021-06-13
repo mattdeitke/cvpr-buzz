@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.10834",
+  "title": "DANNet: A One-Stage Domain Adaptation Network for Unsupervised Nighttime Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_DANNet_A_One-Stage_Domain_Adaptation_Network_for_Unsupervised_Nighttime_Semantic_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xinyi Wu",
+    "Zhenyao Wu",
+    "Hao Guo",
+    "Lili Ju",
+    "Song Wang"
+  ],
+  "abstract": "Semantic segmentation of nighttime images plays an equally important role as that of daytime images in autonomous driving, but the former is much more challenging due to poor illuminations and arduous human annotations. In this paper, we propose a novel domain adaptation network (DANNet) for nighttime semantic segmentation without using labeled nighttime image data. It employs an adversarial training with a labeled daytime dataset and an unlabeled dataset that contains coarsely aligned day-night image pairs. Specifically, for the unlabeled day-night image pairs, we use the pixel-level predictions of static object categories on a daytime image as a pseudo supervision to segment its counterpart nighttime image. We further design a re-weighting strategy to handle the inaccuracy caused by misalignment between day-night image pairs and wrong predictions of daytime images, as well as boost the prediction accuracy of small objects. The proposed DANNet is the first one stage adaptation framework for nighttime semantic segmentation, which does not train additional day-night image transfer models as a separate pre-processing stage. Extensive experiments on Dark Zurich and Nighttime Driving datasets show that our method achieves state-of-the-art performance for nighttime semantic segmentation.",
+  "s2id": "70116719b7e4d8f5dfe9729b37bebb3e731f0dd2",
+  "twitter": {
+    "retweets": 5,
+    "likes": 16,
+    "replies": 1
+  },
+  "citations": 1
+}

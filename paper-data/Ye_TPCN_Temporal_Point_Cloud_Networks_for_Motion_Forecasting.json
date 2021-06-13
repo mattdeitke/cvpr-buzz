@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.03067",
+  "title": "TPCN: Temporal Point Cloud Networks for Motion Forecasting",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ye_TPCN_Temporal_Point_Cloud_Networks_for_Motion_Forecasting_CVPR_2021_paper.pdf",
+  "authors": [
+    "Maosheng Ye",
+    "Tongyi Cao",
+    "Qifeng Chen"
+  ],
+  "abstract": "We propose the Temporal Point Cloud Networks (TPCN), a novel and flexible framework with joint spatial and temporal learning for trajectory prediction. Unlike existing approaches that rasterize agents and map information as 2D images or operate in a graph representation, our approach extends ideas from point cloud learning with dynamic temporal learning to capture both spatial and temporal information by splitting trajectory prediction into both spatial and temporal dimensions. In the spatial dimension, agents can be viewed as an unordered point set, and thus it is straightforward to apply point cloud learning techniques to model agents' locations. While the spatial dimension does not take kinematic and motion information into account, we further propose dynamic temporal learning to model agents' motion over time. Experiments on the Argoverse motion forecasting benchmark show that our approach achieves state-of-the-art results.",
+  "s2id": "75a2bff8da88ab0efcfbc3c032087f007df6080f",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 2
+  },
+  "citations": 1
+}

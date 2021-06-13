@@ -1,0 +1,22 @@
+{
+  "arXiv": null,
+  "title": "RGB-D Local Implicit Function for Depth Completion of Transparent Objects",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_RGB-D_Local_Implicit_Function_for_Depth_Completion_of_Transparent_Objects_CVPR_2021_paper.pdf",
+  "authors": [
+    "Luyang Zhu",
+    "Arsalan Mousavian",
+    "Yu Xiang",
+    "Hammad Mazhar",
+    "Jozef van Eenbergen",
+    "Shoubhik Debnath",
+    "Dieter Fox"
+  ],
+  "abstract": "Majority of the perception methods in robotics require depth information provided by RGB-D cameras. However, standard 3D sensors fail to capture depth of transparent objects due to refraction and absorption of light. In this paper, we introduce a new approach for depth completion of transparent objects from a single RGB-D image. Key to our approach is a local implicit neural representation built on ray-voxel pairs that allows our method to generalize to unseen objects and achieve fast inference speed. Based on this representation, we present a novel framework that can complete missing depth given noisy RGB-D input. We further improve the depth estimation iteratively using a self-correcting refinement model. To train the whole pipeline, we build a large scale synthetic dataset with transparent objects. Experiments demonstrate that our method performs significantly better than the current state-of-the-art methods on both synthetic and real world data. In addition, our approach improves the inference speed by a factor of 20 compared to the previous best method, ClearGrasp. Code will be released at https://research.nvidia.com/publication/2021-03_RGB-D-Local-Implicit.",
+  "s2id": "de43c2ecbe8c117a8174866535d387d67b0709a7",
+  "twitter": {
+    "retweets": 2,
+    "likes": 19,
+    "replies": 0
+  },
+  "citations": 0
+}

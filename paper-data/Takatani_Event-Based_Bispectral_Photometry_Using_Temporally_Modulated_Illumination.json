@@ -1,0 +1,14 @@
+{
+  "arXiv": null,
+  "title": "Event-Based Bispectral Photometry Using Temporally Modulated Illumination",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Takatani_Event-Based_Bispectral_Photometry_Using_Temporally_Modulated_Illumination_CVPR_2021_paper.pdf",
+  "authors": [
+    "Tsuyoshi Takatani",
+    "Yuzuha Ito",
+    "Ayaka Ebisu",
+    "Yinqiang Zheng",
+    "Takahito Aoto"
+  ],
+  "abstract": "Analysis of bispectral difference plays a critical role in various applications that involve rays propagating in a light absorbing medium. In general, the bispectral difference is obtained by subtracting signals at two individual wavelengths captured by ordinary digital cameras, which tends to inherit the drawbacks of conventional cameras in dynamic range, response speed and quantization precision. In this paper, we propose a novel method to obtain a bispectral difference image using an event camera with temporally modulated illumination. Our method is rooted in a key observation on the analogy between the bispectral photometry principle of the participating medium and the event generating mechanism in an event camera. By carefully modulating the bispectral illumination, our method allows to read out the bispectral difference directly from triggered events. Experiments using a prototype imaging system have verified the feasibility of this novel usage of event cameras in photometry based vision tasks, such as 3D shape reconstruction in water.",
+  "s2id": ""
+}

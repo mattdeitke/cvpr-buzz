@@ -1,0 +1,20 @@
+{
+  "arXiv": null,
+  "title": "Pi-GAN: Periodic Implicit Generative Adversarial Networks for 3D-Aware Image Synthesis",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chan_Pi-GAN_Periodic_Implicit_Generative_Adversarial_Networks_for_3D-Aware_Image_Synthesis_CVPR_2021_paper.pdf",
+  "authors": [
+    "Eric R. Chan",
+    "Marco Monteiro",
+    "Petr Kellnhofer",
+    "Jiajun Wu",
+    "Gordon Wetzstein"
+  ],
+  "abstract": "We have witnessed rapid progress on 3D-aware image synthesis, leveraging recent advances in generative visual models and neural rendering. Existing approaches however fall short in two ways: first, they may lack an underlying 3D representation or rely on view-inconsistent rendering, hence synthesizing images that are not multi-view consistent; second, they often depend upon representation network architectures that are not expressive enough, and their results thus lack in image quality. We propose a novel generative model, named Periodic Implicit Generative Adversarial Networks (p-GAN or pi-GAN), for high-quality 3D-aware image synthesis. p-GAN leverages neural representations with periodic activation functions and volumetric rendering to represent scenes as view-consistent radiance fields. The proposed approach obtains state-of-the-art results for 3D-aware image synthesis with multiple real and synthetic datasets.",
+  "s2id": "44e6a301714a17b05908da426411b43fa3ebedf0",
+  "twitter": {
+    "retweets": 13,
+    "likes": 81,
+    "replies": 1
+  },
+  "citations": 14
+}

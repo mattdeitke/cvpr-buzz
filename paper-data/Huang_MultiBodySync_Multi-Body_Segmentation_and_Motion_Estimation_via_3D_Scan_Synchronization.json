@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2101.06605",
+  "title": "MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MultiBodySync_Multi-Body_Segmentation_and_Motion_Estimation_via_3D_Scan_Synchronization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jiahui Huang",
+    "He Wang",
+    "Tolga Birdal",
+    "Minhyuk Sung",
+    "Federica Arrigoni",
+    "Shi-Min Hu",
+    "Leonidas J. Guibas"
+  ],
+  "abstract": "We present MultiBodySync, a novel, end-to-end trainable multi-body motion segmentation and rigid registration framework for multiple input 3D point clouds. The two non-trivial challenges posed by this multi-scan multibody setting that we investigate are: (i) guaranteeing correspondence and segmentation consistency across multiple input point clouds capturing different spatial arrangements of bodies or body parts; and (ii) obtaining robust motion-based rigid body segmentation applicable to novel object categories. We propose an approach to address these issues that incorporates spectral synchronization into an iterative deep declarative network, so as to simultaneously recover consistent correspondences as well as motion segmentation. At the same time, by explicitly disentangling the correspondence and motion segmentation estimation modules, we achieve strong generalizability across different object categories. Our extensive evaluations demonstrate that our method is effective on various datasets ranging from rigid parts in articulated objects to individually moving objects in a 3D scene, be it single-view or full point clouds.",
+  "s2id": "239dd1c5945aea8286afa4e8ca72dff9733576f4",
+  "twitter": {
+    "retweets": 10,
+    "likes": 68,
+    "replies": 2
+  },
+  "citations": 1
+}

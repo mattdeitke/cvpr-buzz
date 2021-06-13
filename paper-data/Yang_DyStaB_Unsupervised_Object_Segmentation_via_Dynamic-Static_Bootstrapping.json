@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/2008.07012",
+  "title": "DyStaB: Unsupervised Object Segmentation via Dynamic-Static Bootstrapping",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_DyStaB_Unsupervised_Object_Segmentation_via_Dynamic-Static_Bootstrapping_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yanchao Yang",
+    "Brian Lai",
+    "Stefano Soatto"
+  ],
+  "abstract": "We describe an unsupervised method to detect and segment portions of images of live scenes that, at some point in time, are seen moving as a coherent whole, which we refer to as objects. Our method first partitions the motion field by minimizing the mutual information between segments. Then, it uses the segments to learn object models that can be used for detection in a static image. Static and dynamic models are represented by deep neural networks trained jointly in a bootstrapping strategy, which enables extrapolation to previously unseen objects. While the training process requires motion, the resulting object segmentation network can be used on either static images or videos at inference time. As the volume of seen videos grows, more and more objects are seen moving, priming their detection, which then serves as a regularizer for new objects, turning our method into unsupervised continual learning to segment objects. Our models are compared to the state of the art in both video object segmentation and salient object detection. In the six benchmark datasets tested, our models compare favorably even to those using pixel-level supervision, despite requiring no manual annotation.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  }
+}

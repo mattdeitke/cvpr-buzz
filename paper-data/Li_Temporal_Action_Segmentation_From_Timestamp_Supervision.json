@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06669",
+  "title": "Temporal Action Segmentation From Timestamp Supervision",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Temporal_Action_Segmentation_From_Timestamp_Supervision_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhe Li",
+    "Yazan Abu Farha",
+    "Jurgen Gall"
+  ],
+  "abstract": "Temporal action segmentation approaches have been very successful recently. However, annotating videos with frame-wise labels to train such models is very expensive and time consuming. While weakly supervised methods trained using only ordered action lists require less annotation effort, the performance is still worse than fully supervised approaches. In this paper, we propose to use timestamp supervision for the temporal action segmentation task. Timestamps require a comparable annotation effort to weakly supervised approaches, and yet provide a more supervisory signal. To demonstrate the effectiveness of timestamp supervision, we propose an approach to train a segmentation model using only timestamps annotations. Our approach uses the model output and the annotated timestamps to generate frame-wise labels by detecting the action changes. We further introduce a confidence loss that forces the predicted probabilities to monotonically decrease as the distance to the timestamps increases. This ensures that all and not only the most distinctive frames of an action are learned during training. The evaluation on four datasets shows that models trained with timestamps annotations achieve comparable performance to the fully supervised approaches.",
+  "s2id": "6fe06809f5c5e1c402a9dc287a9aef00aeec7a7a",
+  "twitter": {
+    "retweets": 1,
+    "likes": 5,
+    "replies": 0
+  },
+  "citations": 0
+}

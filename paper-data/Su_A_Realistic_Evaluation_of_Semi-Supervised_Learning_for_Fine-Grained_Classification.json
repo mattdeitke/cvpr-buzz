@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.00679",
+  "title": "A Realistic Evaluation of Semi-Supervised Learning for Fine-Grained Classification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Su_A_Realistic_Evaluation_of_Semi-Supervised_Learning_for_Fine-Grained_Classification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jong-Chyi Su",
+    "Zezhou Cheng",
+    "Subhransu Maji"
+  ],
+  "abstract": "We evaluate the effectiveness of semi-supervised learning (SSL) on a realistic benchmark where data exhibits considerable class imbalance and contains images from novel classes. Our benchmark consists of two fine-grained classification datasets obtained by sampling classes from the Aves and Fungi taxonomy. We find that recently proposed SSL methods provide significant benefits, and can effectively use out-of-class data to improve performance when deep networks are trained from scratch. Yet their performance pales in comparison to a transfer learning baseline, an alternative approach for learning from a few examples. Furthermore, in the transfer setting, while existing SSL methods provide improvements, the presence of out-of-class is often detrimental. In this setting, standard fine-tuning followed by distillation-based self-training is the most robust. Our work suggests that semi-supervised learning with experts on realistic datasets may require different strategies than those currently prevalent in the literature.",
+  "s2id": "7ce8f0dda13a434314562f92d56147c7970f1c62",
+  "twitter": {
+    "retweets": 10,
+    "likes": 30,
+    "replies": 1
+  },
+  "citations": 3
+}

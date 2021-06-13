@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.03640",
+  "title": "Semantic Scene Completion via Integrating Instances and Scene In-the-Loop",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Semantic_Scene_Completion_via_Integrating_Instances_and_Scene_In-the-Loop_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yingjie Cai",
+    "Xuesong Chen",
+    "Chao Zhang",
+    "Kwan-Yee Lin",
+    "Xiaogang Wang",
+    "Hongsheng Li"
+  ],
+  "abstract": "Semantic Scene Completion aims at reconstructing a complete 3D scene with precise voxel-wise semantics from a single-view depth or RGBD image. It is a crucial but challenging problem for indoor scene understanding. In this work, we present a novel framework named Scene-Instance-Scene Network (SISNet), which takes advantages of both instance and scene level semantic information. Our method is capable of inferring fine-grained shape details as well as nearby objects whose semantic categories are easily mixedup. The key insight is that we decouple the instances from a coarsely completed semantic scene instead of a raw input image to guide the reconstruction of instances and the overall scene. SISNet conducts iterative scene-to-instance (SI) and instance-to-scene (IS) semantic completion. Specifically, the SI is able to encode objects' surrounding context for effectively decoupling instances from the scene and each instance could be voxelized into higher resolution to capture finer details. With IS, fine-grained instance information can be integrated back into the 3D scene and thus leads to more accurate semantic scene completion. Utilizing such an iterative mechanism, the scene and instance completion benefits each other to achieve higher completion accuracy. Extensively experiments show that our proposed method consistently outperforms state-of-the-art methods on both real NYU, NYUCAD and synthetic SUNCG-RGBD datasets. The code and the supplementary material will be available at https://github.com/yjcaimeow/SISNet.",
+  "s2id": "20c05a8e3648e148f6919918225c90297b227938",
+  "twitter": {
+    "retweets": 0,
+    "likes": 2,
+    "replies": 0
+  },
+  "citations": 0
+}

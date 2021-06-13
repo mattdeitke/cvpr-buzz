@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16792",
+  "title": "Learning Camera Localization via Dense Scene Matching",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Learning_Camera_Localization_via_Dense_Scene_Matching_CVPR_2021_paper.pdf",
+  "authors": [
+    "Shitao Tang",
+    "Chengzhou Tang",
+    "Rui Huang",
+    "Siyu Zhu",
+    "Ping Tan"
+  ],
+  "abstract": "Camera localization aims to estimate 6 DoF camera poses from RGB images. Traditional methods detect and match interest points between a query image and a pre-built 3D model. Recent learning-based approaches encode scene structures into a specific convolutional neural network(CNN) and thus are able to predict dense coordinates from RGB images. However, most of them require re-training or re-adaption for a new scene and have difficulties in handling large-scale scenes due to limited network capacity. We present a new method for scene agnostic camera localization using dense scene matching (DSM), where the cost volume is constructed between a query image and a scene. The cost volume and the corresponding coordinates are processed by a CNN to predict dense coordinates. Camera poses can then be solved by PnP algorithms. In addition, our method can be extended to temporal domain, giving extra performance boost during testing time. Our scene-agnostic approach achieves comparable accuracy as the existing scene-specific approaches on the 7scenes and Cambridge benchmark. This approach also remarkably outperforms state-of-the-art scene-agnostic dense coordinate regression network SANet.",
+  "s2id": "8e8036e24ef5c54740f37d1fd25eaec14d0fd194",
+  "twitter": {
+    "retweets": 2,
+    "likes": 17,
+    "replies": 0
+  },
+  "citations": 0
+}

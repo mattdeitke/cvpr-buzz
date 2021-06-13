@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.16690",
+  "title": "Sparse Auxiliary Networks for Unified Monocular Depth Prediction and Completion",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Guizilini_Sparse_Auxiliary_Networks_for_Unified_Monocular_Depth_Prediction_and_Completion_CVPR_2021_paper.pdf",
+  "authors": [
+    "Vitor Guizilini",
+    "Rares Ambrus",
+    "Wolfram Burgard",
+    "Adrien Gaidon"
+  ],
+  "abstract": "Estimating scene geometry from cost-effective sensors is key for robots. In this paper, we study the problem of predicting dense depth from a single RGB image (monodepth) with optional sparse measurements from low-cost active depth sensors. We introduce Sparse Auxiliary Networks (SAN), a new module enabling monodepth networks to perform both the tasks of depth prediction and completion, depending on whether only RGB images or also sparse point clouds are available at inference time. First, we decouple the image and depth map encoding stages using sparse convolutions to process only the valid depth map pixels. Second, we inject this information, when available, into the skip connections of the depth prediction network, augmenting its features. Through extensive experimental analysis on one indoor (NYUv2) and two outdoor (KITTI and DDAD) benchmarks, we demonstrate that our proposed SAN architecture is able to simultaneously learn both tasks, while achieving a new state of the art in depth prediction by a significant margin.",
+  "s2id": "d5527bd5cd55023b685f31cd1e0af611d9729a6b",
+  "twitter": {
+    "retweets": 0,
+    "likes": 7,
+    "replies": 0
+  },
+  "citations": 0
+}

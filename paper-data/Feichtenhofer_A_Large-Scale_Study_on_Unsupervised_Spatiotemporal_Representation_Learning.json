@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.14558",
+  "title": "A Large-Scale Study on Unsupervised Spatiotemporal Representation Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feichtenhofer_A_Large-Scale_Study_on_Unsupervised_Spatiotemporal_Representation_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Christoph Feichtenhofer",
+    "Haoqi Fan",
+    "Bo Xiong",
+    "Ross Girshick",
+    "Kaiming He"
+  ],
+  "abstract": "We present a large-scale study on unsupervised spatiotemporal representation learning from videos. With a unified perspective on four recent image-based frameworks, we study a simple objective that can easily generalize all these methods to space-time. Our objective encourages temporally-persistent features in the same video, and in spite of its simplicity, it works surprisingly well across: (i) different unsupervised frameworks, (ii) pre-training datasets, (iii) downstream datasets, and (iv) backbone architectures. We draw a series of intriguing observations from this study, e.g., we discover that encouraging long-spanned persistency can be effective even if the timespan is 60 seconds. In addition to state-of-the-art results in multiple benchmarks, we report a few promising cases in which unsupervised pre-training can outperform its supervised counterpart. Code will be made available at https://github.com/facebookresearch/SlowFast.",
+  "s2id": "6ed5a7fb19d0fae0b7c8b47b007db194e43c2592",
+  "twitter": {
+    "retweets": 21,
+    "likes": 123,
+    "replies": 3
+  },
+  "citations": 1
+}

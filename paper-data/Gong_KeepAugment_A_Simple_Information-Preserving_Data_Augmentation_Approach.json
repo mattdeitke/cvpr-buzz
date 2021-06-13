@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.11778",
+  "title": "KeepAugment: A Simple Information-Preserving Data Augmentation Approach",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gong_KeepAugment_A_Simple_Information-Preserving_Data_Augmentation_Approach_CVPR_2021_paper.pdf",
+  "authors": [
+    "Chengyue Gong",
+    "Dilin Wang",
+    "Meng Li",
+    "Vikas Chandra",
+    "Qiang Liu"
+  ],
+  "abstract": "Data augmentation (DA) is an essential technique for training state-of-the-art deep learning systems. In this paper, we empirically show data augmentation might introduce noisy augmented examples and consequently hurt the performance on unaugmented data during inference. To alleviate this issue, we propose a simple yet highly effective approach, dubbed KeepAugment, to increase augmented images fidelity. The idea is first to use the saliency map to detect important regions on the original images and then preserve these informative regions during augmentation. This information-preserving strategy allows us to generate more faithful training examples. Empirically, we demonstrate our method significantly improves on a number of prior art data augmentation schemes, e.g. AutoAugment, Cutout, random erasing, achieving promising results on image classification, semi-supervised image classification, multi-view multi-camera tracking and object detection.",
+  "s2id": "066ab4e4128979fb199ecdaf1a8a4c5c52963057",
+  "twitter": {
+    "retweets": 5,
+    "likes": 22,
+    "replies": 2
+  },
+  "citations": 1
+}

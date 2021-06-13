@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.02243",
+  "title": "3D-to-2D Distillation for Indoor Scene Parsing",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_3D-to-2D_Distillation_for_Indoor_Scene_Parsing_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhengzhe Liu",
+    "Xiaojuan Qi",
+    "Chi-Wing Fu"
+  ],
+  "abstract": "Indoor scene semantic parsing from RGB images is very challenging due to occlusions, object distortion, and viewpoint variations. Going beyond prior works that leverage geometry information, typically paired depth maps, we present a new approach, a 3D-to-2D distillation framework, that enables us to leverage 3D features extracted from large-scale 3D data repository (e.g., ScanNet-v2) to enhance 2D features extracted from RGB images. Our work has three novel contributions. First, we distill 3D knowledge from a pretrained 3D network to supervise a 2D network to learn simulated 3D features from 2D features during the training, so the 2D network can infer without requiring 3D data. Second, we design a two-stage dimension normalization scheme to calibrate the 2D and 3D features for better integration. Third, we design a semantic-aware adversarial training model to extend our framework for training with unpaired 3D data. Extensive experiments on various datasets, ScanNet-V2, S3DIS, and NYU-v2, demonstrate the superiority of our approach. Also, experimental results show that our 3D-to-2D distillation improves the model generalization.",
+  "s2id": "382ee3b55d4a9e93b0fb7565fba693799e26f082",
+  "twitter": {
+    "retweets": 1,
+    "likes": 8,
+    "replies": 1
+  },
+  "citations": 2
+}

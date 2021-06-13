@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.10955",
+  "title": "Distilling Audio-Visual Knowledge by Compositional Contrastive Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Distilling_Audio-Visual_Knowledge_by_Compositional_Contrastive_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yanbei Chen",
+    "Yongqin Xian",
+    "A. Sophia Koepke",
+    "Ying Shan",
+    "Zeynep Akata"
+  ],
+  "abstract": "Having access to multi-modal cues (e.g. vision and audio) empowers some cognitive tasks to be done faster compared to learning from a single modality. In this work, we propose to transfer knowledge across heterogeneous modalities, even though these data modalities may not be semantically correlated. Rather than directly aligning the representations of different modalities, we compose audio, image, and video representations across modalities to uncover the richer multi-modal knowledge. Our main idea is to learn a compositional embedding that closes the cross-modal semantic gap and captures the task-relevant semantics, which facilitates pulling together representations across modalities by compositional contrastive learning. We establish a new, comprehensive multi-modal distillation benchmark on three video datasets: UCF101, ActivityNet, and VGGSound. Moreover, we demonstrate that our model significantly outperforms a variety of existing knowledge distillation methods in transferring audio-visual knowledge to improve video representation learning.",
+  "s2id": "863c9081dc9ab622a4830bbea6b3740073a26a4b",
+  "twitter": {
+    "retweets": 16,
+    "likes": 55,
+    "replies": 1
+  },
+  "citations": 1
+}

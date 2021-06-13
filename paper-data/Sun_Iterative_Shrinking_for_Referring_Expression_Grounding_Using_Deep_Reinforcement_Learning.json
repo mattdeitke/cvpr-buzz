@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05187",
+  "title": "Iterative Shrinking for Referring Expression Grounding Using Deep Reinforcement Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_Iterative_Shrinking_for_Referring_Expression_Grounding_Using_Deep_Reinforcement_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mingjie Sun",
+    "Jimin Xiao",
+    "Eng Gee Lim"
+  ],
+  "abstract": "In this paper, we are tackling the proposal-free referring expression grounding task, aiming at localizing the target object according to a query sentence, without relying on off-the-shelf object proposals. Existing proposal-free methods employ a query-image matching branch to select the highest-score point in the image feature map as the target box center, with its width and height predicted by another branch. Such methods, however, fail to utilize the contextual relation between the target and reference objects, and lack interpretability on its reasoning procedure. To solve these problems, we propose an iterative shrinking mechanism to localize the target, where the shrinking direction is decided by a reinforcement learning agent, with all contents within the current image patch comprehensively considered. Beside, the sequential shrinking process enables to demonstrate the reasoning about how to iteratively find the target. Experiments show that the proposed method boosts the accuracy by 4.32% against the previous state-of-the-art (SOTA) method on the RefCOCOg dataset, where query sentences are long and complex, with many targets referred by other reference objects.",
+  "s2id": "8d27e9566a73b25c8171aafb084a938b9db636b5",
+  "twitter": {
+    "retweets": 1,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 0
+}

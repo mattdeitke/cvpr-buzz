@@ -1,0 +1,26 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.04098",
+  "title": "WebFace260M: A Benchmark Unveiling the Power of Million-Scale Deep Face Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_WebFace260M_A_Benchmark_Unveiling_the_Power_of_Million-Scale_Deep_Face_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zheng Zhu",
+    "Guan Huang",
+    "Jiankang Deng",
+    "Yun Ye",
+    "Junjie Huang",
+    "Xinze Chen",
+    "Jiagang Zhu",
+    "Tian Yang",
+    "Jiwen Lu",
+    "Dalong Du",
+    "Jie Zhou"
+  ],
+  "abstract": "In this paper, we contribute a new million-scale face benchmark containing noisy 4M identities/260M faces (WebFace260M) and cleaned 2M identities/42M faces (WebFace42M) training data, as well as an elaborately designed time-constrained evaluation protocol. Firstly, we collect 4M name list and download 260M faces from the Internet. Then, a Cleaning Automatically utilizing Self-Training (CAST) pipeline is devised to purify the tremendous WebFace260M, which is efficient and scalable. To the best of our knowledge, the cleaned WebFace42M is the largest public face recognition training set and we expect to close the data gap between academia and industry. Referring to practical scenarios, Face Recognition Under Inference Time conStraint (FRUITS) protocol and a test set are constructed to comprehensively evaluate face matchers. Equipped with this benchmark, we delve into million-scale face recognition problems. A distributed framework is developed to train face recognition models efficiently without tampering with the performance. Empowered by WebFace42M, we reduce relative 40% failure rate on the challenging IJB-C set, and rank the 3rd among 430 entries on NIST-FRVT. Even 10% data (WebFace4M) shows superior performance compared with public training set. Furthermore, comprehensive baselines are established on our rich-attribute test set under FRUITS-100ms/500ms/1000ms protocol, including MobileNet, EfficientNet, AttentionNet, ResNet, SENet, ResNeXt and RegNet families. Benchmark website is https://www.face-benchmark.org.",
+  "s2id": "3d7b0ee51b2fb0cd46762ce04681405df30c1d29",
+  "twitter": {
+    "retweets": 8,
+    "likes": 34,
+    "replies": 2
+  },
+  "citations": 3
+}

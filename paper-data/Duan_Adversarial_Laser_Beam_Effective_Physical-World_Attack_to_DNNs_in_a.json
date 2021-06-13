@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.06504",
+  "title": "Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Duan_Adversarial_Laser_Beam_Effective_Physical-World_Attack_to_DNNs_in_a_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ranjie Duan",
+    "Xiaofeng Mao",
+    "A. K. Qin",
+    "Yuefeng Chen",
+    "Shaokai Ye",
+    "Yuan He",
+    "Yun Yang"
+  ],
+  "abstract": "Though it is well known that the performance of deep neural networks (DNNs) degrades under certain light conditions, there exists no study on the threats of light beams emitted from some physical source as adversarial attacker on DNNs in a real-world scenario. In this work, we show by simply using a laser beam that DNNs are easily fooled. To this end, we propose a novel attack method called Adversarial Laser Beam (AdvLB), which enables manipulation of laser beam's physical parameters to perform adversarial attack. Experiments demonstrate the effectiveness of our proposed approach in both digital- and physical-settings. We further empirically analyze the evaluation results and reveal that the proposed laser beam attack may lead to some interesting prediction errors of the state-of-the-art DNNs. We envisage that the proposed AdvLB method enriches the current family of adversarial attacks and builds the foundation for future robustness studies for light.",
+  "s2id": "15d03f744bf611d0acab94351d7bc7584c4c42ed",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

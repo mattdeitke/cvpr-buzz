@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.03059",
+  "title": "Differentiable Patch Selection for Image Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cordonnier_Differentiable_Patch_Selection_for_Image_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jean-Baptiste Cordonnier",
+    "Aravindh Mahendran",
+    "Alexey Dosovitskiy",
+    "Dirk Weissenborn",
+    "Jakob Uszkoreit",
+    "Thomas Unterthiner"
+  ],
+  "abstract": "Neural Networks require large amounts of memory and compute to process high resolution images, even when only a small part of the image is actually informative for the task at hand. We propose a method based on a differentiable Top-K operator to select the most relevant parts of the input to efficiently process high resolution images. Our method may be interfaced with any downstream neural network, is able to aggregate information from different patches in a flexible way, and allows the whole model to be trained end-to-end using backpropagation. We show results for traffic sign recognition, inter-patch relationship reasoning, and fine-grained recognition without using object/part bounding box annotations during training.",
+  "s2id": "778a9ea322b8ef56c93f7f2aeb1402b54aa443fa",
+  "twitter": {
+    "retweets": 13,
+    "likes": 86,
+    "replies": 0
+  },
+  "citations": 1
+}

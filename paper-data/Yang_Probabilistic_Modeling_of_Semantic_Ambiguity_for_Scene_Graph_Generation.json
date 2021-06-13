@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05271",
+  "title": "Probabilistic Modeling of Semantic Ambiguity for Scene Graph Generation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Probabilistic_Modeling_of_Semantic_Ambiguity_for_Scene_Graph_Generation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Gengcong Yang",
+    "Jingyi Zhang",
+    "Yong Zhang",
+    "Baoyuan Wu",
+    "Yujiu Yang"
+  ],
+  "abstract": "To generate \"accurate\" scene graphs, almost all exist-ing methods predict pairwise relationships in a determin-istic manner. However, we argue that visual relationshipsare often semantically ambiguous. Specifically, inspired bylinguistic knowledge, we classify the ambiguity into threetypes: Synonymy Ambiguity, Hyponymy Ambiguity, andMulti-view Ambiguity. The ambiguity naturally leads to theissue ofimplicit multi-label, motivating the need for diversepredictions. In this work, we propose a novel plug-and-play Probabilistic Uncertainty Modeling (PUM) module. Itmodels each union region as a Gaussian distribution, whosevariance measures the uncertainty of the corresponding vi-sual content. Compared to the conventional determinis-tic methods, such uncertainty modeling brings stochasticityof feature representation, which naturally enables diversepredictions. As a byproduct, PUM also manages to covermore fine-grained relationships and thus alleviates the is-sue of bias towards frequent relationships. Extensive exper-iments on the large-scale Visual Genome benchmark showthat combining PUM with newly proposed ResCAGCN canachieve state-of-the-art performances, especially under themean recall metric. Furthermore, we show the universal ef-fectiveness of PUM by plugging it into some existing modelsand provide insightful analysis of its ability to generate di-verse yet plausible visual relationships.",
+  "s2id": "a6721a2fd36f1d6432024a15385a26309379b078",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 0
+}

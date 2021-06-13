@@ -1,0 +1,14 @@
+{
+  "arXiv": null,
+  "title": "Indoor Lighting Estimation Using an Event Camera",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Indoor_Lighting_Estimation_Using_an_Event_Camera_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zehao Chen",
+    "Qian Zheng",
+    "Peisong Niu",
+    "Huajin Tang",
+    "Gang Pan"
+  ],
+  "abstract": "Image-based methods for indoor lighting estimation suffer from the problem of intensity-distance ambiguity. This paper introduces a novel setup to help alleviate the ambiguity based on the event camera. We further demonstrate that estimating the distance of a light source becomes a well-posed problem under this setup, based on which an optimization-based method and a learning-based method are proposed. Our experimental results validate that our approaches not only achieve superior performance for indoor lighting estimation (especially for the close light) but also significantly alleviate the intensity-distance ambiguity.",
+  "s2id": ""
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.14427",
+  "title": "Architectural Adversarial Robustness: The Case for Deep Pursuit",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Cazenavette_Architectural_Adversarial_Robustness_The_Case_for_Deep_Pursuit_CVPR_2021_paper.pdf",
+  "authors": [
+    "George Cazenavette",
+    "Calvin Murdock",
+    "Simon Lucey"
+  ],
+  "abstract": "Despite their unmatched performance, deep neural networks remain susceptible to targeted attacks by nearly imperceptible levels of adversarial noise. While the underlying cause of this sensitivity is not well understood, theoretical analyses can be simplified by reframing each layer of a feed-forward network as an approximate solution to a sparse coding problem. Iterative solutions using basis pursuit are theoretically more stable and have improved adversarial robustness. However, cascading layer-wise pursuit implementations suffer from error accumulation in deeper networks. In contrast, our new method of deep pursuit approximates the activations of all layers as a single global optimization problem, allowing us to consider deeper, real-world architectures with skip connections such as residual networks. Experimentally, our approach demonstrates improved robustness to adversarial noise.",
+  "s2id": "f8886f780bec62831599f2ec49f871c3b1e1348b",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 2
+}

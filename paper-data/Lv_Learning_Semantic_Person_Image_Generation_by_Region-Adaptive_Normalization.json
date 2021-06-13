@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.06650",
+  "title": "Learning Semantic Person Image Generation by Region-Adaptive Normalization",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Learning_Semantic_Person_Image_Generation_by_Region-Adaptive_Normalization_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zhengyao Lv",
+    "Xiaoming Li",
+    "Xin Li",
+    "Fu Li",
+    "Tianwei Lin",
+    "Dongliang He",
+    "Wangmeng Zuo"
+  ],
+  "abstract": "Human pose transfer has received great attention due to its wide applications, yet is still a challenging task that is not well solved. Recent works have achieved great success to transfer the person image from the source to the target pose. However, most of them cannot well capture the semantic appearance, resulting in inconsistent and less realistic textures on the reconstructed results. To address this issue, we propose a new two-stage framework to handle the pose and appearance translation. In the first stage, we predict the target semantic parsing maps to eliminate the difficulties of pose transfer and further benefit the latter translation of per-region appearance style. In the second one, with the predicted target semantic maps, we suggest a new person image generation method by incorporating the region-adaptive normalization, in which it takes the per-region styles to guide the target appearance generation. Extensive experiments show that our proposed SPGNet can generate more semantic, consistent, and photo-realistic results and perform favorably against the state of the art methods in terms of quantitative and qualitative evaluation. The source code and model are available at https://github.com/cszy98/SPGNet.git.",
+  "s2id": "fae1c655db26a9a4bfe4c0d1bfc7a0cbcbb3f9a3",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

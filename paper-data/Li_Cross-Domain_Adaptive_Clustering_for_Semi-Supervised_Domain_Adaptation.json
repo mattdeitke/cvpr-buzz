@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.09415",
+  "title": "Cross-Domain Adaptive Clustering for Semi-Supervised Domain Adaptation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Cross-Domain_Adaptive_Clustering_for_Semi-Supervised_Domain_Adaptation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jichang Li",
+    "Guanbin Li",
+    "Yemin Shi",
+    "Yizhou Yu"
+  ],
+  "abstract": "In semi-supervised domain adaptation, a few labeled samples per class in the target domain guide features of the remaining target samples to aggregate around them. However, the trained model cannot produce a highly discriminative feature representation for the target domain because the training data is dominated by labeled samples from the source domain. This could lead to disconnection between the labeled and unlabeled target samples as well as misalignment between unlabeled target samples and the source domain. In this paper, we propose a novel approach called Cross-domain Adaptive Clustering to address this problem. To achieve both inter-domain and intra-domain adaptation, we first introduce an adversarial adaptive clustering loss to group features of unlabeled target data into clusters and perform cluster-wise feature alignment across the source and target domains. We further apply pseudo labeling to unlabeled samples in the target domain and retain pseudo-labels with high confidence. Pseudo labeling expands the number of \"labeled\" samples in each class in the target domain, and thus produces a more robust and powerful cluster core for each class to facilitate adversarial learning. Extensive experiments on benchmark datasets, including DomainNet, Office-Home and Office, demonstrate that our proposed approach achieves the state-of-the-art performance in semi-supervised domain adaptation.",
+  "s2id": "5eb5002046b604d2ee29a5af2e29f352eee21609",
+  "twitter": {
+    "retweets": 2,
+    "likes": 2,
+    "replies": 1
+  },
+  "citations": 0
+}

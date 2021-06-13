@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.07014",
+  "title": "SMURF: Self-Teaching Multi-Frame Unsupervised RAFT With Full-Image Warping",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Stone_SMURF_Self-Teaching_Multi-Frame_Unsupervised_RAFT_With_Full-Image_Warping_CVPR_2021_paper.pdf",
+  "authors": [
+    "Austin Stone",
+    "Daniel Maurer",
+    "Alper Ayvaci",
+    "Anelia Angelova",
+    "Rico Jonschkowski"
+  ],
+  "abstract": "We present SMURF, a method for unsupervised learning of optical flow that improves state of the art on all benchmarks by 36% to 40% and even outperforms several supervised approaches such as PWC-Net and FlowNet2. Our method integrates architecture improvements from supervised optical flow, i.e. the RAFT model, with new ideas for unsupervised learning that include a novel unsupervised sequence loss and self-supervision loss, a technique for handling out-of-frame motion, and an approach for learning effectively from multi-frame video data while still only requiring two frames for inference.",
+  "s2id": "7165bd148bfd290593f0932b40290d9be2009df4",
+  "twitter": {
+    "retweets": 10,
+    "likes": 44,
+    "replies": 0
+  },
+  "citations": 0
+}

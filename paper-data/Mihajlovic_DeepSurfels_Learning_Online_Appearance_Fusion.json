@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.14240",
+  "title": "DeepSurfels: Learning Online Appearance Fusion",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Mihajlovic_DeepSurfels_Learning_Online_Appearance_Fusion_CVPR_2021_paper.pdf",
+  "authors": [
+    "Marko Mihajlovic",
+    "Silvan Weder",
+    "Marc Pollefeys",
+    "Martin R. Oswald"
+  ],
+  "abstract": "We present DeepSurfels, a novel hybrid scene representation for geometry and appearance information. DeepSurfels combines explicit and neural building blocks to jointly encode geometry and appearance information. In contrast to established representations, DeepSurfels better represents high-frequency textures, is well-suited for online updates of appearance information, and can be easily combined with machine learning methods. We further present an end-to-end trainable online appearance fusion pipeline that fuses information from RGB images into the proposed scene representation and is trained using self-supervision imposed by the reprojection error with respect to the input images. Our method compares favorably to classical texture mapping approaches as well as recent learning-based techniques. Moreover, we demonstrate lower runtime, improved generalization capabilities, and better scalability to larger scenes compared to existing methods.",
+  "s2id": "",
+  "twitter": {
+    "retweets": 3,
+    "likes": 27,
+    "replies": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2007.13049",
+  "title": "A Dual Iterative Refinement Method for Non-Rigid Shape Matching",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xiang_A_Dual_Iterative_Refinement_Method_for_Non-Rigid_Shape_Matching_CVPR_2021_paper.pdf",
+  "authors": [
+    "Rui Xiang",
+    "Rongjie Lai",
+    "Hongkai Zhao"
+  ],
+  "abstract": "In this work, a robust and efficient dual iterative refinement (DIR) method is proposed for dense correspondence between two nearly isometric shapes. The key idea is to use dual information, such as spatial and spectral, or local and global features, in a complementary and effective way, and extract more accurate information from current iteration to use for the next iteration. In each DIR iteration, starting from current correspondence, a zoom-in process at each point is used to select well matched anchor pairs by a local mapping distortion criterion. These selected anchor pairs are then used to align spectral features (or other appropriate global features) whose dimension adaptively matches the capacity of the selected anchor pairs. Thanks to the effective combination of complementary information in a data-adaptive way, DIR is not only efficient but also robust to render accurate results within a few iterations. By choosing appropriate dual features, DIR has the flexibility to handle patch and partial matching as well. Extensive experiments on various data sets demonstrate the superiority of DIR over other state-of-the-art methods in terms of both accuracy and efficiency.",
+  "s2id": "2fbe8e9280f6c0817ab77d1d2791ef835c65e56e",
+  "twitter": {
+    "retweets": 0,
+    "likes": 1,
+    "replies": 0
+  },
+  "citations": 0
+}

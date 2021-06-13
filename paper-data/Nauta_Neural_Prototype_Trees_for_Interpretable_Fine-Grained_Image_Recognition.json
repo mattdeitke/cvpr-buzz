@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.02046",
+  "title": "Neural Prototype Trees for Interpretable Fine-Grained Image Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Nauta_Neural_Prototype_Trees_for_Interpretable_Fine-Grained_Image_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Meike Nauta",
+    "Ron van Bree",
+    "Christin Seifert"
+  ],
+  "abstract": "Prototype-based methods use interpretable representations to address the black-box nature of deep learning models, in contrast to post-hoc explanation methods that only approximate such models. We propose the Neural Prototype Tree (ProtoTree), an intrinsically interpretable deep learning method for fine-grained image recognition. ProtoTree combines prototype learning with decision trees, and thus results in a globally interpretable model by design. Additionally, ProtoTree can locally explain a single prediction by outlining a decision path through the tree. Each node in our binary tree contains a trainable prototypical part. The presence or absence of this learned prototype in an image determines the routing through a node. Decision making is therefore similar to human reasoning: Does the bird have a red throat? And an elongated beak? Then it's a hummingbird! We tune the accuracy-interpretability trade-off using ensemble methods, pruning and binarizing. We apply pruning without sacrificing accuracy, resulting in a small tree with only 8 learned prototypes along a path to classify a bird from 200 species. An ensemble of 5 ProtoTrees achieves competitive accuracy on the CUB-200- 2011 and Stanford Cars data sets. Code is available at https://github.com/M-Nauta/ProtoTree.",
+  "s2id": "53b224126e7abe03e21186f47fcf9681e1ef5909",
+  "twitter": {
+    "retweets": 2,
+    "likes": 6,
+    "replies": 1
+  },
+  "citations": 1
+}

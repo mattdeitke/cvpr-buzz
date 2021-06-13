@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.10063",
+  "title": "Dual Contradistinctive Generative Autoencoder",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Parmar_Dual_Contradistinctive_Generative_Autoencoder_CVPR_2021_paper.pdf",
+  "authors": [
+    "Gaurav Parmar",
+    "Dacheng Li",
+    "Kwonjoon Lee",
+    "Zhuowen Tu"
+  ],
+  "abstract": "We present a new generative autoencoder model with dual contradistinctive losses to improve generative autoencoder that performs simultaneous inference (reconstruction) and synthesis (sampling). Our model, named dual contradistinctive generative autoencoder (DC-VAE), integrates an instance-level discriminative loss (maintaining the instancelevel fidelity for the reconstruction / synthesis) with a set-level adversarial loss (encouraging the set-level fidelity for the reconstruction/synthesis), both being contradistinctive. Extensive experimental results by DC-VAE across different resolutions including 32x32, 64x64, 128x128, and 512x512 are reported. The two contradistinctive losses in VAE work harmoniously in DC-VAE leading to a significant qualitative and quantitative performance enhancement over the baseline VAEs without architectural changes. State-of-the-art or competitive results among generative autoencoders for image reconstruction, image synthesis, image interpolation, and representation learning are observed. DC-VAE is a general-purpose VAE model, applicable to a wide variety of downstream tasks in computer vision and machine learning.",
+  "s2id": "a53e73139d9d6474ef8a002ee9c1dea49755ebc6",
+  "twitter": {
+    "retweets": 31,
+    "likes": 211,
+    "replies": 4
+  },
+  "citations": 5
+}

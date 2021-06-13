@@ -1,0 +1,22 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.07452",
+  "title": "Audio-Driven Emotional Video Portraits",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ji_Audio-Driven_Emotional_Video_Portraits_CVPR_2021_paper.pdf",
+  "authors": [
+    "Xinya Ji",
+    "Hang Zhou",
+    "Kaisiyuan Wang",
+    "Wayne Wu",
+    "Chen Change Loy",
+    "Xun Cao",
+    "Feng Xu"
+  ],
+  "abstract": "Despite previous success in generating audio-driven talking heads, most of the previous studies focus on the correlation between speech content and the mouth shape. Facial emotion, which is one of the most important features on natural human faces, is always neglected in their methods. In this work, we present Emotional Video Portraits (EVP), a system for synthesizing high-quality video portraits with vivid emotional dynamics driven by audios. Specifically, we propose the Cross-Reconstructed Emotion Disentanglement technique to decompose speech into two decoupled spaces, i.e., a duration-independent emotion space and a duration dependent content space. With the disentangled features, dynamic 2D emotional facial landmarks can be deduced. Then we propose the Target-Adaptive Face Synthesis technique to generate the final high-quality video portraits, by bridging the gap between the deduced landmarks and the natural head poses of target videos. Extensive experiments demonstrate the effectiveness of our method both qualitatively and quantitatively.",
+  "s2id": "2ec987448d8c8b82dd01d35838ebf0d15f38a9f8",
+  "twitter": {
+    "retweets": 7,
+    "likes": 18,
+    "replies": 1
+  },
+  "citations": 1
+}

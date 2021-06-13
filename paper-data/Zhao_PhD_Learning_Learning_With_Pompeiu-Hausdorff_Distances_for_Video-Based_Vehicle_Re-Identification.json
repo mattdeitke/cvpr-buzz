@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "PhD Learning: Learning With Pompeiu-Hausdorff Distances for Video-Based Vehicle Re-Identification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_PhD_Learning_Learning_With_Pompeiu-Hausdorff_Distances_for_Video-Based_Vehicle_Re-Identification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jianan Zhao",
+    "Fengliang Qi",
+    "Guangyu Ren",
+    "Lin Xu"
+  ],
+  "abstract": "Vehicle re-identification (re-ID) is of great significance to urban operation, management, security and has gained more attention in recent years. However, two critical challenges in vehicle re-ID have primarily been underestimated, i.e., 1): how to make full use of raw data, and 2): how to learn a robust re-ID model with noisy data. In this paper, we first create a video vehicle re-ID evaluation benchmark called VVeRI-901 and verify the performance of video-based re-ID is far better than static image-based one. Then we propose a new Pompeiu-hausdorff distance (PhD) learning method for video-to-video matching. It can alleviate the data noise problem caused by the occlusion in videos and thus improve re-ID performance significantly. Extensive empirical results on video-based vehicle and person re-ID datasets, i.e., VVeRI-901, MARS and PRID2011, demonstrate the superiority of the proposed method. The source code of our proposed method is available at https://github.com/emdata-ailab/PhD-Learning.",
+  "s2id": ""
+}

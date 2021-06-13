@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.05445",
+  "title": "Pixel-Wise Anomaly Detection in Complex Driving Scenes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Di_Biase_Pixel-Wise_Anomaly_Detection_in_Complex_Driving_Scenes_CVPR_2021_paper.pdf",
+  "authors": [
+    "Giancarlo Di Biase",
+    "Hermann Blum",
+    "Roland Siegwart",
+    "Cesar Cadena"
+  ],
+  "abstract": "The inability of state-of-the-art semantic segmentation methods to detect anomaly instances hinders them from being deployed in safety-critical and complex applications, such as autonomous driving. Recent approaches have focused on either leveraging segmentation uncertainty to identify anomalous areas or re-synthesizing the image from the semantic label map to find dissimilarities with the input image. In this work, we demonstrate that these two methodologies contain complementary information and can be combined to produce robust predictions for anomaly segmentation. We present a pixel-wise anomaly detection framework that uses uncertainty maps to improve over existing re-synthesis methods in finding dissimilarities between the input and generated images. Our approach works as a general framework around already trained segmentation networks, which ensures anomaly detection without compromising segmentation accuracy, while significantly outperforming all similar methods. Top-2 performance across a range of different anomaly datasets shows the robustness of our approach to handling different anomaly instances.",
+  "s2id": "b44313836f435c8c774f9123cc29a38ad8deb7bd",
+  "twitter": {
+    "retweets": 17,
+    "likes": 61,
+    "replies": 1
+  },
+  "citations": 1
+}

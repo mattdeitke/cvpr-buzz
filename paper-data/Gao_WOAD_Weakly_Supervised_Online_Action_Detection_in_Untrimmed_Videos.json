@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2006.03732",
+  "title": "WOAD: Weakly Supervised Online Action Detection in Untrimmed Videos",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_WOAD_Weakly_Supervised_Online_Action_Detection_in_Untrimmed_Videos_CVPR_2021_paper.pdf",
+  "authors": [
+    "Mingfei Gao",
+    "Yingbo Zhou",
+    "Ran Xu",
+    "Richard Socher",
+    "Caiming Xiong"
+  ],
+  "abstract": "Online action detection in untrimmed videos aims to identify an action as it happens, which makes it very important for real-time applications. Previous methods rely on tedious annotations of temporal action boundaries for training, which hinders the scalability of online action detection systems. We propose WOAD, a weakly supervised framework that can be trained using only video-class labels. WOAD contains two jointly-trained modules, i.e., temporal proposal generator (TPG) and online action recognizer (OAR). Supervised by video-class labels, TPG works offline and targets at accurately mining pseudo frame-level labels for OAR. With the supervisory signals from TPG, OAR learns to conduct action detection in an online fashion. Experimental results on THUMOS'14, ActivityNet1.2 and ActivityNet1.3 show that our weakly-supervised method largely outperforms weakly-supervised baselines and achieves comparable performance to the previous strongly-supervised methods. Beyond that, WOAD is flexible to leverage strong supervision when it is available. When strongly supervised, our method obtains the state-of-the-art results in the tasks of both online per-frame action recognition and online detection of action start.",
+  "s2id": "9d09d46b2b80975c52513a2c6ec240a3b67f0b4f",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 1
+}

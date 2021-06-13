@@ -1,0 +1,15 @@
+{
+  "arXiv": "http://arxiv.org/abs/2104.12961",
+  "title": "Unsupervised Multi-Source Domain Adaptation for Person Re-Identification",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bai_Unsupervised_Multi-Source_Domain_Adaptation_for_Person_Re-Identification_CVPR_2021_paper.pdf",
+  "authors": [
+    "Zechen Bai",
+    "Zhigang Wang",
+    "Jian Wang",
+    "Di Hu",
+    "Errui Ding"
+  ],
+  "abstract": "Unsupervised domain adaptation (UDA) methods for person re-identification (re-ID) aim at transferring re-ID knowledge from labeled source data to unlabeled target data. Among these methods, the pseudo-label-based branch has achieved great success, whereas most of them only use limited data from a single-source domain for model pre-training, making the rich labeled data insufficiently exploited. To make full use of the valuable labeled data, we introduce the multi-source concept into UDA person re-ID field, where multiple source datasets are used during training. However, because of domain gaps, simply combining different datasets only brings limited improvement. In this paper, we try to address this problem from two perspectives, i.e. domain-specific view and domain-fusion view. Two constructive modules are proposed, and they are compatible with each other. First, a rectification domain-specific batch normalization (RDSBN) module is explored to simultaneously reduce domain-specific characteristics and increase the distinctiveness of person features. Second, a graph convolutional network (GCN) based multi-domain information fusion (MDIF) module is developed, which minimizes domain distances by fusing features of different domains. The proposed method outperforms state-of-the-art UDA person re-ID methods by a large margin, and even achieves comparable performance to the supervised approaches without any post-processing techniques.",
+  "s2id": "fc56ced05759ba1b2024ca77da8774439aefe93d",
+  "citations": 0
+}

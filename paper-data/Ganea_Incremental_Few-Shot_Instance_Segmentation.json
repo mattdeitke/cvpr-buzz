@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2105.05312",
+  "title": "Incremental Few-Shot Instance Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ganea_Incremental_Few-Shot_Instance_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Dan Andrei Ganea",
+    "Bas Boom",
+    "Ronald Poppe"
+  ],
+  "abstract": "Few-shot instance segmentation methods are promising when labeled training data for novel classes is scarce. However, current approaches do not facilitate flexible addition of novel classes. They also require that examples of each class are provided at train and test time, which is memory intensive. In this paper, we address these limitations by presenting the first incremental approach to few-shot instance segmentation: iMTFA. We learn discriminative embeddings for object instances that are merged into class representatives. Storing embedding vectors rather than images effectively solves the memory overhead problem. We match these class embeddings at the RoI-level using cosine similarity. This allows us to add new classes without the need for further training or access to previous training data. In a series of experiments, we consistently outperform the current state-of-the-art. Moreover, the reduced memory requirements allow us to evaluate, for the first time, few-shot instance segmentation performance on all classes in COCO jointly.",
+  "s2id": "3649b7349c6d8e92e185c94115b3ceda9fcb8062",
+  "twitter": {
+    "retweets": 0,
+    "likes": 3,
+    "replies": 2
+  },
+  "citations": 0
+}

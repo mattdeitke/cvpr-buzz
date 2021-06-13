@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2009.05668",
+  "title": "KSM: Fast Multiple Task Adaption via Kernel-Wise Soft Mask Learning",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_KSM_Fast_Multiple_Task_Adaption_via_Kernel-Wise_Soft_Mask_Learning_CVPR_2021_paper.pdf",
+  "authors": [
+    "Li Yang",
+    "Zhezhi He",
+    "Junshan Zhang",
+    "Deliang Fan"
+  ],
+  "abstract": "Deep Neural Networks (DNN) could forget the knowledge about earlier tasks when learning new tasks, and this is known as catastrophic forgetting. To learn new task without forgetting, recently, the mask-based learning method (e.g. piggyback ) is proposed to address these issues by learning only a binary element-wise mask, while keeping the backbone model fixed. However, the binary mask has limited modeling capacity for new tasks. A more recent work proposes a compress-grow-based method (CPG) to achieve better accuracy for new tasks by partially training backbone model, but with order-higher training cost, which makes it infeasible to be deployed into popular state-of-the-art edge-/mobile-learning. The primary goal of this work is to simultaneously achieve fast and high-accuracy multi-task adaption in a continual learning setting. Thus motivated, we propose a new training method called Kernel-wise Soft Mask (KSM), which learns a kernel-wise hybrid binary and real-value soft mask for each task. Such a soft mask can be viewed as a superposition of a binary mask and a properly scaled real-value tensor, which offers a richer representation capability without low-level kernel support to meet the objective of low hardware overhead. We validate KSM on multiple benchmark datasets against recent state-of-the-art methods (e.g. Piggyback, Packnet, CPG, etc.), which shows good improvement in both accuracy and training cost.",
+  "s2id": "f513fd50710d762c0cbaf4f566ebb74defedb100",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 0
+}

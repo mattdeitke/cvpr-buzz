@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.17185",
+  "title": "Rethinking Style Transfer: From Pixels to Parameterized Brushstrokes",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Kotovenko_Rethinking_Style_Transfer_From_Pixels_to_Parameterized_Brushstrokes_CVPR_2021_paper.pdf",
+  "authors": [
+    "Dmytro Kotovenko",
+    "Matthias Wright",
+    "Arthur Heimbrecht",
+    "Bjorn Ommer"
+  ],
+  "abstract": "There have been many successful implementations of neural style transfer in recent years. In most of these works, the stylization process is confined to the pixel domain. However, we argue that this representation is unnatural because paintings usually consist of brushstrokes rather than pixels. We propose a method to stylize images by optimizing parameterized brushstrokes instead of pixels and further introduce a simple differentiable rendering mechanism. Our approach significantly improves visual quality and enables additional control over the stylization process such as controlling the flow of brushstrokes through user input. We provide qualitative and quantitative evaluations that show the efficacy of the proposed parameterized representation.",
+  "s2id": "61d6408a3a811df01ace0f3f0b028102ac0c91b3",
+  "twitter": {
+    "retweets": 20,
+    "likes": 169,
+    "replies": 4
+  },
+  "citations": 1
+}

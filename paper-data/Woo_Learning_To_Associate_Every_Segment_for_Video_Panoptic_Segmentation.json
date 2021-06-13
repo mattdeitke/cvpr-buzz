@@ -1,0 +1,13 @@
+{
+  "arXiv": null,
+  "title": "Learning To Associate Every Segment for Video Panoptic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Woo_Learning_To_Associate_Every_Segment_for_Video_Panoptic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Sanghyun Woo",
+    "Dahun Kim",
+    "Joon-Young Lee",
+    "In So Kweon"
+  ],
+  "abstract": "Temporal correspondence -- linking pixels or objects across frames -- is a fundamental supervisory signal for the video models. For the panoptic understanding of dynamic scenes, we further extend this concept to every segment. Specifically, we aim to learn coarse segment-level matching and fine pixel-level matching together. We implement this idea by designing two novel learning objectives. To validate our proposals, we adopt a deep siamese model and train the model to learn the temporal correspondence on two different levels (i.e., segment and pixel) along with the target task. At inference time, the model processes each frame independently without any extra computation and post-processing. We show that our per-frame inference model can achieve new state-of-the-art results on Cityscapes-VPS and VIPER datasets. Moreover, due to its high efficiency, the model runs in a fraction of time (3x) compared to the previous state-of-the-art approach. The codes and models will be released.",
+  "s2id": ""
+}

@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.15982",
+  "title": "TransFill: Reference-Guided Image Inpainting by Merging Multiple Color and Spatial Transformations",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_TransFill_Reference-Guided_Image_Inpainting_by_Merging_Multiple_Color_and_Spatial_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yuqian Zhou",
+    "Connelly Barnes",
+    "Eli Shechtman",
+    "Sohrab Amirghodsi"
+  ],
+  "abstract": "Image inpainting is the task of plausibly restoring missing pixels within a hole region that is to be removed from a target image. Most existing technologies exploit patch similarities within the image, or leverage large-scale training data to fill the hole using learned semantic and texture information. However, due to the ill-posed nature of the inpainting task, such methods struggle to complete larger holes containing complicated scenes. In this paper, we propose TransFill, a multi-homography transformed fusion method to fill the hole by referring to another source image that shares scene contents with the target image. We first align the source image to the target image by estimating multiple homographies guided by different depth levels. We then learn to adjust the color and apply a pixel-level warping to each homography-warped source image to make it more consistent with the target. Finally, a pixel-level fusion module is learned to selectively merge the different proposals. Our method achieves state-of-the-art performance on pairs of images across a variety of wide baselines and color differences, and generalizes to user-provided image pairs.",
+  "s2id": "9d0f18f1a92a1ec5fac9dd8d0089f621e7130981",
+  "twitter": {
+    "retweets": 4,
+    "likes": 18,
+    "replies": 0
+  },
+  "citations": 0
+}

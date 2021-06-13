@@ -1,0 +1,19 @@
+{
+  "arXiv": "http://arxiv.org/abs/2011.11390",
+  "title": "PLOP: Learning Without Forgetting for Continual Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Douillard_PLOP_Learning_Without_Forgetting_for_Continual_Semantic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Arthur Douillard",
+    "Yifu Chen",
+    "Arnaud Dapogny",
+    "Matthieu Cord"
+  ],
+  "abstract": "Deep learning approaches are nowadays ubiquitously used to tackle computer vision tasks such as semantic segmentation, requiring large datasets and substantial computational power. Continual learning for semantic segmentation (CSS) is an emerging trend that consists in updating an old model by sequentially adding new classes. However, continual learning methods are usually prone to catastrophic forgetting. This issue is further aggravated in CSS where, at each step, old classes from previous iterations are collapsed into the background. In this paper, we propose Local POD, a multi-scale pooling distillation scheme that preserves long- and short-range spatial relationships at feature level. Furthermore, we design an entropy-based pseudo-labelling of the background w.r.t. classes predicted by the old model to deal with background shift and avoid catastrophic forgetting of the old classes. Our approach, called PLOP, significantly outperforms state-of-the-art methods in existing CSS scenarios, as well as in newly proposed challenging benchmarks.",
+  "s2id": "389ee0934b5da420e51d1c77a12834c24ceec060",
+  "twitter": {
+    "retweets": 19,
+    "likes": 62,
+    "replies": 3
+  },
+  "citations": 3
+}

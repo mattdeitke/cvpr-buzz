@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2012.10545",
+  "title": "A 3D GAN for Improved Large-Pose Facial Recognition",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Marriott_A_3D_GAN_for_Improved_Large-Pose_Facial_Recognition_CVPR_2021_paper.pdf",
+  "authors": [
+    "Richard T. Marriott",
+    "Sami Romdhani",
+    "Liming Chen"
+  ],
+  "abstract": "Facial recognition using deep convolutional neural networks relies on the availability of large datasets of face images. Many examples of identities are needed, and for each identity, a large variety of images are needed in order for the network to learn robustness to intra-class variation. In practice, such datasets are difficult to obtain, particularly those containing adequate variation of pose. Generative Adversarial Networks (GANs) provide a potential solution to this problem due to their ability to generate realistic, synthetic images. However, recent studies have shown that current methods of disentangling pose from identity are inadequate. In this work we incorporate a 3D morphable model into the generator of a GAN in order to learn a nonlinear texture model from in-the-wild images. This allows generation of new, synthetic identities, and manipulation of pose, illumination and expression without compromising the identity. Our synthesised data is used to augment training of facial recognition networks with performance evaluated on the challenging CFP and CPLFW datasets.",
+  "s2id": "1838c5b86cf3881d9739b6d827a185b496ed5949",
+  "twitter": {
+    "retweets": 10,
+    "likes": 68,
+    "replies": 9
+  },
+  "citations": 1
+}

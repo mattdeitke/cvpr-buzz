@@ -1,0 +1,12 @@
+{
+  "arXiv": null,
+  "title": "D2IM-Net: Learning Detail Disentangled Implicit Fields From Single Images",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_D2IM-Net_Learning_Detail_Disentangled_Implicit_Fields_From_Single_Images_CVPR_2021_paper.pdf",
+  "authors": [
+    "Manyi Li",
+    "Hao Zhang"
+  ],
+  "abstract": "We present the first single-view 3D reconstruction network aimed at recovering geometric details from an input image which encompass both topological shape structures and surface features. Our key idea is to train the network to learn a detail disentangled reconstruction consisting of two functions, one implicit field representing the coarse 3D shape and the other capturing the details. Given an input image, our network, coined D^2IM_Net, encodes it into global and local features which are respectively fed into two decoders. The base decoder uses the global features to reconstruct a coarse implicit field, while the detail decoder reconstructs, from the local features, two displacement maps, defined over the front and back sides of the captured object. The final 3D reconstruction is a fusion between the base shape and the displacement maps, with three losses enforcing the recovery of coarse shape, overall structure, and surface details via a novel Laplacian term.",
+  "s2id": "ffd08400bc56ebed24aba3a3666429bbc6b48b25",
+  "citations": 2
+}

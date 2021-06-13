@@ -1,0 +1,17 @@
+{
+  "arXiv": "http://arxiv.org/abs/1808.00079",
+  "title": "Optimal Gradient Checkpoint Search for Arbitrary Computation Graphs",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feng_Optimal_Gradient_Checkpoint_Search_for_Arbitrary_Computation_Graphs_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jianwei Feng",
+    "Dong Huang"
+  ],
+  "abstract": "Deep Neural Networks(DNNs) require huge GPU memory when training on modern image/video databases. Unfortunately, the GPU memory is physically finite, which limits the image resolutions and batch sizes that could be used in training for better DNN performance. Unlike solutions that require physically upgrade GPUs, the Gradient CheckPointing(GCP) training trades computation for more memory beyond existing GPU hardware. GCP only stores a subset of intermediate tensors, called Gradient Checkpoints (GCs), during forward. Then during backward, extra local forwards are conducted to compute the missing tensors. The total training memory cost becomes the sum of (1) the memory cost of the gradient checkpoints and (2) the maximum memory cost of local forwards. To achieve maximal memory cut-offs, one needs optimal algorithms to select GCs. Existing GCP approaches rely on either manual input of GCs or heuristics-based GC search on Linear Computation Graphs (LCGs), and cannot apply to Arbitrary Computation Graphs(ACGs). In this paper, we present theories and optimal algorithms on GC selection that, for the first time, are applicable to ACGs and achieve the maximal memory cut-offs. Extensive experiments show that our approach not only outperforms existing approaches (only applicable on LCGs), and is applicable to a vast family of LCG and ACG networks, such as Alexnet, VGG, ResNet, Densenet, Inception Net and highly complicated DNNs by Network Architecture Search. Our work enables GCP training on ACGs, and cuts off up-to 80% of training memory with a moderate time overhead ( 30%-50%). Codes are available",
+  "s2id": "639fbed94e8ff678d93a7b11d22f0df604c37504",
+  "twitter": {
+    "retweets": 1,
+    "likes": 15,
+    "replies": 1
+  },
+  "citations": 1
+}

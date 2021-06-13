@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.17230",
+  "title": "Rainbow Memory: Continual Learning With a Memory of Diverse Samples",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bang_Rainbow_Memory_Continual_Learning_With_a_Memory_of_Diverse_Samples_CVPR_2021_paper.pdf",
+  "authors": [
+    "Jihwan Bang",
+    "Heesu Kim",
+    "YoungJoon Yoo",
+    "Jung-Woo Ha",
+    "Jonghyun Choi"
+  ],
+  "abstract": "Continual learning is a realistic learning scenario for AI models. Prevalent scenario of continual learning, however, assumes disjoint sets of classes as tasks and is less realistic rather artificial. Instead, we focus on 'blurry' task boundary; where tasks shares classes and is more realistic and practical. To address such task, we argue the importance of diversity of samples in an episodic memory. To enhance the sample diversity in the memory, we propose a novel memory management strategy based on per-sample classification uncertainty and data augmentation, named Rainbow Memory (RM). With extensive empirical validations on MNIST, CIFAR10, CIFAR100, and ImageNet datasets, we show that the proposed method significantly improves the accuracy in blurry continual learning setups, outperforming state of the arts by large margins despite its simplicity. Code and data splits will be available in https://github.com/clovaai/rainbow-memory.",
+  "s2id": "209fadc6f7fdbb92404ef69d2ee01df8e475d692",
+  "twitter": {
+    "retweets": 17,
+    "likes": 60,
+    "replies": 3
+  },
+  "citations": 0
+}

@@ -1,0 +1,21 @@
+{
+  "arXiv": "http://arxiv.org/abs/2103.13990",
+  "title": "More Photos Are All You Need: Semi-Supervised Learning for Fine-Grained Sketch Based Image Retrieval",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Bhunia_More_Photos_Are_All_You_Need_Semi-Supervised_Learning_for_Fine-Grained_CVPR_2021_paper.pdf",
+  "authors": [
+    "Ayan Kumar Bhunia",
+    "Pinaki Nath Chowdhury",
+    "Aneeshan Sain",
+    "Yongxin Yang",
+    "Tao Xiang",
+    "Yi-Zhe Song"
+  ],
+  "abstract": "A fundamental challenge faced by existing Fine-Grained Sketch-Based Image Retrieval (FG-SBIR) models is the data scarcity -- model performances are largely bottlenecked by the lack of sketch-photo pairs. Whilst the number of photos can be easily scaled, each corresponding sketch still needs to be individually produced. In this paper, we aim to mitigate such an upper-bound on sketch data, and study whether unlabelled photos alone (of which they are many) can be cultivated for performance gain. In particular, we introduce a novel semi-supervised framework for cross-modal retrieval that can additionally leverage large-scale unlabelled photos to account for data scarcity. At the center of our semi-supervision design is a sequential photo-to-sketch generation model that aims to generate paired sketches for unlabelled photos. Importantly, we further introduce a discriminator-guided mechanism to guide against unfaithful generation, together with a distillation loss-based regularizer to provide tolerance against noisy training samples. Last but not least, we treat generation and retrieval as two conjugate problems, where a joint learning procedure is devised for each module to mutually benefit from each other. Extensive experiments show that our semi-supervised model yields a significant performance boost over the state-of-the-art supervised alternatives, as well as existing methods that can exploit unlabelled photos for FG-SBIR.",
+  "s2id": "ee3ec7893003ba55175a183b13baad845e5375e1",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 1
+  },
+  "citations": 2
+}

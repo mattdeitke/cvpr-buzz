@@ -1,0 +1,18 @@
+{
+  "arXiv": "http://arxiv.org/abs/2102.06195",
+  "title": "Shelf-Supervised Mesh Prediction in the Wild",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Ye_Shelf-Supervised_Mesh_Prediction_in_the_Wild_CVPR_2021_paper.pdf",
+  "authors": [
+    "Yufei Ye",
+    "Shubham Tulsiani",
+    "Abhinav Gupta"
+  ],
+  "abstract": "We aim to infer 3D shape and pose of objects from a single image and propose a learning-based approach that can train from unstructured image collections, using only segmentation outputs from off-the-shelf recognition systems as supervisory signal (i.e. 'shelf-supervised'). We first infer a volumetric representation in a canonical frame, along with the camera pose for the input image. We enforce the representation to be geometrically consistent with both appearance and masks, and also that the synthesized novel views are indistinguishable from image collections. The coarse volumetric prediction is then converted to a mesh-based representation, which is further refined in the predicted camera frame. These two steps allow both shape-pose factorization from unannotated images and reconstruction of per-instance shape in finer details. We report performance on both synthetic and real-world datasets and demonstrate the scalability of our approach on 50 categories in the wild, an order of magnitude more classes than existing works.",
+  "s2id": "8d2c07a282714e32b35ff51839b52eaa11c1fb2f",
+  "twitter": {
+    "retweets": 54,
+    "likes": 264,
+    "replies": 6
+  },
+  "citations": 1
+}

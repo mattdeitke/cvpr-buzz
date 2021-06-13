@@ -1,0 +1,20 @@
+{
+  "arXiv": "http://arxiv.org/abs/2106.00184",
+  "title": "Anti-Aliasing Semantic Reconstruction for Few-Shot Semantic Segmentation",
+  "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Anti-Aliasing_Semantic_Reconstruction_for_Few-Shot_Semantic_Segmentation_CVPR_2021_paper.pdf",
+  "authors": [
+    "Binghao Liu",
+    "Yao Ding",
+    "Jianbin Jiao",
+    "Xiangyang Ji",
+    "Qixiang Ye"
+  ],
+  "abstract": "Encouraging progress in few-shot semantic segmentation has been made by leveraging features learned upon base classes with sufficient training data to represent novel classes with few-shot examples. However, this feature sharing mechanism inevitably causes semantic aliasing between novel classes when they have similar compositions of semantic concepts. In this paper, we reformulate few-shot segmentation as a semantic reconstruction problem, and convert base class features into a series of basis vectors which span a class-level semantic space for novel class reconstruction. By introducing contrastive loss, we maximize the orthogonality of basis vectors while minimizing semantic aliasing between classes. Within the reconstructed representation space, we further suppress interference from other classes by projecting query features to the support vector for precise semantic activation. Our proposed approach, referred to as anti-aliasing semantic reconstruction (ASR), provides a systematic yet interpretable solution for few-shot learning problems. Extensive experiments on PASCAL VOC and MS COCO datasets show that ASR achieves strong results compared with the prior works. Code will be released at github.com/Bibkiller/ASR.",
+  "s2id": "daaec87f2aa04cabc026a936f27dd2162c422a23",
+  "twitter": {
+    "retweets": 0,
+    "likes": 0,
+    "replies": 0
+  },
+  "citations": 3
+}
