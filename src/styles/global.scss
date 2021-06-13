@@ -38,3 +38,32 @@ a:visited {
 a:hover {
   cursor: pointer;
 }
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #5273e0 !important;
+  border-color: #5273e0 !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  border-color: #5273e0 !important ;
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+  background-color: #5273e0 !important ;
+}
+
+.ant-radio:hover .ant-radio-inner {
+  border-color: #5273e0 !important;
+}
+
+.ant-slider-rail {
+  background-color: transparent !important;
+}
+
+.ant-slider-handle {
+  border-color: #7f9ef3 !important;
+}
+
+.ant-slider-track {
+  background-color: #7f9ef3 !important;
+}

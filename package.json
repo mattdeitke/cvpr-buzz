@@ -20,6 +20,7 @@
     "@types/d3": "^6.3.0",
     "antd": "^4.6.5",
     "d3": "^6.5.0",
+    "emoji-mart": "^3.0.1",
     "gatsby": "^2.25.0",
     "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-emotion": "^5.4.0",

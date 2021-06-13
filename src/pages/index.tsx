@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import Latex from "react-latex";
-import { Button } from "antd";
+import {
+  Button,
+  Radio,
+  Space,
+  Checkbox,
+  Select,
+  Tooltip,
+  Input,
+  Slider,
+  InputNumber,
+  Row,
+  Col,
+} from "antd";
 import { Helmet } from "react-helmet";
 import { css } from "@emotion/react";
 import color from "~styles/color";
 import { graphql } from "gatsby";
+import { Emoji } from "emoji-mart";
+import { MenuFoldOutlined } from "@ant-design/icons";
 
 interface PaperData {
   abstract: string;
@@ -20,6 +34,50 @@ interface PaperData {
   pdf: string;
   authors: string[];
   arXiv: string;
+  i?: number;
+}
+
+function DecimalStep(props: { startingValue: number }) {
+  const [inputValue, setInputValue] = useState(props.startingValue);
+  return (
+    <Row>
+      <Col span={12}>
+        <Slider
+          min={0}
+          max={1}
+          onChange={(value: number) => {
+            if (isNaN(value)) {
+              return;
+            }
+            setInputValue(value);
+          }}
+          value={typeof inputValue === "number" ? inputValue : 0}
+          step={0.01}
+          tooltipVisible={false}
+        />
+      </Col>
+      <Col
+        span={4}
+        css={css`
+          margin-top: -12px;
+        `}
+      >
+        <InputNumber
+          min={0}
+          max={1}
+          style={{ margin: "0 16px" }}
+          step={0.01}
+          value={inputValue}
+          onChange={(value: number) => {
+            if (isNaN(value)) {
+              return;
+            }
+            setInputValue(value);
+          }}
+        />
+      </Col>
+    </Row>
+  );
 }
 
 function Paper(props: PaperData) {
@@ -30,25 +88,63 @@ function Paper(props: PaperData) {
           color: black;
         }
         width: 100%;
-        /* max-width: 1200px; */
-        /* margin: auto; */
-        /* margin-bottom: 25px; */
         text-align: left;
-        /* background-color: white; */
         padding: 30px 0px;
-        /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); */
         border-bottom: 1px solid ${color.gray5};
       `}
     >
-      <h2>{props.title}</h2>
-      <h2
+      <div
+        css={css`
+          position: relative;
+          margin-bottom: 2px;
+        `}
+      >
+        <div
+          css={css`
+            display: inline-block;
+            width: 100px;
+            position: absolute;
+            left: -110px;
+            text-align: right;
+            top: 2px;
+          `}
+        >
+          <div
+            css={css`
+              font-weight: normal;
+              text-align: right !important;
+              font-size: 18px;
+            `}
+          >
+            [{props.i + 1}]
+          </div>
+        </div>
+        <h2
+          css={css`
+            font-weight: 600;
+            margin-bottom: 0px;
+          `}
+        >
+          {props.title}
+        </h2>
+      </div>
+      <h4
+        css={css`
+          font-size: 15px;
+          color: ${color.gray8};
+          margin-bottom: 3px;
+        `}
+      >
+        {props.authors.join(", ")}
+      </h4>
+      <p
         css={css`
           text-align: left;
           font-size: 14px;
         `}
       >
         {props.abstract}
-      </h2>
+      </p>
     </div>
   );
 }
@@ -104,13 +200,185 @@ export default function Home({ data }) {
             overflow-y: auto;
             position: sticky;
             top: 0px;
-            padding: 20px 15px;
+            padding: 15px 15px;
             text-align: left;
+            * {
+              color: white;
+            }
           `}
         >
-          Here is the sidebar
-          <br />
-          <Button type="primary">Hello, world</Button>
+          <div
+            css={css`
+              font-weight: 600;
+              margin-bottom: 8px;
+              text-align: left;
+              font-size: 16px;
+              margin-bottom: 15px;
+            `}
+          >
+            <span
+              css={css`
+                .emoji-mart-emoji {
+                  vertical-align: middle;
+                }
+              `}
+            >
+              <Emoji emoji="bee" size={18} /> CVPR Buzz{" "}
+              <span
+                css={css`
+                  font-weight: normal;
+                `}
+              >
+                - 2021
+              </span>
+            </span>
+            <MenuFoldOutlined
+              css={css`
+                float: right;
+                margin-top: 5px;
+                font-size: 18px;
+                * {
+                  color: ${color.dark.geekblue8} !important;
+                }
+
+                &:hover {
+                  cursor: pointer;
+                }
+              `}
+            />
+          </div>
+          <div
+            css={css`
+              font-weight: 600;
+              margin-bottom: 10px;
+              margin-top: 30px;
+            `}
+          >
+            Sorting Weights
+          </div>
+          <div
+            css={css`
+              > div {
+                margin-bottom: 0px;
+                * {
+                  color: black;
+                }
+                > div:nth-child(1) {
+                  color: white !important;
+                  margin-bottom: -8px;
+                  /* display: inline-block; */
+                }
+              }
+            `}
+          >
+            <div>
+              <div>Citations:</div> <DecimalStep startingValue={1} />
+            </div>
+            <div>
+              <div>Retweets:</div> <DecimalStep startingValue={0.5} />
+            </div>
+            <div>
+              <div>Favorites:</div> <DecimalStep startingValue={0.5} />
+            </div>
+            <div>
+              <div>Replies:</div> <DecimalStep startingValue={0.5} />
+            </div>
+          </div>
+          <div
+            css={css`
+              font-weight: 600;
+              margin-bottom: 3px;
+              margin-top: 30px;
+            `}
+          >
+            Poster Session
+          </div>
+          <div
+            css={css`
+              > div {
+                margin-bottom: 3px;
+              }
+            `}
+          >
+            <div>
+              <Checkbox>Monday</Checkbox>
+            </div>
+            <div>
+              <Checkbox>Tuesday</Checkbox>
+            </div>
+            <div>
+              <Checkbox>Wednesday</Checkbox>
+            </div>
+            <div>
+              <Checkbox>Thursday</Checkbox>
+            </div>
+            <div>
+              <Checkbox>Friday</Checkbox>
+            </div>
+          </div>
+          <div
+            css={css`
+              font-weight: 600;
+              margin-bottom: 8px;
+              margin-top: 30px;
+            `}
+          >
+            Abstracts
+          </div>
+          <Radio.Group
+            css={css`
+              width: 100%;
+
+              * {
+                background-color: transparent !important;
+                /* width: 100% !important; */
+              }
+
+              .ant-radio-button-checked {
+                background-color: ${color.dark.geekblue4} !important;
+                z-index: -99 !important;
+              }
+              .ant-radio-button-wrapper {
+                &:before {
+                  background-color: ${color.dark.geekblue7} !important;
+                }
+                border-color: ${color.dark.geekblue7} !important;
+                width: 33% !important;
+                text-align: center;
+              }
+              .ant-radio-button-wrapper-checked > span {
+                color: white !important;
+              }
+            `}
+            // value={1}
+          >
+            <Radio.Button value={1}>Full</Radio.Button>
+            <Radio.Button value={2}>Partial</Radio.Button>
+            <Radio.Button value={3}>Hide</Radio.Button>
+          </Radio.Group>
+          <div
+            css={css`
+              font-weight: 600;
+              margin-bottom: 3px;
+              margin-top: 30px;
+            `}
+          >
+            Preferences
+          </div>
+          <div
+            css={css`
+              > div {
+                margin-bottom: 5px;
+              }
+            `}
+          >
+            <div>
+              <Checkbox>Dark Mode</Checkbox>
+            </div>
+            <div>
+              <Checkbox>Lazy Loading</Checkbox>
+            </div>
+          </div>
         </div>
         <div
           css={css`
@@ -124,7 +392,7 @@ export default function Home({ data }) {
               margin-right: 5%;
               margin-left: 5%;
               margin-top: 25px;
-              margin-bottom: 85px;
+              margin-bottom: 80px;
               text-align: left;
             `}
           >
@@ -134,23 +402,31 @@ export default function Home({ data }) {
                 font-weight: 600;
               `}
             >
-              CVPR Buzz{" "}
+              <span
+                css={css`
+                  .emoji-mart-emoji {
+                    vertical-align: middle;
+                  }
+                `}
+              >
+                <Emoji emoji="bee" size={28} /> CVPR Buzz{" "}
+              </span>
               <span
                 css={css`
                   font-weight: normal;
                 `}
               >
-                (2021)
+                - 2021
               </span>
             </h1>
-            <h3>2021</h3>
-            {papers.map((paper: { node: PaperData }) => (
-              <Paper key={paper.node.id} {...paper.node} />
+            <h3>Built by Matt Deitke</h3>
+            {papers.map((paper: { node: PaperData }, i: number) => (
+              <Paper key={paper.node.id} {...paper.node} i={i} />
             ))}
           </div>
         </div>
       </div>
-      <footer
+      {/* <footer
         css={css`
           padding-top: 15px;
           padding-bottom: 15px;
@@ -158,7 +434,7 @@ export default function Home({ data }) {
         `}
       >
         Built by Matt Deitke | MIT License
-      </footer>
+      </footer> */}
     </div>
   );
 }
