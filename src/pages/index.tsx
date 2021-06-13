@@ -24,21 +24,48 @@ interface PaperData {
 
 function Paper(props: PaperData) {
   return (
-    <div>
+    <div
+      css={css`
+        * {
+          color: white;
+        }
+        width: 85%;
+        /* max-width: 1200px; */
+        /* margin: auto; */
+        margin-bottom: 25px;
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: left;
+      `}
+    >
       <h2>{props.title}</h2>
-      <h2>{props.pdf}</h2>
+      <h2
+        css={css`
+          text-align: left;
+          font-size: 14px;
+        `}
+      >
+        {props.abstract}
+      </h2>
     </div>
   );
 }
 
 export default function Home({ data }) {
   let papers = data.allPaperDataJson.edges;
-  papers = papers.slice(0, 5);
+  papers = papers.slice(0, 7);
 
   console.log(papers);
 
   return (
-    <div>
+    <div
+      css={css`
+        background-color: ${color.gray12};
+        min-height: 100vh;
+        color: white;
+        text-align: center;
+      `}
+    >
       <Helmet>
         <title>My title</title>
       </Helmet>
@@ -47,24 +74,49 @@ export default function Home({ data }) {
         The center of the universe is at $5+4$. One can also do something like
         $5+4$.
       </Latex>
-      {papers.map((paper: { node: PaperData }) => (
-        <Paper key={paper.node.id} {...paper.node} />
-      ))}
-      <br />
-      <br />
-      <Button type="primary">Hello, world</Button>
+      {/* TODO: link to github/license */}
       <div
         css={css`
-          color: ${color.light.blue6};
-          &:hover {
-            background-color: green;
-          }
+          display: grid;
+          grid-template-columns: 256px calc(100% - 256px);
+          /* grid-gap: max(5%, 20px); */
         `}
       >
-        Hello, world
+        <div
+          css={css`
+            background-color: ${color.dark.blue2};
+            color: white;
+            grid-row: 1;
+            grid-column: 1;
+            height: 100vh;
+            overflow-y: auto;
+            position: sticky;
+            top: 0px;
+          `}
+        >
+          Here is the sidebar
+          <Button type="primary">Hello, world</Button>
+        </div>
+        <div
+          css={css`
+            grid-row: 1;
+            grid-column: 2;
+          `}
+        >
+          {papers.map((paper: { node: PaperData }) => (
+            <Paper key={paper.node.id} {...paper.node} />
+          ))}
+        </div>
       </div>
-      <br />
-      <br />
+      <footer
+        css={css`
+          padding-top: 15px;
+          padding-bottom: 15px;
+          background-color: green;
+        `}
+      >
+        Built by Matt Deitke | MIT License
+      </footer>
     </div>
   );
 }
