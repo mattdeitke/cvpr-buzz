@@ -34,53 +34,66 @@ interface PaperData {
   pdf: string;
   authors: string[];
   arXiv: string;
-  i?: number;
 }
 
-function DecimalStep(props: { startingValue: number }) {
-  const [inputValue, setInputValue] = useState(props.startingValue);
-  return (
-    <Row>
-      <Col span={12}>
-        <Slider
-          min={0}
-          max={1}
-          onChange={(value: number) => {
-            if (isNaN(value)) {
-              return;
-            }
-            setInputValue(value);
-          }}
-          value={typeof inputValue === "number" ? inputValue : 0}
-          step={0.01}
-          tooltipVisible={false}
-        />
-      </Col>
-      <Col
-        span={4}
-        css={css`
-          margin-top: -12px;
-        `}
-      >
-        <InputNumber
-          min={0}
-          max={1}
-          style={{ margin: "0 16px" }}
-          step={0.01}
-          value={inputValue}
-          onChange={(value: number) => {
-            if (isNaN(value)) {
-              return;
-            }
-            setInputValue(value);
-          }}
-        />
-      </Col>
-    </Row>
-  );
+interface PaperComponent extends PaperData {
+  i: number;
+  abstractDisplayStyle: string;
 }
 
-function Paper(props: PaperData) {
+function Paper(props: PaperComponent) {
+  const [expandAbstract, setExpandAbstract] = useState(false);
+  let abstract: string | React.ReactNode;
+  switch (props.abstractDisplayStyle) {
+    case "full":
+      abstract = props.abstract;
+      break;
+    case "preview":
+      if (expandAbstract) {
+        abstract = (
+          <>
+            {props.abstract}{" "}
+            <span
+              onClick={() => setExpandAbstract(false)}
+              className="noselect"
+              css={css`
+                color: ${color.light.blue6};
+                &:hover {
+                  cursor: pointer;
+                }
+              `}
+            >
+              [Collapse]
+            </span>
+          </>
+        );
+      } else {
+        abstract = (
+          <>
+            {props.abstract.substring(0, props.abstract.indexOf(". ") + 1)}{" "}
+            <span
+              onClick={() => setExpandAbstract(true)}
+              className="noselect"
+              css={css`
+                color: ${color.light.blue6};
+                &:hover {
+                  cursor: pointer;
+                }
+              `}
+            >
+              [Expand]
+            </span>
+          </>
+        );
+      }
+      break;
+    case "hide":
+      abstract = "";
+      break;
+    default:
+      throw `No idea what ${props.abstractDisplayStyle} is! Must be in {"full", "preview", "hide"}.`;
+  }
+
   return (
     <div
       css={css`
@@ -143,15 +156,60 @@ function Paper(props: PaperData) {
           font-size: 14px;
         `}
       >
-        {props.abstract}
+        {abstract}
       </p>
     </div>
   );
 }
 
+function DecimalStep(props: { startingValue: number }) {
+  const [inputValue, setInputValue] = useState(props.startingValue);
+  return (
+    <Row>
+      <Col span={12}>
+        <Slider
+          min={0}
+          max={1}
+          onChange={(value: number) => {
+            if (isNaN(value)) {
+              return;
+            }
+            setInputValue(value);
+          }}
+          value={typeof inputValue === "number" ? inputValue : 0}
+          step={0.01}
+          tooltipVisible={false}
+        />
+      </Col>
+      <Col
+        span={4}
+        css={css`
+          margin-top: -12px;
+        `}
+      >
+        <InputNumber
+          min={0}
+          max={1}
+          style={{ margin: "0 16px" }}
+          step={0.01}
+          value={inputValue}
+          onChange={(value: number) => {
+            if (isNaN(value)) {
+              return;
+            }
+            setInputValue(value);
+          }}
+        />
+      </Col>
+    </Row>
+  );
+}
+
 export default function Home({ data }) {
+  const [abstractDisplayStyle, setAbstractDisplayStyle] = useState("full");
+
   let papers = data.allPaperDataJson.edges;
-  // papers = papers.slice(0, 150);
+  papers = papers.slice(0, 100);
 
   console.log(papers);
 
@@ -165,7 +223,7 @@ export default function Home({ data }) {
       `}
     >
       <Helmet>
-        <title>My title</title>
+        <title>CVPR Buzz</title>
       </Helmet>
       {/* <header
         css={css`
@@ -272,16 +330,16 @@ export default function Home({ data }) {
             `}
           >
             <div>
-              <div>Citations:</div> <DecimalStep startingValue={1} />
+              <div>Citations</div> <DecimalStep startingValue={1} />
             </div>
             <div>
-              <div>Retweets:</div> <DecimalStep startingValue={0.5} />
+              <div>Retweets</div> <DecimalStep startingValue={0.5} />
             </div>
             <div>
-              <div>Favorites:</div> <DecimalStep startingValue={0.5} />
+              <div>Favorites</div> <DecimalStep startingValue={0.5} />
             </div>
             <div>
-              <div>Replies:</div> <DecimalStep startingValue={0.5} />
+              <div>Replies</div> <DecimalStep startingValue={0.5} />
             </div>
           </div>
           <div
@@ -350,11 +408,12 @@ export default function Home({ data }) {
                 color: white !important;
               }
             `}
-            // value={1}
+            onChange={(e) => setAbstractDisplayStyle(e.target.value)}
+            value={abstractDisplayStyle}
           >
-            <Radio.Button value={1}>Full</Radio.Button>
-            <Radio.Button value={2}>Partial</Radio.Button>
-            <Radio.Button value={3}>Hide</Radio.Button>
+            <Radio.Button value="full">Full</Radio.Button>
+            <Radio.Button value="preview">Preview</Radio.Button>
+            <Radio.Button value="hide">Hide</Radio.Button>
           </Radio.Group>
           <div
             css={css`
@@ -421,7 +480,12 @@ export default function Home({ data }) {
             </h1>
             <h3>Built by Matt Deitke</h3>
             {papers.map((paper: { node: PaperData }, i: number) => (
-              <Paper key={paper.node.id} {...paper.node} i={i} />
+              <Paper
+                abstractDisplayStyle={abstractDisplayStyle}
+                key={paper.node.id}
+                {...paper.node}
+                i={i}
+              />
             ))}
           </div>
         </div>
