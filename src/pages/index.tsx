@@ -31,10 +31,6 @@ function Paper(props: PaperData) {
   );
 }
 
-/**
- * @param {number} a some number.
- * @param {number} b some other number.
- */
 export default function Home({ data }) {
   let papers = data.allPaperDataJson.edges;
   papers = papers.slice(0, 5);
