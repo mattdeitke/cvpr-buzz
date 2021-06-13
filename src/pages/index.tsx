@@ -27,15 +27,17 @@ function Paper(props: PaperData) {
     <div
       css={css`
         * {
-          color: white;
+          color: black;
         }
-        width: 85%;
+        width: 100%;
         /* max-width: 1200px; */
         /* margin: auto; */
-        margin-bottom: 25px;
-        margin-right: 5%;
-        margin-left: 5%;
+        /* margin-bottom: 25px; */
         text-align: left;
+        /* background-color: white; */
+        padding: 30px 0px;
+        /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); */
+        border-bottom: 1px solid ${color.gray5};
       `}
     >
       <h2>{props.title}</h2>
@@ -53,14 +55,14 @@ function Paper(props: PaperData) {
 
 export default function Home({ data }) {
   let papers = data.allPaperDataJson.edges;
-  papers = papers.slice(0, 7);
+  // papers = papers.slice(0, 150);
 
   console.log(papers);
 
   return (
     <div
       css={css`
-        background-color: ${color.gray12};
+        background-color: ${color.gray1};
         min-height: 100vh;
         color: white;
         text-align: center;
@@ -69,11 +71,21 @@ export default function Home({ data }) {
       <Helmet>
         <title>My title</title>
       </Helmet>
-      <h1>Hello, world!</h1>
-      <Latex>
-        The center of the universe is at $5+4$. One can also do something like
-        $5+4$.
-      </Latex>
+      {/* <header
+        css={css`
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+          padding-top: 10px;
+          padding-bottom: 10px;
+          position: relative;
+          z-index: 99 !important;
+        `}
+      >
+        <h2>Hello, world!</h2>
+        <Latex>
+          The center of the universe is at $5+4$. One can also do something like
+          $5+4$.
+        </Latex>
+      </header> */}
       {/* TODO: link to github/license */}
       <div
         css={css`
@@ -84,7 +96,7 @@ export default function Home({ data }) {
       >
         <div
           css={css`
-            background-color: ${color.dark.blue2};
+            background-color: ${color.dark.blue1};
             color: white;
             grid-row: 1;
             grid-column: 1;
@@ -92,9 +104,12 @@ export default function Home({ data }) {
             overflow-y: auto;
             position: sticky;
             top: 0px;
+            padding: 20px 15px;
+            text-align: left;
           `}
         >
           Here is the sidebar
+          <br />
           <Button type="primary">Hello, world</Button>
         </div>
         <div
@@ -103,16 +118,43 @@ export default function Home({ data }) {
             grid-column: 2;
           `}
         >
-          {papers.map((paper: { node: PaperData }) => (
-            <Paper key={paper.node.id} {...paper.node} />
-          ))}
+          <div
+            css={css`
+              /* background-color: white; */
+              margin-right: 5%;
+              margin-left: 5%;
+              margin-top: 25px;
+              margin-bottom: 85px;
+              text-align: left;
+            `}
+          >
+            <h1
+              css={css`
+                text-align: left;
+                font-weight: 600;
+              `}
+            >
+              CVPR Buzz{" "}
+              <span
+                css={css`
+                  font-weight: normal;
+                `}
+              >
+                (2021)
+              </span>
+            </h1>
+            <h3>2021</h3>
+            {papers.map((paper: { node: PaperData }) => (
+              <Paper key={paper.node.id} {...paper.node} />
+            ))}
+          </div>
         </div>
       </div>
       <footer
         css={css`
           padding-top: 15px;
           padding-bottom: 15px;
-          background-color: green;
+          background-color: #182430;
         `}
       >
         Built by Matt Deitke | MIT License
