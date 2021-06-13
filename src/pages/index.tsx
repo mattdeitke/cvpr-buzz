@@ -18,7 +18,7 @@ import { css } from "@emotion/react";
 import color from "~styles/color";
 import { graphql } from "gatsby";
 import { Emoji } from "emoji-mart";
-import { MenuFoldOutlined } from "@ant-design/icons";
+import { MenuFoldOutlined, GithubOutlined } from "@ant-design/icons";
 
 interface PaperData {
   abstract: string;
@@ -250,7 +250,6 @@ export default function Home({ data }) {
           grid-template-columns: ${foldMenu
             ? "45px calc(100% - 45px)"
             : "256px calc(100% - 256px)"};
-          /* grid-gap: max(5%, 20px); */
         `}
       >
         <div
@@ -273,7 +272,6 @@ export default function Home({ data }) {
           {foldMenu ? (
             <MenuFoldOutlined
               css={css`
-                /* float: right; */
                 margin-top: 2px;
                 font-size: 18px;
                 transform: rotate(180deg);
@@ -292,8 +290,7 @@ export default function Home({ data }) {
               onClick={() => setFoldMenu((prev) => !prev)}
             />
           ) : (
-            <>
-              {" "}
+            <div>
               <div
                 css={css`
                   font-weight: 600;
@@ -472,7 +469,7 @@ export default function Home({ data }) {
                   <Checkbox>Lazy Loading</Checkbox>
                 </div>
               </div>
-            </>
+            </div>
           )}
         </div>
         <div
@@ -514,6 +511,40 @@ export default function Home({ data }) {
                 - 2021
               </span>
             </h1>
+            <div
+              css={css`
+                float: right;
+                margin-top: -55px;
+              `}
+            >
+              <a href="//github.com/mattdeitke/cvpr-buzz" target="_blank">
+                <GithubOutlined
+                  css={css`
+                    font-size: 28px;
+                    vertical-align: middle;
+                    color: black;
+                    transition-duration: 0.3s;
+                    &:hover {
+                      color: ${color.gray8};
+                    }
+                  `}
+                />
+              </a>
+              <div
+                css={css`
+                  vertical-align: middle;
+                  display: inline-block;
+                  font-size: 18px;
+                  margin-left: 10px;
+                  color: black;
+                  margin-left: 15px;
+                  padding-left: 15px;
+                  border-left: 1px solid black;
+                `}
+              >
+                MIT License
+              </div>
+            </div>
             <h3>Built by Matt Deitke</h3>
             {papers.map((paper: { node: PaperData }, i: number) => (
               <Paper

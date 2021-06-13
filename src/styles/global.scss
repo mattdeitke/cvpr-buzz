@@ -19,9 +19,18 @@ button,
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
-button {
-  padding: 4px 15px;
-  border: none;
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+statuspanel[label^="Looking"] {
+  display: none !important;
+}
+statuspanel[label^="Connect"] {
+  display: none !important;
+}
+statuspanel[label^="Waiting"] {
+  display: none !important;
+}
+statuspanel[label^="Transfer"] {
+  display: none !important;
 }
 
 // remove anchor styling
