@@ -37,6 +37,13 @@ interface PaperData {
   arXiv: string;
 }
 
+const STARTING_WEIGHTS = {
+  citations: 1,
+  retweets: 0.5,
+  likes: 0.5,
+  replies: 0.5,
+};
+
 interface PaperComponent extends PaperData {
   i: number;
   abstractDisplayStyle: string;
@@ -160,13 +167,21 @@ function Paper(props: PaperComponent) {
       >
         {abstract}
       </p>
+      <div>Citations: {props.citations}</div>
+      {props.twitter === null ? (
+        <></>
+      ) : (
+        <>
+          <div>Likes: {props.twitter.likes}</div>
+          <div>Retweets: {props.twitter.retweets}</div>
+          <div>Replies: {props.twitter.replies}</div>
+        </>
+      )}
     </div>
   );
 }
 
-function DecimalStep(props: { startingValue: number }) {
-  const [inputValue, setInputValue] = useState(props.startingValue);
-
+function DecimalStep(props: { inputValue: number; setInputValue: any }) {
   return (
     <Row>
       <Col span={12}>
@@ -177,9 +192,9 @@ function DecimalStep(props: { startingValue: number }) {
             if (isNaN(value)) {
               return;
             }
-            setInputValue(value);
+            props.setInputValue(value);
           }}
-          value={typeof inputValue === "number" ? inputValue : 0}
+          value={typeof props.inputValue === "number" ? props.inputValue : 0}
           step={0.01}
           tooltipVisible={false}
         />
@@ -195,12 +210,12 @@ function DecimalStep(props: { startingValue: number }) {
           max={1}
           style={{ margin: "0 16px" }}
           step={0.01}
-          value={inputValue}
+          value={props.inputValue}
           onChange={(value: number) => {
             if (isNaN(value)) {
               return;
             }
-            setInputValue(value);
+            props.setInputValue(value);
           }}
         />
       </Col>
@@ -208,12 +223,136 @@ function DecimalStep(props: { startingValue: number }) {
   );
 }
 
+function SortWeights(props: { setSortWeights: any }) {
+  const [citationsInput, setCitationsInput] = useState(
+      STARTING_WEIGHTS.citations
+    ),
+    [retweetsInput, setRetweetsInput] = useState(STARTING_WEIGHTS.retweets),
+    [likesInput, setLikesInput] = useState(STARTING_WEIGHTS.likes),
+    [repliesInput, setRepliesInput] = useState(STARTING_WEIGHTS.replies);
+
+  return (
+    <>
+      <div
+        css={css`
+          font-weight: 600;
+          margin-bottom: 10px;
+          margin-top: 30px;
+        `}
+      >
+        Sorting Weights
+      </div>
+      <div
+        css={css`
+          > div {
+            margin-bottom: 0px;
+            * {
+              color: black;
+            }
+            > div:nth-child(1) {
+              color: white !important;
+              margin-bottom: -8px;
+            }
+          }
+        `}
+      >
+        <div>
+          <div>Citations</div>{" "}
+          <DecimalStep
+            inputValue={citationsInput}
+            setInputValue={setCitationsInput}
+          />
+        </div>
+        <div>
+          <div>Retweets</div>{" "}
+          <DecimalStep
+            inputValue={retweetsInput}
+            setInputValue={setRetweetsInput}
+          />
+        </div>
+        <div>
+          <div>Likes</div>{" "}
+          <DecimalStep inputValue={likesInput} setInputValue={setLikesInput} />
+        </div>
+        <div>
+          <div>Replies</div>{" "}
+          <DecimalStep
+            inputValue={repliesInput}
+            setInputValue={setRepliesInput}
+          />
+        </div>
+        <Button
+          css={css`
+            width: 100%;
+            margin-top: 8px;
+            background-color: ${darken(0.3, "#7f9ef3")} !important;
+            filter: saturate(0.3);
+            border-color: transparent !important;
+            > span {
+              color: ${color.gray5} !important;
+            }
+          `}
+          onClick={() =>
+            props.setSortWeights({
+              citations: citationsInput,
+              retweets: retweetsInput,
+              likes: likesInput,
+              replies: repliesInput,
+            })
+          }
+        >
+          Sort
+        </Button>
+      </div>
+    </>
+  );
+}
+
 export default function Home({ data }) {
   const [abstractDisplayStyle, setAbstractDisplayStyle] = useState("full"),
-    [foldMenu, setFoldMenu] = useState(false);
+    [foldMenu, setFoldMenu] = useState(false),
+    [sortWeights, setSortWeights] = useState({
+      citations: STARTING_WEIGHTS.citations,
+      retweets: STARTING_WEIGHTS.retweets,
+      likes: STARTING_WEIGHTS.likes,
+      replies: STARTING_WEIGHTS.replies,
+    });
 
   let papers = data.allPaperDataJson.edges;
-  papers = papers.slice(0, 100);
+  papers.sort((p1: { node: PaperData }, p2: { node: PaperData }) => {
+    let citations1 = p1.node.citations == null ? 0 : p1.node.citations;
+    let likes1: number, retweets1: number, replies1: number;
+    if (p1.node.twitter === null) {
+      likes1 = 0;
+      retweets1 = 0;
+      replies1 = 0;
+    } else {
+      likes1 = p1.node.twitter.likes;
+      retweets1 = p1.node.twitter.retweets;
+      replies1 = p1.node.twitter.replies;
+    }
+
+    let citations2 = p2.node.citations == null ? 0 : p2.node.citations;
+    let likes2: number, retweets2: number, replies2: number;
+    if (p2.node.twitter === null) {
+      likes2 = 0;
+      retweets2 = 0;
+      replies2 = 0;
+    } else {
+      likes2 = p2.node.twitter.likes;
+      retweets2 = p2.node.twitter.retweets;
+      replies2 = p2.node.twitter.replies;
+    }
+
+    return (
+      sortWeights.citations * (citations2 - citations1) +
+      sortWeights.likes * (likes2 - likes1) +
+      sortWeights.retweets * (retweets2 - retweets1) +
+      sortWeights.replies * (replies2 - replies1)
+    );
+  });
+
+  // papers = papers.slice(0, 100);
 
   console.log(papers);
 
@@ -337,57 +476,7 @@ export default function Home({ data }) {
                   onClick={() => setFoldMenu((prev) => !prev)}
                 />
               </div>
-              <div
-                css={css`
-                  font-weight: 600;
-                  margin-bottom: 10px;
-                  margin-top: 30px;
-                `}
-              >
-                Sorting Weights
-              </div>
-              <div
-                css={css`
-                  > div {
-                    margin-bottom: 0px;
-                    * {
-                      color: black;
-                    }
-                    > div:nth-child(1) {
-                      color: white !important;
-                      margin-bottom: -8px;
-                      /* display: inline-block; */
-                    }
-                  }
-                `}
-              >
-                <div>
-                  <div>Citations</div> <DecimalStep startingValue={1} />
-                </div>
-                <div>
-                  <div>Retweets</div> <DecimalStep startingValue={0.5} />
-                </div>
-                <div>
-                  <div>Favorites</div> <DecimalStep startingValue={0.5} />
-                </div>
-                <div>
-                  <div>Replies</div> <DecimalStep startingValue={0.5} />
-                </div>
-                <Button
-                  css={css`
-                    width: 100%;
-                    margin-top: 8px;
-                    background-color: ${darken(0.3, "#7f9ef3")} !important;
-                    filter: saturate(0.3);
-                    border-color: transparent !important;
-                    > span {
-                      color: ${color.gray5} !important;
-                    }
-                  `}
-                >
-                  Sort
-                </Button>
-              </div>
+              <SortWeights setSortWeights={setSortWeights} />
               <div
                 css={css`
                   font-weight: 600;
