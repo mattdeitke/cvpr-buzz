@@ -372,6 +372,17 @@ export default function Home({ data }) {
                 <div>
                   <div>Replies</div> <DecimalStep startingValue={0.5} />
                 </div>
+                <Button
+                  css={css`
+                    width: 100%;
+                    margin-top: 8px;
+
+                    background-color: #111d2c !important;
+                    border-color: ${color.dark.geekblue5} !important;
+                  `}
+                >
+                  Sort
+                </Button>
               </div>
               <div
                 css={css`
