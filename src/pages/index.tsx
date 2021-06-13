@@ -19,6 +19,7 @@ import color from "~styles/color";
 import { graphql } from "gatsby";
 import { Emoji } from "emoji-mart";
 import { MenuFoldOutlined, GithubOutlined } from "@ant-design/icons";
+import { lighten, darken } from "polished";
 
 interface PaperData {
   abstract: string;
@@ -376,9 +377,12 @@ export default function Home({ data }) {
                   css={css`
                     width: 100%;
                     margin-top: 8px;
-
-                    background-color: #111d2c !important;
-                    border-color: ${color.dark.geekblue5} !important;
+                    background-color: ${darken(0.3, "#7f9ef3")} !important;
+                    filter: saturate(0.3);
+                    border-color: transparent !important;
+                    > span {
+                      color: ${color.gray5} !important;
+                    }
                   `}
                 >
                   Sort
