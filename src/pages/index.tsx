@@ -43,6 +43,7 @@ interface PaperComponent extends PaperData {
 
 function Paper(props: PaperComponent) {
   const [expandAbstract, setExpandAbstract] = useState(false);
+
   let abstract: string | React.ReactNode;
   switch (props.abstractDisplayStyle) {
     case "full":
@@ -164,6 +165,7 @@ function Paper(props: PaperComponent) {
 
 function DecimalStep(props: { startingValue: number }) {
   const [inputValue, setInputValue] = useState(props.startingValue);
+
   return (
     <Row>
       <Col span={12}>
@@ -206,7 +208,8 @@ function DecimalStep(props: { startingValue: number }) {
 }
 
 export default function Home({ data }) {
-  const [abstractDisplayStyle, setAbstractDisplayStyle] = useState("full");
+  const [abstractDisplayStyle, setAbstractDisplayStyle] = useState("full"),
+    [foldMenu, setFoldMenu] = useState(false);
 
   let papers = data.allPaperDataJson.edges;
   papers = papers.slice(0, 100);
@@ -244,13 +247,15 @@ export default function Home({ data }) {
       <div
         css={css`
           display: grid;
-          grid-template-columns: 256px calc(100% - 256px);
+          grid-template-columns: ${foldMenu
+            ? "45px calc(100% - 45px)"
+            : "256px calc(100% - 256px)"};
           /* grid-gap: max(5%, 20px); */
         `}
       >
         <div
           css={css`
-            background-color: ${color.dark.blue1};
+            background-color: ${foldMenu ? "transparent" : color.dark.blue1};
             color: white;
             grid-row: 1;
             grid-column: 1;
@@ -265,179 +270,210 @@ export default function Home({ data }) {
             }
           `}
         >
-          <div
-            css={css`
-              font-weight: 600;
-              margin-bottom: 8px;
-              text-align: left;
-              font-size: 16px;
-              margin-bottom: 15px;
-            `}
-          >
-            <span
-              css={css`
-                .emoji-mart-emoji {
-                  vertical-align: middle;
-                }
-              `}
-            >
-              <Emoji emoji="bee" size={18} /> CVPR Buzz{" "}
-              <span
-                css={css`
-                  font-weight: normal;
-                `}
-              >
-                - 2021
-              </span>
-            </span>
+          {foldMenu ? (
             <MenuFoldOutlined
               css={css`
-                float: right;
-                margin-top: 5px;
+                /* float: right; */
+                margin-top: 2px;
                 font-size: 18px;
+                transform: rotate(180deg);
                 * {
-                  color: ${color.dark.geekblue8} !important;
+                  color: ${color.dark.geekblue5} !important;
                 }
+                padding: 3px;
+                border-radius: 2px;
+                transition-duration: 0.1s;
 
                 &:hover {
                   cursor: pointer;
+                  background-color: ${color.gray4};
                 }
               `}
+              onClick={() => setFoldMenu((prev) => !prev)}
             />
-          </div>
-          <div
-            css={css`
-              font-weight: 600;
-              margin-bottom: 10px;
-              margin-top: 30px;
-            `}
-          >
-            Sorting Weights
-          </div>
-          <div
-            css={css`
-              > div {
-                margin-bottom: 0px;
-                * {
-                  color: black;
-                }
-                > div:nth-child(1) {
-                  color: white !important;
-                  margin-bottom: -8px;
-                  /* display: inline-block; */
-                }
-              }
-            `}
-          >
-            <div>
-              <div>Citations</div> <DecimalStep startingValue={1} />
-            </div>
-            <div>
-              <div>Retweets</div> <DecimalStep startingValue={0.5} />
-            </div>
-            <div>
-              <div>Favorites</div> <DecimalStep startingValue={0.5} />
-            </div>
-            <div>
-              <div>Replies</div> <DecimalStep startingValue={0.5} />
-            </div>
-          </div>
-          <div
-            css={css`
-              font-weight: 600;
-              margin-bottom: 3px;
-              margin-top: 30px;
-            `}
-          >
-            Poster Session
-          </div>
-          <div
-            css={css`
-              > div {
-                margin-bottom: 3px;
-              }
-            `}
-          >
-            <div>
-              <Checkbox>Monday</Checkbox>
-            </div>
-            <div>
-              <Checkbox>Tuesday</Checkbox>
-            </div>
-            <div>
-              <Checkbox>Wednesday</Checkbox>
-            </div>
-            <div>
-              <Checkbox>Thursday</Checkbox>
-            </div>
-            <div>
-              <Checkbox>Friday</Checkbox>
-            </div>
-          </div>
-          <div
-            css={css`
-              font-weight: 600;
-              margin-bottom: 8px;
-              margin-top: 30px;
-            `}
-          >
-            Abstracts
-          </div>
-          <Radio.Group
-            css={css`
-              width: 100%;
+          ) : (
+            <>
+              {" "}
+              <div
+                css={css`
+                  font-weight: 600;
+                  margin-bottom: 8px;
+                  text-align: left;
+                  font-size: 16px;
+                  margin-bottom: 15px;
+                `}
+              >
+                <span
+                  css={css`
+                    .emoji-mart-emoji {
+                      vertical-align: middle;
+                    }
+                  `}
+                >
+                  <Emoji emoji="bee" size={18} /> CVPR Buzz{" "}
+                  <span
+                    css={css`
+                      font-weight: normal;
+                    `}
+                  >
+                    - 2021
+                  </span>
+                </span>
+                <MenuFoldOutlined
+                  css={css`
+                    float: right;
+                    margin-top: 2px;
+                    font-size: 18px;
+                    * {
+                      color: ${color.dark.geekblue8} !important;
+                    }
+                    padding: 3px;
+                    border-radius: 2px;
+                    transition-duration: 0.1s;
 
-              * {
-                background-color: transparent !important;
-                /* width: 100% !important; */
-              }
+                    &:hover {
+                      cursor: pointer;
+                      background-color: ${color.gray9};
+                    }
+                  `}
+                  onClick={() => setFoldMenu((prev) => !prev)}
+                />
+              </div>
+              <div
+                css={css`
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                  margin-top: 30px;
+                `}
+              >
+                Sorting Weights
+              </div>
+              <div
+                css={css`
+                  > div {
+                    margin-bottom: 0px;
+                    * {
+                      color: black;
+                    }
+                    > div:nth-child(1) {
+                      color: white !important;
+                      margin-bottom: -8px;
+                      /* display: inline-block; */
+                    }
+                  }
+                `}
+              >
+                <div>
+                  <div>Citations</div> <DecimalStep startingValue={1} />
+                </div>
+                <div>
+                  <div>Retweets</div> <DecimalStep startingValue={0.5} />
+                </div>
+                <div>
+                  <div>Favorites</div> <DecimalStep startingValue={0.5} />
+                </div>
+                <div>
+                  <div>Replies</div> <DecimalStep startingValue={0.5} />
+                </div>
+              </div>
+              <div
+                css={css`
+                  font-weight: 600;
+                  margin-bottom: 3px;
+                  margin-top: 30px;
+                `}
+              >
+                Poster Session
+              </div>
+              <div
+                css={css`
+                  > div {
+                    margin-bottom: 3px;
+                  }
+                `}
+              >
+                <div>
+                  <Checkbox>Monday</Checkbox>
+                </div>
+                <div>
+                  <Checkbox>Tuesday</Checkbox>
+                </div>
+                <div>
+                  <Checkbox>Wednesday</Checkbox>
+                </div>
+                <div>
+                  <Checkbox>Thursday</Checkbox>
+                </div>
+                <div>
+                  <Checkbox>Friday</Checkbox>
+                </div>
+              </div>
+              <div
+                css={css`
+                  font-weight: 600;
+                  margin-bottom: 8px;
+                  margin-top: 30px;
+                `}
+              >
+                Abstracts
+              </div>
+              <Radio.Group
+                css={css`
+                  width: 100%;
 
-              .ant-radio-button-checked {
-                background-color: ${color.dark.geekblue4} !important;
-                z-index: -99 !important;
-              }
-              .ant-radio-button-wrapper {
-                &:before {
-                  background-color: ${color.dark.geekblue7} !important;
-                }
-                border-color: ${color.dark.geekblue7} !important;
-                width: 33% !important;
-                text-align: center;
-              }
-              .ant-radio-button-wrapper-checked > span {
-                color: white !important;
-              }
-            `}
-            onChange={(e) => setAbstractDisplayStyle(e.target.value)}
-            value={abstractDisplayStyle}
-          >
-            <Radio.Button value="full">Full</Radio.Button>
-            <Radio.Button value="preview">Preview</Radio.Button>
-            <Radio.Button value="hide">Hide</Radio.Button>
-          </Radio.Group>
-          <div
-            css={css`
-              font-weight: 600;
-              margin-bottom: 3px;
-              margin-top: 30px;
-            `}
-          >
-            Preferences
-          </div>
-          <div
-            css={css`
-              > div {
-                margin-bottom: 5px;
-              }
-            `}
-          >
-            <div>
-              <Checkbox>Dark Mode</Checkbox>
-            </div>
-            <div>
-              <Checkbox>Lazy Loading</Checkbox>
-            </div>
-          </div>
+                  * {
+                    background-color: transparent !important;
+                    /* width: 100% !important; */
+                  }
+
+                  .ant-radio-button-checked {
+                    background-color: ${color.dark.geekblue4} !important;
+                    z-index: -99 !important;
+                  }
+                  .ant-radio-button-wrapper {
+                    &:before {
+                      background-color: ${color.dark.geekblue7} !important;
+                    }
+                    border-color: ${color.dark.geekblue7} !important;
+                    width: 33% !important;
+                    text-align: center;
+                  }
+                  .ant-radio-button-wrapper-checked > span {
+                    color: white !important;
+                  }
+                `}
+                onChange={(e) => setAbstractDisplayStyle(e.target.value)}
+                value={abstractDisplayStyle}
+              >
+                <Radio.Button value="full">Full</Radio.Button>
+                <Radio.Button value="preview">Preview</Radio.Button>
+                <Radio.Button value="hide">Hide</Radio.Button>
+              </Radio.Group>
+              <div
+                css={css`
+                  font-weight: 600;
+                  margin-bottom: 3px;
+                  margin-top: 30px;
+                `}
+              >
+                Preferences
+              </div>
+              <div
+                css={css`
+                  > div {
+                    margin-bottom: 5px;
+                  }
+                `}
+              >
+                <div>
+                  <Checkbox>Dark Mode</Checkbox>
+                </div>
+                <div>
+                  <Checkbox>Lazy Loading</Checkbox>
+                </div>
+              </div>
+            </>
+          )}
         </div>
         <div
           css={css`
@@ -490,15 +526,6 @@ export default function Home({ data }) {
           </div>
         </div>
       </div>
-      {/* <footer
-        css={css`
-          padding-top: 15px;
-          padding-bottom: 15px;
-          background-color: #182430;
-        `}
-      >
-        Built by Matt Deitke | MIT License
-      </footer> */}
     </div>
   );
 }
