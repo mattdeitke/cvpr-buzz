@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Latex from "react-latex";
 import {
   Button,
@@ -20,6 +20,7 @@ import { graphql } from "gatsby";
 import { Emoji } from "emoji-mart";
 import { MenuFoldOutlined, GithubOutlined } from "@ant-design/icons";
 import { lighten, darken } from "polished";
+import * as d3 from "d3";
 
 interface PaperData {
   abstract: string;
@@ -359,6 +360,43 @@ function PosterSessionDate(props: {
     </div>
   );
 }
+
+export const DensityPlot = (props: { data?: number[] }) => {
+  const container = useRef(null);
+
+  useEffect(() => {
+    if (props.data && container.current) {
+      const svg = d3.select(container.current);
+
+      const update = svg.append("g").selectAll("text").data(props.data);
+
+      update
+        .enter()
+        .append("text")
+        .attr("x", (d, i) => i * 55)
+        .attr("y", 40)
+        .style("font-size", 24)
+        .text((d: number) => d);
+
+      update.attr("x", (d, i) => i * 40).text((d: number) => d);
+
+      update.exit().remove();
+
+      svg
+        .selectAll("circle")
+        .data(props.data)
+        .enter()
+        .append("circle")
+        .attr("r", 5)
+        .attr("cx", (d, i) => i * 25 + 25)
+        .attr("cy", (d, i) => i * 25 + 25);
+    }
+  }, [props.data, container.current]);
+
+  return (
+    <svg className="d3-component" width={400} height={200} ref={container} />
+  );
+};
 
 export default function Home({ data }) {
   let papers = data.allPaperDataJson.edges;
@@ -718,6 +756,7 @@ export default function Home({ data }) {
               </div>
             </div>
             <h3>Built by Matt Deitke</h3>
+            <DensityPlot data={[1, 2, 3]} />
             <div
               css={css`
                 color: black;
