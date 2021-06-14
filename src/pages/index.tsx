@@ -718,6 +718,13 @@ export default function Home({ data }) {
               </div>
             </div>
             <h3>Built by Matt Deitke</h3>
+            <div
+              css={css`
+                color: black;
+              `}
+            >
+              {papers.length} results
+            </div>
             {papers.map((paper: { node: PaperData }, i: number) => (
               <Paper
                 abstractDisplayStyle={abstractDisplayStyle}
