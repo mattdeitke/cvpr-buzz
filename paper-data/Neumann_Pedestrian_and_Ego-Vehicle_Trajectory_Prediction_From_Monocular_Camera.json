@@ -7,5 +7,6 @@
     "Andrea Vedaldi"
   ],
   "abstract": "Predicting future pedestrian trajectory is a crucial component of autonomous driving systems, as recognizing critical situations based only on current pedestrian position may come too late for any meaningful corrective action (e.g. breaking) to take place. In this paper, we propose a new method to predict future position of pedestrians, with respect to a predicted future position of the ego-vehicle, thus giving a assistive/autonomous driving system sufficient time to respond. The method explicitly disentangles actual movement of pedestrians in real world from the ego-motion of the vehicle, using a future pose prediction network trained in self-supervised fashion, which allows the method to observe and predict the intrinsic pedestrian motion in a normalised view, that captures the same real-world location across multiple frames. The method is evaluated on two public datasets, where it achieves state-of-the-art results in pedestrian trajectory prediction from an on-board camera.",
-  "s2id": ""
+  "s2id": "",
+  "posterSession": "Wednesday"
 }

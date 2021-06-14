@@ -8,5 +8,6 @@
     "Bharath Hariharan"
   ],
   "abstract": "The problem of expert model selection deals with choosing the appropriate pretrained network (\"expert\") to transfer to a target task. Methods, however, generally depend on two separate assumptions: the presence of labeled images and access to powerful \"probe\" networks that yield useful features. In this work, we demonstrate the current reliance on both of these aspects and develop algorithms to operate when either of these assumptions fail. In the unlabeled case, we show that pseudolabels from the probe network provide discriminative enough gradients to perform nearly-equal task selection even when the probe network is trained on imagery unrelated to the tasks. To compute the embedding with no probe network at all, we introduce the Task Tangent Kernel (TTK) which uses a kernelized distance across multiple random networks to achieve performance over double that of other methods with randomly initialized models. Code is available at https://github.com/BramSW/task_characterization_cvpr_2021/.",
-  "s2id": ""
+  "s2id": "",
+  "posterSession": "Monday"
 }

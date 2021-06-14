@@ -12,5 +12,6 @@
     "Tao Ren"
   ],
   "abstract": "Quick Response (QR) code is one of the most worldwide used two-dimensional codes. Traditional QR codes appear as random collections of black-and-white modules that lack visual semantics and aesthetic elements, which inspires the recent works to beautify the appearances of QR codes. However, these works typically beatify QR codes in a single style due to the fixed generation algorithms, which is improvable in personalization and diversification. In this paper, combining the Neural Style Transfer technique, we propose a novel end-to-end network ACN (ArtCode-Net) to generate the stylized QR codes that are personalized, diverse, attractive, and scanning-robust. To address the challenge that preserving the scanning-robustness after giving such codes style elements, we further propose the Sampling-Simulation layer, the module-based code loss, and a competition mechanism to improve the performances of ACN. The experimental results show that our stylized QR codes have high-quality in both the visual effect and the scanning-robustness, and they are able to support the real-world application.",
-  "s2id": ""
+  "s2id": "",
+  "posterSession": "Monday"
 }

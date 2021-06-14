@@ -9,5 +9,6 @@
     "Li Fei-Fei"
   ],
   "abstract": "We propose a novel method for privacy-preserving training of deep neural networks leveraging public, out-domain data. While differential privacy (DP) has emerged as a mechanism to protect sensitive data in training datasets, its application to complex visual recognition tasks remains challenging. Traditional DP methods, such as Differentially-Private Stochastic Gradient Descent (DP-SGD), only perform well on simple datasets and shallow networks, while recent transfer learning-based DP methods often make unrealistic assumptions about the availability and distribution of public data. In this work, we argue that minimizing the number of trainable parameters is the key to improving the privacy-performance tradeoff of DP on complex visual recognition tasks. We also propose a novel transfer learning paradigm that finetunes a very sparse subnetwork with DP, inspired by this argument. We conduct extensive experiments and ablation studies on two visual recognition tasks: CIFAR-100 -> CIFAR-10 (standard DP setting) and the CD-FSL challenge (few-shot, multiple levels of domain shifts) and demonstrate competitive experimental performance.",
-  "s2id": ""
+  "s2id": "",
+  "posterSession": "Tuesday"
 }

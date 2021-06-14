@@ -13,5 +13,6 @@
   ],
   "abstract": "Two-view structure-from-motion (SfM) is the cornerstone of 3D reconstruction and visual SLAM. Existing deep learning-based approaches formulate the problem in ways that are fundamentally ill-posed, relying on training data to overcome the inherent difficulties. In contrast, we propose a return to the basics. We revisit the problem of deep two-view SfM by leveraging the well-posedness of the classic pipeline. Our method consists of 1) an optical flow estimation network that predicts dense correspondences between two frames; 2) a normalized pose estimation module that computes relative camera poses from the 2D optical flow correspondences, and 3) a scale-invariant depth estimation network that leverages epipolar geometry to reduce the search space, refine the dense correspondences, and estimate relative depth maps. Extensive experiments show that our method outperforms all state-of-the-art two-view SfM methods by a clear margin on KITTI depth, KITTI VO, MVS, Scenes11, and SUN3D datasets in both relative pose estimation and depth estimation.",
   "s2id": "640667e929b2ce4fe4cce4f060c4e710c817365e",
-  "citations": 0
+  "citations": 0,
+  "posterSession": "Wednesday"
 }

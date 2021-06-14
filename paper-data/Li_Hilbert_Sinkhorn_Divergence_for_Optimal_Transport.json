@@ -10,5 +10,6 @@
     "Guandong Xu"
   ],
   "abstract": "Sinkhorn divergence has become a very popular metric to compare probability distributions in optimal transport. However, most works resort to Sinkhorn divergence in Euclidean space, which greatly blocks their applications in complex data with nonlinear structure. It is therefore of theoretical demand to empower Sinkhorn divergence with the capability of capturing nonlinear structures. We propose a theoretical and computational framework to bridge this gap. In this paper, we extend Sinkhorn divergence in Euclidean space to the reproducing kernel Hilbert space, which we term \"Hilbert Sinkhorn divergence\" (HSD).In particular, we can use kernel matrices to derive a closed form expression of HSD that is proved to be a tractable convex optimization problem. We also prove several attractive statistical properties of the proposed HSD, i.e., strong consistency, asymptotic behavior and sample complexity. Empirically, our method yields state-of-the-art performances on image classification and topological data analysis.",
-  "s2id": ""
+  "s2id": "",
+  "posterSession": "Tuesday"
 }

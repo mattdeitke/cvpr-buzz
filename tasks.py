@@ -77,7 +77,7 @@ def get_paper_data(
     fetch_semantic_scholar_id: bool = True,
     fetch_abstract: bool = True,
     start_at_paper: int = 0,
-    sleep_increment: int = int(1e9),  # 100,
+    sleep_increment: int = 100,
 ):
     """Get the metadata for each paper.
 
@@ -157,6 +157,31 @@ def get_paper_data(
 
         with open(path, "w") as f:
             f.write(json.dumps(paper, indent=2))
+
+
+def add_2021_paper_poster_sessions():
+    dates = dict(
+        Monday="https://openaccess.thecvf.com/CVPR2021?day=2021-06-21",
+        Tuesday="https://openaccess.thecvf.com/CVPR2021?day=2021-06-22",
+        Wednesday="https://openaccess.thecvf.com/CVPR2021?day=2021-06-23",
+        Thursday="https://openaccess.thecvf.com/CVPR2021?day=2021-06-24",
+        Friday="https://openaccess.thecvf.com/CVPR2021?day=2021-06-25",
+    )
+
+    for session_day, date_url in dates.items():
+        r = requests.get(date_url)
+        soup = BeautifulSoup(r.text, features="lxml")
+        titles = soup.find_all("dt", class_="ptitle")
+        for i, title in enumerate(titles):
+            print(f"Session: {session_day}, Starting {i}/{len(titles)}")
+            pdf_link = title.find_next("a")["href"]
+            paper_id = pdf_link[pdf_link.rfind("/") + 1 : -len("_CVPR_2021_paper.html")]
+            data_file = f"paper-data/{paper_id}.json"
+            with open(data_file, "r") as f:
+                data = json.load(f)
+            data["posterSession"] = session_day
+            with open(data_file, "w") as f:
+                f.write(json.dumps(data, indent=2))
 
 
 def query_twitter(search: str, output_path: str) -> None:

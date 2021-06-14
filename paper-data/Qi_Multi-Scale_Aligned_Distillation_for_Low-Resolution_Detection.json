@@ -13,5 +13,6 @@
     "Jiaya Jia"
   ],
   "abstract": "In instance-level detection tasks (e.g., object detection), reducing input resolution is an easy option to improve runtime efficiency. However, this option severely hurts the detection performance. This paper focuses on boosting the performance of a low-resolution model, by distilling knowledge from a high/multi-resolution model. We first identify the challenge of applying knowledge distillation to teacher and student networks that act on different input resolutions. To tackle the challenge, we explore the idea of spatially aligning feature maps between models of different input resolutions, by shifting the position of the feature pyramid structure. With the alignment idea, we introduce aligned multi-scale training to train a multi-scale teacher that can distill its knowledge seamlessly to a low-resolution student. Furthermore, we propose cross feature-level fusion to dynamically fuse the multi-resolution features of the same teacher, to better guide the student. On several instance-level detection tasks and datasets, the low-resolution models trained via our approach perform competitively with high-resolution models trained via conventional multi-scale training, while outperforming the latter's low-resolution models by 2.1% to 3.6% in mAP.",
-  "s2id": ""
+  "s2id": "",
+  "posterSession": "Thursday"
 }

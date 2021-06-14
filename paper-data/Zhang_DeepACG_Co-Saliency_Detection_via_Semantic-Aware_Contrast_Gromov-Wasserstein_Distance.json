@@ -10,5 +10,6 @@
     "Qingshan Liu"
   ],
   "abstract": "The objective of co-saliency detection is to segment the co-occurring salient objects in a group of images. To address this task, we introduce a new deep network architecture via semantic-aware contrast Gromov-Wasserstein distance (DeepACG). We first adopt the Gromov-Wasserstein (GW) distance to build dense hierarchical 4D correlation volumes for all pairs of image pixels within the image group. This dense correlation volumes enables the network to accurately discover the structured pair-wise pixel similarities among the common salient objects. Second, we develop a semantic-aware co-attention module (SCAM) to enhance the foreground saliency through predicted categorical information. Specifically, SCAM recognizes the semantic class of the foreground objects; and this information is then projected to the deep representations to localize the related pixels. Third, we design a contrast edge enhanced module (EEM) to capture richer context and preserve fine-grained spatial information. We validate the effectiveness of our model using three popular benchmark datasets (Cosal2015, CoSOD3k and CoCA). Extensive experiments have demonstrated the substantial practical merit of each module. Compared with the existing works, DeepACG shows significant improvements and achieves state-of-the-art performance. Code will be made available soon.",
-  "s2id": ""
+  "s2id": "",
+  "posterSession": "Thursday"
 }

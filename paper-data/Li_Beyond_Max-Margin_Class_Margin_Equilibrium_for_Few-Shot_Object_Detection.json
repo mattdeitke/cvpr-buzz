@@ -12,5 +12,6 @@
   ],
   "abstract": "Few-shot object detection has made encouraging progress by reconstructing novel class objects using the feature representation learned upon a set of base classes. However, an implicit contradiction about reconstruction and classification is unfortunately ignored. On the one hand, to precisely reconstruct novel classes, the distributions of base classes should be close to those of novel classes (min-margin). On the other hand, to perform accurate classification, the distributions of either two classes must be far away from each other (max-margin). In this paper, we propose a class margin equilibrium (CME) approach, with the aim to optimize both feature space partition and novel class reconstruction in a systematic way. CME first converts the few-shot detection problem to the few-shot classification problem by using a fully connection layer to decouple localization features. CME then reserves adequate margin space for novel classes by introducing simple-yet-effective class margin loss during feature learning. Finally, CME pursues margin equilibrium by disturbing the features of novel class instances in an adversarial min-max fashion. Experiments on Pascal VOC and MS-COCO datasets show that CME improves two baseline detectors (up to 5% in average), achieving new state-of-the-art performance.",
   "s2id": "a9b87cdfe7c821d6b3c5a924b97c935e17d88595",
-  "citations": 2
+  "citations": 2,
+  "posterSession": "Wednesday"
 }

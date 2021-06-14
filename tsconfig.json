@@ -2,11 +2,18 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "~components/*": ["./src/components/*"],
-      "~styles/*": ["./src/styles/*"]
+      "~components/*": [
+        "./src/components/*"
+      ],
+      "~styles/*": [
+        "./src/styles/*"
+      ]
     },
     "jsx": "react",
     "esModuleInterop": true,
-    "types": ["@emotion/react/types/css-prop"]
+    "types": [
+      "@emotion/react/types/css-prop"
+    ],
+    "target": "ES2016"
   }
 }

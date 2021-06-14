@@ -9,5 +9,6 @@
   ],
   "abstract": "Learning latent variable models with deep top-down architectures typically requires inferring the latent variables for each training example based on the posterior distribution of these latent variables. The inference step typically relies on either time-consuming long run Markov chain Monte Caro (MCMC) or a separate inference model for variational learning. In this paper, we propose to use short run MCMC, such as Langevin dynamics, as an approximate inference engine, where the bias existing in the output distribution of the short run Langevin dynamics is corrected by optimal transport, which aims at minimizing the Wasserstein distance between the biased distribution produced by the finite step Langevin dynamics and the prior distribution. Our experiments show that the proposed strategy outperforms the variational auto-encoder (VAE) and alternating back-propagation algorithm (ABP) in terms of reconstruction error and synthesis quality.",
   "s2id": "6521bd8cbd2b8ba9a6203eb6a50f20d66753ae89",
-  "citations": 0
+  "citations": 0,
+  "posterSession": "Thursday"
 }

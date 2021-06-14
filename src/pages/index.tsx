@@ -35,6 +35,12 @@ interface PaperData {
   pdf: string;
   authors: string[];
   arXiv: string;
+  posterSession: "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday";
+}
+
+interface PaperComponent extends PaperData {
+  i: number;
+  abstractDisplayStyle: string;
 }
 
 const STARTING_WEIGHTS = {
@@ -43,11 +49,6 @@ const STARTING_WEIGHTS = {
   likes: 0.25,
   replies: 0.25,
 };
-
-interface PaperComponent extends PaperData {
-  i: number;
-  abstractDisplayStyle: string;
-}
 
 function Paper(props: PaperComponent) {
   const [expandAbstract, setExpandAbstract] = useState(false);
@@ -167,6 +168,7 @@ function Paper(props: PaperComponent) {
       >
         {abstract}
       </p>
+      <div>Poster Session: {props.posterSession}</div>
       <div>Citations: {props.citations}</div>
       {props.twitter === null ? (
         <></>
@@ -181,11 +183,7 @@ function Paper(props: PaperComponent) {
   );
 }
 
-function DecimalStep(props: {
-  inputValue: number;
-  setInputValue: any;
-  setDirty: any;
-}) {
+function DecimalStep(props: { inputValue: number; setInputValue; setDirty }) {
   return (
     <Row>
       <Col span={12}>
@@ -229,7 +227,7 @@ function DecimalStep(props: {
   );
 }
 
-function SortWeights(props: { setSortWeights: any }) {
+function SortWeights(props: { setSortWeights }) {
   const [citationsInput, setCitationsInput] = useState(
       STARTING_WEIGHTS.citations
     ),
@@ -333,7 +331,38 @@ function SortWeights(props: { setSortWeights: any }) {
   );
 }
 
+function PosterSessionDate(props: {
+  date: string;
+  posterSessions;
+  setPosterSessions;
+}) {
+  return (
+    <div>
+      <Checkbox
+        value={props.posterSessions.has(props.date)}
+        onChange={() => {
+          props.posterSessions.has(props.date)
+            ? props.setPosterSessions((prev) => {
+                prev = new Set(prev);
+                prev.delete(props.date);
+                return prev;
+              })
+            : props.setPosterSessions((prev) => {
+                prev = new Set(prev);
+                prev.add(props.date);
+                return prev;
+              });
+        }}
+      >
+        {props.date}
+      </Checkbox>
+    </div>
+  );
+}
+
 export default function Home({ data }) {
+  let papers = data.allPaperDataJson.edges;
+
   const [abstractDisplayStyle, setAbstractDisplayStyle] = useState("full"),
     [foldMenu, setFoldMenu] = useState(false),
     [sortWeights, setSortWeights] = useState({
@@ -341,9 +370,15 @@ export default function Home({ data }) {
       retweets: STARTING_WEIGHTS.retweets,
       likes: STARTING_WEIGHTS.likes,
       replies: STARTING_WEIGHTS.replies,
-    });
+    }),
+    [posterSessions, setPosterSessions] = useState(new Set([]));
 
-  let papers = data.allPaperDataJson.edges;
+  if (posterSessions.size !== 0) {
+    papers = papers.filter((paper: { node: PaperData }) => {
+      return posterSessions.has(paper.node.posterSession);
+    });
+  }
+
   papers.sort((p1: { node: PaperData }, p2: { node: PaperData }) => {
     let citations1 = p1.node.citations == null ? 0 : p1.node.citations;
     let likes1: number, retweets1: number, replies1: number;
@@ -378,8 +413,6 @@ export default function Home({ data }) {
   });
 
   // papers = papers.slice(0, 100);
-
-  console.log(papers);
 
   return (
     <div
@@ -518,21 +551,31 @@ export default function Home({ data }) {
                   }
                 `}
               >
-                <div>
-                  <Checkbox>Monday</Checkbox>
-                </div>
-                <div>
-                  <Checkbox>Tuesday</Checkbox>
-                </div>
-                <div>
-                  <Checkbox>Wednesday</Checkbox>
-                </div>
-                <div>
-                  <Checkbox>Thursday</Checkbox>
-                </div>
-                <div>
-                  <Checkbox>Friday</Checkbox>
-                </div>
+                <PosterSessionDate
+                  date="Monday"
+                  posterSessions={posterSessions}
+                  setPosterSessions={setPosterSessions}
+                />
+                <PosterSessionDate
+                  date="Tuesday"
+                  posterSessions={posterSessions}
+                  setPosterSessions={setPosterSessions}
+                />
+                <PosterSessionDate
+                  date="Wednesday"
+                  posterSessions={posterSessions}
+                  setPosterSessions={setPosterSessions}
+                />
+                <PosterSessionDate
+                  date="Thursday"
+                  posterSessions={posterSessions}
+                  setPosterSessions={setPosterSessions}
+                />
+                <PosterSessionDate
+                  date="Friday"
+                  posterSessions={posterSessions}
+                  setPosterSessions={setPosterSessions}
+                />
               </div>
               <div
                 css={css`
@@ -706,6 +749,7 @@ export const query = graphql`
           id
           s2id
           pdf
+          posterSession
           authors
           arXiv
         }
