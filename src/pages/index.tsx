@@ -40,8 +40,8 @@ interface PaperData {
 const STARTING_WEIGHTS = {
   citations: 1,
   retweets: 0.5,
-  likes: 0.5,
-  replies: 0.5,
+  likes: 0.25,
+  replies: 0.25,
 };
 
 interface PaperComponent extends PaperData {
@@ -181,7 +181,11 @@ function Paper(props: PaperComponent) {
   );
 }
 
-function DecimalStep(props: { inputValue: number; setInputValue: any }) {
+function DecimalStep(props: {
+  inputValue: number;
+  setInputValue: any;
+  setDirty: any;
+}) {
   return (
     <Row>
       <Col span={12}>
@@ -193,6 +197,7 @@ function DecimalStep(props: { inputValue: number; setInputValue: any }) {
               return;
             }
             props.setInputValue(value);
+            props.setDirty(true);
           }}
           value={typeof props.inputValue === "number" ? props.inputValue : 0}
           step={0.01}
@@ -216,6 +221,7 @@ function DecimalStep(props: { inputValue: number; setInputValue: any }) {
               return;
             }
             props.setInputValue(value);
+            props.setDirty(true);
           }}
         />
       </Col>
@@ -229,7 +235,8 @@ function SortWeights(props: { setSortWeights: any }) {
     ),
     [retweetsInput, setRetweetsInput] = useState(STARTING_WEIGHTS.retweets),
     [likesInput, setLikesInput] = useState(STARTING_WEIGHTS.likes),
-    [repliesInput, setRepliesInput] = useState(STARTING_WEIGHTS.replies);
+    [repliesInput, setRepliesInput] = useState(STARTING_WEIGHTS.replies),
+    [isDirty, setDirty] = useState(false);
 
   return (
     <>
@@ -261,6 +268,7 @@ function SortWeights(props: { setSortWeights: any }) {
           <DecimalStep
             inputValue={citationsInput}
             setInputValue={setCitationsInput}
+            setDirty={setDirty}
           />
         </div>
         <div>
@@ -268,38 +276,55 @@ function SortWeights(props: { setSortWeights: any }) {
           <DecimalStep
             inputValue={retweetsInput}
             setInputValue={setRetweetsInput}
+            setDirty={setDirty}
           />
         </div>
         <div>
           <div>Likes</div>{" "}
-          <DecimalStep inputValue={likesInput} setInputValue={setLikesInput} />
+          <DecimalStep
+            inputValue={likesInput}
+            setInputValue={setLikesInput}
+            setDirty={setDirty}
+          />
         </div>
         <div>
           <div>Replies</div>{" "}
           <DecimalStep
             inputValue={repliesInput}
             setInputValue={setRepliesInput}
+            setDirty={setDirty}
           />
         </div>
         <Button
           css={css`
             width: 100%;
             margin-top: 8px;
-            background-color: ${darken(0.3, "#7f9ef3")} !important;
-            filter: saturate(0.3);
+            background-color: ${isDirty
+              ? darken(0.1, "#7f9ef3")
+              : darken(0.4, "#7f9ef3")} !important;
+            filter: ${isDirty ? "saturate(1)" : "saturate(0.3)"};
             border-color: transparent !important;
+            &:hover {
+              cursor: ${isDirty ? "pointer" : "default"} !important;
+            }
             > span {
-              color: ${color.gray5} !important;
+              color: ${isDirty ? color.gray1 : color.gray4 + "aa"} !important;
             }
           `}
-          onClick={() =>
+          onClick={() => {
+            // Checks if already sorted
+            if (!isDirty) {
+              return;
+            }
+
             props.setSortWeights({
               citations: citationsInput,
               retweets: retweetsInput,
               likes: likesInput,
               replies: repliesInput,
-            })
-          }
+            });
+            setDirty(false);
+          }}
         >
           Sort
         </Button>
