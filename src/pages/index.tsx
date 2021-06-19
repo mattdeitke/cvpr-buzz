@@ -124,6 +124,7 @@ function Paper(props: PaperComponent) {
           font-size: 13px;
           background-color: ${color.gray2 + "77"};
           transition-duration: 0.3s;
+          margin-right: 10px;
           &:hover {
             border-color: ${color.gray6};
             background-color: ${color.gray2};
@@ -209,40 +210,87 @@ function Paper(props: PaperComponent) {
         {abstract}
       </p>
       <div>Poster Session: {props.posterSession}</div>
-      {s2}
+
+      <div
+        css={css`
+          margin-top: 10px;
+        `}
+      >
+        <div
+          css={css`
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 3px;
+            margin-right: 10px;
+            border: 1px solid ${color.gray5};
+            border-radius: 5px;
+
+            > .emoji-mart-emoji {
+              vertical-align: middle;
+            }
+          `}
+        >
+          <Emoji emoji="page_facing_up" size={16} /> PDF
+        </div>
+        <div
+          css={css`
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 3px;
+            margin-right: 10px;
+            border: 1px solid ${color.gray5};
+            border-radius: 5px;
+
+            > .emoji-mart-emoji {
+              vertical-align: middle;
+            }
+          `}
+        >
+          <Emoji emoji="closed_book" size={16} /> arXiv
+        </div>
+        {s2}
+        <div
+          css={css`
+            border: 1px solid ${color.gray5};
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 4px;
+            border-radius: 5px;
+            transition-duration: 0.3s;
+            margin-right: 10px;
+
+            &:hover {
+              background-color: #1d9bf011;
+              border-color: #1d9bf066;
+              cursor: pointer;
+            }
+            > span {
+              color: ${color.gray10} !important;
+            }
+          `}
+        >
+          <img
+            src={TwitterLogo}
+            css={css`
+              height: 14px;
+              margin-top: -3px;
+            `}
+          />{" "}
+          <span>Show Tweets</span>
+        </div>
+      </div>
+
       <div>Citations: {props.citations}</div>
       {props.twitter === null ? (
         <></>
       ) : (
-        <div css={css``}>
-          <div
-            css={css`
-              border: 1px solid #1d9bf066;
-              display: inline-block;
-              padding-left: 10px;
-              padding-right: 10px;
-              padding-top: 2px;
-              padding-bottom: 4px;
-              border-radius: 5px;
-              transition-duration: 0.3s;
-              &:hover {
-                background-color: #1d9bf011;
-                cursor: pointer;
-              }
-              > span {
-                color: #1d9bf0 !important;
-              }
-            `}
-          >
-            <img
-              src={TwitterLogo}
-              css={css`
-                height: 15px;
-                margin-top: -3px;
-              `}
-            />{" "}
-            <span>Show Tweets</span>
-          </div>
+        <div>
           <div
             css={css`
               /* background-color: #1d9bf0; */
@@ -371,6 +419,14 @@ function SortWeights(props: { setSortWeights }) {
           />
         </div>
         <div>
+          <div>Replies</div>{" "}
+          <DecimalStep
+            inputValue={repliesInput}
+            setInputValue={setRepliesInput}
+            setDirty={setDirty}
+          />
+        </div>
+        <div>
           <div>Retweets</div>{" "}
           <DecimalStep
             inputValue={retweetsInput}
@@ -383,14 +439,6 @@ function SortWeights(props: { setSortWeights }) {
           <DecimalStep
             inputValue={likesInput}
             setInputValue={setLikesInput}
-            setDirty={setDirty}
-          />
-        </div>
-        <div>
-          <div>Replies</div>{" "}
-          <DecimalStep
-            inputValue={repliesInput}
-            setInputValue={setRepliesInput}
             setDirty={setDirty}
           />
         </div>
