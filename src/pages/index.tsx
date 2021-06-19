@@ -22,6 +22,10 @@ import { MenuFoldOutlined, GithubOutlined } from "@ant-design/icons";
 import { lighten, darken } from "polished";
 import * as d3 from "d3";
 import SemanticScholarLogo from "~icons/semantic-scholar.svg";
+import TwitterLogo from "~icons/twitter-white.svg";
+import RetweetIcon from "~icons/retweet-blue.svg";
+import LikeIcon from "~icons/like-blue.svg";
+import ReplyIcon from "~icons/reply-blue.svg";
 
 interface PaperData {
   abstract: string;
@@ -210,11 +214,66 @@ function Paper(props: PaperComponent) {
       {props.twitter === null ? (
         <></>
       ) : (
-        <>
-          <div>Likes: {props.twitter.likes}</div>
-          <div>Retweets: {props.twitter.retweets}</div>
-          <div>Replies: {props.twitter.replies}</div>
-        </>
+        <div css={css``}>
+          <div
+            css={css`
+              background-color: #1d9bf0;
+              display: inline-block;
+              padding-left: 10px;
+              padding-right: 10px;
+              padding-top: 2px;
+              padding-bottom: 4px;
+              border-radius: 5px;
+              > span {
+                color: white !important;
+              }
+            `}
+          >
+            <img
+              src={TwitterLogo}
+              css={css`
+                height: 15px;
+                margin-top: -3px;
+              `}
+            />{" "}
+            <span>Show Tweets</span>
+          </div>
+          <div
+            css={css`
+              /* background-color: #1d9bf0; */
+              display: inline-block;
+              margin-left: 5px;
+
+              > div {
+                padding-top: 2px;
+                padding-bottom: 4px;
+                border-radius: 5px;
+                display: inline-block;
+                margin-right: 8px;
+                margin-left: 8px;
+                > span {
+                  color: #1d9bf0 !important;
+                  font-weight: 600;
+                }
+                > img {
+                  height: 13px;
+                  display: inline-block;
+                  margin-top: -2px;
+                }
+              }
+            `}
+          >
+            <div>
+              <img src={ReplyIcon} /> <span>{props.twitter.replies}</span>
+            </div>
+            <div>
+              <img src={RetweetIcon} /> <span>{props.twitter.retweets}</span>
+            </div>
+            <div>
+              <img src={LikeIcon} /> <span>{props.twitter.likes}</span>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
