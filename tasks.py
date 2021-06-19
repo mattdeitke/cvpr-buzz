@@ -260,15 +260,21 @@ def parse_twitter_data():
 
 def update_citation_data(start_at_paper: int = 0):
     """Update the citation count for each paper that has a Semantic Scholar ID."""
-    start_at_paper = 402 + 335 + 390 + 360
     paths = [paper for paper in os.listdir("paper-data") if paper.endswith(".json")]
+    skip_titles = set(["Meta Pseudo Labels"])
     for i, path in enumerate(paths[start_at_paper:]):
         print(f"Starting {i}/{len(paths[start_at_paper:])}")
         full_path = f"paper-data/{path}"
         with open(full_path, "r") as f:
             paper = json.load(f)
+
         if not paper["s2id"]:
             continue
+
+        # some papers have diffs from s2 and the api. This seems like a bug in the api.
+        if paper["title"] in skip_titles:
+            continue
+
         url = f"https://api.semanticscholar.org/v1/paper/{paper['s2id']}"
         with request.urlopen(url) as f:
             s2_data = json.loads(f.read())

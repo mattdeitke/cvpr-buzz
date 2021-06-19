@@ -11,6 +11,6 @@
   ],
   "abstract": "Leveraging datasets available to learn a model with high generalization ability to unseen domains is important for computer vision, especially when the unseen domain's annotated data are unavailable. We study the problem of learning from different source domains to achieve high performance on an unknown target domain, where the distributions and label sets of each individual source domain and the target domain are different. The problem can be generally applied to diverse source domains and widely applicable to real-world applications. We propose a Domain-Augmented Meta-Learning framework to learn open-domain generalizable representations. We augment domains on both feature-level by a new Dirichlet mixup and label-level by distilled soft-labeling, which complements each domain with missing classes and other domain knowledge. We conduct meta-learning over domains by designing new meta-learning tasks and losses to preserve domain unique knowledge and generalize knowledge across domains simultaneously. Experiment results on various multi-domain datasets demonstrate that the proposed Domain-Augmented Meta-Learning outperforms previous methods for unseen target classification.",
   "s2id": "763eb8707c26347c259f6523c22e4590fec69306",
-  "citations": 1,
+  "citations": 2,
   "posterSession": "Wednesday"
 }
