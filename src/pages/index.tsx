@@ -48,6 +48,12 @@ interface PaperData {
 interface PaperComponent extends PaperData {
   i: number;
   abstractDisplayStyle: string;
+  weights: {
+    citations: number;
+    replies: number;
+    retweets: number;
+    likes: number;
+  };
 }
 
 const STARTING_WEIGHTS = {
@@ -145,6 +151,17 @@ function Paper(props: PaperComponent) {
   ) : (
     <></>
   );
+
+  let buzz = 0;
+  if (props.citations) {
+    buzz += props.citations * props.weights.citations;
+  }
+  if (props.twitter) {
+    buzz +=
+      props.twitter.likes * props.weights.likes +
+      props.twitter.replies * props.weights.replies +
+      props.twitter.retweets * props.weights.retweets;
+  }
 
   return (
     <div
@@ -330,7 +347,7 @@ function Paper(props: PaperComponent) {
               font-weight: 600;
             `}
           >
-            101.25
+            {buzz}
           </span>
         </div>
         {props.citations ? (
@@ -1046,6 +1063,7 @@ export default function Home({ data }) {
             {papers.map((paper: { node: PaperData }, i: number) => (
               <Paper
                 abstractDisplayStyle={abstractDisplayStyle}
+                weights={sortWeights}
                 key={paper.node.id}
                 {...paper.node}
                 i={i}
