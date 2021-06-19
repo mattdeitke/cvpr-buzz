@@ -216,43 +216,67 @@ function Paper(props: PaperComponent) {
           margin-top: 10px;
         `}
       >
-        <div
-          css={css`
-            display: inline-block;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 2px;
-            padding-bottom: 3px;
-            margin-right: 10px;
-            border: 1px solid ${color.gray5};
-            border-radius: 5px;
+        {props.pdf ? (
+          <a href={props.pdf.substring("https:".length)} target="_blank">
+            <div
+              css={css`
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 2px;
+                padding-bottom: 3px;
+                margin-right: 10px;
+                border: 1px solid ${color.gray5};
+                border-radius: 5px;
+                transition-duration: 0.3s;
 
-            > .emoji-mart-emoji {
-              vertical-align: middle;
-            }
-          `}
-        >
-          <Emoji emoji="page_facing_up" size={16} /> PDF
-        </div>
-        <div
-          css={css`
-            display: inline-block;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 2px;
-            padding-bottom: 3px;
-            margin-right: 10px;
-            border: 1px solid ${color.gray5};
-            border-radius: 5px;
+                &:hover {
+                  border-color: ${color.gray6 + "88"};
+                  background-color: ${color.gray2};
+                }
 
-            > .emoji-mart-emoji {
-              vertical-align: middle;
-            }
-          `}
-        >
-          <Emoji emoji="closed_book" size={16} /> arXiv
-        </div>
+                > .emoji-mart-emoji {
+                  vertical-align: middle;
+                }
+              `}
+            >
+              <Emoji emoji="page_facing_up" size={16} /> PDF
+            </div>
+          </a>
+        ) : (
+          <></>
+        )}
         {s2}
+        {props.arXiv ? (
+          <a href={props.arXiv.substring("http:".length)} target="_blank">
+            <div
+              css={css`
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 2px;
+                padding-bottom: 3px;
+                margin-right: 10px;
+                border: 1px solid ${color.gray5};
+                border-radius: 5px;
+                transition-duration: 0.3s;
+
+                &:hover {
+                  border-color: ${color.gray6 + "88"};
+                  background-color: ${color.gray2};
+                }
+
+                > .emoji-mart-emoji {
+                  vertical-align: middle;
+                }
+              `}
+            >
+              <Emoji emoji="closed_book" size={16} /> arXiv
+            </div>
+          </a>
+        ) : (
+          <></>
+        )}
         <div
           css={css`
             border: 1px solid ${color.gray5};
@@ -290,22 +314,29 @@ function Paper(props: PaperComponent) {
           margin-top: 10px;
         `}
       >
-        <img
-          src={CiteIcon}
-          css={css`
-            height: 13px;
-            margin-top: -1px;
-          `}
-        />{" "}
         {props.citations ? (
-          <span
+          <div
             css={css`
-              color: #d77a27;
-              font-weight: 600;
+              display: inline-block;
+              margin-right: 16px;
             `}
           >
-            {props.citations}
-          </span>
+            <img
+              src={CiteIcon}
+              css={css`
+                height: 13px;
+                margin-top: -1px;
+              `}
+            />{" "}
+            <span
+              css={css`
+                color: #d77a27;
+                font-weight: 600;
+              `}
+            >
+              {props.citations}
+            </span>
+          </div>
         ) : (
           <></>
         )}
@@ -321,15 +352,13 @@ function Paper(props: PaperComponent) {
               css={css`
                 /* background-color: #1d9bf0; */
                 display: inline-block;
-                margin-left: 5px;
 
                 > div {
                   padding-top: 2px;
                   padding-bottom: 4px;
                   border-radius: 5px;
                   display: inline-block;
-                  margin-right: 8px;
-                  margin-left: 8px;
+                  margin-right: 16px;
                   > span {
                     color: #1d9bf0 !important;
                     font-weight: 600;
