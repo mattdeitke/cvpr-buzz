@@ -21,6 +21,7 @@ import { Emoji } from "emoji-mart";
 import { MenuFoldOutlined, GithubOutlined } from "@ant-design/icons";
 import { lighten, darken } from "polished";
 import * as d3 from "d3";
+import SemanticScholarLogo from "~icons/semantic-scholar.svg";
 
 interface PaperData {
   abstract: string;
@@ -105,6 +106,40 @@ function Paper(props: PaperComponent) {
       throw `No idea what ${props.abstractDisplayStyle} is! Must be in {"full", "preview", "hide"}.`;
   }
 
+  const s2 = props.s2id ? (
+    <a href={`//semanticscholar.org/paper/${props.s2id}`} target="_blank">
+      <div
+        css={css`
+          display: inline-block;
+          border: 1px solid ${color.gray5};
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 2px;
+          padding-bottom: 4px;
+          border-radius: 3px;
+          font-size: 13px;
+          background-color: ${color.gray2 + "77"};
+          transition-duration: 0.3s;
+          &:hover {
+            border-color: ${color.gray6};
+            background-color: ${color.gray2};
+          }
+        `}
+      >
+        <img
+          src={SemanticScholarLogo}
+          css={css`
+            height: 17px;
+            margin-right: 5px;
+          `}
+        />
+        Semantic Scholar
+      </div>
+    </a>
+  ) : (
+    <></>
+  );
+
   return (
     <div
       css={css`
@@ -170,6 +205,7 @@ function Paper(props: PaperComponent) {
         {abstract}
       </p>
       <div>Poster Session: {props.posterSession}</div>
+      {s2}
       <div>Citations: {props.citations}</div>
       {props.twitter === null ? (
         <></>
@@ -340,7 +376,7 @@ function PosterSessionDate(props: {
   return (
     <div>
       <Checkbox
-        value={props.posterSessions.has(props.date)}
+        checked={props.posterSessions.has(props.date)}
         onChange={() => {
           props.posterSessions.has(props.date)
             ? props.setPosterSessions((prev) => {
@@ -361,40 +397,97 @@ function PosterSessionDate(props: {
   );
 }
 
-export const DensityPlot = (props: { data?: number[] }) => {
+export const DensityPlot = (props: { papers: { node: PaperData }[] }) => {
   const container = useRef(null);
+  const [bandwidth, setBandwidth] = useState(3);
 
   useEffect(() => {
-    if (props.data && container.current) {
-      const svg = d3.select(container.current);
+    if (container.current) {
+      const margin = { left: 40, top: 20 };
+      const svg = d3
+        .select(container.current)
+        .append("g")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-      const update = svg.append("g").selectAll("text").data(props.data);
+      svg.selectAll("g > *").remove();
 
-      update
-        .enter()
-        .append("text")
-        .attr("x", (d, i) => i * 55)
-        .attr("y", 40)
-        .style("font-size", 24)
-        .text((d: number) => d);
+      let data = [];
+      let data2 = [];
+      let data3 = [];
+      let data4 = [];
+      for (const paper of props.papers) {
+        if (paper.node.twitter) {
+          data.push(paper.node.twitter.likes);
+          data2.push(paper.node.twitter.retweets);
+          data3.push(paper.node.twitter.replies);
+        }
+        if (paper.node.citations !== null) {
+          data4.push(Math.min(100, paper.node.citations));
+        }
+      }
 
-      update.attr("x", (d, i) => i * 40).text((d: number) => d);
+      for (const d of [data4]) {
+        // [data, data2, data3, data4]) {
+        // const x = d3.scaleLinear().domain(d3.extent(d)).nice().range([0, 400]);
+        // const thresholds = x.ticks(40);
+        // const bandwidth = 3;
+        // const density = kde(epanechnikov(bandwidth), thresholds, d);
+        // console.log(density);
+        // console.log(d3.max(density));
+        // const y = d3.scaleLinear().domain([0, 0.1]).range([180, 0]);
+        // const line = d3
+        //   .line()
+        //   .curve(d3.curveBasis)
+        //   .x((d) => x(d[0]))
+        //   .y((d) => y(d[1]));
+        // svg.append("g")
+        //   .attr("fill", "#000")
+        //   .selectAll("rect")
+        //   .data(d)
+        //   .join("rect")
+        //     .attr("x", d=> x(d.x1) - )
+        // svg
+        //   .append("path")
+        //   .datum(density)
+        //   .attr("fill", "transparent")
+        //   .attr("stroke", "#000")
+        //   .attr("stroke-width", 1)
+        //   .attr("stroke-linejoin", "round")
+        //   .attr("d", line);
+      }
+      const width = 400;
+      const x = d3.scaleLinear().domain([0, 180]).range([0, width]);
+      const xAxis = d3.axisBottom(x);
 
-      update.exit().remove();
+      const height = 100;
+      const y = d3.scaleLinear().domain([0, 500]).range([height, 0]);
+      const yAxis = d3.axisLeft(y);
 
       svg
-        .selectAll("circle")
-        .data(props.data)
-        .enter()
-        .append("circle")
-        .attr("r", 5)
-        .attr("cx", (d, i) => i * 25 + 25)
-        .attr("cy", (d, i) => i * 25 + 25);
+        .append("g")
+        .call(yAxis)
+        .style("color", "black")
+        .attr("transform", "translate(0, 0)");
+
+      svg
+        .append("g")
+        .call(xAxis)
+        .attr("transform", "translate(0, 150)")
+        .style("color", "black");
     }
-  }, [props.data, container.current]);
+  }, [props.papers, container.current, bandwidth]);
 
   return (
-    <svg className="d3-component" width={400} height={200} ref={container} />
+    <>
+      <Slider
+        min={1}
+        max={20}
+        onChange={(value: number) => setBandwidth(value)}
+        value={bandwidth}
+        step={0.01}
+      />
+      <svg className="d3-component" width={800} height={200} ref={container} />
+    </>
   );
 };
 
@@ -756,7 +849,6 @@ export default function Home({ data }) {
               </div>
             </div>
             <h3>Built by Matt Deitke</h3>
-            <DensityPlot data={[1, 2, 3]} />
             <div
               css={css`
                 color: black;
