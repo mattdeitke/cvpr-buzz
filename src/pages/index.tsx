@@ -22,7 +22,7 @@ import { MenuFoldOutlined, GithubOutlined } from "@ant-design/icons";
 import { lighten, darken } from "polished";
 import * as d3 from "d3";
 import SemanticScholarLogo from "~icons/semantic-scholar.svg";
-import TwitterLogo from "~icons/twitter-white.svg";
+import TwitterLogo from "~icons/twitter.svg";
 import RetweetIcon from "~icons/retweet-blue.svg";
 import LikeIcon from "~icons/like-blue.svg";
 import ReplyIcon from "~icons/reply-blue.svg";
@@ -217,15 +217,20 @@ function Paper(props: PaperComponent) {
         <div css={css``}>
           <div
             css={css`
-              background-color: #1d9bf0;
+              border: 1px solid #1d9bf066;
               display: inline-block;
               padding-left: 10px;
               padding-right: 10px;
               padding-top: 2px;
               padding-bottom: 4px;
               border-radius: 5px;
+              transition-duration: 0.3s;
+              &:hover {
+                background-color: #1d9bf011;
+                cursor: pointer;
+              }
               > span {
-                color: white !important;
+                color: #1d9bf0 !important;
               }
             `}
           >
