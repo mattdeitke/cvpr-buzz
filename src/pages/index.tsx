@@ -164,60 +164,74 @@ function Paper(props: PaperComponent) {
   }
 
   const posterSession = (
-    <svg
-      width="400"
-      height="10"
-      css={css`
-        margin-top: 10px;
-      `}
-    >
-      <circle
-        cx="5"
-        cy="5"
-        fill={
-          props.posterSession === "Monday" ? color.light.geekblue5 : color.gray5
-        }
-        r="5"
-      />
-      <circle
-        cx="20"
-        cy="5"
-        fill={
-          props.posterSession === "Tuesday"
-            ? color.light.geekblue5
-            : color.gray5
-        }
-        r="5"
-      />
-      <circle
-        cx="35"
-        cy="5"
-        fill={
-          props.posterSession === "Wednesday"
-            ? color.light.geekblue5
-            : color.gray5
-        }
-        r="5"
-      />
-      <circle
-        cx="50"
-        cy="5"
-        fill={
-          props.posterSession === "Thursday"
-            ? color.light.geekblue5
-            : color.gray5
-        }
-        r="5"
-      />
-      <circle
-        cx="65"
-        cy="5"
-        fill={
-          props.posterSession === "Friday" ? color.light.geekblue5 : color.gray5
-        }
-        r="5"
-      />
-    </svg>
+    <>
+      <svg
+        width="70"
+        height="10"
+        css={css`
+          margin-top: 10px;
+        `}
+      >
+        <circle
+          cx="5"
+          cy="5"
+          fill={
+            props.posterSession === "Monday"
+              ? color.light.geekblue5
+              : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="20"
+          cy="5"
+          fill={
+            props.posterSession === "Tuesday"
+              ? color.light.geekblue5
+              : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="35"
+          cy="5"
+          fill={
+            props.posterSession === "Wednesday"
+              ? color.light.geekblue5
+              : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="50"
+          cy="5"
+          fill={
+            props.posterSession === "Thursday"
+              ? color.light.geekblue5
+              : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="65"
+          cy="5"
+          fill={
+            props.posterSession === "Friday"
+              ? color.light.geekblue5
+              : color.gray5
+          }
+          r="5"
+        />
+      </svg>
+      <span
+        css={css`
+          color: ${color.gray7} !important;
+          margin-left: 7px;
+        `}
+      >
+        {props.posterSession}
+      </span>
+    </>
   );
 
   return (
@@ -379,7 +393,7 @@ function Paper(props: PaperComponent) {
               margin-top: -3px;
             `}
           />{" "}
-          <span>Show Tweets</span>
+          <span>Tweets</span>
         </div>
       </div>
       <div
@@ -804,7 +818,7 @@ export default function Home({ data }) {
     );
   });
 
-  // papers = papers.slice(0, 100);
+  papers = papers.slice(0, 100);
 
   return (
     <div
