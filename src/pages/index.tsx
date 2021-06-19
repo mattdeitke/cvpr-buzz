@@ -163,6 +163,63 @@ function Paper(props: PaperComponent) {
       props.twitter.retweets * props.weights.retweets;
   }
 
+  const posterSession = (
+    <svg
+      width="400"
+      height="10"
+      css={css`
+        margin-top: 10px;
+      `}
+    >
+      <circle
+        cx="5"
+        cy="5"
+        fill={
+          props.posterSession === "Monday" ? color.light.geekblue5 : color.gray5
+        }
+        r="5"
+      />
+      <circle
+        cx="20"
+        cy="5"
+        fill={
+          props.posterSession === "Tuesday"
+            ? color.light.geekblue5
+            : color.gray5
+        }
+        r="5"
+      />
+      <circle
+        cx="35"
+        cy="5"
+        fill={
+          props.posterSession === "Wednesday"
+            ? color.light.geekblue5
+            : color.gray5
+        }
+        r="5"
+      />
+      <circle
+        cx="50"
+        cy="5"
+        fill={
+          props.posterSession === "Thursday"
+            ? color.light.geekblue5
+            : color.gray5
+        }
+        r="5"
+      />
+      <circle
+        cx="65"
+        cy="5"
+        fill={
+          props.posterSession === "Friday" ? color.light.geekblue5 : color.gray5
+        }
+        r="5"
+      />
+    </svg>
+  );
+
   return (
     <div
       css={css`
@@ -219,62 +276,6 @@ function Paper(props: PaperComponent) {
       >
         {props.authors.join(", ")}
       </h4>
-      <svg
-        width="400"
-        height="10"
-        css={css`
-          margin-top: 5px;
-          margin-bottom: 3px;
-        `}
-      >
-        <circle
-          cx="5"
-          cy="5"
-          fill={
-            props.posterSession === "Monday" ? color.dark.volcano6 : color.gray5
-          }
-          r="5"
-        />
-        <circle
-          cx="20"
-          cy="5"
-          fill={
-            props.posterSession === "Tuesday"
-              ? color.dark.volcano6
-              : color.gray5
-          }
-          r="5"
-        />
-        <circle
-          cx="35"
-          cy="5"
-          fill={
-            props.posterSession === "Wednesday"
-              ? color.dark.volcano6
-              : color.gray5
-          }
-          r="5"
-        />
-        <circle
-          cx="50"
-          cy="5"
-          fill={
-            props.posterSession === "Thursday"
-              ? color.dark.volcano6
-              : color.gray5
-          }
-          r="5"
-        />
-        <circle
-          cx="65"
-          cy="5"
-          fill={
-            props.posterSession === "Friday" ? color.dark.volcano6 : color.gray5
-          }
-          r="5"
-        />
-      </svg>
-
       <p
         css={css`
           text-align: left;
@@ -475,6 +476,7 @@ function Paper(props: PaperComponent) {
           </div>
         )}
       </div>
+      {posterSession}
     </div>
   );
 }
@@ -753,7 +755,7 @@ export const DensityPlot = (props: { papers: { node: PaperData }[] }) => {
 export default function Home({ data }) {
   let papers = data.allPaperDataJson.edges;
 
-  const [abstractDisplayStyle, setAbstractDisplayStyle] = useState("full"),
+  const [abstractDisplayStyle, setAbstractDisplayStyle] = useState("preview"),
     [foldMenu, setFoldMenu] = useState(false),
     [sortWeights, setSortWeights] = useState({
       citations: STARTING_WEIGHTS.citations,
@@ -1008,29 +1010,6 @@ export default function Home({ data }) {
                 <Radio.Button value="preview">Preview</Radio.Button>
                 <Radio.Button value="hide">Hide</Radio.Button>
               </Radio.Group>
-              <div
-                css={css`
-                  font-weight: 600;
-                  margin-bottom: 3px;
-                  margin-top: 30px;
-                `}
-              >
-                Preferences
-              </div>
-              <div
-                css={css`
-                  > div {
-                    margin-bottom: 5px;
-                  }
-                `}
-              >
-                <div>
-                  <Checkbox>Dark Mode</Checkbox>
-                </div>
-                <div>
-                  <Checkbox>Lazy Loading</Checkbox>
-                </div>
-              </div>
             </div>
           )}
         </div>
