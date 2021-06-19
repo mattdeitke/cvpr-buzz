@@ -219,6 +219,62 @@ function Paper(props: PaperComponent) {
       >
         {props.authors.join(", ")}
       </h4>
+      <svg
+        width="400"
+        height="10"
+        css={css`
+          margin-top: 5px;
+          margin-bottom: 3px;
+        `}
+      >
+        <circle
+          cx="5"
+          cy="5"
+          fill={
+            props.posterSession === "Monday" ? color.dark.volcano6 : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="20"
+          cy="5"
+          fill={
+            props.posterSession === "Tuesday"
+              ? color.dark.volcano6
+              : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="35"
+          cy="5"
+          fill={
+            props.posterSession === "Wednesday"
+              ? color.dark.volcano6
+              : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="50"
+          cy="5"
+          fill={
+            props.posterSession === "Thursday"
+              ? color.dark.volcano6
+              : color.gray5
+          }
+          r="5"
+        />
+        <circle
+          cx="65"
+          cy="5"
+          fill={
+            props.posterSession === "Friday" ? color.dark.volcano6 : color.gray5
+          }
+          r="5"
+        />
+      </svg>
+
       <p
         css={css`
           text-align: left;
@@ -227,7 +283,6 @@ function Paper(props: PaperComponent) {
       >
         {abstract}
       </p>
-      <div>Poster Session: {props.posterSession}</div>
       <div
         css={css`
           margin-top: 10px;
