@@ -26,6 +26,7 @@ import TwitterLogo from "~icons/twitter.svg";
 import RetweetIcon from "~icons/retweet-blue.svg";
 import LikeIcon from "~icons/like-blue.svg";
 import ReplyIcon from "~icons/reply-blue.svg";
+import CiteIcon from "~icons/cite.svg";
 
 interface PaperData {
   abstract: string;
@@ -210,7 +211,6 @@ function Paper(props: PaperComponent) {
         {abstract}
       </p>
       <div>Poster Session: {props.posterSession}</div>
-
       <div
         css={css`
           margin-top: 10px;
@@ -285,49 +285,76 @@ function Paper(props: PaperComponent) {
           <span>Show Tweets</span>
         </div>
       </div>
-
-      <div>Citations: {props.citations}</div>
-      {props.twitter === null ? (
-        <></>
-      ) : (
-        <div>
-          <div
+      <div
+        css={css`
+          margin-top: 10px;
+        `}
+      >
+        <img
+          src={CiteIcon}
+          css={css`
+            height: 13px;
+            margin-top: -1px;
+          `}
+        />{" "}
+        {props.citations ? (
+          <span
             css={css`
-              /* background-color: #1d9bf0; */
-              display: inline-block;
-              margin-left: 5px;
-
-              > div {
-                padding-top: 2px;
-                padding-bottom: 4px;
-                border-radius: 5px;
-                display: inline-block;
-                margin-right: 8px;
-                margin-left: 8px;
-                > span {
-                  color: #1d9bf0 !important;
-                  font-weight: 600;
-                }
-                > img {
-                  height: 13px;
-                  display: inline-block;
-                  margin-top: -2px;
-                }
-              }
+              color: #d77a27;
+              font-weight: 600;
             `}
           >
-            <div>
-              <img src={ReplyIcon} /> <span>{props.twitter.replies}</span>
-            </div>
-            <div>
-              <img src={RetweetIcon} /> <span>{props.twitter.retweets}</span>
-            </div>
-            <div>
-              <img src={LikeIcon} /> <span>{props.twitter.likes}</span>
+            {props.citations}
+          </span>
+        ) : (
+          <></>
+        )}
+        {props.twitter === null ? (
+          <></>
+        ) : (
+          <div
+            css={css`
+              display: inline-block;
+            `}
+          >
+            <div
+              css={css`
+                /* background-color: #1d9bf0; */
+                display: inline-block;
+                margin-left: 5px;
+
+                > div {
+                  padding-top: 2px;
+                  padding-bottom: 4px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  margin-right: 8px;
+                  margin-left: 8px;
+                  > span {
+                    color: #1d9bf0 !important;
+                    font-weight: 600;
+                  }
+                  > img {
+                    height: 13px;
+                    display: inline-block;
+                    margin-top: -2px;
+                  }
+                }
+              `}
+            >
+              <div>
+                <img src={ReplyIcon} /> <span>{props.twitter.replies}</span>
+              </div>
+              <div>
+                <img src={RetweetIcon} /> <span>{props.twitter.retweets}</span>
+              </div>
+              <div>
+                <img src={LikeIcon} /> <span>{props.twitter.likes}</span>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
