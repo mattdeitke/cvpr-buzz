@@ -314,6 +314,25 @@ function Paper(props: PaperComponent) {
           margin-top: 10px;
         `}
       >
+        <div
+          css={css`
+            display: inline-block;
+            margin-right: 16px;
+            .emoji-mart-emoji {
+              vertical-align: middle;
+            }
+          `}
+        >
+          <Emoji emoji="bee" size={16} />{" "}
+          <span
+            css={css`
+              color: ${color.light.yellow9};
+              font-weight: 600;
+            `}
+          >
+            101.25
+          </span>
+        </div>
         {props.citations ? (
           <div
             css={css`
