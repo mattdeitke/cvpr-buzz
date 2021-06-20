@@ -177,7 +177,7 @@ function Paper(props: PaperComponent) {
     <></>
   );
 
-  let buzz = 0;
+  let buzz: string | number = 0;
   if (props.citations) {
     buzz += props.citations * props.weights.citations;
   }
@@ -187,6 +187,7 @@ function Paper(props: PaperComponent) {
       props.twitter.replies * props.weights.replies +
       props.twitter.retweets * props.weights.retweets;
   }
+  buzz = buzz.toFixed(2);
 
   const posterSession = (
     <>
@@ -1034,6 +1035,10 @@ export default function Home({ data }) {
           css={css`
             grid-row: 1;
             grid-column: 2;
+            @media (max-width: 1500px) {
+              max-width: calc(100% - 50px);
+              margin-left: 50px;
+            }
           `}
         >
           <div
