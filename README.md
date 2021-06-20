@@ -55,7 +55,7 @@ _Please open a PR to add new data!_
 
 #### 🐤 Tweets
 
-If you want to index Tweets, open a PR and add them to `manual-data.json`. All that is needed is the account username and the `tweetId`.
+If you want to index Tweets, open a PR and add them to [manual-data.json](https://github.com/mattdeitke/cvpr-buzz/blob/main/manual-data.json). All that is needed is the account username and the `tweetId`.
 
 For instance, if `https://twitter.com/quocleix/status/1349443438698143744` is the Tweet, one would format it as `["quocleix", "1349443438698143744"]`. The paper IDs (a.k.a. the keys) can be found in `paper-data`.
 
