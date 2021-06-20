@@ -15,6 +15,13 @@
   </a>
 </div>
 
+<br />
+
+<a href="https://mattdeitke.com/cvpr-buzz">
+<img src="https://user-images.githubusercontent.com/28768645/122665385-b55e0900-d15b-11eb-9304-e469cd517d41.png"/>
+</a>
+
+
 ## 📊 Dataset
 
 The scraping code is in `tasks.py`. Data is cached on the website, which makes it extremely fast to use with GraphQL and allows for fewer dependencies to be relied on.
