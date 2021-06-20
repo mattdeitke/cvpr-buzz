@@ -284,20 +284,94 @@ def update_citation_data(start_at_paper: int = 0):
             f.write(json.dumps(paper, indent=2))
 
 
+def update_tweet_ids(df, file_id):
+    df.sort_values("likes_count", ascending=False, inplace=True)
+    tweet_ids = df["id"].values.tolist()
+
+    # solves precision issue from graphql
+    tweet_ids = [str(uuid) for uuid in tweet_ids]
+
+    data_file = "paper-data/" + file_id + ".json"
+    with open(data_file, "r") as f:
+        data = json.load(f)
+    data["twitter"]["ids"] = tweet_ids
+    with open(data_file, "w") as f:
+        f.write(json.dumps(data, indent=2))
+
+
 def add_tweet_ids_to_json():
     """Assumes twitter/ is already full of the scraped .csv files of tweets."""
     for tweets_file in os.listdir("twitter"):
         df = pd.read_csv(f"twitter/{tweets_file}")
+        update_tweet_ids(df, tweets_file[: -len(".csv")])
+
+
+def add_manual_data():
+    driver = webdriver.Firefox(executable_path="./geckodriver.exe")
+
+    with open("manual-data.json", "r") as f:
+        manual_data = json.load(f)
+
+    for paper_id, extras in manual_data.items():
+        df = pd.read_csv(f"twitter/{paper_id}.csv")
+
+        for user, tweet_id in extras:
+            driver.get(f"https://twitter.com/{user}/status/{tweet_id}")
+            try:
+                WebDriverWait(driver, 3).until(
+                    EC.visibility_of_element_located(
+                        (
+                            By.CSS_SELECTOR,
+                            ".css-901oao.css-16my406.r-poiln3.r-b88u0q.r-bcqeeo.r-d3hbe1.r-qvutc0",
+                        )
+                    )
+                )
+            except:
+                logging.warning(f"Twitter timeout with {user}/{tweet_id}")
+
+            likes_count = 0
+            retweets_count = 0
+            replies_count = 0
+
+            soup = BeautifulSoup(driver.page_source, features="lxml")
+            stats = soup.select(
+                ".css-901oao.css-16my406.r-poiln3.r-b88u0q.r-bcqeeo.r-d3hbe1.r-qvutc0"
+            )
+            for stat in stats:
+                n = int(stat.get_text().replace(",", ""))
+                stat_type = stat.parent()[1].find_next("span").get_text()
+                if stat_type == "Retweets":
+                    retweets_count = n
+                elif stat_type == "Likes":
+                    likes_count = n
+                elif stat_type == "Quote Tweets":
+                    replies_count = n
+
+            df = df.append(
+                {
+                    "id": tweet_id,
+                    "likes_count": likes_count,
+                    "retweets_count": retweets_count,
+                    "replies_count": replies_count,
+                },
+                ignore_index=True,
+            )
+
         df.sort_values("likes_count", ascending=False, inplace=True)
         tweet_ids = df["id"].values.tolist()
 
         # solves precision issue from graphql
         tweet_ids = [str(uuid) for uuid in tweet_ids]
 
-        data_file = "paper-data/" + tweets_file[: -len(".csv")] + ".json"
+        data_file = "paper-data/" + paper_id + ".json"
         with open(data_file, "r") as f:
             data = json.load(f)
+
         data["twitter"]["ids"] = tweet_ids
+
+        data["twitter"]["replies"] = int(df["replies_count"].sum())
+        data["twitter"]["retweets"] = int(df["retweets_count"].sum())
+        data["twitter"]["likes"] = int(df["likes_count"].sum())
+
         with open(data_file, "w") as f:
             f.write(json.dumps(data, indent=2))
-

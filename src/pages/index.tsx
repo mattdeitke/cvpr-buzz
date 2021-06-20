@@ -100,7 +100,8 @@ function Tweet(props: { tweetId: string }) {
 
 function Paper(props: PaperComponent) {
   const [expandAbstract, setExpandAbstract] = useState(false),
-    [showTweets, setShowTweets] = useState(false);
+    [showTweets, setShowTweets] = useState(false),
+    [nTweets, setNTweets] = useState(3);
 
   let abstract: string | React.ReactNode;
   switch (props.abstractDisplayStyle) {
@@ -423,7 +424,14 @@ function Paper(props: PaperComponent) {
               color: ${color.gray10} !important;
             }
           `}
-          onClick={() => setShowTweets((prev) => !prev)}
+          onClick={() =>
+            setShowTweets((prev) => {
+              if (prev) {
+                setNTweets(3);
+              }
+              return !prev;
+            })
+          }
         >
           <img
             src={TwitterLogo}
@@ -531,10 +539,56 @@ function Paper(props: PaperComponent) {
       </div>
       {posterSession}
       {showTweets ? (
-        <div>
-          {props.twitter.ids.slice(0, 3).map((tweetId: string, i: number) => (
-            <Tweet tweetId={tweetId} key={i} />
-          ))}
+        <div
+          css={css`
+            max-width: 1200px;
+          `}
+        >
+          {props.twitter.ids
+            .slice(0, nTweets)
+            .map((tweetId: string, i: number) => (
+              <Tweet tweetId={tweetId} key={i} />
+            ))}
+        </div>
+      ) : (
+        <></>
+      )}
+      {showTweets && props.twitter.ids.length > nTweets ? (
+        <div
+          css={css`
+            border: 1px solid ${color.gray5};
+            display: block;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 4px;
+            border-radius: 5px;
+            transition-duration: 0.3s;
+            margin-right: 10px;
+            margin-top: 15px;
+            max-width: 1080px;
+            text-align: center;
+
+            &:hover {
+              cursor: pointer;
+            }
+            background-color: #1d9bf011;
+            border-color: #1d9bf066;
+
+            > span {
+              color: ${color.gray10} !important;
+            }
+          `}
+          onClick={() => setNTweets((prev) => prev + 3)}
+        >
+          <img
+            src={TwitterLogo}
+            css={css`
+              height: 14px;
+              margin-top: -3px;
+            `}
+          />{" "}
+          <span>Show More</span>
         </div>
       ) : (
         <></>
@@ -866,7 +920,7 @@ export default function Home({ data }) {
     );
   });
 
-  // papers = papers.slice(0, 100);
+  papers = papers.slice(0, 100);
 
   return (
     <div

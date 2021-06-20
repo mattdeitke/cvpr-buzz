@@ -15,10 +15,13 @@
   "abstract": "The domain of Embodied AI has recently witnessed substantial progress, particularly in navigating agents within their environments. These early successes have laid the building blocks for the community to tackle tasks that require agents to actively interact with objects in their environment. Object manipulation is an established research domain within the robotics community and poses several challenges including manipulator motion, grasping and long-horizon planning, particularly when dealing with oft-overlooked practical setups involving visually rich and complex scenes, manipulation using mobile agents (as opposed to tabletop manipulation), and generalization to unseen environments and objects. We propose a framework for object manipulation built upon the physics-enabled, visually rich AI2-THOR framework and present a new challenge to the Embodied AI community known as ArmPointNav. This task extends the popular point navigation task to object manipulation and offers new challenges including 3D obstacle avoidance, manipulating objects in the presence of occlusion, and multi-object manipulation that necessitates long term planning. Popular learning paradigms that are successful on PointNav challenges show promise, but leave a large room for improvement.",
   "s2id": "6b45c8d03a20c5ae4fe5d6136cf01748b4bd7489",
   "twitter": {
-    "retweets": 1,
-    "likes": 12,
+    "retweets": 22,
+    "likes": 101,
     "replies": 2,
     "ids": [
+      "1385288962177069062",
+      "1385643381842272263",
+      "1397267832413454336",
       "1385626657675907072",
       "1385624179131785218",
       "1388187657335803908",
