@@ -266,7 +266,14 @@ function Paper(props: PaperComponent) {
           margin-left: 7px;
         `}
       >
-        {props.posterSession}
+        {props.posterSession}{" "}
+        <span
+          css={css`
+            color: ${color.gray6};
+          `}
+        >
+          Poster Session
+        </span>
       </span>
     </>
   );
@@ -1168,44 +1175,85 @@ export default function Home({ data }) {
                 - 2021
               </span>
             </h1>
-            <div
+            <h3
               css={css`
-                float: right;
-                margin-top: -55px;
+                margin-top: -10px;
               `}
             >
-              <a href="//github.com/mattdeitke/cvpr-buzz" target="_blank">
-                <GithubOutlined
-                  css={css`
-                    font-size: 28px;
-                    vertical-align: middle;
-                    color: black;
-                    transition-duration: 0.3s;
-                    &:hover {
-                      color: ${color.gray8};
-                    }
-                  `}
-                />
-              </a>
-              <div
+              Built by{" "}
+              <a
+                href="//mattdeitke.com"
+                target="_blank"
                 css={css`
-                  vertical-align: middle;
-                  display: inline-block;
-                  font-size: 18px;
-                  margin-left: 10px;
-                  color: black;
-                  margin-left: 15px;
-                  padding-left: 15px;
-                  border-left: 1px solid black;
+                  color: ${color.light.blue6} !important;
+                  border-bottom: 1px dashed ${color.light.blue6};
                 `}
               >
-                MIT License
+                Matt Deitke
+              </a>
+            </h3>
+            <p
+              css={css`
+                color: ${color.gray8};
+                max-width: 500px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+              `}
+            >
+              CVPR Buzz displays the most discussed papers at CVPR 2021 using
+              Semantic Scholar for citation data and Twitter for indexing
+              discussions.
+            </p>
+            <p
+              css={css`
+                color: ${color.gray8};
+              `}
+            >
+              To add data or see how it was collected, checkout the GitHub repo:
+            </p>
+            <div>
+              <div
+                css={css`
+                  transition-duration: 0.3s;
+                  filter: invert(1);
+                  background-color: white;
+                  display: inline-block;
+                  padding: 10px 12px;
+                  border-radius: 5px;
+                  &:hover {
+                    opacity: 0.8;
+                  }
+                `}
+              >
+                <a href="//github.com/mattdeitke/cvpr-buzz" target="_blank">
+                  <GithubOutlined
+                    css={css`
+                      font-size: 23px;
+                      vertical-align: middle;
+                      color: black;
+                    `}
+                  />{" "}
+                  <div
+                    css={css`
+                      vertical-align: middle;
+                      display: inline-block;
+                      font-size: 15px;
+                      color: black;
+                      margin-top: -3px;
+                      margin-left: 3px;
+                    `}
+                  >
+                    /mattdeitke/cvpr-buzz
+                  </div>
+                </a>
               </div>
             </div>
-            <h3>Built by Matt Deitke</h3>
             <div
               css={css`
-                color: black;
+                color: ${color.gray8};
+                border-top: 1px solid ${color.gray6};
+                margin-top: 30px;
+                margin-bottom: -20px;
               `}
             >
               {papers.length} results
