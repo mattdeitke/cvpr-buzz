@@ -36,7 +36,18 @@ Each unique tweet is only counted once.
 
 I'm considering also supporting the ability to add tweets manually (which aren't caught in the above criteria) and add the statistics from direct replies and quote tweets, though I haven't gotten around to it.
 
+## 👊 Adding Data
 
-## 💻 Local Development
+**Please open a PR to add new data.**
 
-TODO.
+### 🐦 Tweets
+
+If you want to index Tweets, open a PR and add them to `manual-data.json`. All that is needed is the account username and the `tweetId`.
+
+For instance, if `https://twitter.com/quocleix/status/1349443438698143744` is the Tweet, one would format it as `["quocleix", "1349443438698143744"]`. The paper IDs (a.k.a. the keys) can be found in `paper-data`.
+
+### 🏙 Citation Data
+
+Citation data comes from Semantic Scholar. If your paper is on Semantic Scholar, but it is not showing up on the site, please edit the `s2id` field in `paper-data/{paperId}.json`. The `s2id` is found at the tail end of the Semantic Scholar URL.
+
+For instance, if the Semantic Scholar URL is `https://www.semanticscholar.org/paper/Meta-Pseudo-Labels-Pham-Xie/43497fe8aa7c730e075b08facc2aa560a6d4dd85`, the `s2id` would be `43497fe8aa7c730e075b08facc2aa560a6d4dd85`.

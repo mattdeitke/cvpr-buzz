@@ -920,7 +920,7 @@ export default function Home({ data }) {
     );
   });
 
-  papers = papers.slice(0, 100);
+  // papers = papers.slice(0, 100);
 
   return (
     <div
