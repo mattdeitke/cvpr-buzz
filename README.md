@@ -1,11 +1,17 @@
 <h1 align="center">
-  🐝 <code>CVPR Buzz</code>
+  🐝 CVPR Buzz 🍯
 </h1>
 <h3 align="center"><em>Explore Trending Papers at CVPR 2021</em></h3>
 
 <div align="center">
-  <a aria-label="License" href="https://github.com/blitz-js/blitz/blob/canary/LICENSE">
+  <a aria-label="License" href="https://github.com/mattdeitke/cvpr-buzz/blob/main/LICENSE">
     <img alt="" src="https://img.shields.io/badge/License-MIT-6700EB.svg?style=for-the-badge&labelColor=000000&color=blue">
+  </a>
+  <a aria-label="License" href="http://cvpr2021.thecvf.com/">
+    <img alt="" src="https://img.shields.io/badge/Conference-CVPR-6700EB.svg?style=for-the-badge&labelColor=000000&color=17bb8a">
+  </a>
+  <a aria-label="License" href="http://cvpr2021.thecvf.com/">
+    <img alt="" src="https://img.shields.io/badge/Dates-June&nbsp;19&#47;25-6700EB.svg?style=for-the-badge&labelColor=000000&color=6700eb">
   </a>
 </div>
 
@@ -13,11 +19,11 @@
 
 The scraping code is in `tasks.py`. Data is cached on the website, which makes it extremely fast to use with GraphQL and allows for fewer dependencies to be relied on.
 
-### 👁️ CVPR Accepted Papers
+#### 👁️ CVPR Accepted Papers
 
 The accepted papers and their abstracts are extracted from [CVPR](https://openaccess.thecvf.com/CVPR2021?day=all).
 
-### 📖 Citation Data
+#### 📖 Citation Data
 
 Citation data comes from [Semantic Scholar](https://semanticscholar.org). There is no easy way to get go from the paper title to Semantic Scholar's paper ID (i.e., it's not possible from the API). So we just search for it with Selenium and apply a few checks to see if it's the same paper.
 
@@ -25,7 +31,7 @@ This may take an hour or so to get through all the papers. There are also occasi
 
 With the paper ID, we can then use [Semantic Scholar's API](https://api.semanticscholar.org/) to easily fetch the number of citations for the paper.
 
-### 🐦 Twitter
+#### 🐦 Twitter
 
 To fetch the engagement for each paper on Twitter, [Twint](https://github.com/twintproject/twint) is used. Currently there are 2 queries for each paper:
 
@@ -38,16 +44,20 @@ I'm considering also supporting the ability to add tweets manually (which aren't
 
 ## 👊 Adding Data
 
-**Please open a PR to add new data.**
+_Please open a PR to add new data!_
 
-### 🐦 Tweets
+#### 🐤 Tweets
 
 If you want to index Tweets, open a PR and add them to `manual-data.json`. All that is needed is the account username and the `tweetId`.
 
 For instance, if `https://twitter.com/quocleix/status/1349443438698143744` is the Tweet, one would format it as `["quocleix", "1349443438698143744"]`. The paper IDs (a.k.a. the keys) can be found in `paper-data`.
 
-### 🏙 Citation Data
+#### 🏙 Citation Data
 
 Citation data comes from Semantic Scholar. If your paper is on Semantic Scholar, but it is not showing up on the site, please edit the `s2id` field in `paper-data/{paperId}.json`. The `s2id` is found at the tail end of the Semantic Scholar URL.
 
 For instance, if the Semantic Scholar URL is `https://www.semanticscholar.org/paper/Meta-Pseudo-Labels-Pham-Xie/43497fe8aa7c730e075b08facc2aa560a6d4dd85`, the `s2id` would be `43497fe8aa7c730e075b08facc2aa560a6d4dd85`.
+
+## 📄 License
+
+MIT License.
