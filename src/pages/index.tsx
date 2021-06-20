@@ -16,6 +16,7 @@ import ReplyIcon from "~icons/reply-blue.svg";
 import CiteIcon from "~icons/cite.svg";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import { Star } from "React-github-buttons";
+import favicon from "~icons/favicon.png";
 
 interface PaperData {
   abstract: string;
@@ -833,9 +834,16 @@ export default function Home({ data }) {
         text-align: center;
       `}
     >
-      <Helmet>
-        <title>CVPR Buzz</title>
-      </Helmet>
+      <Helmet
+        title="CVPR Buzz"
+        link={[
+          {
+            rel: "shortcut icon",
+            type: "image/png",
+            href: `${favicon}`,
+          },
+        ]}
+      />
       {/* <header
         css={css`
           box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
@@ -1114,11 +1122,10 @@ export default function Home({ data }) {
               <div
                 css={css`
                   transition-duration: 0.3s;
-                  filter: invert(1);
-                  background-color: white;
                   display: inline-block;
                   padding: 10px 12px;
                   padding-bottom: 12px;
+                  padding-left: 0px;
                   border-radius: 5px;
                   margin-top: -5px;
                   &:hover {

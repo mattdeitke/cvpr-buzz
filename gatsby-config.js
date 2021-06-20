@@ -5,6 +5,7 @@
 const path = require(`path`);
 
 module.exports = {
+  pathPrefix: "/cvpr-buzz",
   plugins: [
     `gatsby-plugin-typescript`,
     `gatsby-plugin-sass`,
