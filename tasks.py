@@ -283,3 +283,21 @@ def update_citation_data(start_at_paper: int = 0):
         with open(full_path, "w") as f:
             f.write(json.dumps(paper, indent=2))
 
+
+def add_tweet_ids_to_json():
+    """Assumes twitter/ is already full of the scraped .csv files of tweets."""
+    for tweets_file in os.listdir("twitter"):
+        df = pd.read_csv(f"twitter/{tweets_file}")
+        df.sort_values("likes_count", ascending=False, inplace=True)
+        tweet_ids = df["id"].values.tolist()
+
+        # solves precision issue from graphql
+        tweet_ids = [str(uuid) for uuid in tweet_ids]
+
+        data_file = "paper-data/" + tweets_file[: -len(".csv")] + ".json"
+        with open(data_file, "r") as f:
+            data = json.load(f)
+        data["twitter"]["ids"] = tweet_ids
+        with open(data_file, "w") as f:
+            f.write(json.dumps(data, indent=2))
+

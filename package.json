@@ -38,7 +38,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
-    "react-latex": "^2.0.0"
+    "react-latex": "^2.0.0",
+    "react-twitter-embed": "^3.0.3"
   },
   "devDependencies": {
     "eslint-import-resolver-alias": "^1.1.2",

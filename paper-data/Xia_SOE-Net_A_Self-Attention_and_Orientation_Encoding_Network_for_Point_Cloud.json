@@ -16,7 +16,10 @@
   "twitter": {
     "retweets": 0,
     "likes": 1,
-    "replies": 0
+    "replies": 0,
+    "ids": [
+      "1331982546687512583"
+    ]
   },
   "citations": 3,
   "posterSession": "Thursday"

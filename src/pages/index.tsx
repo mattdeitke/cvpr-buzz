@@ -27,6 +27,7 @@ import RetweetIcon from "~icons/retweet-blue.svg";
 import LikeIcon from "~icons/like-blue.svg";
 import ReplyIcon from "~icons/reply-blue.svg";
 import CiteIcon from "~icons/cite.svg";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 
 interface PaperData {
   abstract: string;
@@ -36,6 +37,7 @@ interface PaperData {
     likes: number;
     replies: number;
     retweets: number;
+    ids: string[];
   };
   id: number;
   s2id: string;
@@ -63,8 +65,42 @@ const STARTING_WEIGHTS = {
   replies: 0.25,
 };
 
+function Tweet(props: { tweetId: string }) {
+  const [tweetLoaded, setTweetLoaded] = useState(false);
+  return (
+    <div
+      css={css`
+        max-width: 350px;
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      `}
+    >
+      {!tweetLoaded ? (
+        <div
+          css={css`
+            /* text-align: center; */
+            margin-top: 10px;
+            color: ${color.gray8};
+          `}
+        >
+          Loading Tweet...
+        </div>
+      ) : (
+        <></>
+      )}
+      <TwitterTweetEmbed
+        tweetId={props.tweetId}
+        onLoad={() => setTweetLoaded(true)}
+      />
+    </div>
+  );
+}
+
 function Paper(props: PaperComponent) {
-  const [expandAbstract, setExpandAbstract] = useState(false);
+  const [expandAbstract, setExpandAbstract] = useState(false),
+    [showTweets, setShowTweets] = useState(false);
 
   let abstract: string | React.ReactNode;
   switch (props.abstractDisplayStyle) {
@@ -366,7 +402,7 @@ function Paper(props: PaperComponent) {
         )}
         <div
           css={css`
-            border: 1px solid ${color.gray5};
+            border: 1px solid ${showTweets ? "#1d9bf066" : color.gray5};
             display: inline-block;
             padding-left: 10px;
             padding-right: 10px;
@@ -381,10 +417,13 @@ function Paper(props: PaperComponent) {
               border-color: #1d9bf066;
               cursor: pointer;
             }
+            background-color: ${showTweets ? "#1d9bf011" : "transparent"};
+
             > span {
               color: ${color.gray10} !important;
             }
           `}
+          onClick={() => setShowTweets((prev) => !prev)}
         >
           <img
             src={TwitterLogo}
@@ -393,7 +432,7 @@ function Paper(props: PaperComponent) {
               margin-top: -3px;
             `}
           />{" "}
-          <span>Tweets</span>
+          <span>{showTweets ? "Hide" : "Show"} Tweets</span>
         </div>
       </div>
       <div
@@ -491,6 +530,15 @@ function Paper(props: PaperComponent) {
         )}
       </div>
       {posterSession}
+      {showTweets ? (
+        <div>
+          {props.twitter.ids.slice(0, 3).map((tweetId: string, i: number) => (
+            <Tweet tweetId={tweetId} key={i} />
+          ))}
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 }
@@ -818,7 +866,7 @@ export default function Home({ data }) {
     );
   });
 
-  papers = papers.slice(0, 100);
+  // papers = papers.slice(0, 100);
 
   return (
     <div
@@ -1136,6 +1184,7 @@ export const query = graphql`
             likes
             replies
             retweets
+            ids
           }
           id
           s2id

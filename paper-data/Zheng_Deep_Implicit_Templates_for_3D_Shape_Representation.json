@@ -13,7 +13,11 @@
   "twitter": {
     "retweets": 2,
     "likes": 10,
-    "replies": 0
+    "replies": 0,
+    "ids": [
+      "1334604180636495872",
+      "1359140347821977604"
+    ]
   },
   "citations": 2,
   "posterSession": "Monday"
