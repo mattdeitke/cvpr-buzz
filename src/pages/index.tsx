@@ -1,26 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import Latex from "react-latex";
-import {
-  Button,
-  Radio,
-  Space,
-  Checkbox,
-  Select,
-  Tooltip,
-  Input,
-  Slider,
-  InputNumber,
-  Row,
-  Col,
-} from "antd";
+import { Button, Radio, Checkbox, Slider, InputNumber, Row, Col } from "antd";
 import { Helmet } from "react-helmet";
 import { css } from "@emotion/react";
 import color from "~styles/color";
 import { graphql } from "gatsby";
 import { Emoji } from "emoji-mart";
 import { MenuFoldOutlined, GithubOutlined } from "@ant-design/icons";
-import { lighten, darken } from "polished";
-import * as d3 from "d3";
+import { darken } from "polished";
 import SemanticScholarLogo from "~icons/semantic-scholar.svg";
 import TwitterLogo from "~icons/twitter.svg";
 import RetweetIcon from "~icons/retweet-blue.svg";
@@ -28,6 +15,7 @@ import LikeIcon from "~icons/like-blue.svg";
 import ReplyIcon from "~icons/reply-blue.svg";
 import CiteIcon from "~icons/cite.svg";
 import { TwitterTweetEmbed } from "react-twitter-embed";
+import { Star } from "React-github-buttons";
 
 interface PaperData {
   abstract: string;
@@ -781,100 +769,6 @@ function PosterSessionDate(props: {
   );
 }
 
-export const DensityPlot = (props: { papers: { node: PaperData }[] }) => {
-  const container = useRef(null);
-  const [bandwidth, setBandwidth] = useState(3);
-
-  useEffect(() => {
-    if (container.current) {
-      const margin = { left: 40, top: 20 };
-      const svg = d3
-        .select(container.current)
-        .append("g")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`);
-
-      svg.selectAll("g > *").remove();
-
-      let data = [];
-      let data2 = [];
-      let data3 = [];
-      let data4 = [];
-      for (const paper of props.papers) {
-        if (paper.node.twitter) {
-          data.push(paper.node.twitter.likes);
-          data2.push(paper.node.twitter.retweets);
-          data3.push(paper.node.twitter.replies);
-        }
-        if (paper.node.citations !== null) {
-          data4.push(Math.min(100, paper.node.citations));
-        }
-      }
-
-      for (const d of [data4]) {
-        // [data, data2, data3, data4]) {
-        // const x = d3.scaleLinear().domain(d3.extent(d)).nice().range([0, 400]);
-        // const thresholds = x.ticks(40);
-        // const bandwidth = 3;
-        // const density = kde(epanechnikov(bandwidth), thresholds, d);
-        // console.log(density);
-        // console.log(d3.max(density));
-        // const y = d3.scaleLinear().domain([0, 0.1]).range([180, 0]);
-        // const line = d3
-        //   .line()
-        //   .curve(d3.curveBasis)
-        //   .x((d) => x(d[0]))
-        //   .y((d) => y(d[1]));
-        // svg.append("g")
-        //   .attr("fill", "#000")
-        //   .selectAll("rect")
-        //   .data(d)
-        //   .join("rect")
-        //     .attr("x", d=> x(d.x1) - )
-        // svg
-        //   .append("path")
-        //   .datum(density)
-        //   .attr("fill", "transparent")
-        //   .attr("stroke", "#000")
-        //   .attr("stroke-width", 1)
-        //   .attr("stroke-linejoin", "round")
-        //   .attr("d", line);
-      }
-      const width = 400;
-      const x = d3.scaleLinear().domain([0, 180]).range([0, width]);
-      const xAxis = d3.axisBottom(x);
-
-      const height = 100;
-      const y = d3.scaleLinear().domain([0, 500]).range([height, 0]);
-      const yAxis = d3.axisLeft(y);
-
-      svg
-        .append("g")
-        .call(yAxis)
-        .style("color", "black")
-        .attr("transform", "translate(0, 0)");
-
-      svg
-        .append("g")
-        .call(xAxis)
-        .attr("transform", "translate(0, 150)")
-        .style("color", "black");
-    }
-  }, [props.papers, container.current, bandwidth]);
-
-  return (
-    <>
-      <Slider
-        min={1}
-        max={20}
-        onChange={(value: number) => setBandwidth(value)}
-        value={bandwidth}
-        step={0.01}
-      />
-      <svg className="d3-component" width={800} height={200} ref={container} />
-    </>
-  );
-};
-
 export default function Home({ data }) {
   let papers = data.allPaperDataJson.edges;
 
@@ -1197,12 +1091,12 @@ export default function Home({ data }) {
                 color: ${color.gray8};
                 max-width: 500px;
                 margin-top: 15px;
-                margin-bottom: 15px;
+                margin-bottom: 10px;
               `}
             >
               CVPR Buzz displays the most discussed papers at CVPR 2021 using
-              Semantic Scholar for citation data and Twitter for indexing
-              discussions.
+              Twitter for indexing discussions and Semantic Scholar for
+              collecting citation data.
             </p>
             <p
               css={css`
@@ -1219,13 +1113,21 @@ export default function Home({ data }) {
                   background-color: white;
                   display: inline-block;
                   padding: 10px 12px;
+                  padding-bottom: 12px;
                   border-radius: 5px;
+                  margin-top: -5px;
                   &:hover {
-                    opacity: 0.8;
+                    opacity: 0.85;
                   }
                 `}
               >
-                <a href="//github.com/mattdeitke/cvpr-buzz" target="_blank">
+                <a
+                  href="//github.com/mattdeitke/cvpr-buzz"
+                  target="_blank"
+                  css={css`
+                    margin-top: -10px;
+                  `}
+                >
                   <GithubOutlined
                     css={css`
                       font-size: 23px;
@@ -1247,13 +1149,15 @@ export default function Home({ data }) {
                   </div>
                 </a>
               </div>
+              <Star owner="mattdeitke" repo="cvpr-buzz" />
             </div>
             <div
               css={css`
-                color: ${color.gray8};
-                border-top: 1px solid ${color.gray6};
+                color: ${color.gray6};
+                border-top: 1px solid ${color.gray4};
                 margin-top: 30px;
                 margin-bottom: -20px;
+                padding-top: 5px;
               `}
             >
               {papers.length} results

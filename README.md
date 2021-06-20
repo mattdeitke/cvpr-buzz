@@ -1,7 +1,7 @@
 <h1 align="center">
   🐝 <code>CVPR Buzz</code>
 </h1>
-<h3 align="center"><em>This is the subtitle, which will eventually be replaced.</em></h3>
+<h3 align="center"><em>Explore Trending Papers at CVPR 2021</em></h3>
 
 <div align="center">
   <a aria-label="License" href="https://github.com/blitz-js/blitz/blob/canary/LICENSE">
