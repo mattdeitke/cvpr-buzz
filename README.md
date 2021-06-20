@@ -18,7 +18,7 @@
 <br />
 
 <a href="https://mattdeitke.com/cvpr-buzz">
-<img src="https://user-images.githubusercontent.com/28768645/122665385-b55e0900-d15b-11eb-9304-e469cd517d41.png"/>
+<img src="https://user-images.githubusercontent.com/28768645/122666289-3f5ca080-d161-11eb-9140-f6452a8ee1e1.png"/>
 </a>
 
 
