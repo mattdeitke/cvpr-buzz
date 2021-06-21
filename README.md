@@ -32,7 +32,7 @@ The accepted papers and their abstracts are extracted from [CVPR](https://openac
 
 #### 📖 Citation Data
 
-Citation data comes from [Semantic Scholar](https://semanticscholar.org). There is no easy way to get go from the paper title to Semantic Scholar's paper ID (i.e., it's not possible from the API). So we just search for it with Selenium and apply a few checks to see if it's the same paper.
+Citation data comes from [Semantic Scholar](https://semanticscholar.org). There is no easy way to go from the paper title to Semantic Scholar's paper ID (i.e., it's not possible from the API). So we just search for it with Selenium and apply a few checks to see if it's the same paper.
 
 This may take an hour or so to get through all the papers. There are also occasional hit limits where you may have to pick up from a point. Thus, one may need to monitor the window that opens. (It's possible to automate this by checking for the existence of certain elements on the screen, though I haven't been bothered enough by it to implement this.)
 
@@ -47,7 +47,7 @@ To fetch the engagement for each paper on Twitter, [Twint](https://github.com/tw
 
 Each unique tweet is only counted once.
 
-I'm considering also supporting the ability to add tweets manually (which aren't caught in the above criteria) and add the statistics from direct replies and quote tweets, though I haven't gotten around to it.
+One can now also add tweets manually (keep reading), which aren't caught in the above criteria.
 
 ## 👊 Adding Data
 
