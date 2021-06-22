@@ -42,7 +42,7 @@ With the paper ID, we can then use [Semantic Scholar's API](https://api.semantic
 
 To fetch the engagement for each paper on Twitter, [Twint](https://github.com/twintproject/twint) is used. Currently there are 2 queries for each paper:
 
-1. **Paper title.** Searches for the title of the paper in quotes (e.g., ["VirTex: Learning Visual Representations From Textual Annotations"](https://twitter.com/search?q=%22VirTex%3A%20Learning%20Visual%20Representations%20From%20Textual%20Annotations%22&src=typed_query&f=live)). Paper titles are unique enough that I've found it extraordinarily rare for there to be a tweet with the title of a paper, and it not actually being about the paper. For papers where the title is a common phrase, I have attempted removed their results.
+1. **Paper title.** Searches for the title of the paper in quotes (e.g., ["VirTex: Learning Visual Representations From Textual Annotations"](https://twitter.com/search?q=%22VirTex%3A%20Learning%20Visual%20Representations%20From%20Textual%20Annotations%22&src=typed_query&f=live)). Paper titles are unique enough that I've found it extraordinarily rare for there to be a tweet with the title of a paper, and it not actually being about the paper. For papers where the title is a common phrase, I have attempted to remove its results.
 2. **ArXiv URL.** Search for where the arXiv URL has been shared in quotes (e.g., ["arxiv.org/abs/2006.06666"](https://twitter.com/search?q=arxiv.org%2Fabs%2F2006.06666&src=typed_query&f=live)).
 
 Each unique tweet is only counted once.
